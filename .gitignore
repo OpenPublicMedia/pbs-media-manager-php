@@ -1,0 +1,5 @@
+# Composer files
+/vendor/
+
+# IntelliJ project files
+.idea

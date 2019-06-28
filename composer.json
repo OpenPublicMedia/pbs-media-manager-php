@@ -1,0 +1,28 @@
+{
+    "name": "openpublicmedia/pbs-media-manager-php",
+    "description": "PHP client for consuming the PBS Media Manager API.",
+    "type": "library",
+    "license": "Apache-2.0",
+    "require": {
+        "ext-json": "*",
+        "guzzlehttp/guzzle": "^6.3",
+        "league/uri-components": "^1.8",
+        "league/uri-parser": "^1.4",
+        "league/uri-query-parser": "^1.0",
+        "php": ">=7.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.2",
+        "squizlabs/php_codesniffer": "^3.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "OpenPublicMedia\\PbsMediaManager\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "OpenPublicMedia\\PbsMediaManager\\Test\\": "test/src/"
+        }
+    }
+}
