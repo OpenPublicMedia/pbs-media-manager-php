@@ -22,7 +22,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "OpenPublicMedia\\PbsMediaManager\\Test\\": "test/src/"
+            "OpenPublicMedia\\PbsMediaManager\\Test\\": "tests/"
         }
     }
 }
