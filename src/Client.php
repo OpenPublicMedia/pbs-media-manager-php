@@ -220,7 +220,7 @@ class Client
      */
     public function getFranchise($id, array $query = [])
     {
-        return $this->getOne('franchises/', $id, $query);
+        return $this->getOne('franchises', $id, $query);
     }
 
     /**
@@ -250,7 +250,7 @@ class Client
      */
     public function getShow($id, array $query = [])
     {
-        return $this->getOne('shows/', $id, $query);
+        return $this->getOne('shows', $id, $query);
     }
 
     /**
@@ -344,7 +344,7 @@ class Client
      */
     public function getSeason($id, array $query = [])
     {
-        return $this->getOne('seasons/', $id, $query);
+        return $this->getOne('seasons', $id, $query);
     }
 
     /**
@@ -376,7 +376,7 @@ class Client
      */
     public function getEpisode($id, array $query = [])
     {
-        return $this->getOne('episodes/', $id, $query);
+        return $this->getOne('episodes', $id, $query);
     }
 
     /**
@@ -408,7 +408,7 @@ class Client
      */
     public function getAsset($id, array $query = [])
     {
-        return $this->getOne('assets/', $id, $query);
+        return $this->getOne('assets', $id, $query);
     }
 
     /**
