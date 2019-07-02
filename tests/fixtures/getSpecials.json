@@ -1,0 +1,356 @@
+{
+    "jsonapi": {
+        "version": "1.0"
+    },
+    "meta": {
+        "type": "collection",
+        "filter": {
+            "id": "https://media.services.pbs.org/api/v1/shows/2e5c2027-ec2e-4214-baa3-6ff6af56c8c3/specials/?id=",
+            "encored-on-gt": "https://media.services.pbs.org/api/v1/shows/2e5c2027-ec2e-4214-baa3-6ff6af56c8c3/specials/?encored-on-gt=",
+            "encored-on-lt": "https://media.services.pbs.org/api/v1/shows/2e5c2027-ec2e-4214-baa3-6ff6af56c8c3/specials/?encored-on-lt=",
+            "slug": "https://media.services.pbs.org/api/v1/shows/2e5c2027-ec2e-4214-baa3-6ff6af56c8c3/specials/?slug="
+        },
+        "sort": {
+            "title_sortable": {
+                "asc": "https://media.services.pbs.org/api/v1/shows/2e5c2027-ec2e-4214-baa3-6ff6af56c8c3/specials/?sort=title_sortable",
+                "desc": "https://media.services.pbs.org/api/v1/shows/2e5c2027-ec2e-4214-baa3-6ff6af56c8c3/specials/?sort=-title_sortable"
+            },
+            "premiered_on": {
+                "asc": "https://media.services.pbs.org/api/v1/shows/2e5c2027-ec2e-4214-baa3-6ff6af56c8c3/specials/?sort=premiered_on",
+                "desc": "https://media.services.pbs.org/api/v1/shows/2e5c2027-ec2e-4214-baa3-6ff6af56c8c3/specials/?sort=-premiered_on"
+            },
+            "encored_on": {
+                "asc": "https://media.services.pbs.org/api/v1/shows/2e5c2027-ec2e-4214-baa3-6ff6af56c8c3/specials/?sort=encored_on",
+                "desc": "https://media.services.pbs.org/api/v1/shows/2e5c2027-ec2e-4214-baa3-6ff6af56c8c3/specials/?sort=-encored_on"
+            }
+        },
+        "pagination": {
+            "per_page": 50,
+            "count": 2
+        }
+    },
+    "data": [
+        {
+            "type": "special",
+            "id": "c7708c4c-e7c1-4ecb-ad63-6d87c6baafa9",
+            "attributes": {
+                "title": "Inspiring Woman: Political Strategist Ana Navarro",
+                "slug": "political-strategist-and-commentator-ana-navarro-wome-ahxgcm",
+                "title_sortable": "Inspiring Woman: Political Strategist Ana Navarro",
+                "tms_id": "",
+                "description_short": "Learn about the woman who pushed Ana Navarro to be the person she is today.",
+                "description_long": "Learn about the woman who pushed Ana Navarro to be the person she is today. Also, she's got some great advice from other women who may be interested in politics.",
+                "premiered_on": "2017-12-08",
+                "encored_on": "2017-12-08",
+                "nola": "",
+                "language": "en",
+                "updated_at": "2017-12-08T22:13:42.351359Z",
+                "assets": [
+                    {
+                        "type": "asset",
+                        "id": "d5f62d5e-26d6-4197-bf30-952c8d970bce",
+                        "attributes": {
+                            "slug": "inspiring-woman-political-strategist-ana-navarro-iii8kk",
+                            "title": "Inspiring Woman: Political Strategist Ana Navarro",
+                            "title_sortable": "Inspiring Woman: Political Strategist Ana Navarro",
+                            "description_short": "Learn about the woman who pushed Ana Navarro to be the person she is today.",
+                            "description_long": "Learn about the woman who pushed Ana Navarro to be the person she is today. Also, she's got some great advice from other women who may be interested in politics.",
+                            "object_type": "clip",
+                            "premiered_on": "2017-12-08",
+                            "encored_on": "2017-12-08",
+                            "duration": 60,
+                            "legacy_tp_media_id": 3007405751,
+                            "tags": null,
+                            "updated_at": "2018-05-02T10:49:41.683261Z",
+                            "availabilities": {
+                                "all_members": {
+                                    "updated_at": "2017-12-08T22:13:11.758750Z",
+                                    "end": null,
+                                    "start": "2017-12-08T22:13:11.750217Z"
+                                },
+                                "public": {
+                                    "updated_at": "2017-12-08T22:13:11.758690Z",
+                                    "end": null,
+                                    "start": "2017-12-08T22:13:11.750217Z"
+                                },
+                                "station_members": {
+                                    "updated_at": "2017-12-08T22:13:11.758799Z",
+                                    "end": null,
+                                    "start": "2017-12-08T22:13:11.750217Z"
+                                }
+                            },
+                            "parent_tree": {
+                                "type": "special",
+                                "id": "c7708c4c-e7c1-4ecb-ad63-6d87c6baafa9",
+                                "attributes": {
+                                    "title": "Inspiring Woman: Political Strategist Ana Navarro",
+                                    "show": {
+                                        "type": "show",
+                                        "id": "2e5c2027-ec2e-4214-baa3-6ff6af56c8c3",
+                                        "attributes": {
+                                            "tracking_ga_event": "UA-3992773-2",
+                                            "audience": [
+                                                {
+                                                    "scope": "national",
+                                                    "station": null
+                                                }
+                                            ],
+                                            "franchise": null,
+                                            "seasons_count": 23,
+                                            "tracking_ga_page": "UA-3992773-1",
+                                            "display_episode_number": true,
+                                            "title": "American Masters",
+                                            "slug": "american-masters"
+                                        },
+                                        "links": {
+                                            "self": "https://media.services.pbs.org/api/v1/shows/2e5c2027-ec2e-4214-baa3-6ff6af56c8c3/"
+                                        }
+                                    },
+                                    "slug": "political-strategist-and-commentator-ana-navarro-wome-ahxgcm"
+                                },
+                                "links": {
+                                    "self": "https://media.services.pbs.org/api/v1/specials/c7708c4c-e7c1-4ecb-ad63-6d87c6baafa9/"
+                                }
+                            },
+                            "has_captions": true,
+                            "images": [
+                                {
+                                    "updated_at": "2017-12-08T22:20:34.643146Z",
+                                    "profile": "asset-mezzanine-16x9",
+                                    "image": "http://image.pbs.org/video-assets/6QIAvFU-asset-mezzanine-16x9-Xv8Tu3V.jpg"
+                                }
+                            ],
+                            "platforms": [
+                                {
+                                    "updated_at": "2017-04-03T15:57:09.459445Z",
+                                    "id": "e5a289b8-01b3-41ce-92c1-3eb5a4e14bc0",
+                                    "slug": "allplatforms",
+                                    "name": "All Platforms"
+                                }
+                            ]
+                        },
+                        "links": {
+                            "self": "https://media.services.pbs.org/api/v1/assets/d5f62d5e-26d6-4197-bf30-952c8d970bce/"
+                        }
+                    }
+                ],
+                "collections": [],
+                "full_length_asset": null,
+                "links": []
+            },
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/specials/c7708c4c-e7c1-4ecb-ad63-6d87c6baafa9/",
+                "collections": "https://media.services.pbs.org/api/v1/specials/c7708c4c-e7c1-4ecb-ad63-6d87c6baafa9/collections/",
+                "assets": "https://media.services.pbs.org/api/v1/specials/c7708c4c-e7c1-4ecb-ad63-6d87c6baafa9/assets/"
+            }
+        },
+        {
+            "type": "special",
+            "id": "50be144b-c6c8-4ed6-b1fe-3b26d83f48d2",
+            "attributes": {
+                "title": "Carmen de Lavallade's Inspiring Women",
+                "slug": "carmen-de-lavallades-inspiring-women-h3qdmo",
+                "title_sortable": "Carmen de Lavallade's Inspiring Women",
+                "tms_id": "",
+                "description_short": "American actress, dancer and choreographer Carmen de Lavallade",
+                "description_long": "American actress, dancer and choreographer Carmen de Lavallade shares how women in her life have inspired her and how important the arts are.",
+                "premiered_on": "2017-12-01",
+                "encored_on": "2017-12-01",
+                "nola": "",
+                "language": "en",
+                "updated_at": "2017-12-01T21:10:39.275677Z",
+                "assets": [
+                    {
+                        "type": "asset",
+                        "id": "a1f60ce7-0069-4660-a3f9-c05df16dce4d",
+                        "attributes": {
+                            "slug": "carmen-de-lavallade-shares-why-we-need-arts-tsqpmb",
+                            "title": "Carmen de Lavallade shares why we need the arts",
+                            "title_sortable": "Carmen de Lavallade shares why we need the arts",
+                            "description_short": "Carmen de Lavallade speaks on the importance of protecting the arts.",
+                            "description_long": "American actress, dancer and choreographer Carmen de Lavallade speaks on the importance of creativity and of protecting the arts.",
+                            "object_type": "clip",
+                            "premiered_on": "2017-12-01",
+                            "encored_on": "2017-12-01",
+                            "duration": 73,
+                            "legacy_tp_media_id": 3007192561,
+                            "tags": null,
+                            "updated_at": "2018-05-02T10:48:15.437579Z",
+                            "availabilities": {
+                                "all_members": {
+                                    "updated_at": "2017-12-01T19:33:54.097214Z",
+                                    "end": null,
+                                    "start": "2017-12-01T19:33:54.087126Z"
+                                },
+                                "public": {
+                                    "updated_at": "2017-12-01T19:33:54.097152Z",
+                                    "end": null,
+                                    "start": "2017-12-01T19:33:54.087126Z"
+                                },
+                                "station_members": {
+                                    "updated_at": "2017-12-01T19:33:54.097265Z",
+                                    "end": null,
+                                    "start": "2017-12-01T19:33:54.087126Z"
+                                }
+                            },
+                            "parent_tree": {
+                                "type": "special",
+                                "id": "50be144b-c6c8-4ed6-b1fe-3b26d83f48d2",
+                                "attributes": {
+                                    "title": "Carmen de Lavallade's Inspiring Women",
+                                    "show": {
+                                        "type": "show",
+                                        "id": "2e5c2027-ec2e-4214-baa3-6ff6af56c8c3",
+                                        "attributes": {
+                                            "tracking_ga_event": "UA-3992773-2",
+                                            "audience": [
+                                                {
+                                                    "scope": "national",
+                                                    "station": null
+                                                }
+                                            ],
+                                            "franchise": null,
+                                            "seasons_count": 23,
+                                            "tracking_ga_page": "UA-3992773-1",
+                                            "display_episode_number": true,
+                                            "title": "American Masters",
+                                            "slug": "american-masters"
+                                        },
+                                        "links": {
+                                            "self": "https://media.services.pbs.org/api/v1/shows/2e5c2027-ec2e-4214-baa3-6ff6af56c8c3/"
+                                        }
+                                    },
+                                    "slug": "carmen-de-lavallades-inspiring-women-h3qdmo"
+                                },
+                                "links": {
+                                    "self": "https://media.services.pbs.org/api/v1/specials/50be144b-c6c8-4ed6-b1fe-3b26d83f48d2/"
+                                }
+                            },
+                            "has_captions": true,
+                            "images": [
+                                {
+                                    "updated_at": "2017-12-01T19:36:24.493442Z",
+                                    "profile": "asset-mezzanine-16x9",
+                                    "image": "http://image.pbs.org/video-assets/LN0ZpPU-asset-mezzanine-16x9-LgJ1oq6.jpg"
+                                }
+                            ],
+                            "platforms": [
+                                {
+                                    "updated_at": "2017-04-03T15:57:09.459445Z",
+                                    "id": "e5a289b8-01b3-41ce-92c1-3eb5a4e14bc0",
+                                    "slug": "allplatforms",
+                                    "name": "All Platforms"
+                                }
+                            ]
+                        },
+                        "links": {
+                            "self": "https://media.services.pbs.org/api/v1/assets/a1f60ce7-0069-4660-a3f9-c05df16dce4d/"
+                        }
+                    },
+                    {
+                        "type": "asset",
+                        "id": "7fc720a9-ccea-46b2-bdfb-f75f3fa25556",
+                        "attributes": {
+                            "slug": "carmen-de-lavallades-inspiring-women-ghbowm",
+                            "title": "Carmen de Lavallade's Inspiring Women",
+                            "title_sortable": "Carmen de Lavallade's Inspiring Women",
+                            "description_short": "Carmen de Lavallade tells the story of her cousin, ballet dancer Janet Collins.",
+                            "description_long": "American actress, dancer and choreographer Carmen de Lavallade tells the story of her cousin, ballet dancer Janet Collins.  \"There are times in your life when you want to give up, but she never did,\" de Lavallade says. She also shares stories about other inspiring women in her life like Nina Simone and Lena Horne.",
+                            "object_type": "clip",
+                            "premiered_on": "2017-12-01",
+                            "encored_on": "2017-12-01",
+                            "duration": 371,
+                            "legacy_tp_media_id": 3007194318,
+                            "tags": null,
+                            "updated_at": "2018-05-02T10:48:15.689306Z",
+                            "availabilities": {
+                                "all_members": {
+                                    "updated_at": "2017-12-01T19:52:33.468599Z",
+                                    "end": null,
+                                    "start": "2017-12-03T13:00:00Z"
+                                },
+                                "public": {
+                                    "updated_at": "2017-12-01T19:52:33.397540Z",
+                                    "end": null,
+                                    "start": "2017-12-03T13:00:00Z"
+                                },
+                                "station_members": {
+                                    "updated_at": "2017-12-01T19:52:33.515615Z",
+                                    "end": null,
+                                    "start": "2017-12-03T13:00:00Z"
+                                }
+                            },
+                            "parent_tree": {
+                                "type": "special",
+                                "id": "50be144b-c6c8-4ed6-b1fe-3b26d83f48d2",
+                                "attributes": {
+                                    "title": "Carmen de Lavallade's Inspiring Women",
+                                    "show": {
+                                        "type": "show",
+                                        "id": "2e5c2027-ec2e-4214-baa3-6ff6af56c8c3",
+                                        "attributes": {
+                                            "tracking_ga_event": "UA-3992773-2",
+                                            "audience": [
+                                                {
+                                                    "scope": "national",
+                                                    "station": null
+                                                }
+                                            ],
+                                            "franchise": null,
+                                            "seasons_count": 23,
+                                            "tracking_ga_page": "UA-3992773-1",
+                                            "display_episode_number": true,
+                                            "title": "American Masters",
+                                            "slug": "american-masters"
+                                        },
+                                        "links": {
+                                            "self": "https://media.services.pbs.org/api/v1/shows/2e5c2027-ec2e-4214-baa3-6ff6af56c8c3/"
+                                        }
+                                    },
+                                    "slug": "carmen-de-lavallades-inspiring-women-h3qdmo"
+                                },
+                                "links": {
+                                    "self": "https://media.services.pbs.org/api/v1/specials/50be144b-c6c8-4ed6-b1fe-3b26d83f48d2/"
+                                }
+                            },
+                            "has_captions": true,
+                            "images": [
+                                {
+                                    "updated_at": "2017-12-01T19:51:42.902001Z",
+                                    "profile": "asset-mezzanine-16x9",
+                                    "image": "http://image.pbs.org/video-assets/1NMdPbp-asset-mezzanine-16x9-Q2JKrWp.jpg"
+                                }
+                            ],
+                            "platforms": [
+                                {
+                                    "updated_at": "2017-04-03T15:57:09.459445Z",
+                                    "id": "e5a289b8-01b3-41ce-92c1-3eb5a4e14bc0",
+                                    "slug": "allplatforms",
+                                    "name": "All Platforms"
+                                }
+                            ]
+                        },
+                        "links": {
+                            "self": "https://media.services.pbs.org/api/v1/assets/7fc720a9-ccea-46b2-bdfb-f75f3fa25556/"
+                        }
+                    }
+                ],
+                "collections": [],
+                "full_length_asset": null,
+                "links": []
+            },
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/specials/50be144b-c6c8-4ed6-b1fe-3b26d83f48d2/",
+                "collections": "https://media.services.pbs.org/api/v1/specials/50be144b-c6c8-4ed6-b1fe-3b26d83f48d2/collections/",
+                "assets": "https://media.services.pbs.org/api/v1/specials/50be144b-c6c8-4ed6-b1fe-3b26d83f48d2/assets/"
+            }
+        }
+    ],
+    "links": {
+        "self": "https://media.services.pbs.org/api/v1/shows/2e5c2027-ec2e-4214-baa3-6ff6af56c8c3/specials/?fetch-related",
+        "prev": null,
+        "first": null,
+        "next": null,
+        "last": null
+    }
+}

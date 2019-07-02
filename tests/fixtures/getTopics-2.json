@@ -1,0 +1,1680 @@
+{
+    "data": [
+        {
+            "id": "ac6cffac-f8f0-418d-94f3-285b3f60652d",
+            "type": "topic",
+            "attributes": {
+                "id": "ac6cffac-f8f0-418d-94f3-285b3f60652d",
+                "name": "Sports",
+                "parent": null,
+                "updated_at": "2017-04-04T09:00:06.353225Z",
+                "children": []
+            },
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/topics/?page-size=50&page=2"
+            }
+        },
+        {
+            "id": "61bcd858-3d9b-402a-892f-839a47abdeef",
+            "type": "topic",
+            "attributes": {
+                "id": "61bcd858-3d9b-402a-892f-839a47abdeef",
+                "name": "Arts",
+                "parent": null,
+                "updated_at": "2017-04-04T09:00:06.358317Z",
+                "children": []
+            },
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/topics/?page-size=50&page=2"
+            }
+        },
+        {
+            "id": "f01c4209-0594-49b1-9ec5-09fd4d6fa037",
+            "type": "topic",
+            "attributes": {
+                "id": "f01c4209-0594-49b1-9ec5-09fd4d6fa037",
+                "name": "Social Skills",
+                "parent": null,
+                "updated_at": "2017-04-04T09:00:06.363438Z",
+                "children": [
+                    {
+                        "id": "7f566859-31e0-4412-8953-337d58608d88",
+                        "name": "Conflicts",
+                        "parent": {
+                            "id": "f01c4209-0594-49b1-9ec5-09fd4d6fa037",
+                            "name": "Social Skills",
+                            "updated_at": "2017-04-04T09:00:06.363438Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:07.418356Z"
+                    },
+                    {
+                        "id": "d8645629-e4dd-4c8e-b3cc-d155db122e00",
+                        "name": "Hobbies",
+                        "parent": {
+                            "id": "f01c4209-0594-49b1-9ec5-09fd4d6fa037",
+                            "name": "Social Skills",
+                            "updated_at": "2017-04-04T09:00:06.363438Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:07.423963Z"
+                    },
+                    {
+                        "id": "3bbbed5e-8121-4ad1-8f4a-0660dcbb728d",
+                        "name": "Competition",
+                        "parent": {
+                            "id": "f01c4209-0594-49b1-9ec5-09fd4d6fa037",
+                            "name": "Social Skills",
+                            "updated_at": "2017-04-04T09:00:06.363438Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:07.429474Z"
+                    },
+                    {
+                        "id": "a7d69ff4-01c3-47af-af3c-9323e3234242",
+                        "name": "Pets",
+                        "parent": {
+                            "id": "f01c4209-0594-49b1-9ec5-09fd4d6fa037",
+                            "name": "Social Skills",
+                            "updated_at": "2017-04-04T09:00:06.363438Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:07.435030Z"
+                    },
+                    {
+                        "id": "4620aefa-a7b4-4bc1-8df0-39bf8e04d0a1",
+                        "name": "Exploring",
+                        "parent": {
+                            "id": "f01c4209-0594-49b1-9ec5-09fd4d6fa037",
+                            "name": "Social Skills",
+                            "updated_at": "2017-04-04T09:00:06.363438Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:07.440471Z"
+                    },
+                    {
+                        "id": "c05dcbe7-3f7c-4842-800f-87131987378b",
+                        "name": "School",
+                        "parent": {
+                            "id": "f01c4209-0594-49b1-9ec5-09fd4d6fa037",
+                            "name": "Social Skills",
+                            "updated_at": "2017-04-04T09:00:06.363438Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:07.445869Z"
+                    },
+                    {
+                        "id": "19060f9c-e4a9-4628-b5d8-a595898acc26",
+                        "name": "Sharing",
+                        "parent": {
+                            "id": "f01c4209-0594-49b1-9ec5-09fd4d6fa037",
+                            "name": "Social Skills",
+                            "updated_at": "2017-04-04T09:00:06.363438Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:07.451194Z"
+                    },
+                    {
+                        "id": "3f3f71f0-d0bb-4a91-b445-231bfd144c8a",
+                        "name": "Help out",
+                        "parent": {
+                            "id": "f01c4209-0594-49b1-9ec5-09fd4d6fa037",
+                            "name": "Social Skills",
+                            "updated_at": "2017-04-04T09:00:06.363438Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:07.456598Z"
+                    },
+                    {
+                        "id": "918c166d-1fd8-43d7-8f8f-ca14f88e24c3",
+                        "name": "Teamwork",
+                        "parent": {
+                            "id": "f01c4209-0594-49b1-9ec5-09fd4d6fa037",
+                            "name": "Social Skills",
+                            "updated_at": "2017-04-04T09:00:06.363438Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:07.461966Z"
+                    },
+                    {
+                        "id": "e0516347-0e43-47f9-8b07-4eb914c16662",
+                        "name": "Friends",
+                        "parent": {
+                            "id": "f01c4209-0594-49b1-9ec5-09fd4d6fa037",
+                            "name": "Social Skills",
+                            "updated_at": "2017-04-04T09:00:06.363438Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:07.467564Z"
+                    }
+                ]
+            },
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/topics/?page-size=50&page=2"
+            }
+        },
+        {
+            "id": "8a05d738-b9c8-4d1c-88ce-06ae3bf0abc2",
+            "type": "topic",
+            "attributes": {
+                "id": "8a05d738-b9c8-4d1c-88ce-06ae3bf0abc2",
+                "name": "Emotional Growth",
+                "parent": null,
+                "updated_at": "2017-04-04T09:00:06.368494Z",
+                "children": [
+                    {
+                        "id": "33d9942a-6a7d-45ef-b168-8990826c1ae8",
+                        "name": "Try Something New",
+                        "parent": {
+                            "id": "8a05d738-b9c8-4d1c-88ce-06ae3bf0abc2",
+                            "name": "Emotional Growth",
+                            "updated_at": "2017-04-04T09:00:06.368494Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:07.472875Z"
+                    },
+                    {
+                        "id": "1f827f74-f2eb-4e7d-a824-0abc10339482",
+                        "name": "Family",
+                        "parent": {
+                            "id": "8a05d738-b9c8-4d1c-88ce-06ae3bf0abc2",
+                            "name": "Emotional Growth",
+                            "updated_at": "2017-04-04T09:00:06.368494Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:07.478246Z"
+                    },
+                    {
+                        "id": "3edce341-eee5-41aa-867d-7f18f06337e0",
+                        "name": "Executive Functioning",
+                        "parent": {
+                            "id": "8a05d738-b9c8-4d1c-88ce-06ae3bf0abc2",
+                            "name": "Emotional Growth",
+                            "updated_at": "2017-04-04T09:00:06.368494Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:07.483570Z"
+                    },
+                    {
+                        "id": "347fe51d-ce10-4115-9b1d-ece6ab01eedf",
+                        "name": "Growing Up",
+                        "parent": {
+                            "id": "8a05d738-b9c8-4d1c-88ce-06ae3bf0abc2",
+                            "name": "Emotional Growth",
+                            "updated_at": "2017-04-04T09:00:06.368494Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:07.488898Z"
+                    },
+                    {
+                        "id": "4b916fdc-109b-4885-a65e-8cac500c00ff",
+                        "name": "Feelings",
+                        "parent": {
+                            "id": "8a05d738-b9c8-4d1c-88ce-06ae3bf0abc2",
+                            "name": "Emotional Growth",
+                            "updated_at": "2017-04-04T09:00:06.368494Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:07.494218Z"
+                    },
+                    {
+                        "id": "f97019b5-6620-4389-b7d9-8e897bac61b3",
+                        "name": "Confidence",
+                        "parent": {
+                            "id": "8a05d738-b9c8-4d1c-88ce-06ae3bf0abc2",
+                            "name": "Emotional Growth",
+                            "updated_at": "2017-04-04T09:00:06.368494Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:07.499550Z"
+                    },
+                    {
+                        "id": "47d97e49-2953-4f87-9d58-35a9a707b9ef",
+                        "name": "Imagination",
+                        "parent": {
+                            "id": "8a05d738-b9c8-4d1c-88ce-06ae3bf0abc2",
+                            "name": "Emotional Growth",
+                            "updated_at": "2017-04-04T09:00:06.368494Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:07.504911Z"
+                    },
+                    {
+                        "id": "a01bff31-1251-49fc-b611-b8d7f7af4e8c",
+                        "name": "Fears",
+                        "parent": {
+                            "id": "8a05d738-b9c8-4d1c-88ce-06ae3bf0abc2",
+                            "name": "Emotional Growth",
+                            "updated_at": "2017-04-04T09:00:06.368494Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:07.510350Z"
+                    },
+                    {
+                        "id": "c41b44fd-1929-4a89-a48a-1735391c5814",
+                        "name": "Respect",
+                        "parent": {
+                            "id": "8a05d738-b9c8-4d1c-88ce-06ae3bf0abc2",
+                            "name": "Emotional Growth",
+                            "updated_at": "2017-04-04T09:00:06.368494Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:07.515754Z"
+                    }
+                ]
+            },
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/topics/?page-size=50&page=2"
+            }
+        },
+        {
+            "id": "7cb409be-bf05-40d7-9ade-2e9f3dcd7ea9",
+            "type": "topic",
+            "attributes": {
+                "id": "7cb409be-bf05-40d7-9ade-2e9f3dcd7ea9",
+                "name": "History",
+                "parent": null,
+                "updated_at": "2017-04-04T09:00:06.373499Z",
+                "children": []
+            },
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/topics/?page-size=50&page=2"
+            }
+        },
+        {
+            "id": "1a86e1c7-25ce-4862-9cb6-84c0ec6b3d14",
+            "type": "topic",
+            "attributes": {
+                "id": "1a86e1c7-25ce-4862-9cb6-84c0ec6b3d14",
+                "name": "Health",
+                "parent": null,
+                "updated_at": "2017-04-04T09:00:06.378785Z",
+                "children": []
+            },
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/topics/?page-size=50&page=2"
+            }
+        },
+        {
+            "id": "9d672e4e-b3ce-4417-b72f-e3b63afd27b6",
+            "type": "topic",
+            "attributes": {
+                "id": "9d672e4e-b3ce-4417-b72f-e3b63afd27b6",
+                "name": "Immigration",
+                "parent": null,
+                "updated_at": "2017-04-04T09:00:06.383804Z",
+                "children": []
+            },
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/topics/?page-size=50&page=2"
+            }
+        },
+        {
+            "id": "fe9ca7e6-c833-4dfe-912e-7618588868c5",
+            "type": "topic",
+            "attributes": {
+                "id": "fe9ca7e6-c833-4dfe-912e-7618588868c5",
+                "name": "Family Names",
+                "parent": null,
+                "updated_at": "2017-04-04T09:00:06.388814Z",
+                "children": []
+            },
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/topics/?page-size=50&page=2"
+            }
+        },
+        {
+            "id": "ef089e24-92d9-4acb-9ce9-2939d9af76e6",
+            "type": "topic",
+            "attributes": {
+                "id": "ef089e24-92d9-4acb-9ce9-2939d9af76e6",
+                "name": "Religion",
+                "parent": null,
+                "updated_at": "2017-04-04T09:00:06.393874Z",
+                "children": []
+            },
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/topics/?page-size=50&page=2"
+            }
+        },
+        {
+            "id": "157cb626-ae13-4eb6-a3e9-803041a49230",
+            "type": "topic",
+            "attributes": {
+                "id": "157cb626-ae13-4eb6-a3e9-803041a49230",
+                "name": "Race",
+                "parent": null,
+                "updated_at": "2017-04-04T09:00:06.398908Z",
+                "children": []
+            },
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/topics/?page-size=50&page=2"
+            }
+        },
+        {
+            "id": "7886ea6f-4912-4ad0-b64b-9b36c9831503",
+            "type": "topic",
+            "attributes": {
+                "id": "7886ea6f-4912-4ad0-b64b-9b36c9831503",
+                "name": "This Week at Lincoln Center",
+                "parent": null,
+                "updated_at": "2017-04-04T09:00:06.403967Z",
+                "children": []
+            },
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/topics/?page-size=50&page=2"
+            }
+        },
+        {
+            "id": "dee11bf0-de6c-4e83-9c35-670773e95fa1",
+            "type": "topic",
+            "attributes": {
+                "id": "dee11bf0-de6c-4e83-9c35-670773e95fa1",
+                "name": "Curator's Choice",
+                "parent": null,
+                "updated_at": "2017-04-04T09:00:06.408969Z",
+                "children": []
+            },
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/topics/?page-size=50&page=2"
+            }
+        },
+        {
+            "id": "8d63a693-1711-4148-8949-e45ad41e3481",
+            "type": "topic",
+            "attributes": {
+                "id": "8d63a693-1711-4148-8949-e45ad41e3481",
+                "name": "Profile",
+                "parent": null,
+                "updated_at": "2017-04-04T09:00:06.414076Z",
+                "children": []
+            },
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/topics/?page-size=50&page=2"
+            }
+        },
+        {
+            "id": "f77af54a-9e19-4a09-82f9-1a692a8cf4f0",
+            "type": "topic",
+            "attributes": {
+                "id": "f77af54a-9e19-4a09-82f9-1a692a8cf4f0",
+                "name": "News",
+                "parent": null,
+                "updated_at": "2017-04-04T09:00:06.419225Z",
+                "children": []
+            },
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/topics/?page-size=50&page=2"
+            }
+        },
+        {
+            "id": "b870866e-8354-480a-9b30-a73c383ce714",
+            "type": "topic",
+            "attributes": {
+                "id": "b870866e-8354-480a-9b30-a73c383ce714",
+                "name": "South Dakota Lawmakers",
+                "parent": null,
+                "updated_at": "2017-04-04T09:00:06.424278Z",
+                "children": []
+            },
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/topics/?page-size=50&page=2"
+            }
+        },
+        {
+            "id": "d97a8d66-db45-4f3a-b280-4e695baa0dbc",
+            "type": "topic",
+            "attributes": {
+                "id": "d97a8d66-db45-4f3a-b280-4e695baa0dbc",
+                "name": "South Dakota Executive Branch",
+                "parent": null,
+                "updated_at": "2017-04-04T09:00:06.429343Z",
+                "children": []
+            },
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/topics/?page-size=50&page=2"
+            }
+        },
+        {
+            "id": "5f532f90-120d-402f-8c8b-2c8e53a5887c",
+            "type": "topic",
+            "attributes": {
+                "id": "5f532f90-120d-402f-8c8b-2c8e53a5887c",
+                "name": "South Dakota Legislature",
+                "parent": null,
+                "updated_at": "2017-04-04T09:00:06.434507Z",
+                "children": []
+            },
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/topics/?page-size=50&page=2"
+            }
+        },
+        {
+            "id": "a41eb07a-6b30-4ff7-9939-19f3e9fcb543",
+            "type": "topic",
+            "attributes": {
+                "id": "a41eb07a-6b30-4ff7-9939-19f3e9fcb543",
+                "name": "South Dakota Legislation",
+                "parent": null,
+                "updated_at": "2017-04-04T09:00:06.439644Z",
+                "children": []
+            },
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/topics/?page-size=50&page=2"
+            }
+        },
+        {
+            "id": "461e831e-5858-481f-85b6-2646299b1a82",
+            "type": "topic",
+            "attributes": {
+                "id": "461e831e-5858-481f-85b6-2646299b1a82",
+                "name": "South Dakota Laws",
+                "parent": null,
+                "updated_at": "2017-04-04T09:00:06.444726Z",
+                "children": []
+            },
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/topics/?page-size=50&page=2"
+            }
+        },
+        {
+            "id": "77b091d7-f7c6-4c0e-976f-df1c341700b0",
+            "type": "topic",
+            "attributes": {
+                "id": "77b091d7-f7c6-4c0e-976f-df1c341700b0",
+                "name": "Disabled",
+                "parent": null,
+                "updated_at": "2017-04-04T09:00:06.449788Z",
+                "children": [
+                    {
+                        "id": "8a990d81-500e-4d97-8df0-314d7dbf2de9",
+                        "name": "Sponsored Content",
+                        "parent": {
+                            "id": "77b091d7-f7c6-4c0e-976f-df1c341700b0",
+                            "name": "Disabled",
+                            "updated_at": "2017-04-04T09:00:06.449788Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:07.015019Z"
+                    }
+                ]
+            },
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/topics/?page-size=50&page=2"
+            }
+        },
+        {
+            "id": "be4ceabd-678e-4ba0-8032-907526e2ed44",
+            "type": "topic",
+            "attributes": {
+                "id": "be4ceabd-678e-4ba0-8032-907526e2ed44",
+                "name": "Community Involvement",
+                "parent": null,
+                "updated_at": "2017-04-04T09:00:06.454841Z",
+                "children": []
+            },
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/topics/?page-size=50&page=2"
+            }
+        },
+        {
+            "id": "dcb1921c-c3b1-4365-b666-9a34ebfa5e3c",
+            "type": "topic",
+            "attributes": {
+                "id": "dcb1921c-c3b1-4365-b666-9a34ebfa5e3c",
+                "name": "Career Path",
+                "parent": null,
+                "updated_at": "2017-04-04T09:00:06.459907Z",
+                "children": []
+            },
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/topics/?page-size=50&page=2"
+            }
+        },
+        {
+            "id": "166d7dfa-93ad-434f-9ca7-a8c322a86a53",
+            "type": "topic",
+            "attributes": {
+                "id": "166d7dfa-93ad-434f-9ca7-a8c322a86a53",
+                "name": "High School Graduation",
+                "parent": null,
+                "updated_at": "2017-04-04T09:00:06.464981Z",
+                "children": []
+            },
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/topics/?page-size=50&page=2"
+            }
+        },
+        {
+            "id": "366589a0-2480-4314-b58a-d724093a6c94",
+            "type": "topic",
+            "attributes": {
+                "id": "366589a0-2480-4314-b58a-d724093a6c94",
+                "name": "Teen Interest",
+                "parent": null,
+                "updated_at": "2017-04-04T09:00:06.470046Z",
+                "children": []
+            },
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/topics/?page-size=50&page=2"
+            }
+        },
+        {
+            "id": "dbf07206-d06a-4681-b438-b588c1216b85",
+            "type": "topic",
+            "attributes": {
+                "id": "dbf07206-d06a-4681-b438-b588c1216b85",
+                "name": "Dropout Crisis",
+                "parent": null,
+                "updated_at": "2017-04-04T09:00:06.475076Z",
+                "children": []
+            },
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/topics/?page-size=50&page=2"
+            }
+        },
+        {
+            "id": "853e9f11-2293-4a00-8b25-f312c636d9e0",
+            "type": "topic",
+            "attributes": {
+                "id": "853e9f11-2293-4a00-8b25-f312c636d9e0",
+                "name": "dummy",
+                "parent": null,
+                "updated_at": "2017-04-04T09:00:06.480229Z",
+                "children": []
+            },
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/topics/?page-size=50&page=2"
+            }
+        },
+        {
+            "id": "6de89df0-d863-4b21-9922-811b8d4fec5b",
+            "type": "topic",
+            "attributes": {
+                "id": "6de89df0-d863-4b21-9922-811b8d4fec5b",
+                "name": "Technology",
+                "parent": null,
+                "updated_at": "2017-04-04T09:00:06.485328Z",
+                "children": [
+                    {
+                        "id": "6239f46c-be71-494d-93c5-eb172256c67b",
+                        "name": "Energy & Environment",
+                        "parent": {
+                            "id": "6de89df0-d863-4b21-9922-811b8d4fec5b",
+                            "name": "Technology",
+                            "updated_at": "2017-04-04T09:00:06.485328Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:06.973697Z"
+                    },
+                    {
+                        "id": "4341d225-ebd6-4304-b754-61bd1d135fb8",
+                        "name": "Transportation & Infrastructure",
+                        "parent": {
+                            "id": "6de89df0-d863-4b21-9922-811b8d4fec5b",
+                            "name": "Technology",
+                            "updated_at": "2017-04-04T09:00:06.485328Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:06.978871Z"
+                    },
+                    {
+                        "id": "1742ba0f-a66d-4e36-8e32-30b891f8ba40",
+                        "name": "Health",
+                        "parent": {
+                            "id": "6de89df0-d863-4b21-9922-811b8d4fec5b",
+                            "name": "Technology",
+                            "updated_at": "2017-04-04T09:00:06.485328Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:06.984103Z"
+                    },
+                    {
+                        "id": "38686337-3b49-4652-94e8-cacc64f8ba24",
+                        "name": "Biography & Profiles",
+                        "parent": {
+                            "id": "6de89df0-d863-4b21-9922-811b8d4fec5b",
+                            "name": "Technology",
+                            "updated_at": "2017-04-04T09:00:06.485328Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:06.989226Z"
+                    },
+                    {
+                        "id": "72245fef-b02e-4a5f-88c4-fa74b326bb61",
+                        "name": "Space",
+                        "parent": {
+                            "id": "6de89df0-d863-4b21-9922-811b8d4fec5b",
+                            "name": "Technology",
+                            "updated_at": "2017-04-04T09:00:06.485328Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:06.994450Z"
+                    },
+                    {
+                        "id": "c2d4a609-80d2-4d1a-8be4-7e7b08a31a3c",
+                        "name": "Society",
+                        "parent": {
+                            "id": "6de89df0-d863-4b21-9922-811b8d4fec5b",
+                            "name": "Technology",
+                            "updated_at": "2017-04-04T09:00:06.485328Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:06.999641Z"
+                    },
+                    {
+                        "id": "ce85a3c8-1211-459f-aa82-b9dc0b41532f",
+                        "name": "Military & Espionage",
+                        "parent": {
+                            "id": "6de89df0-d863-4b21-9922-811b8d4fec5b",
+                            "name": "Technology",
+                            "updated_at": "2017-04-04T09:00:06.485328Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:07.004753Z"
+                    },
+                    {
+                        "id": "574e6b37-2449-4b87-bc66-6b84cfa2ae6e",
+                        "name": "Communications & Media",
+                        "parent": {
+                            "id": "6de89df0-d863-4b21-9922-811b8d4fec5b",
+                            "name": "Technology",
+                            "updated_at": "2017-04-04T09:00:06.485328Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:07.009931Z"
+                    }
+                ]
+            },
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/topics/?page-size=50&page=2"
+            }
+        },
+        {
+            "id": "5865905b-52d0-4d86-b1a1-7436fa1983d7",
+            "type": "topic",
+            "attributes": {
+                "id": "5865905b-52d0-4d86-b1a1-7436fa1983d7",
+                "name": "Science & Nature",
+                "parent": null,
+                "updated_at": "2017-04-04T09:00:06.490514Z",
+                "children": [
+                    {
+                        "id": "156911ed-0032-4fff-afbd-87074f3338ee",
+                        "name": "Biography & Profiles",
+                        "parent": {
+                            "id": "5865905b-52d0-4d86-b1a1-7436fa1983d7",
+                            "name": "Science & Nature",
+                            "updated_at": "2017-04-04T09:00:06.490514Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:06.916465Z"
+                    },
+                    {
+                        "id": "29ad5956-148e-4a4d-a6cd-9613208df097",
+                        "name": "Biology & Chemistry",
+                        "parent": {
+                            "id": "5865905b-52d0-4d86-b1a1-7436fa1983d7",
+                            "name": "Science & Nature",
+                            "updated_at": "2017-04-04T09:00:06.490514Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:06.921770Z"
+                    },
+                    {
+                        "id": "c6bd9523-da14-45d8-8cdf-480cdc4cfd7f",
+                        "name": "Physics & Mathematics",
+                        "parent": {
+                            "id": "5865905b-52d0-4d86-b1a1-7436fa1983d7",
+                            "name": "Science & Nature",
+                            "updated_at": "2017-04-04T09:00:06.490514Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:06.927037Z"
+                    },
+                    {
+                        "id": "f29cc0b0-0121-432f-b1ee-39dbdc620fef",
+                        "name": "Animals",
+                        "parent": {
+                            "id": "5865905b-52d0-4d86-b1a1-7436fa1983d7",
+                            "name": "Science & Nature",
+                            "updated_at": "2017-04-04T09:00:06.490514Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:06.932287Z"
+                    },
+                    {
+                        "id": "c740494e-70bf-4984-9eb7-5f9e777ae324",
+                        "name": "Psychology & The Mind",
+                        "parent": {
+                            "id": "5865905b-52d0-4d86-b1a1-7436fa1983d7",
+                            "name": "Science & Nature",
+                            "updated_at": "2017-04-04T09:00:06.490514Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:06.937432Z"
+                    },
+                    {
+                        "id": "6c123ec5-fdba-4960-8f67-d644f518b8c9",
+                        "name": "Weather & Natural Disasters",
+                        "parent": {
+                            "id": "5865905b-52d0-4d86-b1a1-7436fa1983d7",
+                            "name": "Science & Nature",
+                            "updated_at": "2017-04-04T09:00:06.490514Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:06.942602Z"
+                    },
+                    {
+                        "id": "b472f4db-767b-4056-a4ba-224084d7b57b",
+                        "name": "Natural History",
+                        "parent": {
+                            "id": "5865905b-52d0-4d86-b1a1-7436fa1983d7",
+                            "name": "Science & Nature",
+                            "updated_at": "2017-04-04T09:00:06.490514Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:06.947784Z"
+                    },
+                    {
+                        "id": "84e671ed-02ea-459c-bccb-10fda138a02e",
+                        "name": "Forensics & Investigations",
+                        "parent": {
+                            "id": "5865905b-52d0-4d86-b1a1-7436fa1983d7",
+                            "name": "Science & Nature",
+                            "updated_at": "2017-04-04T09:00:06.490514Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:06.952914Z"
+                    },
+                    {
+                        "id": "a97328dd-13af-4367-9e16-32340ac4a074",
+                        "name": "Environment",
+                        "parent": {
+                            "id": "5865905b-52d0-4d86-b1a1-7436fa1983d7",
+                            "name": "Science & Nature",
+                            "updated_at": "2017-04-04T09:00:06.490514Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:06.958033Z"
+                    },
+                    {
+                        "id": "4a49f8bf-e648-4073-bcaa-6269436e8047",
+                        "name": "Earth",
+                        "parent": {
+                            "id": "5865905b-52d0-4d86-b1a1-7436fa1983d7",
+                            "name": "Science & Nature",
+                            "updated_at": "2017-04-04T09:00:06.490514Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:06.963166Z"
+                    },
+                    {
+                        "id": "1dcd37d1-615a-4508-8c3e-6d5aaa2205ef",
+                        "name": "Astronomy",
+                        "parent": {
+                            "id": "5865905b-52d0-4d86-b1a1-7436fa1983d7",
+                            "name": "Science & Nature",
+                            "updated_at": "2017-04-04T09:00:06.490514Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:06.968538Z"
+                    }
+                ]
+            },
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/topics/?page-size=50&page=2"
+            }
+        },
+        {
+            "id": "cbf0f5a1-a3f5-452c-9570-b71f8c1040a3",
+            "type": "topic",
+            "attributes": {
+                "id": "cbf0f5a1-a3f5-452c-9570-b71f8c1040a3",
+                "name": "Parents",
+                "parent": null,
+                "updated_at": "2017-04-04T09:00:06.495552Z",
+                "children": [
+                    {
+                        "id": "bacd002f-bf84-4ace-b1a3-1c884fc899fe",
+                        "name": "Social Studies",
+                        "parent": {
+                            "id": "cbf0f5a1-a3f5-452c-9570-b71f8c1040a3",
+                            "name": "Parents",
+                            "updated_at": "2017-04-04T09:00:06.495552Z"
+                        },
+                        "updated_at": "2018-09-20T15:59:56.928474Z"
+                    },
+                    {
+                        "id": "90e8c9a6-2853-47c1-be79-7764d61bf2d2",
+                        "name": "Arts",
+                        "parent": {
+                            "id": "cbf0f5a1-a3f5-452c-9570-b71f8c1040a3",
+                            "name": "Parents",
+                            "updated_at": "2017-04-04T09:00:06.495552Z"
+                        },
+                        "updated_at": "2018-09-20T15:59:29.724104Z"
+                    },
+                    {
+                        "id": "76d72c50-7c73-4df7-8d5c-49a55199a7c2",
+                        "name": "Science",
+                        "parent": {
+                            "id": "cbf0f5a1-a3f5-452c-9570-b71f8c1040a3",
+                            "name": "Parents",
+                            "updated_at": "2017-04-04T09:00:06.495552Z"
+                        },
+                        "updated_at": "2018-09-20T15:58:48.665294Z"
+                    },
+                    {
+                        "id": "c94d1d11-c4bf-4d9d-9c10-b7dff91411d1",
+                        "name": "Math",
+                        "parent": {
+                            "id": "cbf0f5a1-a3f5-452c-9570-b71f8c1040a3",
+                            "name": "Parents",
+                            "updated_at": "2017-04-04T09:00:06.495552Z"
+                        },
+                        "updated_at": "2018-09-20T15:58:09.078850Z"
+                    },
+                    {
+                        "id": "aecc1365-055e-4d47-9379-f9671e0a29a2",
+                        "name": "Literacy",
+                        "parent": {
+                            "id": "cbf0f5a1-a3f5-452c-9570-b71f8c1040a3",
+                            "name": "Parents",
+                            "updated_at": "2017-04-04T09:00:06.495552Z"
+                        },
+                        "updated_at": "2018-09-20T15:57:38.179783Z"
+                    },
+                    {
+                        "id": "bec89242-a2ed-4711-90be-517f9628bb3e",
+                        "name": "Character",
+                        "parent": {
+                            "id": "cbf0f5a1-a3f5-452c-9570-b71f8c1040a3",
+                            "name": "Parents",
+                            "updated_at": "2017-04-04T09:00:06.495552Z"
+                        },
+                        "updated_at": "2018-09-20T15:57:11.974336Z"
+                    },
+                    {
+                        "id": "f1e792bf-d539-4d4f-83d6-f259030e0fc9",
+                        "name": "Social Skills",
+                        "parent": {
+                            "id": "cbf0f5a1-a3f5-452c-9570-b71f8c1040a3",
+                            "name": "Parents",
+                            "updated_at": "2017-04-04T09:00:06.495552Z"
+                        },
+                        "updated_at": "2018-09-20T15:56:46.932025Z"
+                    },
+                    {
+                        "id": "139aebfe-f1de-400b-98bb-b5c71ad0e29f",
+                        "name": "Emotions & Self-Awareness",
+                        "parent": {
+                            "id": "cbf0f5a1-a3f5-452c-9570-b71f8c1040a3",
+                            "name": "Parents",
+                            "updated_at": "2017-04-04T09:00:06.495552Z"
+                        },
+                        "updated_at": "2018-09-20T15:56:04.007967Z"
+                    },
+                    {
+                        "id": "ca75e4b3-724b-4a68-9f35-4cf51bafef41",
+                        "name": "Education",
+                        "parent": {
+                            "id": "cbf0f5a1-a3f5-452c-9570-b71f8c1040a3",
+                            "name": "Parents",
+                            "updated_at": "2017-04-04T09:00:06.495552Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:06.885423Z"
+                    },
+                    {
+                        "id": "72e0d611-7371-4745-8c93-cd55184a52db",
+                        "name": "Healthy Kids",
+                        "parent": {
+                            "id": "cbf0f5a1-a3f5-452c-9570-b71f8c1040a3",
+                            "name": "Parents",
+                            "updated_at": "2017-04-04T09:00:06.495552Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:06.890598Z"
+                    },
+                    {
+                        "id": "8ecfe80f-3871-4027-9a2f-b6633e017a21",
+                        "name": "Birthday Parties",
+                        "parent": {
+                            "id": "cbf0f5a1-a3f5-452c-9570-b71f8c1040a3",
+                            "name": "Parents",
+                            "updated_at": "2017-04-04T09:00:06.495552Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:06.895802Z"
+                    },
+                    {
+                        "id": "8475c35c-5384-4830-81ff-dcc4bed0f9b6",
+                        "name": "Child Development",
+                        "parent": {
+                            "id": "cbf0f5a1-a3f5-452c-9570-b71f8c1040a3",
+                            "name": "Parents",
+                            "updated_at": "2017-04-04T09:00:06.495552Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:06.900929Z"
+                    },
+                    {
+                        "id": "8a7b044a-ee21-4ac3-914b-6cf07618ab3e",
+                        "name": "Fun & Games",
+                        "parent": {
+                            "id": "cbf0f5a1-a3f5-452c-9570-b71f8c1040a3",
+                            "name": "Parents",
+                            "updated_at": "2017-04-04T09:00:06.495552Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:06.906113Z"
+                    },
+                    {
+                        "id": "442e7b55-27ef-4390-909c-d0af9f89b066",
+                        "name": "Issues & Advice",
+                        "parent": {
+                            "id": "cbf0f5a1-a3f5-452c-9570-b71f8c1040a3",
+                            "name": "Parents",
+                            "updated_at": "2017-04-04T09:00:06.495552Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:06.911270Z"
+                    }
+                ]
+            },
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/topics/?page-size=50&page=2"
+            }
+        },
+        {
+            "id": "03b1c30c-e112-4917-8f41-900ca367116b",
+            "type": "topic",
+            "attributes": {
+                "id": "03b1c30c-e112-4917-8f41-900ca367116b",
+                "name": "News & Public Affairs",
+                "parent": null,
+                "updated_at": "2017-04-04T09:00:06.500559Z",
+                "children": [
+                    {
+                        "id": "6e8216f5-0c95-496d-858a-fcfb3bcb8f31",
+                        "name": "Arts & Entertainment",
+                        "parent": {
+                            "id": "03b1c30c-e112-4917-8f41-900ca367116b",
+                            "name": "News & Public Affairs",
+                            "updated_at": "2017-04-04T09:00:06.500559Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:06.790176Z"
+                    },
+                    {
+                        "id": "83909c92-fc3b-41b4-bacf-09d120f054f6",
+                        "name": "Women",
+                        "parent": {
+                            "id": "03b1c30c-e112-4917-8f41-900ca367116b",
+                            "name": "News & Public Affairs",
+                            "updated_at": "2017-04-04T09:00:06.500559Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:06.795443Z"
+                    },
+                    {
+                        "id": "cb109742-ae5a-42e8-a6dd-b4f891071ccc",
+                        "name": "Sports",
+                        "parent": {
+                            "id": "03b1c30c-e112-4917-8f41-900ca367116b",
+                            "name": "News & Public Affairs",
+                            "updated_at": "2017-04-04T09:00:06.500559Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:06.800718Z"
+                    },
+                    {
+                        "id": "27419c9d-e1dc-4408-95a6-900e6daf330c",
+                        "name": "Social Issues",
+                        "parent": {
+                            "id": "03b1c30c-e112-4917-8f41-900ca367116b",
+                            "name": "News & Public Affairs",
+                            "updated_at": "2017-04-04T09:00:06.500559Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:06.805941Z"
+                    },
+                    {
+                        "id": "d7870f56-d79d-4a17-bd9b-3f25f9998605",
+                        "name": "Science & Technology",
+                        "parent": {
+                            "id": "03b1c30c-e112-4917-8f41-900ca367116b",
+                            "name": "News & Public Affairs",
+                            "updated_at": "2017-04-04T09:00:06.500559Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:06.811509Z"
+                    },
+                    {
+                        "id": "728c5595-721a-4307-b416-66cd79fca0dd",
+                        "name": "Religion & Beliefs",
+                        "parent": {
+                            "id": "03b1c30c-e112-4917-8f41-900ca367116b",
+                            "name": "News & Public Affairs",
+                            "updated_at": "2017-04-04T09:00:06.500559Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:06.816628Z"
+                    },
+                    {
+                        "id": "5a07d5ea-73a2-40c6-8cb6-71764d8c213d",
+                        "name": "Race & Ethnicity",
+                        "parent": {
+                            "id": "03b1c30c-e112-4917-8f41-900ca367116b",
+                            "name": "News & Public Affairs",
+                            "updated_at": "2017-04-04T09:00:06.500559Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:06.821844Z"
+                    },
+                    {
+                        "id": "fcc0d948-6fa1-4920-93b5-cde19dc6d262",
+                        "name": "National Security",
+                        "parent": {
+                            "id": "03b1c30c-e112-4917-8f41-900ca367116b",
+                            "name": "News & Public Affairs",
+                            "updated_at": "2017-04-04T09:00:06.500559Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:06.827044Z"
+                    },
+                    {
+                        "id": "005229d4-5f0c-4eca-9844-c7254eae7a9c",
+                        "name": "Media",
+                        "parent": {
+                            "id": "03b1c30c-e112-4917-8f41-900ca367116b",
+                            "name": "News & Public Affairs",
+                            "updated_at": "2017-04-04T09:00:06.500559Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:06.832292Z"
+                    },
+                    {
+                        "id": "ff88a087-8e03-4f85-a085-448a6bf958d0",
+                        "name": "Health",
+                        "parent": {
+                            "id": "03b1c30c-e112-4917-8f41-900ca367116b",
+                            "name": "News & Public Affairs",
+                            "updated_at": "2017-04-04T09:00:06.500559Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:06.837506Z"
+                    },
+                    {
+                        "id": "dcc1247b-4f65-449c-ab02-f6d35c6938a0",
+                        "name": "Government",
+                        "parent": {
+                            "id": "03b1c30c-e112-4917-8f41-900ca367116b",
+                            "name": "News & Public Affairs",
+                            "updated_at": "2017-04-04T09:00:06.500559Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:06.842748Z"
+                    },
+                    {
+                        "id": "0c6ec63f-1a24-4149-ad92-51cb2364e023",
+                        "name": "Environment",
+                        "parent": {
+                            "id": "03b1c30c-e112-4917-8f41-900ca367116b",
+                            "name": "News & Public Affairs",
+                            "updated_at": "2017-04-04T09:00:06.500559Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:06.848816Z"
+                    },
+                    {
+                        "id": "9d03eb91-9d42-47af-808b-c095c2f6c972",
+                        "name": "Education",
+                        "parent": {
+                            "id": "03b1c30c-e112-4917-8f41-900ca367116b",
+                            "name": "News & Public Affairs",
+                            "updated_at": "2017-04-04T09:00:06.500559Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:06.854502Z"
+                    },
+                    {
+                        "id": "7bf86495-9635-4724-88cd-0c1970d84717",
+                        "name": "Business & Economy",
+                        "parent": {
+                            "id": "03b1c30c-e112-4917-8f41-900ca367116b",
+                            "name": "News & Public Affairs",
+                            "updated_at": "2017-04-04T09:00:06.500559Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:06.859666Z"
+                    },
+                    {
+                        "id": "65339716-40a8-44b0-9477-f4b24edbe4c9",
+                        "name": "Biography & Profiles",
+                        "parent": {
+                            "id": "03b1c30c-e112-4917-8f41-900ca367116b",
+                            "name": "News & Public Affairs",
+                            "updated_at": "2017-04-04T09:00:06.500559Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:06.864816Z"
+                    },
+                    {
+                        "id": "33686023-2639-4b04-8805-81f6bc646aaf",
+                        "name": "Opinion",
+                        "parent": {
+                            "id": "03b1c30c-e112-4917-8f41-900ca367116b",
+                            "name": "News & Public Affairs",
+                            "updated_at": "2017-04-04T09:00:06.500559Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:06.869982Z"
+                    },
+                    {
+                        "id": "d8b6ab62-0ff3-406c-bc31-3e485d99989b",
+                        "name": "Global Affairs",
+                        "parent": {
+                            "id": "03b1c30c-e112-4917-8f41-900ca367116b",
+                            "name": "News & Public Affairs",
+                            "updated_at": "2017-04-04T09:00:06.500559Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:06.875111Z"
+                    },
+                    {
+                        "id": "69cf5091-fbe4-4a1b-8df9-335ded15db95",
+                        "name": "Politics",
+                        "parent": {
+                            "id": "03b1c30c-e112-4917-8f41-900ca367116b",
+                            "name": "News & Public Affairs",
+                            "updated_at": "2017-04-04T09:00:06.500559Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:06.880272Z"
+                    }
+                ]
+            },
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/topics/?page-size=50&page=2"
+            }
+        },
+        {
+            "id": "dfdf116d-969b-4465-ba22-1e933f5ccd20",
+            "type": "topic",
+            "attributes": {
+                "id": "dfdf116d-969b-4465-ba22-1e933f5ccd20",
+                "name": "Home & How-To",
+                "parent": null,
+                "updated_at": "2017-04-04T09:00:06.505649Z",
+                "children": [
+                    {
+                        "id": "64864638-b8e5-4445-91ec-ecca9d97ae85",
+                        "name": "Gardening",
+                        "parent": {
+                            "id": "dfdf116d-969b-4465-ba22-1e933f5ccd20",
+                            "name": "Home & How-To",
+                            "updated_at": "2017-04-04T09:00:06.505649Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:06.764037Z"
+                    },
+                    {
+                        "id": "176ab40b-1f3f-47ec-a636-ceb2caa40ace",
+                        "name": "Antiques & Collectibles",
+                        "parent": {
+                            "id": "dfdf116d-969b-4465-ba22-1e933f5ccd20",
+                            "name": "Home & How-To",
+                            "updated_at": "2017-04-04T09:00:06.505649Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:06.769280Z"
+                    },
+                    {
+                        "id": "f8f9960b-266f-4de5-a44e-2c61b7929089",
+                        "name": "Home Improvement",
+                        "parent": {
+                            "id": "dfdf116d-969b-4465-ba22-1e933f5ccd20",
+                            "name": "Home & How-To",
+                            "updated_at": "2017-04-04T09:00:06.505649Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:06.774501Z"
+                    },
+                    {
+                        "id": "01edeaf6-11f0-4711-a487-7ce2a510a9b2",
+                        "name": "Cooking",
+                        "parent": {
+                            "id": "dfdf116d-969b-4465-ba22-1e933f5ccd20",
+                            "name": "Home & How-To",
+                            "updated_at": "2017-04-04T09:00:06.505649Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:06.779756Z"
+                    },
+                    {
+                        "id": "41e44549-6c05-4a28-b4eb-a82d4161ad13",
+                        "name": "Personal Finance",
+                        "parent": {
+                            "id": "dfdf116d-969b-4465-ba22-1e933f5ccd20",
+                            "name": "Home & How-To",
+                            "updated_at": "2017-04-04T09:00:06.505649Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:06.784930Z"
+                    }
+                ]
+            },
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/topics/?page-size=50&page=2"
+            }
+        },
+        {
+            "id": "123d2cc7-b6eb-4cc4-ac53-799ef6fb43c9",
+            "type": "topic",
+            "attributes": {
+                "id": "123d2cc7-b6eb-4cc4-ac53-799ef6fb43c9",
+                "name": "History",
+                "parent": null,
+                "updated_at": "2017-04-04T09:00:06.510663Z",
+                "children": [
+                    {
+                        "id": "0131a632-bd7b-44ef-8fdb-3732c993a494",
+                        "name": "World",
+                        "parent": {
+                            "id": "123d2cc7-b6eb-4cc4-ac53-799ef6fb43c9",
+                            "name": "History",
+                            "updated_at": "2017-04-04T09:00:06.510663Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:06.690643Z"
+                    },
+                    {
+                        "id": "e2d43d39-e634-43ad-a5c0-5d7c20a98df2",
+                        "name": "War & Conflict",
+                        "parent": {
+                            "id": "123d2cc7-b6eb-4cc4-ac53-799ef6fb43c9",
+                            "name": "History",
+                            "updated_at": "2017-04-04T09:00:06.510663Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:06.695869Z"
+                    },
+                    {
+                        "id": "520b14e3-8cff-4cff-a3a8-d7bc7f51e91b",
+                        "name": "Victorian",
+                        "parent": {
+                            "id": "123d2cc7-b6eb-4cc4-ac53-799ef6fb43c9",
+                            "name": "History",
+                            "updated_at": "2017-04-04T09:00:06.510663Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:06.701059Z"
+                    },
+                    {
+                        "id": "9088f106-5d8e-440a-8669-ad7eccc53791",
+                        "name": "United States",
+                        "parent": {
+                            "id": "123d2cc7-b6eb-4cc4-ac53-799ef6fb43c9",
+                            "name": "History",
+                            "updated_at": "2017-04-04T09:00:06.510663Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:06.706218Z"
+                    },
+                    {
+                        "id": "75476471-a490-4bf7-b547-7df024d2f7a4",
+                        "name": "Prehistoric",
+                        "parent": {
+                            "id": "123d2cc7-b6eb-4cc4-ac53-799ef6fb43c9",
+                            "name": "History",
+                            "updated_at": "2017-04-04T09:00:06.510663Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:06.711421Z"
+                    },
+                    {
+                        "id": "1ef4d152-2978-427f-b183-9000a3ee1d07",
+                        "name": "Modern",
+                        "parent": {
+                            "id": "123d2cc7-b6eb-4cc4-ac53-799ef6fb43c9",
+                            "name": "History",
+                            "updated_at": "2017-04-04T09:00:06.510663Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:06.716616Z"
+                    },
+                    {
+                        "id": "18882796-8cd7-4874-9aef-4cc935334f41",
+                        "name": "Middle Ages",
+                        "parent": {
+                            "id": "123d2cc7-b6eb-4cc4-ac53-799ef6fb43c9",
+                            "name": "History",
+                            "updated_at": "2017-04-04T09:00:06.510663Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:06.721941Z"
+                    },
+                    {
+                        "id": "5f51e103-24dd-4354-b03f-642cc0a44502",
+                        "name": "Geneaology",
+                        "parent": {
+                            "id": "123d2cc7-b6eb-4cc4-ac53-799ef6fb43c9",
+                            "name": "History",
+                            "updated_at": "2017-04-04T09:00:06.510663Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:06.727237Z"
+                    },
+                    {
+                        "id": "0ad6817e-959a-4bf0-8f90-3e1e59a30620",
+                        "name": "Enlightenment",
+                        "parent": {
+                            "id": "123d2cc7-b6eb-4cc4-ac53-799ef6fb43c9",
+                            "name": "History",
+                            "updated_at": "2017-04-04T09:00:06.510663Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:06.732506Z"
+                    },
+                    {
+                        "id": "dbcc2461-b900-42b3-9e99-2c7fa5ff6503",
+                        "name": "Ancient & Classical",
+                        "parent": {
+                            "id": "123d2cc7-b6eb-4cc4-ac53-799ef6fb43c9",
+                            "name": "History",
+                            "updated_at": "2017-04-04T09:00:06.510663Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:06.737843Z"
+                    },
+                    {
+                        "id": "8510f3e8-3a24-4f5d-8005-84338da22dbc",
+                        "name": "Archaeology",
+                        "parent": {
+                            "id": "123d2cc7-b6eb-4cc4-ac53-799ef6fb43c9",
+                            "name": "History",
+                            "updated_at": "2017-04-04T09:00:06.510663Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:06.743062Z"
+                    },
+                    {
+                        "id": "d6198081-9474-446a-9724-f0cd02371354",
+                        "name": "Civilizations",
+                        "parent": {
+                            "id": "123d2cc7-b6eb-4cc4-ac53-799ef6fb43c9",
+                            "name": "History",
+                            "updated_at": "2017-04-04T09:00:06.510663Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:06.748329Z"
+                    },
+                    {
+                        "id": "aada241c-ff75-4daa-99f8-cb01a17dd0ad",
+                        "name": "Renaissance",
+                        "parent": {
+                            "id": "123d2cc7-b6eb-4cc4-ac53-799ef6fb43c9",
+                            "name": "History",
+                            "updated_at": "2017-04-04T09:00:06.510663Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:06.753574Z"
+                    },
+                    {
+                        "id": "575321cd-61d6-44ef-a6df-059cb283f5c0",
+                        "name": "Biography & Profiles",
+                        "parent": {
+                            "id": "123d2cc7-b6eb-4cc4-ac53-799ef6fb43c9",
+                            "name": "History",
+                            "updated_at": "2017-04-04T09:00:06.510663Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:06.758804Z"
+                    }
+                ]
+            },
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/topics/?page-size=50&page=2"
+            }
+        },
+        {
+            "id": "54dd8488-cde8-4fc5-ba4b-1e60a3fe92bc",
+            "type": "topic",
+            "attributes": {
+                "id": "54dd8488-cde8-4fc5-ba4b-1e60a3fe92bc",
+                "name": "Health",
+                "parent": null,
+                "updated_at": "2017-04-04T09:00:06.515686Z",
+                "children": [
+                    {
+                        "id": "a03803cd-6edf-4ec7-8214-385a31a8f81c",
+                        "name": "Fitness & Nutrition",
+                        "parent": {
+                            "id": "54dd8488-cde8-4fc5-ba4b-1e60a3fe92bc",
+                            "name": "Health",
+                            "updated_at": "2017-04-04T09:00:06.515686Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:06.659515Z"
+                    },
+                    {
+                        "id": "9be964cc-cea7-42de-b3d5-9b323299d3eb",
+                        "name": "Health Care & Illnesses",
+                        "parent": {
+                            "id": "54dd8488-cde8-4fc5-ba4b-1e60a3fe92bc",
+                            "name": "Health",
+                            "updated_at": "2017-04-04T09:00:06.515686Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:06.664609Z"
+                    },
+                    {
+                        "id": "c2bfddf5-2dac-4ee1-bd8a-ee91bc3d9b12",
+                        "name": "Lifestyle",
+                        "parent": {
+                            "id": "54dd8488-cde8-4fc5-ba4b-1e60a3fe92bc",
+                            "name": "Health",
+                            "updated_at": "2017-04-04T09:00:06.515686Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:06.669738Z"
+                    },
+                    {
+                        "id": "f75387fa-904f-480a-b5b1-f18fd98627e2",
+                        "name": "Aging",
+                        "parent": {
+                            "id": "54dd8488-cde8-4fc5-ba4b-1e60a3fe92bc",
+                            "name": "Health",
+                            "updated_at": "2017-04-04T09:00:06.515686Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:06.674868Z"
+                    },
+                    {
+                        "id": "3b3c546f-da24-43fe-8cd1-3f5ff06fdbaa",
+                        "name": "Women",
+                        "parent": {
+                            "id": "54dd8488-cde8-4fc5-ba4b-1e60a3fe92bc",
+                            "name": "Health",
+                            "updated_at": "2017-04-04T09:00:06.515686Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:06.680060Z"
+                    },
+                    {
+                        "id": "afe80ad3-e251-4229-9ad7-e1f4ef747ce7",
+                        "name": "Caregiving",
+                        "parent": {
+                            "id": "54dd8488-cde8-4fc5-ba4b-1e60a3fe92bc",
+                            "name": "Health",
+                            "updated_at": "2017-04-04T09:00:06.515686Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:06.685440Z"
+                    }
+                ]
+            },
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/topics/?page-size=50&page=2"
+            }
+        },
+        {
+            "id": "9125e3b2-dff1-483e-b3f6-2d3885b7ee62",
+            "type": "topic",
+            "attributes": {
+                "id": "9125e3b2-dff1-483e-b3f6-2d3885b7ee62",
+                "name": "Culture & Society",
+                "parent": null,
+                "updated_at": "2017-04-04T09:00:06.520754Z",
+                "children": [
+                    {
+                        "id": "6960da8c-68e7-4f76-90f6-d66228ee4745",
+                        "name": "Community",
+                        "parent": {
+                            "id": "9125e3b2-dff1-483e-b3f6-2d3885b7ee62",
+                            "name": "Culture & Society",
+                            "updated_at": "2017-04-04T09:00:06.520754Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:06.607881Z"
+                    },
+                    {
+                        "id": "d0e17958-9295-40ef-ab19-d4c6f23ad4ce",
+                        "name": "Sports & Recreation",
+                        "parent": {
+                            "id": "9125e3b2-dff1-483e-b3f6-2d3885b7ee62",
+                            "name": "Culture & Society",
+                            "updated_at": "2017-04-04T09:00:06.520754Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:06.612938Z"
+                    },
+                    {
+                        "id": "1d3eb2dc-e3e4-40ec-a4ad-08cb00016661",
+                        "name": "Religion & Beliefs",
+                        "parent": {
+                            "id": "9125e3b2-dff1-483e-b3f6-2d3885b7ee62",
+                            "name": "Culture & Society",
+                            "updated_at": "2017-04-04T09:00:06.520754Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:06.618175Z"
+                    },
+                    {
+                        "id": "0e85fdcf-7a1f-46a7-827c-1d47d0e1e83e",
+                        "name": "Gender & Sexual Identity",
+                        "parent": {
+                            "id": "9125e3b2-dff1-483e-b3f6-2d3885b7ee62",
+                            "name": "Culture & Society",
+                            "updated_at": "2017-04-04T09:00:06.520754Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:06.623441Z"
+                    },
+                    {
+                        "id": "c6e5987c-d9f5-4c99-bf06-707e3059ed3d",
+                        "name": "Holidays",
+                        "parent": {
+                            "id": "9125e3b2-dff1-483e-b3f6-2d3885b7ee62",
+                            "name": "Culture & Society",
+                            "updated_at": "2017-04-04T09:00:06.520754Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:06.628530Z"
+                    },
+                    {
+                        "id": "1b56432f-ff2a-4d19-a81e-6fde9e2c1116",
+                        "name": "Race & Ethnicity",
+                        "parent": {
+                            "id": "9125e3b2-dff1-483e-b3f6-2d3885b7ee62",
+                            "name": "Culture & Society",
+                            "updated_at": "2017-04-04T09:00:06.520754Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:06.633746Z"
+                    },
+                    {
+                        "id": "f61447f3-30cb-474e-b7df-cee60d3a9e55",
+                        "name": "People & Profiles",
+                        "parent": {
+                            "id": "9125e3b2-dff1-483e-b3f6-2d3885b7ee62",
+                            "name": "Culture & Society",
+                            "updated_at": "2017-04-04T09:00:06.520754Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:06.638937Z"
+                    },
+                    {
+                        "id": "9855e2e9-57af-4c2b-9be2-909f93016202",
+                        "name": "Media & Technology",
+                        "parent": {
+                            "id": "9125e3b2-dff1-483e-b3f6-2d3885b7ee62",
+                            "name": "Culture & Society",
+                            "updated_at": "2017-04-04T09:00:06.520754Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:06.644077Z"
+                    },
+                    {
+                        "id": "f7cee537-bdb4-4092-accf-d44c0b234535",
+                        "name": "Travel",
+                        "parent": {
+                            "id": "9125e3b2-dff1-483e-b3f6-2d3885b7ee62",
+                            "name": "Culture & Society",
+                            "updated_at": "2017-04-04T09:00:06.520754Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:06.649204Z"
+                    },
+                    {
+                        "id": "75483735-f878-49e4-a4dd-ccc8d7b01459",
+                        "name": "Food",
+                        "parent": {
+                            "id": "9125e3b2-dff1-483e-b3f6-2d3885b7ee62",
+                            "name": "Culture & Society",
+                            "updated_at": "2017-04-04T09:00:06.520754Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:06.654309Z"
+                    }
+                ]
+            },
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/topics/?page-size=50&page=2"
+            }
+        },
+        {
+            "id": "1c78adfd-672d-456a-869e-d0cc83f8072c",
+            "type": "topic",
+            "attributes": {
+                "id": "1c78adfd-672d-456a-869e-d0cc83f8072c",
+                "name": "Travel/Adventure",
+                "parent": null,
+                "updated_at": "2017-04-04T09:00:06.525804Z",
+                "children": []
+            },
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/topics/?page-size=50&page=2"
+            }
+        },
+        {
+            "id": "9130c43c-d0ab-44b2-a1db-cbb20e9d5761",
+            "type": "topic",
+            "attributes": {
+                "id": "9130c43c-d0ab-44b2-a1db-cbb20e9d5761",
+                "name": "Exploration",
+                "parent": null,
+                "updated_at": "2017-04-04T09:00:06.530833Z",
+                "children": []
+            },
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/topics/?page-size=50&page=2"
+            }
+        },
+        {
+            "id": "91c4f689-673b-4adc-9265-9876536f4517",
+            "type": "topic",
+            "attributes": {
+                "id": "91c4f689-673b-4adc-9265-9876536f4517",
+                "name": "Himalaya",
+                "parent": null,
+                "updated_at": "2017-04-04T09:00:06.535907Z",
+                "children": []
+            },
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/topics/?page-size=50&page=2"
+            }
+        },
+        {
+            "id": "362a7285-ef1c-44f8-b4bf-13894abd4cec",
+            "type": "topic",
+            "attributes": {
+                "id": "362a7285-ef1c-44f8-b4bf-13894abd4cec",
+                "name": "Michael Palin",
+                "parent": null,
+                "updated_at": "2017-04-04T09:00:06.541034Z",
+                "children": []
+            },
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/topics/?page-size=50&page=2"
+            }
+        },
+        {
+            "id": "cd508a35-11b8-4ce5-ac8b-50b1c6eeb078",
+            "type": "topic",
+            "attributes": {
+                "id": "cd508a35-11b8-4ce5-ac8b-50b1c6eeb078",
+                "name": "Asia",
+                "parent": null,
+                "updated_at": "2017-04-04T09:00:06.546132Z",
+                "children": []
+            },
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/topics/?page-size=50&page=2"
+            }
+        },
+        {
+            "id": "560a80fa-09f3-44d3-907d-75f98ee51b52",
+            "type": "topic",
+            "attributes": {
+                "id": "560a80fa-09f3-44d3-907d-75f98ee51b52",
+                "name": "South Dakota Budget Process",
+                "parent": null,
+                "updated_at": "2017-04-04T09:00:06.551197Z",
+                "children": []
+            },
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/topics/?page-size=50&page=2"
+            }
+        },
+        {
+            "id": "8de6159a-b576-4a65-b430-d05a7646a008",
+            "type": "topic",
+            "attributes": {
+                "id": "8de6159a-b576-4a65-b430-d05a7646a008",
+                "name": "Local Events",
+                "parent": null,
+                "updated_at": "2017-04-04T09:00:06.556358Z",
+                "children": []
+            },
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/topics/?page-size=50&page=2"
+            }
+        },
+        {
+            "id": "fa1789ca-10bf-438d-90e3-3ba610a2d65b",
+            "type": "topic",
+            "attributes": {
+                "id": "fa1789ca-10bf-438d-90e3-3ba610a2d65b",
+                "name": "Hot Spots",
+                "parent": null,
+                "updated_at": "2017-04-04T09:00:06.561449Z",
+                "children": []
+            },
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/topics/?page-size=50&page=2"
+            }
+        }
+    ],
+    "links": {
+        "first": "https://media.services.pbs.org/api/v1/topics/?page-size=50",
+        "next": null,
+        "prev": "https://media.services.pbs.org/api/v1/topics/?page-size=50",
+        "last": "https://media.services.pbs.org/api/v1/topics/?page=2&page-size=50",
+        "self": "https://media.services.pbs.org/api/v1/topics/?page-size=50&page=2"
+    },
+    "jsonapi": {
+        "version": "1.0"
+    },
+    "meta": {
+        "type": "collection",
+        "pagination": {
+            "count": 92,
+            "per_page": 50
+        }
+    }
+}

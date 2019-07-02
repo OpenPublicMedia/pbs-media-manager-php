@@ -1,0 +1,168 @@
+{
+    "data": [
+        {
+            "attributes": {
+                "slug": "masterpiece",
+                "nola": "MAST",
+                "title": "Masterpiece",
+                "title_sortable": "Masterpiece",
+                "genre": {
+                    "id": "a6c8f8a3-fd3a-4ffe-9a0d-d32e6e584d5d",
+                    "slug": "drama",
+                    "title": "Drama",
+                    "title_sortable": "Drama",
+                    "updated_at": "2017-04-04T10:27:05.577522Z"
+                },
+                "description_short": "Classic and contemporary literature is embodied in the British drama series \"Masterpiece.\"",
+                "description_long": "One of the most popular drama series in TV history -- Bringing you the best in classic adaptations, mysteries filled with eclectic characters, and provocative contemporary works.",
+                "premiered_on": null,
+                "is_excluded_from_dfp": false,
+                "funder_message": "Funding for MASTERPIECE is provided by Viking with additional support from public television viewers and contributors to The MASTERPIECE Trust, created to help ensure the series’ future.",
+                "tracking_ga_page": "UA-3988763-1",
+                "tracking_ga_event": "UA-3988763-2",
+                "updated_at": "2019-01-08T17:12:50.345156Z",
+                "links": [],
+                "hashtag": "masterpiecepbs",
+                "images": [],
+                "platforms": [],
+                "assets": []
+            },
+            "id": "e08bf78d-e6a3-44b9-b356-8753d01c7327",
+            "type": "franchise",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/franchises/e08bf78d-e6a3-44b9-b356-8753d01c7327/",
+                "assets": "https://media.services.pbs.org/api/v1/franchises/e08bf78d-e6a3-44b9-b356-8753d01c7327/assets/",
+                "shows": "https://media.services.pbs.org/api/v1/franchises/e08bf78d-e6a3-44b9-b356-8753d01c7327/shows/",
+                "taxonomies": "https://media.services.pbs.org/api/v1/franchises/e08bf78d-e6a3-44b9-b356-8753d01c7327/taxonomies/"
+            }
+        },
+        {
+            "attributes": {
+                "slug": "ken-burns",
+                "nola": "",
+                "title": "Ken Burns",
+                "title_sortable": "Ken Burns",
+                "genre": {
+                    "id": "d68d138e-dae6-4fa9-9148-addc88fa6efb",
+                    "slug": "history",
+                    "title": "History",
+                    "title_sortable": "History",
+                    "updated_at": "2017-04-04T10:27:45.732884Z"
+                },
+                "description_short": "Ken Burns and colleagues produce critically acclaimed documentaries for public television.",
+                "description_long": "For more than three decades, Ken Burns and his colleagues at Florentine Films—directors, writers, producers, editors, and cinematographers—have produced some of the most critically acclaimed and most watched documentaries on public television.",
+                "premiered_on": null,
+                "is_excluded_from_dfp": false,
+                "funder_message": "",
+                "tracking_ga_page": "",
+                "tracking_ga_event": "",
+                "updated_at": "2017-09-14T19:59:50.928594Z",
+                "links": [],
+                "hashtag": "VietnamWarPBS",
+                "images": [],
+                "platforms": [],
+                "assets": []
+            },
+            "id": "f7062296-fa3d-4393-8b50-c0cac2db9a6d",
+            "type": "franchise",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/franchises/f7062296-fa3d-4393-8b50-c0cac2db9a6d/",
+                "assets": "https://media.services.pbs.org/api/v1/franchises/f7062296-fa3d-4393-8b50-c0cac2db9a6d/assets/",
+                "shows": "https://media.services.pbs.org/api/v1/franchises/f7062296-fa3d-4393-8b50-c0cac2db9a6d/shows/",
+                "taxonomies": "https://media.services.pbs.org/api/v1/franchises/f7062296-fa3d-4393-8b50-c0cac2db9a6d/taxonomies/"
+            }
+        },
+        {
+            "attributes": {
+                "slug": "digital-studios",
+                "nola": "",
+                "title": "Digital Studios",
+                "title_sortable": "Digital Studios",
+                "genre": null,
+                "description_short": "PBS Digital Studios",
+                "description_long": "PBS Digital Studios brings you original web series exploring science, music, arts, culture, and beyond. Working with creators and producers from across the web, we showcase the best the internet has to offer, while celebrating the impact of public media. Look for new episodes weekly on YouTube, Facebook Watch, PBS.org as well as on PBS apps on OTT and mobile!",
+                "premiered_on": null,
+                "is_excluded_from_dfp": false,
+                "funder_message": "",
+                "tracking_ga_page": "UA-54540056–3",
+                "tracking_ga_event": "UA-54540056-1",
+                "updated_at": "2019-01-15T19:58:15.337497Z",
+                "links": [],
+                "hashtag": "",
+                "images": [],
+                "platforms": [],
+                "assets": []
+            },
+            "id": "b854b857-fd72-40f1-b055-7a67b01e972e",
+            "type": "franchise",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/franchises/b854b857-fd72-40f1-b055-7a67b01e972e/",
+                "assets": "https://media.services.pbs.org/api/v1/franchises/b854b857-fd72-40f1-b055-7a67b01e972e/assets/",
+                "shows": "https://media.services.pbs.org/api/v1/franchises/b854b857-fd72-40f1-b055-7a67b01e972e/shows/",
+                "taxonomies": "https://media.services.pbs.org/api/v1/franchises/b854b857-fd72-40f1-b055-7a67b01e972e/taxonomies/"
+            }
+        },
+        {
+            "attributes": {
+                "slug": "walters-choice",
+                "nola": "",
+                "title": "Walter's Choice",
+                "title_sortable": "Walter's Choice",
+                "genre": null,
+                "description_short": "Walter's Choice is a curated collection of award-winning international drama.",
+                "description_long": "Walter's Choice is a curated collection of award-winning international drama, hand-picked by Walter Iuzzolino, a TV connoisseur who has scoured the globe for compelling hits. Presented in their original languages with English subtitles. This collection is available to stream with PBS Passport.",
+                "premiered_on": null,
+                "is_excluded_from_dfp": false,
+                "funder_message": "",
+                "tracking_ga_page": "",
+                "tracking_ga_event": "",
+                "updated_at": "2019-04-23T13:37:10.357988Z",
+                "links": [],
+                "hashtag": "",
+                "images": [],
+                "platforms": [],
+                "assets": []
+            },
+            "id": "613fdecb-c4e1-467a-b3a4-2ba9af7d294e",
+            "type": "franchise",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/franchises/613fdecb-c4e1-467a-b3a4-2ba9af7d294e/",
+                "assets": "https://media.services.pbs.org/api/v1/franchises/613fdecb-c4e1-467a-b3a4-2ba9af7d294e/assets/",
+                "shows": "https://media.services.pbs.org/api/v1/franchises/613fdecb-c4e1-467a-b3a4-2ba9af7d294e/shows/",
+                "taxonomies": "https://media.services.pbs.org/api/v1/franchises/613fdecb-c4e1-467a-b3a4-2ba9af7d294e/taxonomies/"
+            }
+        }
+    ],
+    "jsonapi": {
+        "version": "1.0"
+    },
+    "meta": {
+        "pagination": {
+            "per_page": 50,
+            "count": 4
+        },
+        "filter": {
+            "platform-slug": "https://media.services.pbs.org/api/v1/franchises/?platform-slug=",
+            "platform-id": "https://media.services.pbs.org/api/v1/franchises/?platform-id=",
+            "slug": "https://media.services.pbs.org/api/v1/franchises/?slug="
+        },
+        "type": "collection",
+        "sort": {
+            "title_sortable": {
+                "desc": "https://media.services.pbs.org/api/v1/franchises/?sort=-title_sortable",
+                "asc": "https://media.services.pbs.org/api/v1/franchises/?sort=title_sortable"
+            },
+            "title": {
+                "desc": "https://media.services.pbs.org/api/v1/franchises/?sort=-title",
+                "asc": "https://media.services.pbs.org/api/v1/franchises/?sort=title"
+            }
+        }
+    },
+    "links": {
+        "self": "https://media.services.pbs.org/api/v1/franchises/?fetch-related",
+        "first": null,
+        "prev": null,
+        "last": null,
+        "next": null
+    }
+}

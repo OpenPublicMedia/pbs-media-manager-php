@@ -1,0 +1,158 @@
+{
+    "data": [
+        {
+            "type": "special",
+            "links": {
+                "collections": "https://media.services.pbs.org/api/v1/specials/c7708c4c-e7c1-4ecb-ad63-6d87c6baafa9/collections/",
+                "self": "https://media.services.pbs.org/api/v1/specials/c7708c4c-e7c1-4ecb-ad63-6d87c6baafa9/",
+                "assets": "https://media.services.pbs.org/api/v1/specials/c7708c4c-e7c1-4ecb-ad63-6d87c6baafa9/assets/"
+            },
+            "id": "c7708c4c-e7c1-4ecb-ad63-6d87c6baafa9",
+            "attributes": {
+                "title": "Inspiring Woman: Political Strategist Ana Navarro",
+                "slug": "political-strategist-and-commentator-ana-navarro-wome-ahxgcm",
+                "title_sortable": "Inspiring Woman: Political Strategist Ana Navarro",
+                "tms_id": "",
+                "description_short": "Learn about the woman who pushed Ana Navarro to be the person she is today.",
+                "description_long": "Learn about the woman who pushed Ana Navarro to be the person she is today. Also, she's got some great advice from other women who may be interested in politics.",
+                "premiered_on": "2017-12-08",
+                "encored_on": "2017-12-08",
+                "nola": "",
+                "language": "en",
+                "updated_at": "2017-12-08T22:13:42.351359Z",
+                "assets": [
+                    {
+                        "type": "asset",
+                        "links": {
+                            "self": "https://media.services.pbs.org/api/v1/assets/d5f62d5e-26d6-4197-bf30-952c8d970bce/"
+                        },
+                        "id": "d5f62d5e-26d6-4197-bf30-952c8d970bce",
+                        "attributes": {
+                            "slug": "inspiring-woman-political-strategist-ana-navarro-iii8kk",
+                            "title": "Inspiring Woman: Political Strategist Ana Navarro",
+                            "title_sortable": "Inspiring Woman: Political Strategist Ana Navarro",
+                            "description_short": "Learn about the woman who pushed Ana Navarro to be the person she is today.",
+                            "description_long": "Learn about the woman who pushed Ana Navarro to be the person she is today. Also, she's got some great advice from other women who may be interested in politics.",
+                            "object_type": "clip",
+                            "premiered_on": "2017-12-08",
+                            "encored_on": "2017-12-08",
+                            "duration": 60,
+                            "legacy_tp_media_id": 3007405751,
+                            "tags": null,
+                            "updated_at": "2018-05-02T10:49:41.683261Z",
+                            "availabilities": {
+                                "all_members": {
+                                    "updated_at": "2017-12-08T22:13:11.758750Z",
+                                    "start": "2017-12-08T22:13:11.750217Z",
+                                    "end": null
+                                },
+                                "public": {
+                                    "updated_at": "2017-12-08T22:13:11.758690Z",
+                                    "start": "2017-12-08T22:13:11.750217Z",
+                                    "end": null
+                                },
+                                "station_members": {
+                                    "updated_at": "2017-12-08T22:13:11.758799Z",
+                                    "start": "2017-12-08T22:13:11.750217Z",
+                                    "end": null
+                                }
+                            },
+                            "parent_tree": {
+                                "type": "special",
+                                "links": {
+                                    "self": "https://media.services.pbs.org/api/v1/specials/c7708c4c-e7c1-4ecb-ad63-6d87c6baafa9/"
+                                },
+                                "id": "c7708c4c-e7c1-4ecb-ad63-6d87c6baafa9",
+                                "attributes": {
+                                    "show": {
+                                        "type": "show",
+                                        "links": {
+                                            "self": "https://media.services.pbs.org/api/v1/shows/2e5c2027-ec2e-4214-baa3-6ff6af56c8c3/"
+                                        },
+                                        "id": "2e5c2027-ec2e-4214-baa3-6ff6af56c8c3",
+                                        "attributes": {
+                                            "tracking_ga_page": "UA-3992773-1",
+                                            "display_episode_number": true,
+                                            "title": "American Masters",
+                                            "seasons_count": 23,
+                                            "slug": "american-masters",
+                                            "tracking_ga_event": "UA-3992773-2",
+                                            "franchise": null,
+                                            "audience": [
+                                                {
+                                                    "scope": "national",
+                                                    "station": null
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    "title": "Inspiring Woman: Political Strategist Ana Navarro",
+                                    "slug": "political-strategist-and-commentator-ana-navarro-wome-ahxgcm"
+                                }
+                            },
+                            "has_captions": true,
+                            "images": [
+                                {
+                                    "profile": "asset-mezzanine-16x9",
+                                    "image": "http://image.pbs.org/video-assets/6QIAvFU-asset-mezzanine-16x9-Xv8Tu3V.jpg",
+                                    "updated_at": "2017-12-08T22:20:34.643146Z"
+                                }
+                            ],
+                            "platforms": [
+                                {
+                                    "name": "All Platforms",
+                                    "updated_at": "2017-04-03T15:57:09.459445Z",
+                                    "slug": "allplatforms",
+                                    "id": "e5a289b8-01b3-41ce-92c1-3eb5a4e14bc0"
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "collections": [],
+                "full_length_asset": null,
+                "show": {
+                    "type": "show",
+                    "links": {
+                        "self": "https://media.services.pbs.org/api/v1/shows/2e5c2027-ec2e-4214-baa3-6ff6af56c8c3/"
+                    },
+                    "id": "2e5c2027-ec2e-4214-baa3-6ff6af56c8c3",
+                    "attributes": {
+                        "title": "American Masters",
+                        "title_sortable": "American Masters",
+                        "slug": "american-masters",
+                        "display_episode_number": true,
+                        "updated_at": "2019-07-01T18:41:23.603300Z"
+                    }
+                },
+                "links": []
+            }
+        }
+    ],
+    "meta": {
+        "filter": {
+            "id": "https://media.services.pbs.org/api/v1/specials/?id="
+        },
+        "sort": {
+            "title_sortable": {
+                "asc": "https://media.services.pbs.org/api/v1/specials/?sort=title_sortable&id=c7708c4c-e7c1-4ecb-ad63-6d87c6baafa9",
+                "desc": "https://media.services.pbs.org/api/v1/specials/?sort=-title_sortable&id=c7708c4c-e7c1-4ecb-ad63-6d87c6baafa9"
+            }
+        },
+        "pagination": {
+            "per_page": 50,
+            "count": 1
+        },
+        "type": "collection"
+    },
+    "links": {
+        "self": "https://media.services.pbs.org/api/v1/specials/?fetch-related&id=c7708c4c-e7c1-4ecb-ad63-6d87c6baafa9",
+        "prev": null,
+        "next": null,
+        "first": null,
+        "last": null
+    },
+    "jsonapi": {
+        "version": "1.0"
+    }
+}

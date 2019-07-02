@@ -1,0 +1,1998 @@
+{
+    "data": [
+        {
+            "type": "topic",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/topics/?page-size=50"
+            },
+            "id": "36a40948-5680-4ae5-81ca-b12f477062ca",
+            "attributes": {
+                "id": "36a40948-5680-4ae5-81ca-b12f477062ca",
+                "name": "Arts & Entertainment",
+                "parent": null,
+                "updated_at": "2017-04-04T09:00:06.068898Z",
+                "children": [
+                    {
+                        "id": "8a26476b-c2aa-42e4-8551-b4f362e23186",
+                        "name": "Fine Arts",
+                        "parent": {
+                            "id": "36a40948-5680-4ae5-81ca-b12f477062ca",
+                            "name": "Arts & Entertainment",
+                            "updated_at": "2017-04-04T09:00:06.068898Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:06.566699Z"
+                    },
+                    {
+                        "id": "30461726-5dfa-4d19-b17c-cfcbec971f01",
+                        "name": "Performing Arts",
+                        "parent": {
+                            "id": "36a40948-5680-4ae5-81ca-b12f477062ca",
+                            "name": "Arts & Entertainment",
+                            "updated_at": "2017-04-04T09:00:06.068898Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:06.571778Z"
+                    },
+                    {
+                        "id": "ba0bbba4-2110-4879-add3-9d53f607dff8",
+                        "name": "Drama",
+                        "parent": {
+                            "id": "36a40948-5680-4ae5-81ca-b12f477062ca",
+                            "name": "Arts & Entertainment",
+                            "updated_at": "2017-04-04T09:00:06.068898Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:06.576939Z"
+                    },
+                    {
+                        "id": "ed04a531-719d-4827-8c68-4a05fbe35b72",
+                        "name": "Music",
+                        "parent": {
+                            "id": "36a40948-5680-4ae5-81ca-b12f477062ca",
+                            "name": "Arts & Entertainment",
+                            "updated_at": "2017-04-04T09:00:06.068898Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:06.582332Z"
+                    },
+                    {
+                        "id": "803ffc81-a1c4-4bb6-aec6-dba230381fad",
+                        "name": "Biography & Profiles",
+                        "parent": {
+                            "id": "36a40948-5680-4ae5-81ca-b12f477062ca",
+                            "name": "Arts & Entertainment",
+                            "updated_at": "2017-04-04T09:00:06.068898Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:06.587404Z"
+                    },
+                    {
+                        "id": "4e95afd3-27e5-4115-b83e-efde63fa4e71",
+                        "name": "Folk Art & Crafts",
+                        "parent": {
+                            "id": "36a40948-5680-4ae5-81ca-b12f477062ca",
+                            "name": "Arts & Entertainment",
+                            "updated_at": "2017-04-04T09:00:06.068898Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:06.592484Z"
+                    },
+                    {
+                        "id": "47e9aeed-5a6b-40a9-ac3a-9e77f58ff810",
+                        "name": "Literature & Writing",
+                        "parent": {
+                            "id": "36a40948-5680-4ae5-81ca-b12f477062ca",
+                            "name": "Arts & Entertainment",
+                            "updated_at": "2017-04-04T09:00:06.068898Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:06.597643Z"
+                    },
+                    {
+                        "id": "dc84f5d1-1879-478f-a22e-5227f75d678e",
+                        "name": "Film & Television",
+                        "parent": {
+                            "id": "36a40948-5680-4ae5-81ca-b12f477062ca",
+                            "name": "Arts & Entertainment",
+                            "updated_at": "2017-04-04T09:00:06.068898Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:06.602787Z"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "topic",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/topics/?page-size=50"
+            },
+            "id": "628aa0a6-0106-41bc-b1f3-b7cce2b3c2cb",
+            "attributes": {
+                "id": "628aa0a6-0106-41bc-b1f3-b7cce2b3c2cb",
+                "name": "Season 7",
+                "parent": null,
+                "updated_at": "2017-04-04T09:00:06.092686Z",
+                "children": []
+            }
+        },
+        {
+            "type": "topic",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/topics/?page-size=50"
+            },
+            "id": "3fb5eaf8-2822-4284-9c07-a6bbbfc3248e",
+            "attributes": {
+                "id": "3fb5eaf8-2822-4284-9c07-a6bbbfc3248e",
+                "name": "Season 8",
+                "parent": null,
+                "updated_at": "2017-04-04T09:00:06.097878Z",
+                "children": []
+            }
+        },
+        {
+            "type": "topic",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/topics/?page-size=50"
+            },
+            "id": "6f7aa3ff-79a7-42c6-a1cd-1b338304a822",
+            "attributes": {
+                "id": "6f7aa3ff-79a7-42c6-a1cd-1b338304a822",
+                "name": "Season 9",
+                "parent": null,
+                "updated_at": "2017-04-04T09:00:06.104011Z",
+                "children": []
+            }
+        },
+        {
+            "type": "topic",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/topics/?page-size=50"
+            },
+            "id": "a8d6ac2c-2227-499a-b570-fa2d78f75b7a",
+            "attributes": {
+                "id": "a8d6ac2c-2227-499a-b570-fa2d78f75b7a",
+                "name": "Season 10",
+                "parent": null,
+                "updated_at": "2017-04-04T09:00:06.109249Z",
+                "children": []
+            }
+        },
+        {
+            "type": "topic",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/topics/?page-size=50"
+            },
+            "id": "cf4a9f99-edd7-4bd2-9657-3e7519c79946",
+            "attributes": {
+                "id": "cf4a9f99-edd7-4bd2-9657-3e7519c79946",
+                "name": "Season 11",
+                "parent": null,
+                "updated_at": "2017-04-04T09:00:06.114310Z",
+                "children": []
+            }
+        },
+        {
+            "type": "topic",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/topics/?page-size=50"
+            },
+            "id": "bb4fe7e3-660a-4910-9abc-4d01f49093d2",
+            "attributes": {
+                "id": "bb4fe7e3-660a-4910-9abc-4d01f49093d2",
+                "name": "Immigration",
+                "parent": null,
+                "updated_at": "2017-04-04T09:00:06.119624Z",
+                "children": []
+            }
+        },
+        {
+            "type": "topic",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/topics/?page-size=50"
+            },
+            "id": "ff8e6d3a-e0e6-4bd8-8e8a-5977e8870742",
+            "attributes": {
+                "id": "ff8e6d3a-e0e6-4bd8-8e8a-5977e8870742",
+                "name": "Civil Rights",
+                "parent": null,
+                "updated_at": "2017-04-04T09:00:06.124804Z",
+                "children": []
+            }
+        },
+        {
+            "type": "topic",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/topics/?page-size=50"
+            },
+            "id": "905034fb-61b4-41f9-a95d-e3a7684ca717",
+            "attributes": {
+                "id": "905034fb-61b4-41f9-a95d-e3a7684ca717",
+                "name": "Literature",
+                "parent": null,
+                "updated_at": "2017-04-04T09:00:06.129857Z",
+                "children": []
+            }
+        },
+        {
+            "type": "topic",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/topics/?page-size=50"
+            },
+            "id": "d7107f09-7f2c-40d2-8242-1c0cee84b186",
+            "attributes": {
+                "id": "d7107f09-7f2c-40d2-8242-1c0cee84b186",
+                "name": "Visual Arts",
+                "parent": null,
+                "updated_at": "2017-04-04T09:00:06.134991Z",
+                "children": []
+            }
+        },
+        {
+            "type": "topic",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/topics/?page-size=50"
+            },
+            "id": "14c449d2-e384-4eb4-a13d-584043868632",
+            "attributes": {
+                "id": "14c449d2-e384-4eb4-a13d-584043868632",
+                "name": "War",
+                "parent": null,
+                "updated_at": "2017-04-04T09:00:06.140050Z",
+                "children": []
+            }
+        },
+        {
+            "type": "topic",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/topics/?page-size=50"
+            },
+            "id": "caf0db67-896c-49d4-aa24-80bedca4b74b",
+            "attributes": {
+                "id": "caf0db67-896c-49d4-aa24-80bedca4b74b",
+                "name": "Biographies",
+                "parent": null,
+                "updated_at": "2017-04-04T09:00:06.145042Z",
+                "children": []
+            }
+        },
+        {
+            "type": "topic",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/topics/?page-size=50"
+            },
+            "id": "ed1b4a89-01a4-40b7-b111-f2c2939d55b7",
+            "attributes": {
+                "id": "ed1b4a89-01a4-40b7-b111-f2c2939d55b7",
+                "name": "Local Interest",
+                "parent": null,
+                "updated_at": "2017-04-04T09:00:06.150077Z",
+                "children": []
+            }
+        },
+        {
+            "type": "topic",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/topics/?page-size=50"
+            },
+            "id": "68a0281a-ae91-46b7-9a16-6ba9b5270599",
+            "attributes": {
+                "id": "68a0281a-ae91-46b7-9a16-6ba9b5270599",
+                "name": "Health & Medicine",
+                "parent": null,
+                "updated_at": "2017-04-04T09:00:06.155204Z",
+                "children": []
+            }
+        },
+        {
+            "type": "topic",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/topics/?page-size=50"
+            },
+            "id": "a163585c-57d0-4bd0-9991-2ad536867d62",
+            "attributes": {
+                "id": "a163585c-57d0-4bd0-9991-2ad536867d62",
+                "name": "Public Affairs",
+                "parent": null,
+                "updated_at": "2017-04-04T09:00:06.160528Z",
+                "children": []
+            }
+        },
+        {
+            "type": "topic",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/topics/?page-size=50"
+            },
+            "id": "f99b66e2-4a2d-41f0-9f77-78119f69afe0",
+            "attributes": {
+                "id": "f99b66e2-4a2d-41f0-9f77-78119f69afe0",
+                "name": "Minority Issues",
+                "parent": null,
+                "updated_at": "2017-04-04T09:00:06.165820Z",
+                "children": []
+            }
+        },
+        {
+            "type": "topic",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/topics/?page-size=50"
+            },
+            "id": "25e74bbc-3a08-499b-ac08-4ede7fe7ab6b",
+            "attributes": {
+                "id": "25e74bbc-3a08-499b-ac08-4ede7fe7ab6b",
+                "name": "Federalism",
+                "parent": null,
+                "updated_at": "2017-04-04T09:00:06.171173Z",
+                "children": []
+            }
+        },
+        {
+            "type": "topic",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/topics/?page-size=50"
+            },
+            "id": "9cb4797a-9fe0-4347-a2ab-8ab0b27cae39",
+            "attributes": {
+                "id": "9cb4797a-9fe0-4347-a2ab-8ab0b27cae39",
+                "name": "Health",
+                "parent": null,
+                "updated_at": "2017-04-04T09:00:06.176249Z",
+                "children": [
+                    {
+                        "id": "4377e484-67a8-4299-8b6a-6054698e020c",
+                        "name": "Senses",
+                        "parent": {
+                            "id": "9cb4797a-9fe0-4347-a2ab-8ab0b27cae39",
+                            "name": "Health",
+                            "updated_at": "2017-04-04T09:00:06.176249Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:07.020135Z"
+                    },
+                    {
+                        "id": "5d4461d1-a3d4-4b6f-83da-871a957056d6",
+                        "name": "Cooking",
+                        "parent": {
+                            "id": "9cb4797a-9fe0-4347-a2ab-8ab0b27cae39",
+                            "name": "Health",
+                            "updated_at": "2017-04-04T09:00:06.176249Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:07.025225Z"
+                    },
+                    {
+                        "id": "0a932b2d-154b-46c2-a181-ea8d720c9353",
+                        "name": "Eating Right",
+                        "parent": {
+                            "id": "9cb4797a-9fe0-4347-a2ab-8ab0b27cae39",
+                            "name": "Health",
+                            "updated_at": "2017-04-04T09:00:06.176249Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:07.030426Z"
+                    },
+                    {
+                        "id": "2bfc6d23-6b0f-4d08-9561-4cf604be2b67",
+                        "name": "Exercise",
+                        "parent": {
+                            "id": "9cb4797a-9fe0-4347-a2ab-8ab0b27cae39",
+                            "name": "Health",
+                            "updated_at": "2017-04-04T09:00:06.176249Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:07.035631Z"
+                    },
+                    {
+                        "id": "eddd48b9-160f-4c43-b406-91f4ff48a09d",
+                        "name": "Human Body",
+                        "parent": {
+                            "id": "9cb4797a-9fe0-4347-a2ab-8ab0b27cae39",
+                            "name": "Health",
+                            "updated_at": "2017-04-04T09:00:06.176249Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:07.040727Z"
+                    },
+                    {
+                        "id": "9406b76b-805a-4008-be3f-4f0519e2fb67",
+                        "name": "Hygiene",
+                        "parent": {
+                            "id": "9cb4797a-9fe0-4347-a2ab-8ab0b27cae39",
+                            "name": "Health",
+                            "updated_at": "2017-04-04T09:00:06.176249Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:07.045842Z"
+                    },
+                    {
+                        "id": "6f9b9cdd-4808-4f15-9539-3a20d17de3d6",
+                        "name": "Sports",
+                        "parent": {
+                            "id": "9cb4797a-9fe0-4347-a2ab-8ab0b27cae39",
+                            "name": "Health",
+                            "updated_at": "2017-04-04T09:00:06.176249Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:07.051009Z"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "topic",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/topics/?page-size=50"
+            },
+            "id": "8b4c77ba-7e45-4207-9566-f916e108a25f",
+            "attributes": {
+                "id": "8b4c77ba-7e45-4207-9566-f916e108a25f",
+                "name": "Science",
+                "parent": null,
+                "updated_at": "2017-04-04T09:00:06.181288Z",
+                "children": [
+                    {
+                        "id": "5b5ac5fc-3823-45d4-943b-bfdb0fca06ff",
+                        "name": "Reptiles",
+                        "parent": {
+                            "id": "8b4c77ba-7e45-4207-9566-f916e108a25f",
+                            "name": "Science",
+                            "updated_at": "2017-04-04T09:00:06.181288Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:07.056095Z"
+                    },
+                    {
+                        "id": "67dff42a-dd3c-4ad0-8c02-9b734768a5d4",
+                        "name": "Mammals",
+                        "parent": {
+                            "id": "8b4c77ba-7e45-4207-9566-f916e108a25f",
+                            "name": "Science",
+                            "updated_at": "2017-04-04T09:00:06.181288Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:07.061219Z"
+                    },
+                    {
+                        "id": "8c24e485-cc4c-4ce0-9454-20d7977ec3bf",
+                        "name": "Birds",
+                        "parent": {
+                            "id": "8b4c77ba-7e45-4207-9566-f916e108a25f",
+                            "name": "Science",
+                            "updated_at": "2017-04-04T09:00:06.181288Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:07.066339Z"
+                    },
+                    {
+                        "id": "53360653-edf1-4a5c-aede-2951404cadad",
+                        "name": "Weather",
+                        "parent": {
+                            "id": "8b4c77ba-7e45-4207-9566-f916e108a25f",
+                            "name": "Science",
+                            "updated_at": "2017-04-04T09:00:06.181288Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:07.071496Z"
+                    },
+                    {
+                        "id": "26ba4d08-4df3-4f1a-8e1e-feddd1331cdc",
+                        "name": "Technology",
+                        "parent": {
+                            "id": "8b4c77ba-7e45-4207-9566-f916e108a25f",
+                            "name": "Science",
+                            "updated_at": "2017-04-04T09:00:06.181288Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:07.076764Z"
+                    },
+                    {
+                        "id": "ea08ef21-fba8-4782-9178-17befd17ff96",
+                        "name": "Inventions",
+                        "parent": {
+                            "id": "8b4c77ba-7e45-4207-9566-f916e108a25f",
+                            "name": "Science",
+                            "updated_at": "2017-04-04T09:00:06.181288Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:07.081930Z"
+                    },
+                    {
+                        "id": "ae48e440-b460-48cd-b00f-ad5f8173422f",
+                        "name": "Experiments",
+                        "parent": {
+                            "id": "8b4c77ba-7e45-4207-9566-f916e108a25f",
+                            "name": "Science",
+                            "updated_at": "2017-04-04T09:00:06.181288Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:07.087016Z"
+                    },
+                    {
+                        "id": "0beb0c91-31a0-4893-b477-c591a367a555",
+                        "name": "Earth Day",
+                        "parent": {
+                            "id": "8b4c77ba-7e45-4207-9566-f916e108a25f",
+                            "name": "Science",
+                            "updated_at": "2017-04-04T09:00:06.181288Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:07.092177Z"
+                    },
+                    {
+                        "id": "00a0581f-090f-4dc5-ac27-2335090835a5",
+                        "name": "Outdoors",
+                        "parent": {
+                            "id": "8b4c77ba-7e45-4207-9566-f916e108a25f",
+                            "name": "Science",
+                            "updated_at": "2017-04-04T09:00:06.181288Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:07.097463Z"
+                    },
+                    {
+                        "id": "635a8029-64f3-409d-ad7d-3d2f537e9796",
+                        "name": "Transportation",
+                        "parent": {
+                            "id": "8b4c77ba-7e45-4207-9566-f916e108a25f",
+                            "name": "Science",
+                            "updated_at": "2017-04-04T09:00:06.181288Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:07.103050Z"
+                    },
+                    {
+                        "id": "daf7eb89-91a3-4f5c-9707-e77bb806ec54",
+                        "name": "Space",
+                        "parent": {
+                            "id": "8b4c77ba-7e45-4207-9566-f916e108a25f",
+                            "name": "Science",
+                            "updated_at": "2017-04-04T09:00:06.181288Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:07.108232Z"
+                    },
+                    {
+                        "id": "6cffef7d-92f4-4dfc-8a16-1991b39361f4",
+                        "name": "Oceans",
+                        "parent": {
+                            "id": "8b4c77ba-7e45-4207-9566-f916e108a25f",
+                            "name": "Science",
+                            "updated_at": "2017-04-04T09:00:06.181288Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:07.113404Z"
+                    },
+                    {
+                        "id": "ca617309-5832-4d97-9fd6-c8b93ccfb44e",
+                        "name": "Gardening",
+                        "parent": {
+                            "id": "8b4c77ba-7e45-4207-9566-f916e108a25f",
+                            "name": "Science",
+                            "updated_at": "2017-04-04T09:00:06.181288Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:07.118655Z"
+                    },
+                    {
+                        "id": "120348ee-7c12-4482-be8e-225e9d25113e",
+                        "name": "Gadgets",
+                        "parent": {
+                            "id": "8b4c77ba-7e45-4207-9566-f916e108a25f",
+                            "name": "Science",
+                            "updated_at": "2017-04-04T09:00:06.181288Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:07.123878Z"
+                    },
+                    {
+                        "id": "7044b2ae-c3ff-4ba1-9654-68b68f37c396",
+                        "name": "Environment",
+                        "parent": {
+                            "id": "8b4c77ba-7e45-4207-9566-f916e108a25f",
+                            "name": "Science",
+                            "updated_at": "2017-04-04T09:00:06.181288Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:07.132850Z"
+                    },
+                    {
+                        "id": "1d8c17ba-9038-4f71-833a-dcff0dd87b77",
+                        "name": "Engineering",
+                        "parent": {
+                            "id": "8b4c77ba-7e45-4207-9566-f916e108a25f",
+                            "name": "Science",
+                            "updated_at": "2017-04-04T09:00:06.181288Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:07.137951Z"
+                    },
+                    {
+                        "id": "9b9467be-0b9c-4f6d-8ddc-3a541ee1e736",
+                        "name": "Bugs",
+                        "parent": {
+                            "id": "8b4c77ba-7e45-4207-9566-f916e108a25f",
+                            "name": "Science",
+                            "updated_at": "2017-04-04T09:00:06.181288Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:07.143050Z"
+                    },
+                    {
+                        "id": "a17bc424-285b-4781-9269-63ef307349d1",
+                        "name": "Animals",
+                        "parent": {
+                            "id": "8b4c77ba-7e45-4207-9566-f916e108a25f",
+                            "name": "Science",
+                            "updated_at": "2017-04-04T09:00:06.181288Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:07.148111Z"
+                    },
+                    {
+                        "id": "4a0f2599-c952-4db8-a6be-416441e5f589",
+                        "name": "Do It Yourself Projects",
+                        "parent": {
+                            "id": "8b4c77ba-7e45-4207-9566-f916e108a25f",
+                            "name": "Science",
+                            "updated_at": "2017-04-04T09:00:06.181288Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:07.153263Z"
+                    },
+                    {
+                        "id": "ff6c9d8b-7829-448c-9987-fb74b3937a55",
+                        "name": "Robots",
+                        "parent": {
+                            "id": "8b4c77ba-7e45-4207-9566-f916e108a25f",
+                            "name": "Science",
+                            "updated_at": "2017-04-04T09:00:06.181288Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:07.158403Z"
+                    },
+                    {
+                        "id": "8105b4ca-34bc-41cf-9b5c-f8049b76bbcd",
+                        "name": "Plants",
+                        "parent": {
+                            "id": "8b4c77ba-7e45-4207-9566-f916e108a25f",
+                            "name": "Science",
+                            "updated_at": "2017-04-04T09:00:06.181288Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:07.163732Z"
+                    },
+                    {
+                        "id": "7b4c3fa7-e03d-4674-a66c-f905eb3c614b",
+                        "name": "Physics",
+                        "parent": {
+                            "id": "8b4c77ba-7e45-4207-9566-f916e108a25f",
+                            "name": "Science",
+                            "updated_at": "2017-04-04T09:00:06.181288Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:07.169200Z"
+                    },
+                    {
+                        "id": "ca02dfb1-0f93-4ea0-ac78-b77d53bfd0c7",
+                        "name": "Fish",
+                        "parent": {
+                            "id": "8b4c77ba-7e45-4207-9566-f916e108a25f",
+                            "name": "Science",
+                            "updated_at": "2017-04-04T09:00:06.181288Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:07.174330Z"
+                    },
+                    {
+                        "id": "a93f97d0-ed49-4ad5-9ffd-d3534ceb1f9c",
+                        "name": "Amphibians",
+                        "parent": {
+                            "id": "8b4c77ba-7e45-4207-9566-f916e108a25f",
+                            "name": "Science",
+                            "updated_at": "2017-04-04T09:00:06.181288Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:07.179423Z"
+                    },
+                    {
+                        "id": "9b16fa1e-9b33-4590-8156-463d743bc90d",
+                        "name": "Dinosaurs",
+                        "parent": {
+                            "id": "8b4c77ba-7e45-4207-9566-f916e108a25f",
+                            "name": "Science",
+                            "updated_at": "2017-04-04T09:00:06.181288Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:07.184516Z"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "topic",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/topics/?page-size=50"
+            },
+            "id": "b791c9fc-dcc8-4747-b15d-38e9d291ef3d",
+            "attributes": {
+                "id": "b791c9fc-dcc8-4747-b15d-38e9d291ef3d",
+                "name": "Mathematics",
+                "parent": null,
+                "updated_at": "2017-04-04T09:00:06.186343Z",
+                "children": [
+                    {
+                        "id": "4b09fae5-a607-4546-a23f-d30942aecf91",
+                        "name": "Fractions",
+                        "parent": {
+                            "id": "b791c9fc-dcc8-4747-b15d-38e9d291ef3d",
+                            "name": "Mathematics",
+                            "updated_at": "2017-04-04T09:00:06.186343Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:07.216212Z"
+                    },
+                    {
+                        "id": "03ae697c-4883-4b23-879c-3dd9800c1486",
+                        "name": "Maps",
+                        "parent": {
+                            "id": "b791c9fc-dcc8-4747-b15d-38e9d291ef3d",
+                            "name": "Mathematics",
+                            "updated_at": "2017-04-04T09:00:06.186343Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:07.221348Z"
+                    },
+                    {
+                        "id": "e012bdea-2a6e-42ad-a1e4-0cc73c9960bb",
+                        "name": "Sorting",
+                        "parent": {
+                            "id": "b791c9fc-dcc8-4747-b15d-38e9d291ef3d",
+                            "name": "Mathematics",
+                            "updated_at": "2017-04-04T09:00:06.186343Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:07.226800Z"
+                    },
+                    {
+                        "id": "9107f436-02b4-4b2a-8d5b-d10078430bbc",
+                        "name": "Measuring",
+                        "parent": {
+                            "id": "b791c9fc-dcc8-4747-b15d-38e9d291ef3d",
+                            "name": "Mathematics",
+                            "updated_at": "2017-04-04T09:00:06.186343Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:07.231968Z"
+                    },
+                    {
+                        "id": "30914113-8242-4ec0-9951-55d2470c7093",
+                        "name": "Patterns",
+                        "parent": {
+                            "id": "b791c9fc-dcc8-4747-b15d-38e9d291ef3d",
+                            "name": "Mathematics",
+                            "updated_at": "2017-04-04T09:00:06.186343Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:07.237126Z"
+                    },
+                    {
+                        "id": "5738cd44-3d04-46db-92a2-4ae8a444873e",
+                        "name": "Shapes",
+                        "parent": {
+                            "id": "b791c9fc-dcc8-4747-b15d-38e9d291ef3d",
+                            "name": "Mathematics",
+                            "updated_at": "2017-04-04T09:00:06.186343Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:07.242301Z"
+                    },
+                    {
+                        "id": "4fa48611-e39f-433f-8d86-a6e4a3816d79",
+                        "name": "Numbers",
+                        "parent": {
+                            "id": "b791c9fc-dcc8-4747-b15d-38e9d291ef3d",
+                            "name": "Mathematics",
+                            "updated_at": "2017-04-04T09:00:06.186343Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:07.247383Z"
+                    },
+                    {
+                        "id": "4ad9ecdb-67a4-476d-864a-13505d984e07",
+                        "name": "Math",
+                        "parent": {
+                            "id": "b791c9fc-dcc8-4747-b15d-38e9d291ef3d",
+                            "name": "Mathematics",
+                            "updated_at": "2017-04-04T09:00:06.186343Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:07.252479Z"
+                    },
+                    {
+                        "id": "06d6003c-85e1-4e81-834a-6558bb4bdb8f",
+                        "name": "Problem Solving",
+                        "parent": {
+                            "id": "b791c9fc-dcc8-4747-b15d-38e9d291ef3d",
+                            "name": "Mathematics",
+                            "updated_at": "2017-04-04T09:00:06.186343Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:07.257610Z"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "topic",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/topics/?page-size=50"
+            },
+            "id": "5a28478e-a056-4e4d-9585-e32e7abf62c8",
+            "attributes": {
+                "id": "5a28478e-a056-4e4d-9585-e32e7abf62c8",
+                "name": "Language & Literacy",
+                "parent": null,
+                "updated_at": "2017-04-04T09:00:06.191403Z",
+                "children": [
+                    {
+                        "id": "faebae98-19e0-4421-9373-324d3c1832b1",
+                        "name": "Alphabet",
+                        "parent": {
+                            "id": "5a28478e-a056-4e4d-9585-e32e7abf62c8",
+                            "name": "Language & Literacy",
+                            "updated_at": "2017-04-04T09:00:06.191403Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:07.262726Z"
+                    },
+                    {
+                        "id": "850a6923-e75d-46af-b7d6-cafce0332919",
+                        "name": "Storytelling",
+                        "parent": {
+                            "id": "5a28478e-a056-4e4d-9585-e32e7abf62c8",
+                            "name": "Language & Literacy",
+                            "updated_at": "2017-04-04T09:00:06.191403Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:07.267839Z"
+                    },
+                    {
+                        "id": "a42f437b-2789-4222-9bd9-0579aa92b6d6",
+                        "name": "Opposites",
+                        "parent": {
+                            "id": "5a28478e-a056-4e4d-9585-e32e7abf62c8",
+                            "name": "Language & Literacy",
+                            "updated_at": "2017-04-04T09:00:06.191403Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:07.272960Z"
+                    },
+                    {
+                        "id": "7ffa7f54-7cba-4de6-a2ab-d79497510c85",
+                        "name": "Spanish",
+                        "parent": {
+                            "id": "5a28478e-a056-4e4d-9585-e32e7abf62c8",
+                            "name": "Language & Literacy",
+                            "updated_at": "2017-04-04T09:00:06.191403Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:07.278092Z"
+                    },
+                    {
+                        "id": "63a8e72a-983a-4a58-a520-152ade6dd096",
+                        "name": "Spelling",
+                        "parent": {
+                            "id": "5a28478e-a056-4e4d-9585-e32e7abf62c8",
+                            "name": "Language & Literacy",
+                            "updated_at": "2017-04-04T09:00:06.191403Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:07.283241Z"
+                    },
+                    {
+                        "id": "163ed7e3-9355-40c6-a706-5cc5f9cf1a6f",
+                        "name": "Vocabulary",
+                        "parent": {
+                            "id": "5a28478e-a056-4e4d-9585-e32e7abf62c8",
+                            "name": "Language & Literacy",
+                            "updated_at": "2017-04-04T09:00:06.191403Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:07.288389Z"
+                    },
+                    {
+                        "id": "26c6adda-4b82-44c7-b409-7bdf55c8d5f8",
+                        "name": "Rhyming",
+                        "parent": {
+                            "id": "5a28478e-a056-4e4d-9585-e32e7abf62c8",
+                            "name": "Language & Literacy",
+                            "updated_at": "2017-04-04T09:00:06.191403Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:07.293501Z"
+                    },
+                    {
+                        "id": "725139e2-c083-4f8d-8cae-a0864fad4c2c",
+                        "name": "Mystery",
+                        "parent": {
+                            "id": "5a28478e-a056-4e4d-9585-e32e7abf62c8",
+                            "name": "Language & Literacy",
+                            "updated_at": "2017-04-04T09:00:06.191403Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:07.298606Z"
+                    },
+                    {
+                        "id": "4a03534a-9fb8-4cbe-992d-b623c03734b5",
+                        "name": "Fantasy",
+                        "parent": {
+                            "id": "5a28478e-a056-4e4d-9585-e32e7abf62c8",
+                            "name": "Language & Literacy",
+                            "updated_at": "2017-04-04T09:00:06.191403Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:07.303689Z"
+                    },
+                    {
+                        "id": "37aa5a1a-575e-448a-aa74-1bc1520a26a1",
+                        "name": "Reading",
+                        "parent": {
+                            "id": "5a28478e-a056-4e4d-9585-e32e7abf62c8",
+                            "name": "Language & Literacy",
+                            "updated_at": "2017-04-04T09:00:06.191403Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:07.308790Z"
+                    },
+                    {
+                        "id": "cbf1fbf4-9c11-4ced-9cd1-b4a188bcc7fc",
+                        "name": "Poetry",
+                        "parent": {
+                            "id": "5a28478e-a056-4e4d-9585-e32e7abf62c8",
+                            "name": "Language & Literacy",
+                            "updated_at": "2017-04-04T09:00:06.191403Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:07.313909Z"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "topic",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/topics/?page-size=50"
+            },
+            "id": "337acb92-e842-47c8-891a-94cf9b6325a3",
+            "attributes": {
+                "id": "337acb92-e842-47c8-891a-94cf9b6325a3",
+                "name": "The Arts",
+                "parent": null,
+                "updated_at": "2017-04-04T09:00:06.196426Z",
+                "children": [
+                    {
+                        "id": "ba5e7207-2c09-4ddd-a846-211c58355599",
+                        "name": "Theater",
+                        "parent": {
+                            "id": "337acb92-e842-47c8-891a-94cf9b6325a3",
+                            "name": "The Arts",
+                            "updated_at": "2017-04-04T09:00:06.196426Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:07.319042Z"
+                    },
+                    {
+                        "id": "db571644-b8ce-4016-ad66-4453b621574b",
+                        "name": "Movies & TV",
+                        "parent": {
+                            "id": "337acb92-e842-47c8-891a-94cf9b6325a3",
+                            "name": "The Arts",
+                            "updated_at": "2017-04-04T09:00:06.196426Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:07.324184Z"
+                    },
+                    {
+                        "id": "c2176334-954d-42a6-afdb-b312dc5b648b",
+                        "name": "Arts & Crafts",
+                        "parent": {
+                            "id": "337acb92-e842-47c8-891a-94cf9b6325a3",
+                            "name": "The Arts",
+                            "updated_at": "2017-04-04T09:00:06.196426Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:07.329315Z"
+                    },
+                    {
+                        "id": "75d144d3-2e68-4b25-9ce5-78a7f283ad11",
+                        "name": "Costumes",
+                        "parent": {
+                            "id": "337acb92-e842-47c8-891a-94cf9b6325a3",
+                            "name": "The Arts",
+                            "updated_at": "2017-04-04T09:00:06.196426Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:07.334397Z"
+                    },
+                    {
+                        "id": "58333fc8-de2e-4ab2-9b8e-3cdec790d2b7",
+                        "name": "Create",
+                        "parent": {
+                            "id": "337acb92-e842-47c8-891a-94cf9b6325a3",
+                            "name": "The Arts",
+                            "updated_at": "2017-04-04T09:00:06.196426Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:07.339496Z"
+                    },
+                    {
+                        "id": "644a8d71-a9d6-46c1-93ea-de0f19216925",
+                        "name": "Dance",
+                        "parent": {
+                            "id": "337acb92-e842-47c8-891a-94cf9b6325a3",
+                            "name": "The Arts",
+                            "updated_at": "2017-04-04T09:00:06.196426Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:07.344605Z"
+                    },
+                    {
+                        "id": "7e24f90b-bab9-47fe-a159-c3ae5266e89d",
+                        "name": "Music",
+                        "parent": {
+                            "id": "337acb92-e842-47c8-891a-94cf9b6325a3",
+                            "name": "The Arts",
+                            "updated_at": "2017-04-04T09:00:06.196426Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:07.349796Z"
+                    },
+                    {
+                        "id": "f2b14ce3-b5ff-4bd4-92c1-83093e325193",
+                        "name": "Musical Instruments",
+                        "parent": {
+                            "id": "337acb92-e842-47c8-891a-94cf9b6325a3",
+                            "name": "The Arts",
+                            "updated_at": "2017-04-04T09:00:06.196426Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:07.354895Z"
+                    },
+                    {
+                        "id": "5d00e601-20b7-41f6-81df-fc42cc721355",
+                        "name": "Theme Songs",
+                        "parent": {
+                            "id": "337acb92-e842-47c8-891a-94cf9b6325a3",
+                            "name": "The Arts",
+                            "updated_at": "2017-04-04T09:00:06.196426Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:07.360010Z"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "topic",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/topics/?page-size=50"
+            },
+            "id": "1c51094a-08d8-4786-b375-10b7b6e29d32",
+            "attributes": {
+                "id": "1c51094a-08d8-4786-b375-10b7b6e29d32",
+                "name": "Holidays",
+                "parent": null,
+                "updated_at": "2017-04-04T09:00:06.201530Z",
+                "children": [
+                    {
+                        "id": "02d85629-4eca-45fe-a96f-bcb769cb58da",
+                        "name": "Summer",
+                        "parent": {
+                            "id": "1c51094a-08d8-4786-b375-10b7b6e29d32",
+                            "name": "Holidays",
+                            "updated_at": "2017-04-04T09:00:06.201530Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:07.365343Z"
+                    },
+                    {
+                        "id": "fc6d9091-857e-4a1c-aba6-98c0eaf90d05",
+                        "name": "Spring",
+                        "parent": {
+                            "id": "1c51094a-08d8-4786-b375-10b7b6e29d32",
+                            "name": "Holidays",
+                            "updated_at": "2017-04-04T09:00:06.201530Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:07.370687Z"
+                    },
+                    {
+                        "id": "10b4532d-6570-4f2c-8d26-47b079090c83",
+                        "name": "Fall",
+                        "parent": {
+                            "id": "1c51094a-08d8-4786-b375-10b7b6e29d32",
+                            "name": "Holidays",
+                            "updated_at": "2017-04-04T09:00:06.201530Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:07.375857Z"
+                    },
+                    {
+                        "id": "cf575a7a-aa36-4ec1-bb8f-7687e02d92cf",
+                        "name": "Birthdays",
+                        "parent": {
+                            "id": "1c51094a-08d8-4786-b375-10b7b6e29d32",
+                            "name": "Holidays",
+                            "updated_at": "2017-04-04T09:00:06.201530Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:07.380984Z"
+                    },
+                    {
+                        "id": "f5ca192c-2b4a-488e-9c11-b88558643875",
+                        "name": "April Fools' Day",
+                        "parent": {
+                            "id": "1c51094a-08d8-4786-b375-10b7b6e29d32",
+                            "name": "Holidays",
+                            "updated_at": "2017-04-04T09:00:06.201530Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:07.386121Z"
+                    },
+                    {
+                        "id": "968ff59a-1bd0-41ef-b75f-05b521b10bd2",
+                        "name": "Halloween",
+                        "parent": {
+                            "id": "1c51094a-08d8-4786-b375-10b7b6e29d32",
+                            "name": "Holidays",
+                            "updated_at": "2017-04-04T09:00:06.201530Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:07.391274Z"
+                    },
+                    {
+                        "id": "f0d6e5b1-050e-43e8-bc57-d51412f9db58",
+                        "name": "Vacation",
+                        "parent": {
+                            "id": "1c51094a-08d8-4786-b375-10b7b6e29d32",
+                            "name": "Holidays",
+                            "updated_at": "2017-04-04T09:00:06.201530Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:07.396648Z"
+                    },
+                    {
+                        "id": "66e4093a-072a-4250-82ec-47f94fd52fa1",
+                        "name": "Valentine's Day",
+                        "parent": {
+                            "id": "1c51094a-08d8-4786-b375-10b7b6e29d32",
+                            "name": "Holidays",
+                            "updated_at": "2017-04-04T09:00:06.201530Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:07.402075Z"
+                    },
+                    {
+                        "id": "bea91ada-9750-4967-94fe-59ade45a28ca",
+                        "name": "Winter Holidays",
+                        "parent": {
+                            "id": "1c51094a-08d8-4786-b375-10b7b6e29d32",
+                            "name": "Holidays",
+                            "updated_at": "2017-04-04T09:00:06.201530Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:07.407556Z"
+                    },
+                    {
+                        "id": "294d00f8-e95a-40c3-ba66-afb6f8080f5b",
+                        "name": "Earth Day",
+                        "parent": {
+                            "id": "1c51094a-08d8-4786-b375-10b7b6e29d32",
+                            "name": "Holidays",
+                            "updated_at": "2017-04-04T09:00:06.201530Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:07.412987Z"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "topic",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/topics/?page-size=50"
+            },
+            "id": "04a58478-feba-4bd5-838d-dbfe9d7500e7",
+            "attributes": {
+                "id": "04a58478-feba-4bd5-838d-dbfe9d7500e7",
+                "name": "Social Studies",
+                "parent": null,
+                "updated_at": "2017-04-04T09:00:06.206564Z",
+                "children": [
+                    {
+                        "id": "2094d7f9-eef7-47f9-869c-6480f3df81a8",
+                        "name": "History",
+                        "parent": {
+                            "id": "04a58478-feba-4bd5-838d-dbfe9d7500e7",
+                            "name": "Social Studies",
+                            "updated_at": "2017-04-04T09:00:06.206564Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:07.189635Z"
+                    },
+                    {
+                        "id": "aa2ffc1f-67a4-4d92-9a08-7f97d895bf02",
+                        "name": "Historical Figures",
+                        "parent": {
+                            "id": "04a58478-feba-4bd5-838d-dbfe9d7500e7",
+                            "name": "Social Studies",
+                            "updated_at": "2017-04-04T09:00:06.206564Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:07.194744Z"
+                    },
+                    {
+                        "id": "bede0e44-4741-4d94-a934-490b2d380fd8",
+                        "name": "Geography",
+                        "parent": {
+                            "id": "04a58478-feba-4bd5-838d-dbfe9d7500e7",
+                            "name": "Social Studies",
+                            "updated_at": "2017-04-04T09:00:06.206564Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:07.199871Z"
+                    },
+                    {
+                        "id": "888f9175-e32d-41dc-88bf-4e2b54053eec",
+                        "name": "Government",
+                        "parent": {
+                            "id": "04a58478-feba-4bd5-838d-dbfe9d7500e7",
+                            "name": "Social Studies",
+                            "updated_at": "2017-04-04T09:00:06.206564Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:07.205948Z"
+                    },
+                    {
+                        "id": "28f34468-05c2-43fe-b5c3-ba20de0b2b45",
+                        "name": "Elections",
+                        "parent": {
+                            "id": "04a58478-feba-4bd5-838d-dbfe9d7500e7",
+                            "name": "Social Studies",
+                            "updated_at": "2017-04-04T09:00:06.206564Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:07.211074Z"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "topic",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/topics/?page-size=50"
+            },
+            "id": "b1211a0f-2b4d-4362-8a98-1536a0a4b9be",
+            "attributes": {
+                "id": "b1211a0f-2b4d-4362-8a98-1536a0a4b9be",
+                "name": "Discovering the Real Florida",
+                "parent": null,
+                "updated_at": "2017-04-04T09:00:06.211829Z",
+                "children": []
+            }
+        },
+        {
+            "type": "topic",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/topics/?page-size=50"
+            },
+            "id": "b42d20d7-a03e-4ff6-babd-b9a1d836d724",
+            "attributes": {
+                "id": "b42d20d7-a03e-4ff6-babd-b9a1d836d724",
+                "name": "In the Grass, On the Reef",
+                "parent": null,
+                "updated_at": "2017-04-04T09:00:06.216885Z",
+                "children": []
+            }
+        },
+        {
+            "type": "topic",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/topics/?page-size=50"
+            },
+            "id": "02f61a3a-46d6-4023-bd63-afbf646da53f",
+            "attributes": {
+                "id": "02f61a3a-46d6-4023-bd63-afbf646da53f",
+                "name": "Other Feature",
+                "parent": null,
+                "updated_at": "2017-04-04T09:00:06.222101Z",
+                "children": []
+            }
+        },
+        {
+            "type": "topic",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/topics/?page-size=50"
+            },
+            "id": "22489adf-7f76-4673-a391-a51cf9b4660c",
+            "attributes": {
+                "id": "22489adf-7f76-4673-a391-a51cf9b4660c",
+                "name": "The Tasty Table",
+                "parent": null,
+                "updated_at": "2017-04-04T09:00:06.227250Z",
+                "children": []
+            }
+        },
+        {
+            "type": "topic",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/topics/?page-size=50"
+            },
+            "id": "485e68ed-6a57-4540-acd2-d54f0b0a2be9",
+            "attributes": {
+                "id": "485e68ed-6a57-4540-acd2-d54f0b0a2be9",
+                "name": "FOOD & DRINK",
+                "parent": null,
+                "updated_at": "2017-04-04T09:00:06.232310Z",
+                "children": [
+                    {
+                        "id": "ddc4adab-4056-4d1b-82f4-92528cec00fd",
+                        "name": "Forks in the Road",
+                        "parent": {
+                            "id": "485e68ed-6a57-4540-acd2-d54f0b0a2be9",
+                            "name": "FOOD & DRINK",
+                            "updated_at": "2017-04-04T09:00:06.232310Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:07.521035Z"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "topic",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/topics/?page-size=50"
+            },
+            "id": "157fb49f-ee87-400a-926c-e9be63632f22",
+            "attributes": {
+                "id": "157fb49f-ee87-400a-926c-e9be63632f22",
+                "name": "Education",
+                "parent": null,
+                "updated_at": "2017-04-04T09:00:06.237337Z",
+                "children": [
+                    {
+                        "id": "57be8bba-ad13-4c25-995d-dc71bb53226d",
+                        "name": "College",
+                        "parent": {
+                            "id": "157fb49f-ee87-400a-926c-e9be63632f22",
+                            "name": "Education",
+                            "updated_at": "2017-04-04T09:00:06.237337Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:07.526307Z"
+                    },
+                    {
+                        "id": "449b9287-9ac2-4c35-8d26-17b773f8fe16",
+                        "name": "6-12",
+                        "parent": {
+                            "id": "157fb49f-ee87-400a-926c-e9be63632f22",
+                            "name": "Education",
+                            "updated_at": "2017-04-04T09:00:06.237337Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:07.531546Z"
+                    },
+                    {
+                        "id": "915affec-9549-465c-8f6a-9fc7656915df",
+                        "name": "K-5",
+                        "parent": {
+                            "id": "157fb49f-ee87-400a-926c-e9be63632f22",
+                            "name": "Education",
+                            "updated_at": "2017-04-04T09:00:06.237337Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:07.536835Z"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "topic",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/topics/?page-size=50"
+            },
+            "id": "1971db77-c62e-457b-9dad-c335c52cdf51",
+            "attributes": {
+                "id": "1971db77-c62e-457b-9dad-c335c52cdf51",
+                "name": "Culture",
+                "parent": null,
+                "updated_at": "2017-04-04T09:00:06.242510Z",
+                "children": [
+                    {
+                        "id": "8529a910-3e7a-4de3-8cd2-c10e443ed93b",
+                        "name": "Television/Film",
+                        "parent": {
+                            "id": "1971db77-c62e-457b-9dad-c335c52cdf51",
+                            "name": "Culture",
+                            "updated_at": "2017-04-04T09:00:06.242510Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:07.542133Z"
+                    },
+                    {
+                        "id": "caa5fd30-3e07-4376-844e-d41b4ec23fd7",
+                        "name": "Music",
+                        "parent": {
+                            "id": "1971db77-c62e-457b-9dad-c335c52cdf51",
+                            "name": "Culture",
+                            "updated_at": "2017-04-04T09:00:06.242510Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:07.547508Z"
+                    },
+                    {
+                        "id": "8030c83d-5095-46ff-b74c-8eceb8f835a8",
+                        "name": "Art",
+                        "parent": {
+                            "id": "1971db77-c62e-457b-9dad-c335c52cdf51",
+                            "name": "Culture",
+                            "updated_at": "2017-04-04T09:00:06.242510Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:07.552817Z"
+                    },
+                    {
+                        "id": "fee413ac-b722-46c9-ad88-17e56c60d05a",
+                        "name": "Writing",
+                        "parent": {
+                            "id": "1971db77-c62e-457b-9dad-c335c52cdf51",
+                            "name": "Culture",
+                            "updated_at": "2017-04-04T09:00:06.242510Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:07.558103Z"
+                    },
+                    {
+                        "id": "2cb9cab6-9ae6-409c-a512-6f97941477c7",
+                        "name": "Theatre",
+                        "parent": {
+                            "id": "1971db77-c62e-457b-9dad-c335c52cdf51",
+                            "name": "Culture",
+                            "updated_at": "2017-04-04T09:00:06.242510Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:07.563413Z"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "topic",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/topics/?page-size=50"
+            },
+            "id": "4bf6cb46-1e20-4520-bd4b-88320f05fc65",
+            "attributes": {
+                "id": "4bf6cb46-1e20-4520-bd4b-88320f05fc65",
+                "name": "People Profiles",
+                "parent": null,
+                "updated_at": "2017-04-04T09:00:06.247739Z",
+                "children": [
+                    {
+                        "id": "400847ca-1174-4c22-8fca-0bdb0a4c5fb2",
+                        "name": "Secret Lives Project",
+                        "parent": {
+                            "id": "4bf6cb46-1e20-4520-bd4b-88320f05fc65",
+                            "name": "People Profiles",
+                            "updated_at": "2017-04-04T09:00:06.247739Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:07.568707Z"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "topic",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/topics/?page-size=50"
+            },
+            "id": "921dea58-1e60-42a3-9865-0636fd5a8fa9",
+            "attributes": {
+                "id": "921dea58-1e60-42a3-9865-0636fd5a8fa9",
+                "name": "Unique Places",
+                "parent": null,
+                "updated_at": "2017-04-04T09:00:06.252805Z",
+                "children": []
+            }
+        },
+        {
+            "type": "topic",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/topics/?page-size=50"
+            },
+            "id": "ef0ce45b-c0e5-48e1-bf4f-7786c6d7aa58",
+            "attributes": {
+                "id": "ef0ce45b-c0e5-48e1-bf4f-7786c6d7aa58",
+                "name": "HISTORY",
+                "parent": null,
+                "updated_at": "2017-04-04T09:00:06.257902Z",
+                "children": []
+            }
+        },
+        {
+            "type": "topic",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/topics/?page-size=50"
+            },
+            "id": "a24e5d42-a326-47ed-ad42-3b7b685641e1",
+            "attributes": {
+                "id": "a24e5d42-a326-47ed-ad42-3b7b685641e1",
+                "name": "PROGRAMMING PREVIEWS",
+                "parent": null,
+                "updated_at": "2017-04-04T09:00:06.263179Z",
+                "children": [
+                    {
+                        "id": "d79c8624-d78f-4e04-ad86-635dee5f950b",
+                        "name": "Next Week Promos",
+                        "parent": {
+                            "id": "a24e5d42-a326-47ed-ad42-3b7b685641e1",
+                            "name": "PROGRAMMING PREVIEWS",
+                            "updated_at": "2017-04-04T09:00:06.263179Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:07.574016Z"
+                    },
+                    {
+                        "id": "1943c91b-8c20-4420-8c62-08ceb118f00e",
+                        "name": "PBS Promos",
+                        "parent": {
+                            "id": "a24e5d42-a326-47ed-ad42-3b7b685641e1",
+                            "name": "PROGRAMMING PREVIEWS",
+                            "updated_at": "2017-04-04T09:00:06.263179Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:07.579548Z"
+                    },
+                    {
+                        "id": "6b8e8c44-d6e6-455e-9812-41b0755e6da8",
+                        "name": "WFSU Promos",
+                        "parent": {
+                            "id": "a24e5d42-a326-47ed-ad42-3b7b685641e1",
+                            "name": "PROGRAMMING PREVIEWS",
+                            "updated_at": "2017-04-04T09:00:06.263179Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:07.584981Z"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "topic",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/topics/?page-size=50"
+            },
+            "id": "467d8d38-2ae2-4fc7-a620-87975e76452f",
+            "attributes": {
+                "id": "467d8d38-2ae2-4fc7-a620-87975e76452f",
+                "name": "Location - Big Bend (East of Apalachicola River)",
+                "parent": null,
+                "updated_at": "2017-04-04T09:00:06.275304Z",
+                "children": [
+                    {
+                        "id": "f2696df9-1199-4cf8-8939-bae670a6a2f5",
+                        "name": "Gadsden County",
+                        "parent": {
+                            "id": "467d8d38-2ae2-4fc7-a620-87975e76452f",
+                            "name": "Location - Big Bend (East of Apalachicola River)",
+                            "updated_at": "2017-04-04T09:00:06.275304Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:07.590449Z"
+                    },
+                    {
+                        "id": "d447fcf8-e274-4343-bae7-7c7c8a2e90e4",
+                        "name": "Franklin County",
+                        "parent": {
+                            "id": "467d8d38-2ae2-4fc7-a620-87975e76452f",
+                            "name": "Location - Big Bend (East of Apalachicola River)",
+                            "updated_at": "2017-04-04T09:00:06.275304Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:07.595762Z"
+                    },
+                    {
+                        "id": "4d54d0f9-f37a-4994-870b-74be4307e3c3",
+                        "name": "Wakulla County",
+                        "parent": {
+                            "id": "467d8d38-2ae2-4fc7-a620-87975e76452f",
+                            "name": "Location - Big Bend (East of Apalachicola River)",
+                            "updated_at": "2017-04-04T09:00:06.275304Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:07.601083Z"
+                    },
+                    {
+                        "id": "e49db696-eac2-4b56-a7f8-984e55a11f55",
+                        "name": "Madison County",
+                        "parent": {
+                            "id": "467d8d38-2ae2-4fc7-a620-87975e76452f",
+                            "name": "Location - Big Bend (East of Apalachicola River)",
+                            "updated_at": "2017-04-04T09:00:06.275304Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:07.606568Z"
+                    },
+                    {
+                        "id": "0d9c0931-9601-4e17-a750-a9856eebf9a6",
+                        "name": "Liberty County",
+                        "parent": {
+                            "id": "467d8d38-2ae2-4fc7-a620-87975e76452f",
+                            "name": "Location - Big Bend (East of Apalachicola River)",
+                            "updated_at": "2017-04-04T09:00:06.275304Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:07.611956Z"
+                    },
+                    {
+                        "id": "5d98c67c-4b80-4664-b8df-711b926c7222",
+                        "name": "Taylor County",
+                        "parent": {
+                            "id": "467d8d38-2ae2-4fc7-a620-87975e76452f",
+                            "name": "Location - Big Bend (East of Apalachicola River)",
+                            "updated_at": "2017-04-04T09:00:06.275304Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:07.617774Z"
+                    },
+                    {
+                        "id": "a812bdae-8518-4f44-b20c-893a6f37cdd5",
+                        "name": "Jefferson County",
+                        "parent": {
+                            "id": "467d8d38-2ae2-4fc7-a620-87975e76452f",
+                            "name": "Location - Big Bend (East of Apalachicola River)",
+                            "updated_at": "2017-04-04T09:00:06.275304Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:07.623150Z"
+                    },
+                    {
+                        "id": "969c7ced-9d3a-4b39-9910-ebfc537ab159",
+                        "name": "Leon County",
+                        "parent": {
+                            "id": "467d8d38-2ae2-4fc7-a620-87975e76452f",
+                            "name": "Location - Big Bend (East of Apalachicola River)",
+                            "updated_at": "2017-04-04T09:00:06.275304Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:07.628428Z"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "topic",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/topics/?page-size=50"
+            },
+            "id": "27d1ac1a-9e81-443a-9840-0028dd300988",
+            "attributes": {
+                "id": "27d1ac1a-9e81-443a-9840-0028dd300988",
+                "name": "Location - Panhandle (West of Apalachicola River)",
+                "parent": null,
+                "updated_at": "2017-04-04T09:00:06.281652Z",
+                "children": [
+                    {
+                        "id": "6b52c91b-24cf-4e23-b8a0-36bf9fa60132",
+                        "name": "Washington County",
+                        "parent": {
+                            "id": "27d1ac1a-9e81-443a-9840-0028dd300988",
+                            "name": "Location - Panhandle (West of Apalachicola River)",
+                            "updated_at": "2017-04-04T09:00:06.281652Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:07.633647Z"
+                    },
+                    {
+                        "id": "991e5986-1f12-47e4-bb6d-0b60aa3ba136",
+                        "name": "Walton County",
+                        "parent": {
+                            "id": "27d1ac1a-9e81-443a-9840-0028dd300988",
+                            "name": "Location - Panhandle (West of Apalachicola River)",
+                            "updated_at": "2017-04-04T09:00:06.281652Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:07.638828Z"
+                    },
+                    {
+                        "id": "3e7e93a0-dc24-4080-800c-dee4ab92b9ec",
+                        "name": "Okaloosa County",
+                        "parent": {
+                            "id": "27d1ac1a-9e81-443a-9840-0028dd300988",
+                            "name": "Location - Panhandle (West of Apalachicola River)",
+                            "updated_at": "2017-04-04T09:00:06.281652Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:07.644039Z"
+                    },
+                    {
+                        "id": "e5ca5298-fe64-44a6-93fe-e88f83d97d9d",
+                        "name": "Santa Rosa County",
+                        "parent": {
+                            "id": "27d1ac1a-9e81-443a-9840-0028dd300988",
+                            "name": "Location - Panhandle (West of Apalachicola River)",
+                            "updated_at": "2017-04-04T09:00:06.281652Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:07.649245Z"
+                    },
+                    {
+                        "id": "5de9d975-5c6a-4fdd-8bdf-129276981411",
+                        "name": "Holmes County",
+                        "parent": {
+                            "id": "27d1ac1a-9e81-443a-9840-0028dd300988",
+                            "name": "Location - Panhandle (West of Apalachicola River)",
+                            "updated_at": "2017-04-04T09:00:06.281652Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:07.654423Z"
+                    },
+                    {
+                        "id": "b77e3b6c-e4d3-4d02-bcfa-fcb584b2464e",
+                        "name": "Gulf County",
+                        "parent": {
+                            "id": "27d1ac1a-9e81-443a-9840-0028dd300988",
+                            "name": "Location - Panhandle (West of Apalachicola River)",
+                            "updated_at": "2017-04-04T09:00:06.281652Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:07.659770Z"
+                    },
+                    {
+                        "id": "1c7955dc-47c1-409c-8461-c0128b5eb8ad",
+                        "name": "Escambia County",
+                        "parent": {
+                            "id": "27d1ac1a-9e81-443a-9840-0028dd300988",
+                            "name": "Location - Panhandle (West of Apalachicola River)",
+                            "updated_at": "2017-04-04T09:00:06.281652Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:07.665093Z"
+                    },
+                    {
+                        "id": "5cb2534b-cb24-429f-98db-d150a7bb0df7",
+                        "name": "Calhoun County",
+                        "parent": {
+                            "id": "27d1ac1a-9e81-443a-9840-0028dd300988",
+                            "name": "Location - Panhandle (West of Apalachicola River)",
+                            "updated_at": "2017-04-04T09:00:06.281652Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:07.670428Z"
+                    },
+                    {
+                        "id": "fc26f754-8514-4bf4-b32d-e0be17c531d6",
+                        "name": "Bay County",
+                        "parent": {
+                            "id": "27d1ac1a-9e81-443a-9840-0028dd300988",
+                            "name": "Location - Panhandle (West of Apalachicola River)",
+                            "updated_at": "2017-04-04T09:00:06.281652Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:07.675717Z"
+                    },
+                    {
+                        "id": "80b2c4eb-bf25-4b68-a7f0-98e828ed7249",
+                        "name": "Jackson County",
+                        "parent": {
+                            "id": "27d1ac1a-9e81-443a-9840-0028dd300988",
+                            "name": "Location - Panhandle (West of Apalachicola River)",
+                            "updated_at": "2017-04-04T09:00:06.281652Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:07.680958Z"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "topic",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/topics/?page-size=50"
+            },
+            "id": "a120deb8-fa62-4232-ba82-37637cbbefb1",
+            "attributes": {
+                "id": "a120deb8-fa62-4232-ba82-37637cbbefb1",
+                "name": "Location - South Georgia",
+                "parent": null,
+                "updated_at": "2017-04-04T09:00:06.286743Z",
+                "children": [
+                    {
+                        "id": "1f73ab23-be17-48a6-8567-c27c41841fae",
+                        "name": "Thomas County",
+                        "parent": {
+                            "id": "a120deb8-fa62-4232-ba82-37637cbbefb1",
+                            "name": "Location - South Georgia",
+                            "updated_at": "2017-04-04T09:00:06.286743Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:07.686282Z"
+                    },
+                    {
+                        "id": "778831fb-6bf4-474a-8d24-b4305ebe08c4",
+                        "name": "Seminole County",
+                        "parent": {
+                            "id": "a120deb8-fa62-4232-ba82-37637cbbefb1",
+                            "name": "Location - South Georgia",
+                            "updated_at": "2017-04-04T09:00:06.286743Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:07.691521Z"
+                    },
+                    {
+                        "id": "379296ca-56e1-466f-ab6f-fa6be212f6a7",
+                        "name": "Mitchell County",
+                        "parent": {
+                            "id": "a120deb8-fa62-4232-ba82-37637cbbefb1",
+                            "name": "Location - South Georgia",
+                            "updated_at": "2017-04-04T09:00:06.286743Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:07.696680Z"
+                    },
+                    {
+                        "id": "df606ad4-2560-4d02-93c1-a270eec4fe8e",
+                        "name": "Miller County",
+                        "parent": {
+                            "id": "a120deb8-fa62-4232-ba82-37637cbbefb1",
+                            "name": "Location - South Georgia",
+                            "updated_at": "2017-04-04T09:00:06.286743Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:07.701960Z"
+                    },
+                    {
+                        "id": "909a6bf2-6b35-438d-87f1-b82d8d32fb0c",
+                        "name": "Grady County",
+                        "parent": {
+                            "id": "a120deb8-fa62-4232-ba82-37637cbbefb1",
+                            "name": "Location - South Georgia",
+                            "updated_at": "2017-04-04T09:00:06.286743Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:07.707419Z"
+                    },
+                    {
+                        "id": "694edebe-1832-4b0a-8fbf-eaa43f3ba8a7",
+                        "name": "Early County",
+                        "parent": {
+                            "id": "a120deb8-fa62-4232-ba82-37637cbbefb1",
+                            "name": "Location - South Georgia",
+                            "updated_at": "2017-04-04T09:00:06.286743Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:07.712637Z"
+                    },
+                    {
+                        "id": "5ac4882e-a9eb-45cd-8d44-51dc0ade7b4c",
+                        "name": "Decatur County",
+                        "parent": {
+                            "id": "a120deb8-fa62-4232-ba82-37637cbbefb1",
+                            "name": "Location - South Georgia",
+                            "updated_at": "2017-04-04T09:00:06.286743Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:07.717744Z"
+                    },
+                    {
+                        "id": "caf9eef0-bf28-4172-9b55-12d30302bc10",
+                        "name": "Colquitt County",
+                        "parent": {
+                            "id": "a120deb8-fa62-4232-ba82-37637cbbefb1",
+                            "name": "Location - South Georgia",
+                            "updated_at": "2017-04-04T09:00:06.286743Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:07.722852Z"
+                    },
+                    {
+                        "id": "a1771671-c90f-4445-8143-26660714727f",
+                        "name": "Lowndes County",
+                        "parent": {
+                            "id": "a120deb8-fa62-4232-ba82-37637cbbefb1",
+                            "name": "Location - South Georgia",
+                            "updated_at": "2017-04-04T09:00:06.286743Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:07.727964Z"
+                    },
+                    {
+                        "id": "be8961b6-54c2-4c65-a34c-74f8e9725eb9",
+                        "name": "Brooks County",
+                        "parent": {
+                            "id": "a120deb8-fa62-4232-ba82-37637cbbefb1",
+                            "name": "Location - South Georgia",
+                            "updated_at": "2017-04-04T09:00:06.286743Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:07.733056Z"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "topic",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/topics/?page-size=50"
+            },
+            "id": "3c33d05e-2e98-4109-aedb-3319461ebee1",
+            "attributes": {
+                "id": "3c33d05e-2e98-4109-aedb-3319461ebee1",
+                "name": "Location - South Alabama",
+                "parent": null,
+                "updated_at": "2017-04-04T09:00:06.291786Z",
+                "children": [
+                    {
+                        "id": "0ed2a584-fcb0-45e6-9c5e-7e39ace38642",
+                        "name": "Houston County",
+                        "parent": {
+                            "id": "3c33d05e-2e98-4109-aedb-3319461ebee1",
+                            "name": "Location - South Alabama",
+                            "updated_at": "2017-04-04T09:00:06.291786Z"
+                        },
+                        "updated_at": "2017-04-04T09:00:07.738204Z"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "topic",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/topics/?page-size=50"
+            },
+            "id": "27263c9f-9520-4243-8375-779919db8b0d",
+            "attributes": {
+                "id": "27263c9f-9520-4243-8375-779919db8b0d",
+                "name": "In the Garden",
+                "parent": null,
+                "updated_at": "2017-04-04T09:00:06.296805Z",
+                "children": []
+            }
+        },
+        {
+            "type": "topic",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/topics/?page-size=50"
+            },
+            "id": "2dd2669e-af12-4696-9f3f-d8d5eb02cb52",
+            "attributes": {
+                "id": "2dd2669e-af12-4696-9f3f-d8d5eb02cb52",
+                "name": "Education in the Community",
+                "parent": null,
+                "updated_at": "2017-04-04T09:00:06.301859Z",
+                "children": []
+            }
+        },
+        {
+            "type": "topic",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/topics/?page-size=50"
+            },
+            "id": "8d42bb0a-1b69-436b-a240-10eaeb7cb321",
+            "attributes": {
+                "id": "8d42bb0a-1b69-436b-a240-10eaeb7cb321",
+                "name": "EcoAdventures",
+                "parent": null,
+                "updated_at": "2017-04-04T09:00:06.306892Z",
+                "children": []
+            }
+        },
+        {
+            "type": "topic",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/topics/?page-size=50"
+            },
+            "id": "02774d7c-e2fd-4823-9fd5-7c19b754c56e",
+            "attributes": {
+                "id": "02774d7c-e2fd-4823-9fd5-7c19b754c56e",
+                "name": "Children's",
+                "parent": null,
+                "updated_at": "2017-04-04T09:00:06.311973Z",
+                "children": []
+            }
+        },
+        {
+            "type": "topic",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/topics/?page-size=50"
+            },
+            "id": "7b37fa16-b457-46e9-ac79-7e983ca8f67c",
+            "attributes": {
+                "id": "7b37fa16-b457-46e9-ac79-7e983ca8f67c",
+                "name": "Cultural",
+                "parent": null,
+                "updated_at": "2017-04-04T09:00:06.317443Z",
+                "children": []
+            }
+        },
+        {
+            "type": "topic",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/topics/?page-size=50"
+            },
+            "id": "920dcb12-7b02-4b7b-87e9-87f718eedc6b",
+            "attributes": {
+                "id": "920dcb12-7b02-4b7b-87e9-87f718eedc6b",
+                "name": "Educational",
+                "parent": null,
+                "updated_at": "2017-04-04T09:00:06.322586Z",
+                "children": []
+            }
+        },
+        {
+            "type": "topic",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/topics/?page-size=50"
+            },
+            "id": "7b6004b9-0447-4f3e-b376-4ace09568aea",
+            "attributes": {
+                "id": "7b6004b9-0447-4f3e-b376-4ace09568aea",
+                "name": "How-To",
+                "parent": null,
+                "updated_at": "2017-04-04T09:00:06.327643Z",
+                "children": []
+            }
+        },
+        {
+            "type": "topic",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/topics/?page-size=50"
+            },
+            "id": "6ff26ef7-b213-4893-927e-0859f7157d8d",
+            "attributes": {
+                "id": "6ff26ef7-b213-4893-927e-0859f7157d8d",
+                "name": "Outreach",
+                "parent": null,
+                "updated_at": "2017-04-04T09:00:06.332779Z",
+                "children": []
+            }
+        },
+        {
+            "type": "topic",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/topics/?page-size=50"
+            },
+            "id": "ce75a58e-a7b8-43d6-b6f0-29dd66c0ec7f",
+            "attributes": {
+                "id": "ce75a58e-a7b8-43d6-b6f0-29dd66c0ec7f",
+                "name": "Public Affairs",
+                "parent": null,
+                "updated_at": "2017-04-04T09:00:06.337808Z",
+                "children": []
+            }
+        },
+        {
+            "type": "topic",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/topics/?page-size=50"
+            },
+            "id": "0e7bece7-6560-4e45-bbd5-9ffc996523aa",
+            "attributes": {
+                "id": "0e7bece7-6560-4e45-bbd5-9ffc996523aa",
+                "name": "Science/Nature",
+                "parent": null,
+                "updated_at": "2017-04-04T09:00:06.342867Z",
+                "children": []
+            }
+        },
+        {
+            "type": "topic",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/topics/?page-size=50"
+            },
+            "id": "e7707e79-1b68-42b0-b486-05992a9ed201",
+            "attributes": {
+                "id": "e7707e79-1b68-42b0-b486-05992a9ed201",
+                "name": "Self-Help",
+                "parent": null,
+                "updated_at": "2017-04-04T09:00:06.348157Z",
+                "children": []
+            }
+        }
+    ],
+    "meta": {
+        "pagination": {
+            "per_page": 50,
+            "count": 92
+        },
+        "type": "collection"
+    },
+    "links": {
+        "self": "https://media.services.pbs.org/api/v1/topics/?page-size=50",
+        "prev": null,
+        "next": "https://media.services.pbs.org/api/v1/topics/?page=2&page-size=50",
+        "first": "https://media.services.pbs.org/api/v1/topics/?page-size=50",
+        "last": "https://media.services.pbs.org/api/v1/topics/?page=2&page-size=50"
+    },
+    "jsonapi": {
+        "version": "1.0"
+    }
+}

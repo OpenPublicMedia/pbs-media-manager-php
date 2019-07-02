@@ -1,0 +1,826 @@
+{
+    "data": [
+        {
+            "type": "franchise",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/franchises/e08bf78d-e6a3-44b9-b356-8753d01c7327/",
+                "taxonomies": "https://media.services.pbs.org/api/v1/franchises/e08bf78d-e6a3-44b9-b356-8753d01c7327/taxonomies/",
+                "shows": "https://media.services.pbs.org/api/v1/franchises/e08bf78d-e6a3-44b9-b356-8753d01c7327/shows/",
+                "assets": "https://media.services.pbs.org/api/v1/franchises/e08bf78d-e6a3-44b9-b356-8753d01c7327/assets/"
+            },
+            "id": "e08bf78d-e6a3-44b9-b356-8753d01c7327",
+            "attributes": {
+                "slug": "masterpiece",
+                "nola": "MAST",
+                "title": "Masterpiece",
+                "title_sortable": "Masterpiece",
+                "genre": {
+                    "id": "a6c8f8a3-fd3a-4ffe-9a0d-d32e6e584d5d",
+                    "slug": "drama",
+                    "title": "Drama",
+                    "title_sortable": "Drama",
+                    "updated_at": "2017-04-04T10:27:05.577522Z"
+                },
+                "description_short": "Classic and contemporary literature is embodied in the British drama series \"Masterpiece.\"",
+                "description_long": "One of the most popular drama series in TV history -- Bringing you the best in classic adaptations, mysteries filled with eclectic characters, and provocative contemporary works.",
+                "premiered_on": null,
+                "is_excluded_from_dfp": false,
+                "funder_message": "Funding for MASTERPIECE is provided by Viking with additional support from public television viewers and contributors to The MASTERPIECE Trust, created to help ensure the series’ future.",
+                "tracking_ga_page": "UA-3988763-1",
+                "tracking_ga_event": "UA-3988763-2",
+                "updated_at": "2019-01-08T17:12:50.345156Z",
+                "links": [
+                    {
+                        "value": "http://www.pbs.org/wgbh/masterpiece/",
+                        "profile": "producer",
+                        "updated_at": "2017-04-12T18:10:11.909427Z"
+                    },
+                    {
+                        "value": "https://www.facebook.com/masterpiecepbs",
+                        "profile": "facebook",
+                        "updated_at": "2017-05-30T20:09:32.797451Z"
+                    },
+                    {
+                        "value": "https://www.instagram.com/masterpiecepbs/",
+                        "profile": "instagram",
+                        "updated_at": "2017-05-30T20:09:33.013047Z"
+                    },
+                    {
+                        "value": "https://www.pinterest.com/masterpiecepbs/",
+                        "profile": "pinterest",
+                        "updated_at": "2017-05-30T20:09:33.062367Z"
+                    },
+                    {
+                        "value": "https://twitter.com/masterpiecepbs",
+                        "profile": "twitter",
+                        "updated_at": "2017-05-30T20:09:32.958856Z"
+                    }
+                ],
+                "hashtag": "masterpiecepbs",
+                "images": [
+                    {
+                        "profile": "franchise-logo",
+                        "image": "https://image.pbs.org/contentchannels/33/bkl0MQJnezCByMFx6dAgg.png",
+                        "updated_at": "2017-04-11T07:17:38.573210Z"
+                    },
+                    {
+                        "profile": "franchise-mezzanine16x9",
+                        "image": "https://image.pbs.org/contentchannels/33/sKFbunQOH0VKQ41jwgI4Lw.jpg",
+                        "updated_at": "2017-04-11T07:17:38.573210Z"
+                    },
+                    {
+                        "profile": "franchise-poster2x3",
+                        "image": "https://image.pbs.org/contentchannels/33/lnfa46gz8Lf3FinCnhKNpw.jpg",
+                        "updated_at": "2017-04-11T07:17:38.573210Z"
+                    },
+                    {
+                        "profile": "franchise-banner",
+                        "image": "https://image.pbs.org/contentchannels/33/qKVn0WHr3Nbz4p2zHH3iGg.jpg",
+                        "updated_at": "2017-04-11T07:17:38.573210Z"
+                    },
+                    {
+                        "profile": "franchise-showcase",
+                        "image": "https://image.pbs.org/contentchannels/33/0guYGj2wKeGl8eIidryKQ.jpg",
+                        "updated_at": "2017-04-11T07:17:38.573210Z"
+                    },
+                    {
+                        "profile": "franchise-white-logo",
+                        "image": "https://image.pbs.org/contentchannels/33/CBpqDEKm09gPvIR2sxJdQ.png",
+                        "updated_at": "2017-04-11T07:17:38.573210Z"
+                    },
+                    {
+                        "profile": "franchise-black-logo",
+                        "image": "https://image.pbs.org/contentchannels/33/7h7ItEtQE1iSRDfqLUt8A.png",
+                        "updated_at": "2017-04-11T07:17:38.573210Z"
+                    },
+                    {
+                        "profile": "franchise-color-logo",
+                        "image": "https://image.pbs.org/contentchannels/33/eSIvRD0r8aOQqMu9NENjw.png",
+                        "updated_at": "2017-04-11T07:17:38.573210Z"
+                    },
+                    {
+                        "profile": "franchise-stack-image",
+                        "image": "https://image.pbs.org/program_pages/mast-pbs-cove-brand-stack.jpg",
+                        "updated_at": "2017-04-11T07:17:38.573210Z"
+                    },
+                    {
+                        "profile": "franchise-background-image",
+                        "image": "https://image.pbs.org/program_pages/background-image_5.png",
+                        "updated_at": "2017-04-11T07:17:38.573210Z"
+                    },
+                    {
+                        "profile": "black-logo-41",
+                        "image": "https://image.pbs.org/contentchannels/d4bxeEH-black-logo-41-DMwfCeZ.png",
+                        "updated_at": "2017-05-11T13:52:14.603115Z"
+                    },
+                    {
+                        "profile": "color-logo-41",
+                        "image": "https://image.pbs.org/contentchannels/2ofS7Ir-color-logo-41-x6R1GSy.png",
+                        "updated_at": "2017-05-11T13:52:26.481969Z"
+                    },
+                    {
+                        "profile": "white-logo-41",
+                        "image": "https://image.pbs.org/contentchannels/PnwdJJc-white-logo-41-0M4DHlB.png",
+                        "updated_at": "2017-05-11T13:52:41.753596Z"
+                    }
+                ],
+                "platforms": [
+                    {
+                        "id": "e5a289b8-01b3-41ce-92c1-3eb5a4e14bc0",
+                        "name": "All Platforms",
+                        "slug": "allplatforms",
+                        "updated_at": "2017-04-03T15:57:09.459445Z"
+                    }
+                ],
+                "assets": [
+                    {
+                        "type": "asset",
+                        "links": {
+                            "self": "https://media.services.pbs.org/api/v1/assets/6f853f97-f68f-493f-a674-09ee9a857d40/"
+                        },
+                        "id": "6f853f97-f68f-493f-a674-09ee9a857d40",
+                        "attributes": {
+                            "slug": "summer-mystery-2019-preview-gugitx",
+                            "title": "Summer of Mystery 2019 Preview",
+                            "title_sortable": "Summer of Mystery 2019 Preview",
+                            "description_short": "Get ready for the latest seasons of Endeavour and Grantchester, coming this summer.",
+                            "description_long": "The summer heats up with the men of Mystery! Get ready for Endeavour Season 6, and Grantchester Season 4, premiering this summer on MASTERPIECE Mystery!",
+                            "object_type": "preview",
+                            "premiered_on": "2019-05-31",
+                            "encored_on": "2019-05-31",
+                            "duration": 57,
+                            "legacy_tp_media_id": 3029534233,
+                            "tags": null,
+                            "updated_at": "2019-06-03T15:47:59.087975Z",
+                            "availabilities": {
+                                "all_members": {
+                                    "updated_at": "2019-05-31T17:47:49.913102Z",
+                                    "start": "2019-06-03T17:00:00Z",
+                                    "end": null
+                                },
+                                "public": {
+                                    "updated_at": "2019-05-31T17:47:49.828885Z",
+                                    "start": "2019-06-03T17:00:00Z",
+                                    "end": null
+                                },
+                                "station_members": {
+                                    "updated_at": "2019-05-31T17:47:49.987216Z",
+                                    "start": "2019-06-03T17:00:00Z",
+                                    "end": null
+                                }
+                            },
+                            "parent_tree": {
+                                "type": "franchise",
+                                "links": {
+                                    "self": "https://media.services.pbs.org/api/v1/franchises/e08bf78d-e6a3-44b9-b356-8753d01c7327/"
+                                },
+                                "id": "e08bf78d-e6a3-44b9-b356-8753d01c7327",
+                                "attributes": {
+                                    "title": "Masterpiece",
+                                    "slug": "masterpiece"
+                                }
+                            },
+                            "has_captions": true,
+                            "images": [
+                                {
+                                    "profile": "asset-mezzanine-16x9",
+                                    "image": "https://image.pbs.org/video-assets/vWdeXIy-asset-mezzanine-16x9-ZeJZgtp.jpg",
+                                    "updated_at": "2019-05-31T17:46:53.190491Z"
+                                }
+                            ],
+                            "platforms": [
+                                {
+                                    "name": "All Platforms",
+                                    "updated_at": "2017-04-03T15:57:09.459445Z",
+                                    "slug": "allplatforms",
+                                    "id": "e5a289b8-01b3-41ce-92c1-3eb5a4e14bc0"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "type": "asset",
+                        "links": {
+                            "self": "https://media.services.pbs.org/api/v1/assets/c2af9702-beeb-4191-803e-5fef50917356/"
+                        },
+                        "id": "c2af9702-beeb-4191-803e-5fef50917356",
+                        "attributes": {
+                            "slug": "springsummer-2019-preview-9er8ol",
+                            "title": "Spring/Summer 2019 Preview",
+                            "title_sortable": "Spring/Summer 2019 Preview",
+                            "description_short": "From new shows to returning favorites, see what's ahead on MASTERPIECE on PBS.",
+                            "description_long": "From new shows (Les Misérables, Mrs. Wilson) to returning favorites (Unforgotten, Grantchester, Endeavour), see what's ahead on MASTERPIECE on PBS.",
+                            "object_type": "preview",
+                            "premiered_on": "2019-03-31",
+                            "encored_on": "2019-03-31",
+                            "duration": 30,
+                            "legacy_tp_media_id": 3023767049,
+                            "tags": null,
+                            "updated_at": "2019-02-15T22:25:18.209026Z",
+                            "availabilities": {
+                                "all_members": {
+                                    "updated_at": "2019-02-13T15:27:39.697952Z",
+                                    "start": "2019-02-13T16:00:45Z",
+                                    "end": null
+                                },
+                                "public": {
+                                    "updated_at": "2019-02-13T15:27:39.607730Z",
+                                    "start": "2019-02-13T16:00:45Z",
+                                    "end": null
+                                },
+                                "station_members": {
+                                    "updated_at": "2019-02-13T15:27:39.775224Z",
+                                    "start": "2019-02-13T16:00:45Z",
+                                    "end": null
+                                }
+                            },
+                            "parent_tree": {
+                                "type": "franchise",
+                                "links": {
+                                    "self": "https://media.services.pbs.org/api/v1/franchises/e08bf78d-e6a3-44b9-b356-8753d01c7327/"
+                                },
+                                "id": "e08bf78d-e6a3-44b9-b356-8753d01c7327",
+                                "attributes": {
+                                    "title": "Masterpiece",
+                                    "slug": "masterpiece"
+                                }
+                            },
+                            "has_captions": true,
+                            "images": [
+                                {
+                                    "profile": "asset-mezzanine-16x9",
+                                    "image": "https://image.pbs.org/video-assets/JkdnO6l-asset-mezzanine-16x9-DZxb1EP.jpg",
+                                    "updated_at": "2019-02-13T15:40:50.270271Z"
+                                }
+                            ],
+                            "platforms": [
+                                {
+                                    "name": "All Platforms",
+                                    "updated_at": "2017-04-03T15:57:09.459445Z",
+                                    "slug": "allplatforms",
+                                    "id": "e5a289b8-01b3-41ce-92c1-3eb5a4e14bc0"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "type": "asset",
+                        "links": {
+                            "self": "https://media.services.pbs.org/api/v1/assets/502e8b55-b2d4-4543-8700-1d27968bd640/"
+                        },
+                        "id": "502e8b55-b2d4-4543-8700-1d27968bd640",
+                        "attributes": {
+                            "slug": "coming-masterpiece-20182019-nhabnu",
+                            "title": "Coming to MASTERPIECE: 2018 & 2019",
+                            "title_sortable": "Coming to MASTERPIECE: 2018 & 2019",
+                            "description_short": "See which fan favorites and new shows coming in 2018 and 2019 to MASTERPIECE on PBS.",
+                            "description_long": "Get excited for returning favorites Poldark, The Durrells in Corfu, and get ready for new shows The Miniaturist, Press, Les Miserables and Mrs. Wilson, all coming to MASTERPIECE on PBS.",
+                            "object_type": "preview",
+                            "premiered_on": "2018-07-30",
+                            "encored_on": "2018-07-30",
+                            "duration": 40,
+                            "legacy_tp_media_id": 3014887735,
+                            "tags": null,
+                            "updated_at": "2018-07-30T15:07:36.359793Z",
+                            "availabilities": {
+                                "all_members": {
+                                    "updated_at": "2018-07-30T14:34:28.079030Z",
+                                    "start": "2018-07-30T18:00:14Z",
+                                    "end": null
+                                },
+                                "public": {
+                                    "updated_at": "2018-07-30T14:34:28.062850Z",
+                                    "start": "2018-07-30T18:00:14Z",
+                                    "end": null
+                                },
+                                "station_members": {
+                                    "updated_at": "2018-07-30T14:34:28.093835Z",
+                                    "start": "2018-07-30T18:00:14Z",
+                                    "end": null
+                                }
+                            },
+                            "parent_tree": {
+                                "type": "franchise",
+                                "links": {
+                                    "self": "https://media.services.pbs.org/api/v1/franchises/e08bf78d-e6a3-44b9-b356-8753d01c7327/"
+                                },
+                                "id": "e08bf78d-e6a3-44b9-b356-8753d01c7327",
+                                "attributes": {
+                                    "title": "Masterpiece",
+                                    "slug": "masterpiece"
+                                }
+                            },
+                            "has_captions": true,
+                            "images": [
+                                {
+                                    "profile": "asset-mezzanine-16x9",
+                                    "image": "http://image.pbs.org/video-assets/vd3NgIW-asset-mezzanine-16x9-ebyIJWJ.jpg",
+                                    "updated_at": "2018-07-30T14:33:27.488729Z"
+                                }
+                            ],
+                            "platforms": [
+                                {
+                                    "name": "All Platforms",
+                                    "updated_at": "2017-04-03T15:57:09.459445Z",
+                                    "slug": "allplatforms",
+                                    "id": "e5a289b8-01b3-41ce-92c1-3eb5a4e14bc0"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "type": "asset",
+                        "links": {
+                            "self": "https://media.services.pbs.org/api/v1/assets/e1802c02-8ac6-4db8-b617-413d390bfed5/"
+                        },
+                        "id": "e1802c02-8ac6-4db8-b617-413d390bfed5",
+                        "attributes": {
+                            "slug": "masterpiece-fall-2017-preview-a2h6yv",
+                            "title": "MASTERPIECE Fall 2017 Preview",
+                            "title_sortable": "MASTERPIECE Fall 2017 Preview",
+                            "description_short": "See what's ahead on MASTERPIECE's fall 2017 lineup!",
+                            "description_long": "See what's coming to MASTERPIECE in fall 2017, including The Collection, The Durrells in Corfu Season 2, and Poldark Season 3.",
+                            "object_type": "preview",
+                            "premiered_on": "2017-10-01",
+                            "encored_on": "2017-10-01",
+                            "duration": 30,
+                            "legacy_tp_media_id": 3003467188,
+                            "tags": null,
+                            "updated_at": "2018-05-02T10:33:07.287038Z",
+                            "availabilities": {
+                                "all_members": {
+                                    "updated_at": "2017-08-03T21:36:26.722150Z",
+                                    "start": "2017-08-03T21:36:26.705732Z",
+                                    "end": null
+                                },
+                                "public": {
+                                    "updated_at": "2017-08-03T21:36:26.722087Z",
+                                    "start": "2017-08-03T21:36:26.705732Z",
+                                    "end": null
+                                },
+                                "station_members": {
+                                    "updated_at": "2017-08-03T21:36:26.722203Z",
+                                    "start": "2017-08-03T21:36:26.705732Z",
+                                    "end": null
+                                }
+                            },
+                            "parent_tree": {
+                                "type": "franchise",
+                                "links": {
+                                    "self": "https://media.services.pbs.org/api/v1/franchises/e08bf78d-e6a3-44b9-b356-8753d01c7327/"
+                                },
+                                "id": "e08bf78d-e6a3-44b9-b356-8753d01c7327",
+                                "attributes": {
+                                    "title": "Masterpiece",
+                                    "slug": "masterpiece"
+                                }
+                            },
+                            "has_captions": true,
+                            "images": [
+                                {
+                                    "profile": "asset-mezzanine-16x9",
+                                    "image": "https://image.pbs.org/video-assets/mb6IzT6-asset-mezzanine-16x9-rrdd3H9.jpg",
+                                    "updated_at": "2017-08-03T21:36:36.641844Z"
+                                }
+                            ],
+                            "platforms": [
+                                {
+                                    "name": "All Platforms",
+                                    "updated_at": "2017-04-03T15:57:09.459445Z",
+                                    "slug": "allplatforms",
+                                    "id": "e5a289b8-01b3-41ce-92c1-3eb5a4e14bc0"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "type": "asset",
+                        "links": {
+                            "self": "https://media.services.pbs.org/api/v1/assets/caf88714-8109-439e-a42c-7ae4c00c240e/"
+                        },
+                        "id": "caf88714-8109-439e-a42c-7ae4c00c240e",
+                        "attributes": {
+                            "slug": "masterpiece-alan-cumming-sappy-songs",
+                            "title": "Alan Cumming: On Sappy Songs",
+                            "title_sortable": "Alan Cumming: On Sappy Songs",
+                            "description_short": "Mystery! host Alan Cumming on his show \"Alan Cumming Sings Sappy Songs.\"",
+                            "description_long": "MASTERPIECE host Alan Cumming explores the concept of \"sappy songs,\" and reveals his pick for the detectives of Mystery!. ",
+                            "object_type": "clip",
+                            "premiered_on": "2016-09-04",
+                            "encored_on": "2016-09-04",
+                            "duration": 74,
+                            "legacy_tp_media_id": 2365832840,
+                            "tags": null,
+                            "updated_at": "2018-05-02T09:54:56.679187Z",
+                            "availabilities": {
+                                "all_members": {
+                                    "updated_at": "2017-04-11T07:23:58.427692Z",
+                                    "start": "2016-08-31T14:11:26Z",
+                                    "end": null
+                                },
+                                "public": {
+                                    "updated_at": "2017-04-11T07:23:58.427692Z",
+                                    "start": "2016-08-31T14:11:26Z",
+                                    "end": null
+                                },
+                                "station_members": {
+                                    "updated_at": "2017-04-11T07:23:58.427692Z",
+                                    "start": "2016-08-31T14:11:26Z",
+                                    "end": null
+                                }
+                            },
+                            "parent_tree": {
+                                "type": "franchise",
+                                "links": {
+                                    "self": "https://media.services.pbs.org/api/v1/franchises/e08bf78d-e6a3-44b9-b356-8753d01c7327/"
+                                },
+                                "id": "e08bf78d-e6a3-44b9-b356-8753d01c7327",
+                                "attributes": {
+                                    "title": "Masterpiece",
+                                    "slug": "masterpiece"
+                                }
+                            },
+                            "has_captions": false,
+                            "images": [
+                                {
+                                    "profile": "asset-mezzanine-16x9",
+                                    "image": "https://image.pbs.org/video-assets/pbs/masterpiece/236608/images/mezzanine_854.jpg",
+                                    "updated_at": "2017-04-11T07:33:27.324015Z"
+                                }
+                            ],
+                            "platforms": [
+                                {
+                                    "name": "All Platforms",
+                                    "updated_at": "2017-04-03T15:57:09.459445Z",
+                                    "slug": "allplatforms",
+                                    "id": "e5a289b8-01b3-41ce-92c1-3eb5a4e14bc0"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "type": "asset",
+                        "links": {
+                            "self": "https://media.services.pbs.org/api/v1/assets/0d853e34-b6a7-477a-8111-81a600239351/"
+                        },
+                        "id": "0d853e34-b6a7-477a-8111-81a600239351",
+                        "attributes": {
+                            "slug": "masterpiece-alan-cumming-lifes-little-whodunnits",
+                            "title": "Alan Cumming: Life's Little Whodunnits",
+                            "title_sortable": "Alan Cumming: Life's Little Whodunnits",
+                            "description_short": "Alan Cumming on solving everyday, little mysteries in his own home.",
+                            "description_long": "MASTERPIECE Mystery! host Alan Cumming on solving everyday, little mysteries in his own home.",
+                            "object_type": "clip",
+                            "premiered_on": "2016-08-28",
+                            "encored_on": "2016-08-28",
+                            "duration": 41,
+                            "legacy_tp_media_id": 2365827670,
+                            "tags": [
+                                "alan cumming"
+                            ],
+                            "updated_at": "2018-05-02T09:54:56.621534Z",
+                            "availabilities": {
+                                "all_members": {
+                                    "updated_at": "2017-04-11T07:23:58.427692Z",
+                                    "start": "2016-08-22T17:00:00Z",
+                                    "end": null
+                                },
+                                "public": {
+                                    "updated_at": "2017-04-11T07:23:58.427692Z",
+                                    "start": "2016-08-22T17:00:00Z",
+                                    "end": null
+                                },
+                                "station_members": {
+                                    "updated_at": "2017-04-11T07:23:58.427692Z",
+                                    "start": "2016-08-22T17:00:00Z",
+                                    "end": null
+                                }
+                            },
+                            "parent_tree": {
+                                "type": "franchise",
+                                "links": {
+                                    "self": "https://media.services.pbs.org/api/v1/franchises/e08bf78d-e6a3-44b9-b356-8753d01c7327/"
+                                },
+                                "id": "e08bf78d-e6a3-44b9-b356-8753d01c7327",
+                                "attributes": {
+                                    "title": "Masterpiece",
+                                    "slug": "masterpiece"
+                                }
+                            },
+                            "has_captions": false,
+                            "images": [
+                                {
+                                    "profile": "asset-mezzanine-16x9",
+                                    "image": "https://image.pbs.org/video-assets/pbs/masterpiece/235656/images/mezzanine_962.jpg",
+                                    "updated_at": "2017-04-11T07:33:27.324015Z"
+                                }
+                            ],
+                            "platforms": [
+                                {
+                                    "name": "All Platforms",
+                                    "updated_at": "2017-04-03T15:57:09.459445Z",
+                                    "slug": "allplatforms",
+                                    "id": "e5a289b8-01b3-41ce-92c1-3eb5a4e14bc0"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "type": "asset",
+                        "links": {
+                            "self": "https://media.services.pbs.org/api/v1/assets/33b48857-8551-4560-9e46-d9fc9f7ebb59/"
+                        },
+                        "id": "33b48857-8551-4560-9e46-d9fc9f7ebb59",
+                        "attributes": {
+                            "slug": "masterpiece-alan-cumming-wearing-tartan",
+                            "title": "Alan Cumming on: Wearing Tartan",
+                            "title_sortable": "Alan Cumming on: Wearing Tartan",
+                            "description_short": "The MASTERPIECE Mystery! host on adding tartan to your wardrobe.",
+                            "description_long": "Intrigued by the idea of adding some tartan to your wardrobe? MASTERPIECE Mystery! host and fashion maven Alan Cumming explains how to start.",
+                            "object_type": "clip",
+                            "premiered_on": "2016-08-21",
+                            "encored_on": "2016-08-21",
+                            "duration": 57,
+                            "legacy_tp_media_id": 2365823962,
+                            "tags": [
+                                "alan cumming"
+                            ],
+                            "updated_at": "2018-05-02T09:54:56.593625Z",
+                            "availabilities": {
+                                "all_members": {
+                                    "updated_at": "2017-04-11T07:23:58.427692Z",
+                                    "start": "2016-08-17T15:00:00Z",
+                                    "end": null
+                                },
+                                "public": {
+                                    "updated_at": "2017-04-11T07:23:58.427692Z",
+                                    "start": "2016-08-17T15:00:00Z",
+                                    "end": null
+                                },
+                                "station_members": {
+                                    "updated_at": "2017-04-11T07:23:58.427692Z",
+                                    "start": "2016-08-17T15:00:00Z",
+                                    "end": null
+                                }
+                            },
+                            "parent_tree": {
+                                "type": "franchise",
+                                "links": {
+                                    "self": "https://media.services.pbs.org/api/v1/franchises/e08bf78d-e6a3-44b9-b356-8753d01c7327/"
+                                },
+                                "id": "e08bf78d-e6a3-44b9-b356-8753d01c7327",
+                                "attributes": {
+                                    "title": "Masterpiece",
+                                    "slug": "masterpiece"
+                                }
+                            },
+                            "has_captions": false,
+                            "images": [
+                                {
+                                    "profile": "asset-mezzanine-16x9",
+                                    "image": "https://image.pbs.org/video-assets/pbs/masterpiece/234966/images/mezzanine_419.jpg",
+                                    "updated_at": "2017-04-11T07:33:27.324015Z"
+                                }
+                            ],
+                            "platforms": [
+                                {
+                                    "name": "All Platforms",
+                                    "updated_at": "2017-04-03T15:57:09.459445Z",
+                                    "slug": "allplatforms",
+                                    "id": "e5a289b8-01b3-41ce-92c1-3eb5a4e14bc0"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "type": "asset",
+                        "links": {
+                            "self": "https://media.services.pbs.org/api/v1/assets/82d246a6-20e7-47fe-9646-048f5f7c1ff6/"
+                        },
+                        "id": "82d246a6-20e7-47fe-9646-048f5f7c1ff6",
+                        "attributes": {
+                            "slug": "masterpiece-alan-cumming-being-authentic",
+                            "title": "Alan Cumming: On Being Authentic",
+                            "title_sortable": "Alan Cumming: On Being Authentic",
+                            "description_short": "Mystery! host Alan Cumming discusses living authentically. ",
+                            "description_long": "Mystery! host Alan Cumming gives his take on living an authentic life.",
+                            "object_type": "clip",
+                            "premiered_on": "2016-08-14",
+                            "encored_on": "2016-08-14",
+                            "duration": 62,
+                            "legacy_tp_media_id": 2365821054,
+                            "tags": null,
+                            "updated_at": "2018-05-02T09:54:55.077256Z",
+                            "availabilities": {
+                                "all_members": {
+                                    "updated_at": "2017-04-11T07:23:58.427692Z",
+                                    "start": "2016-08-10T16:04:21Z",
+                                    "end": null
+                                },
+                                "public": {
+                                    "updated_at": "2017-04-11T07:23:58.427692Z",
+                                    "start": "2016-08-10T16:04:21Z",
+                                    "end": null
+                                },
+                                "station_members": {
+                                    "updated_at": "2017-04-11T07:23:58.427692Z",
+                                    "start": "2016-08-10T16:04:21Z",
+                                    "end": null
+                                }
+                            },
+                            "parent_tree": {
+                                "type": "franchise",
+                                "links": {
+                                    "self": "https://media.services.pbs.org/api/v1/franchises/e08bf78d-e6a3-44b9-b356-8753d01c7327/"
+                                },
+                                "id": "e08bf78d-e6a3-44b9-b356-8753d01c7327",
+                                "attributes": {
+                                    "title": "Masterpiece",
+                                    "slug": "masterpiece"
+                                }
+                            },
+                            "has_captions": false,
+                            "images": [
+                                {
+                                    "profile": "asset-mezzanine-16x9",
+                                    "image": "https://image.pbs.org/video-assets/pbs/masterpiece/234451/images/mezzanine_340.jpg",
+                                    "updated_at": "2017-04-11T07:33:27.324015Z"
+                                }
+                            ],
+                            "platforms": [
+                                {
+                                    "name": "All Platforms",
+                                    "updated_at": "2017-04-03T15:57:09.459445Z",
+                                    "slug": "allplatforms",
+                                    "id": "e5a289b8-01b3-41ce-92c1-3eb5a4e14bc0"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "type": "asset",
+                        "links": {
+                            "self": "https://media.services.pbs.org/api/v1/assets/2cba8cef-d332-4e20-a5be-510275e6cc1c/"
+                        },
+                        "id": "2cba8cef-d332-4e20-a5be-510275e6cc1c",
+                        "attributes": {
+                            "slug": "masterpiece-alan-cumming-his-host-persona",
+                            "title": "Alan Cumming: His Host Persona ",
+                            "title_sortable": "Alan Cumming: His Host Persona ",
+                            "description_short": "Mystery! host Alan Cumming on his host persona.",
+                            "description_long": "MASTERPIECE Mystery!'s Alan Cumming gives a behind-the-scenes take on what he strives for as a host. #MysteryPBS",
+                            "object_type": "clip",
+                            "premiered_on": "2015-09-20",
+                            "encored_on": "2015-09-20",
+                            "duration": 106,
+                            "legacy_tp_media_id": 2365563818,
+                            "tags": null,
+                            "updated_at": "2018-05-02T09:54:56.016265Z",
+                            "availabilities": {
+                                "all_members": {
+                                    "updated_at": "2017-04-11T07:23:58.427692Z",
+                                    "start": "2015-09-16T19:00:00Z",
+                                    "end": null
+                                },
+                                "public": {
+                                    "updated_at": "2017-04-11T07:23:58.427692Z",
+                                    "start": "2015-09-16T19:00:00Z",
+                                    "end": null
+                                },
+                                "station_members": {
+                                    "updated_at": "2017-04-11T07:23:58.427692Z",
+                                    "start": "2015-09-16T19:00:00Z",
+                                    "end": null
+                                }
+                            },
+                            "parent_tree": {
+                                "type": "franchise",
+                                "links": {
+                                    "self": "https://media.services.pbs.org/api/v1/franchises/e08bf78d-e6a3-44b9-b356-8753d01c7327/"
+                                },
+                                "id": "e08bf78d-e6a3-44b9-b356-8753d01c7327",
+                                "attributes": {
+                                    "title": "Masterpiece",
+                                    "slug": "masterpiece"
+                                }
+                            },
+                            "has_captions": false,
+                            "images": [
+                                {
+                                    "profile": "asset-mezzanine-16x9",
+                                    "image": "https://image.pbs.org/video-assets/pbs/masterpiece/187251/images/mezzanine_676.jpg",
+                                    "updated_at": "2017-04-11T07:33:27.324015Z"
+                                }
+                            ],
+                            "platforms": [
+                                {
+                                    "name": "All Platforms",
+                                    "updated_at": "2017-04-03T15:57:09.459445Z",
+                                    "slug": "allplatforms",
+                                    "id": "e5a289b8-01b3-41ce-92c1-3eb5a4e14bc0"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "type": "asset",
+                        "links": {
+                            "self": "https://media.services.pbs.org/api/v1/assets/bf0bc2d1-deec-4770-8edf-5f93b37eb182/"
+                        },
+                        "id": "bf0bc2d1-deec-4770-8edf-5f93b37eb182",
+                        "attributes": {
+                            "slug": "masterpiece-alan-cummings-favorite-songs",
+                            "title": "Alan Cumming's Favorite Songs",
+                            "title_sortable": "Alan Cumming's Favorite Songs",
+                            "description_short": "Alan Cumming on his favorite songs.",
+                            "description_long": "The MASTERPIECE Mystery! host discusses his favorite songs, from Adele to Miley Cyrus. #MysteryPBS",
+                            "object_type": "clip",
+                            "premiered_on": "2015-09-20",
+                            "encored_on": "2015-09-20",
+                            "duration": 128,
+                            "legacy_tp_media_id": 2365566139,
+                            "tags": null,
+                            "updated_at": "2018-05-02T09:54:56.105249Z",
+                            "availabilities": {
+                                "all_members": {
+                                    "updated_at": "2017-04-11T07:23:58.427692Z",
+                                    "start": "2015-09-21T14:00:00Z",
+                                    "end": null
+                                },
+                                "public": {
+                                    "updated_at": "2017-04-11T07:23:58.427692Z",
+                                    "start": "2015-09-21T14:00:00Z",
+                                    "end": null
+                                },
+                                "station_members": {
+                                    "updated_at": "2017-04-11T07:23:58.427692Z",
+                                    "start": "2015-09-21T14:00:00Z",
+                                    "end": null
+                                }
+                            },
+                            "parent_tree": {
+                                "type": "franchise",
+                                "links": {
+                                    "self": "https://media.services.pbs.org/api/v1/franchises/e08bf78d-e6a3-44b9-b356-8753d01c7327/"
+                                },
+                                "id": "e08bf78d-e6a3-44b9-b356-8753d01c7327",
+                                "attributes": {
+                                    "title": "Masterpiece",
+                                    "slug": "masterpiece"
+                                }
+                            },
+                            "has_captions": false,
+                            "images": [
+                                {
+                                    "profile": "asset-mezzanine-16x9",
+                                    "image": "https://image.pbs.org/video-assets/pbs/masterpiece/187672/images/mezzanine_574.jpg",
+                                    "updated_at": "2017-04-11T07:33:27.324015Z"
+                                }
+                            ],
+                            "platforms": [
+                                {
+                                    "name": "All Platforms",
+                                    "updated_at": "2017-04-03T15:57:09.459445Z",
+                                    "slug": "allplatforms",
+                                    "id": "e5a289b8-01b3-41ce-92c1-3eb5a4e14bc0"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    ],
+    "meta": {
+        "filter": {
+            "platform-id": "https://media.services.pbs.org/api/v1/franchises/?platform-id=",
+            "platform-slug": "https://media.services.pbs.org/api/v1/franchises/?platform-slug=",
+            "slug": "https://media.services.pbs.org/api/v1/franchises/?slug="
+        },
+        "sort": {
+            "title": {
+                "asc": "https://media.services.pbs.org/api/v1/franchises/?sort=title",
+                "desc": "https://media.services.pbs.org/api/v1/franchises/?sort=-title"
+            },
+            "title_sortable": {
+                "asc": "https://media.services.pbs.org/api/v1/franchises/?sort=title_sortable",
+                "desc": "https://media.services.pbs.org/api/v1/franchises/?sort=-title_sortable"
+            }
+        },
+        "pagination": {
+            "per_page": 50,
+            "count": 1
+        },
+        "type": "collection"
+    },
+    "links": {
+        "self": "https://media.services.pbs.org/api/v1/franchises/?id=e08bf78d-e6a3-44b9-b356-8753d01c7327&fetch-related",
+        "prev": null,
+        "next": null,
+        "first": null,
+        "last": null
+    },
+    "jsonapi": {
+        "version": "1.0"
+    }
+}

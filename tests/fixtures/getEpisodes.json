@@ -1,0 +1,262 @@
+{
+    "data": [
+        {
+            "attributes": {
+                "ordinal": 8,
+                "segment": "",
+                "title": "Episode 8",
+                "title_sortable": "Episode 8",
+                "slug": "episode-8-vnjd0e",
+                "tms_id": "",
+                "description_short": "Mercy and Pepper bring joy to the town but the Sharrows’ rivalry reaches breaking point.",
+                "description_long": "Mercy and Pepper bring joy to the town but the Sharrows’ rivalry reaches breaking point. Jocelyn gives Yeardley one last challenge which will alter both their futures. Opechancanough initiates an audacious plan that will change Jamestown forever.",
+                "premiered_on": "2019-08-04",
+                "encored_on": "2019-08-04",
+                "nola": "000308",
+                "language": "en",
+                "updated_at": "2019-07-01T14:19:38.885947Z",
+                "assets": [],
+                "collections": [],
+                "full_length_asset": {}
+            },
+            "links": {
+                "collections": "https://media.services.pbs.org/api/v1/episodes/99aa15d6-946e-4acc-8d33-96eb173a26f7/collections/",
+                "self": "https://media.services.pbs.org/api/v1/episodes/99aa15d6-946e-4acc-8d33-96eb173a26f7/",
+                "assets": "https://media.services.pbs.org/api/v1/episodes/99aa15d6-946e-4acc-8d33-96eb173a26f7/assets/"
+            },
+            "id": "99aa15d6-946e-4acc-8d33-96eb173a26f7",
+            "type": "episode"
+        },
+        {
+            "attributes": {
+                "ordinal": 7,
+                "segment": "",
+                "title": "Episode 7",
+                "title_sortable": "Episode 7",
+                "slug": "episode-7-c4bg38",
+                "tms_id": "",
+                "description_short": "Jocelyn’s adventure tests friendships and leaves lives hanging in the balance.",
+                "description_long": "Jocelyn’s adventure upriver tests friendships and leaves lives hanging in the balance. Maria and Temperance work together to manipulate Yeardley. When the Sharrows become embroiled with a notorious Pamunkey warrior, their actions prove disastrous.",
+                "premiered_on": "2019-07-28",
+                "encored_on": "2019-07-28",
+                "nola": "000307",
+                "language": "en",
+                "updated_at": "2019-07-01T14:19:27.754275Z",
+                "assets": [],
+                "collections": [],
+                "full_length_asset": {}
+            },
+            "links": {
+                "collections": "https://media.services.pbs.org/api/v1/episodes/ccbde925-7a3b-48e6-a80f-37c1e2c99159/collections/",
+                "self": "https://media.services.pbs.org/api/v1/episodes/ccbde925-7a3b-48e6-a80f-37c1e2c99159/",
+                "assets": "https://media.services.pbs.org/api/v1/episodes/ccbde925-7a3b-48e6-a80f-37c1e2c99159/assets/"
+            },
+            "id": "ccbde925-7a3b-48e6-a80f-37c1e2c99159",
+            "type": "episode"
+        },
+        {
+            "attributes": {
+                "ordinal": 6,
+                "segment": "",
+                "title": "Episode 6",
+                "title_sortable": "Episode 6",
+                "slug": "episode-6-ve0ykz",
+                "tms_id": "",
+                "description_short": "Pedro seeks revenge after devastating news. Willmus challenges James Read about his past.",
+                "description_long": "Pedro seeks revenge after some devastating news. Willmus challenges James Read about his past, causing Pedro to doubt the blacksmith’s loyalty. Jocelyn realizes that if she wants to see Yeardley overthrown, she must take matters into her own hands.",
+                "premiered_on": "2019-07-21",
+                "encored_on": "2019-07-21",
+                "nola": "000306",
+                "language": "en",
+                "updated_at": "2019-07-01T14:19:20.952331Z",
+                "assets": [],
+                "collections": [],
+                "full_length_asset": {}
+            },
+            "links": {
+                "collections": "https://media.services.pbs.org/api/v1/episodes/6f6ec9e7-0bec-4798-a828-fb9ee2683195/collections/",
+                "self": "https://media.services.pbs.org/api/v1/episodes/6f6ec9e7-0bec-4798-a828-fb9ee2683195/",
+                "assets": "https://media.services.pbs.org/api/v1/episodes/6f6ec9e7-0bec-4798-a828-fb9ee2683195/assets/"
+            },
+            "id": "6f6ec9e7-0bec-4798-a828-fb9ee2683195",
+            "type": "episode"
+        },
+        {
+            "attributes": {
+                "ordinal": 5,
+                "segment": "",
+                "title": "Episode 5",
+                "title_sortable": "Episode 5",
+                "slug": "episode-5-5ti8ob",
+                "tms_id": "EP026692830023",
+                "description_short": "When Chacrow comes to live in Jamestown, his relationship with Silas is tested.",
+                "description_long": "When Chacrow comes to live in Jamestown, his relationship with Silas is tested to the extreme. Yeardley makes a plan for the future which spells disaster for Pedro and Maria. Jocelyn resorts to drastic measures to extract the truth from Willmus.",
+                "premiered_on": "2019-07-14",
+                "encored_on": "2019-07-14",
+                "nola": "000305",
+                "language": "en",
+                "updated_at": "2019-07-01T14:19:09.871710Z",
+                "assets": [],
+                "collections": [],
+                "full_length_asset": {}
+            },
+            "links": {
+                "collections": "https://media.services.pbs.org/api/v1/episodes/513b5bbd-62d9-41d1-b833-16ea81a10f69/collections/",
+                "self": "https://media.services.pbs.org/api/v1/episodes/513b5bbd-62d9-41d1-b833-16ea81a10f69/",
+                "assets": "https://media.services.pbs.org/api/v1/episodes/513b5bbd-62d9-41d1-b833-16ea81a10f69/assets/"
+            },
+            "id": "513b5bbd-62d9-41d1-b833-16ea81a10f69",
+            "type": "episode"
+        },
+        {
+            "attributes": {
+                "ordinal": 4,
+                "segment": "",
+                "title": "Episode 4",
+                "title_sortable": "Episode 4",
+                "slug": "episode-4-5lmb2o",
+                "tms_id": "EP026692830022",
+                "description_short": "An extraordinary creature transfixes the town and a race to capture it ensues.",
+                "description_long": "An extraordinary creature transfixes the town and a race to capture the beast ensues. Silas must face the consequences of his attack on Yeardley, whilst Opechancanough makes a bold political move. Jocelyn finally weakens the unfathomable Willmus.",
+                "premiered_on": "2019-07-07",
+                "encored_on": "2019-07-07",
+                "nola": "000304",
+                "language": "en",
+                "updated_at": "2019-07-01T14:19:01.534542Z",
+                "assets": [],
+                "collections": [],
+                "full_length_asset": {}
+            },
+            "links": {
+                "collections": "https://media.services.pbs.org/api/v1/episodes/7bfde786-f8a0-459a-8f72-59bccaeb33ce/collections/",
+                "self": "https://media.services.pbs.org/api/v1/episodes/7bfde786-f8a0-459a-8f72-59bccaeb33ce/",
+                "assets": "https://media.services.pbs.org/api/v1/episodes/7bfde786-f8a0-459a-8f72-59bccaeb33ce/assets/"
+            },
+            "id": "7bfde786-f8a0-459a-8f72-59bccaeb33ce",
+            "type": "episode"
+        },
+        {
+            "attributes": {
+                "ordinal": 3,
+                "segment": "",
+                "title": "Episode 3",
+                "title_sortable": "Episode 3",
+                "slug": "episode-3-xv8hth",
+                "tms_id": "EP026692830021",
+                "description_short": "Maria forms a plan which could secure a new life for her and Pedro.",
+                "description_long": "Maria forms a plan which could secure a new life for her and Pedro. Silas seeks revenge against Yeardley and jeopardizes his place with the Pamunkey. Jocelyn learns that Willmus believes her corrupt; she tries to woo him but may have met her match.",
+                "premiered_on": "2019-06-30",
+                "encored_on": "2019-06-30",
+                "nola": "000304",
+                "language": "en",
+                "updated_at": "2019-07-01T14:18:54.227603Z",
+                "assets": [],
+                "collections": [],
+                "full_length_asset": {}
+            },
+            "links": {
+                "collections": "https://media.services.pbs.org/api/v1/episodes/7f43f5be-d8bb-4598-8093-6d5c986e71b2/collections/",
+                "self": "https://media.services.pbs.org/api/v1/episodes/7f43f5be-d8bb-4598-8093-6d5c986e71b2/",
+                "assets": "https://media.services.pbs.org/api/v1/episodes/7f43f5be-d8bb-4598-8093-6d5c986e71b2/assets/"
+            },
+            "id": "7f43f5be-d8bb-4598-8093-6d5c986e71b2",
+            "type": "episode"
+        },
+        {
+            "attributes": {
+                "ordinal": 2,
+                "segment": "",
+                "title": "Episode 2",
+                "title_sortable": "Episode 2",
+                "slug": "episode-2-rbkhlo",
+                "tms_id": "EP026692830020",
+                "description_short": "Henry and Winganuske clash when their child falls ill.",
+                "description_long": "Henry and Winganuske clash when their daughter falls ill. A rebellious young boy arrives in town and Meredith takes an instant shine to him. Jocelyn sees an opportunity to forge a relationship with the Pamunkey and does so to spite Yeardley.",
+                "premiered_on": "2019-06-23",
+                "encored_on": "2019-06-23",
+                "nola": "000302",
+                "language": "en",
+                "updated_at": "2019-07-01T14:18:46.807060Z",
+                "assets": [],
+                "collections": [],
+                "full_length_asset": {}
+            },
+            "links": {
+                "collections": "https://media.services.pbs.org/api/v1/episodes/738feffc-04fb-42fd-8b5f-e5b2fac820a6/collections/",
+                "self": "https://media.services.pbs.org/api/v1/episodes/738feffc-04fb-42fd-8b5f-e5b2fac820a6/",
+                "assets": "https://media.services.pbs.org/api/v1/episodes/738feffc-04fb-42fd-8b5f-e5b2fac820a6/assets/"
+            },
+            "id": "738feffc-04fb-42fd-8b5f-e5b2fac820a6",
+            "type": "episode"
+        },
+        {
+            "attributes": {
+                "ordinal": 1,
+                "segment": "",
+                "title": "Episode 1",
+                "title_sortable": "Episode 1",
+                "slug": "episode-1-7fvgdu",
+                "tms_id": "EP026692830019",
+                "description_short": "After the burning of her plantation, Jocelyn regains her thirst for advancement.",
+                "description_long": "After the burning of her plantation, Jocelyn regains her thirst for advancement. Banished Silas is devoted to his new life with the Pamunkey, forcing Alice to make a devastating decision. Yeardley brutally proves that disloyalty will not be tolerated.",
+                "premiered_on": "2019-06-16",
+                "encored_on": "2019-06-16",
+                "nola": "000301",
+                "language": "en",
+                "updated_at": "2019-07-01T14:18:36.887569Z",
+                "assets": [],
+                "collections": [],
+                "full_length_asset": {}
+            },
+            "links": {
+                "collections": "https://media.services.pbs.org/api/v1/episodes/d5cdd80c-4614-452b-91ed-cd4e583e0ef7/collections/",
+                "self": "https://media.services.pbs.org/api/v1/episodes/d5cdd80c-4614-452b-91ed-cd4e583e0ef7/",
+                "assets": "https://media.services.pbs.org/api/v1/episodes/d5cdd80c-4614-452b-91ed-cd4e583e0ef7/assets/"
+            },
+            "id": "d5cdd80c-4614-452b-91ed-cd4e583e0ef7",
+            "type": "episode"
+        }
+    ],
+    "links": {
+        "self": "https://media.services.pbs.org/api/v1/seasons/bd2cf784-bf4a-4638-a477-721dfb29b12e/episodes/?fetch-related&per-size=50",
+        "first": null,
+        "next": null,
+        "prev": null,
+        "last": null
+    },
+    "meta": {
+        "type": "collection",
+        "filter": {
+            "encored-on-gt": "https://media.services.pbs.org/api/v1/seasons/bd2cf784-bf4a-4638-a477-721dfb29b12e/episodes/?encored-on-gt=",
+            "encored-on-lt": "https://media.services.pbs.org/api/v1/seasons/bd2cf784-bf4a-4638-a477-721dfb29b12e/episodes/?encored-on-lt=",
+            "id": "https://media.services.pbs.org/api/v1/seasons/bd2cf784-bf4a-4638-a477-721dfb29b12e/episodes/?id=",
+            "slug": "https://media.services.pbs.org/api/v1/seasons/bd2cf784-bf4a-4638-a477-721dfb29b12e/episodes/?slug=",
+            "ordinal": "https://media.services.pbs.org/api/v1/seasons/bd2cf784-bf4a-4638-a477-721dfb29b12e/episodes/?ordinal="
+        },
+        "pagination": {
+            "per_page": 50,
+            "count": 8
+        },
+        "sort": {
+            "ordinal": {
+                "asc": "https://media.services.pbs.org/api/v1/seasons/bd2cf784-bf4a-4638-a477-721dfb29b12e/episodes/?per-size=50&sort=ordinal",
+                "desc": "https://media.services.pbs.org/api/v1/seasons/bd2cf784-bf4a-4638-a477-721dfb29b12e/episodes/?per-size=50&sort=-ordinal"
+            },
+            "title_sortable": {
+                "asc": "https://media.services.pbs.org/api/v1/seasons/bd2cf784-bf4a-4638-a477-721dfb29b12e/episodes/?per-size=50&sort=title_sortable",
+                "desc": "https://media.services.pbs.org/api/v1/seasons/bd2cf784-bf4a-4638-a477-721dfb29b12e/episodes/?per-size=50&sort=-title_sortable"
+            },
+            "premiered_on": {
+                "asc": "https://media.services.pbs.org/api/v1/seasons/bd2cf784-bf4a-4638-a477-721dfb29b12e/episodes/?per-size=50&sort=premiered_on",
+                "desc": "https://media.services.pbs.org/api/v1/seasons/bd2cf784-bf4a-4638-a477-721dfb29b12e/episodes/?per-size=50&sort=-premiered_on"
+            },
+            "encored_on": {
+                "asc": "https://media.services.pbs.org/api/v1/seasons/bd2cf784-bf4a-4638-a477-721dfb29b12e/episodes/?per-size=50&sort=encored_on",
+                "desc": "https://media.services.pbs.org/api/v1/seasons/bd2cf784-bf4a-4638-a477-721dfb29b12e/episodes/?per-size=50&sort=-encored_on"
+            }
+        }
+    },
+    "jsonapi": {
+        "version": "1.0"
+    }
+}

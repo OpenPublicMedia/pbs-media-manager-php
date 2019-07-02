@@ -59,15 +59,13 @@ class Client
      *   API client secret.
      * @param string $base_uri
      *   Base API URI.
+     * @param array $options
+     *   Additional options to pass to Guzzle client.
      */
-    public function __construct($key, $secret, $base_uri = self::LIVE)
+    public function __construct($key, $secret, $base_uri = self::LIVE, array $options = [])
     {
-        $this->client = new GuzzleClient(
-            [
-                'base_uri' => $base_uri,
-                'auth' => [$key, $secret]
-            ]
-        );
+        $options = ['base_uri' => $base_uri, 'auth' => [$key, $secret]] + $options;
+        $this->client = new GuzzleClient($options);
     }
 
     /**
@@ -93,7 +91,7 @@ class Client
         }
         /* @url https://docs.pbs.org/display/CDA/HTTP+Response+Status+Codes */
         if ($response->getStatusCode() != 200 && $response->getStatusCode() != 204) {
-            throw new RuntimeException($response->getReasonPhrase());
+            throw new RuntimeException($response->getReasonPhrase(), $response->getStatusCode());
         }
         return $response;
     }
@@ -154,7 +152,7 @@ class Client
         $response = $this->request('get', $endpoint . '/' . $id, $query);
         $json = json_decode($response->getBody());
         if (!empty($json->data)) {
-            return $json->data;
+            return $json->data[0];
         }
         return null;
     }

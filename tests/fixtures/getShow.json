@@ -1,0 +1,1276 @@
+{
+    "meta": {
+        "pagination": {
+            "count": 1,
+            "per_page": 50
+        },
+        "type": "collection",
+        "sort": {
+            "title_sortable": {
+                "asc": "https://media.services.pbs.org/api/v1/shows/?sort=title_sortable",
+                "desc": "https://media.services.pbs.org/api/v1/shows/?sort=-title_sortable"
+            },
+            "title": {
+                "asc": "https://media.services.pbs.org/api/v1/shows/?sort=title",
+                "desc": "https://media.services.pbs.org/api/v1/shows/?sort=-title"
+            }
+        },
+        "filter": {
+            "nola": "https://media.services.pbs.org/api/v1/shows/?nola=",
+            "kids_audience": "https://media.services.pbs.org/api/v1/shows/?audience-scope=kids",
+            "national_audience": "https://media.services.pbs.org/api/v1/shows/?audience-scope=national",
+            "platform-slug": "https://media.services.pbs.org/api/v1/shows/?platform-slug=",
+            "genre-slug": "https://media.services.pbs.org/api/v1/shows/?genre-slug=",
+            "id": "https://media.services.pbs.org/api/v1/shows/?id=",
+            "slug": "https://media.services.pbs.org/api/v1/shows/?slug=",
+            "franchise-slug": "https://media.services.pbs.org/api/v1/shows/?franchise-slug=",
+            "genre-id": "https://media.services.pbs.org/api/v1/shows/?genre-id=",
+            "franchise-id": "https://media.services.pbs.org/api/v1/shows/?franchise-id=",
+            "platform-id": "https://media.services.pbs.org/api/v1/shows/?platform-id=",
+            "local_audience": "https://media.services.pbs.org/api/v1/shows/?audience=&audience-scope=local"
+        }
+    },
+    "data": [
+        {
+            "attributes": {
+                "slug": "american-masters",
+                "nola": "AMMS",
+                "title": "American Masters",
+                "title_sortable": "American Masters",
+                "tms_id": "SH000002880000",
+                "description_short": "Discover insightful profiles of important figures in America's artistic and cultural life.",
+                "description_long": "American Masters, committed to producing comprehensive film biographies about the broad cast of characters who comprise our cultural history.",
+                "premiered_on": null,
+                "is_excluded_from_dfp": false,
+                "funder_message": "Major support for American Masters is provided by AARP. Additional funding is provided by Rosalind P. Walter, The Philip and Janice Levin Foundation, Judith and Burton Resnick, Ellen and James S. Marcus, Lillian Goldman Programming Endowment, The Blanche & Irving Laurie Foundation, Vital Projects Fund, Cheryl and Philip Milstein Family, The André and Elizabeth Kertész Foundation, Lenore Hecht Foundation, Michael & Helen Schaffer Foundation, and public television viewers.",
+                "tracking_ga_page": "UA-3992773-1",
+                "tracking_ga_event": "UA-3992773-2",
+                "updated_at": "2019-07-01T18:41:23.603300Z",
+                "hashtag": "AmericanMastersPBS",
+                "display_episode_number": true,
+                "can_embed_player": true,
+                "language": "en",
+                "ordinal_season": true,
+                "sort_episodes_descending": true,
+                "genre": {
+                    "id": "d68d138e-dae6-4fa9-9148-addc88fa6efb",
+                    "slug": "history",
+                    "title": "History",
+                    "title_sortable": "History",
+                    "updated_at": "2017-04-04T10:27:45.732884Z"
+                },
+                "links": [
+                    {
+                        "value": "http://www.pbs.org/wnet/americanmasters/",
+                        "profile": "producer",
+                        "updated_at": "2017-05-04T19:04:32.035534Z"
+                    },
+                    {
+                        "value": "https://www.facebook.com/AmericanMasters/",
+                        "profile": "facebook",
+                        "updated_at": "2017-05-04T19:04:32.035777Z"
+                    },
+                    {
+                        "value": "https://www.instagram.com/pbsamericanmasters/",
+                        "profile": "instagram",
+                        "updated_at": "2017-05-04T19:04:32.035667Z"
+                    },
+                    {
+                        "value": "http://pbsamericanmasters.tumblr.com/",
+                        "profile": "tumblr",
+                        "updated_at": "2017-05-04T19:04:32.035722Z"
+                    },
+                    {
+                        "value": "https://twitter.com/PBSAmerMasters",
+                        "profile": "twitter",
+                        "updated_at": "2017-05-04T19:04:32.035610Z"
+                    },
+                    {
+                        "value": "http://dun96pyxwe2yl.cloudfront.net/apple-universal-search/images/american-masters.lsr",
+                        "profile": "apple-lsr-format",
+                        "updated_at": "2018-09-25T20:54:29.998899Z"
+                    }
+                ],
+                "images": [
+                    {
+                        "profile": "show-logo",
+                        "image": "https://image.pbs.org/contentchannels/4/I7iEPNyZrmtc1Q6Y2dgQ.png",
+                        "updated_at": "2017-04-11T07:17:38.573210Z"
+                    },
+                    {
+                        "profile": "show-mezzanine16x9",
+                        "image": "https://image.pbs.org/contentchannels/4/OQyvMzHv0KtTfjkeXQkRvQ.jpg",
+                        "updated_at": "2017-04-11T07:17:38.573210Z"
+                    },
+                    {
+                        "profile": "show-poster2x3",
+                        "image": "https://image.pbs.org/contentchannels/4/DQonQiQxfoWZiaPvAsVCw.jpg",
+                        "updated_at": "2017-04-11T07:17:38.573210Z"
+                    },
+                    {
+                        "profile": "show-showcase",
+                        "image": "https://image.pbs.org/contentchannels/4/Ww6v0Lxsn5xG3wczN3Nw.jpg",
+                        "updated_at": "2017-04-11T07:17:38.573210Z"
+                    },
+                    {
+                        "profile": "show-white-logo",
+                        "image": "https://image.pbs.org/contentchannels/4/lHIM51S4tQ47lSUUwr8Cqw.png",
+                        "updated_at": "2017-04-11T07:17:38.573210Z"
+                    },
+                    {
+                        "profile": "show-black-logo",
+                        "image": "https://image.pbs.org/contentchannels/4/JOrsZcd8UdeNzEWDCi1IIQ.png",
+                        "updated_at": "2017-04-11T07:17:38.573210Z"
+                    },
+                    {
+                        "profile": "show-stack-image",
+                        "image": "https://image.pbs.org/program_pages/American-Masters1920x1080_MezzanineCOVE.jpg",
+                        "updated_at": "2017-04-11T07:17:38.573210Z"
+                    },
+                    {
+                        "profile": "white-logo-41",
+                        "image": "https://image.pbs.org/contentchannels/zIOGpVc-white-logo-41-yxXBDTS.png",
+                        "updated_at": "2017-11-14T19:17:51.140364Z"
+                    },
+                    {
+                        "profile": "black-logo-41",
+                        "image": "https://image.pbs.org/contentchannels/YYSpMIn-black-logo-41-zGDzLpy.png",
+                        "updated_at": "2017-11-14T19:17:51.140364Z"
+                    },
+                    {
+                        "profile": "color-logo-41",
+                        "image": "https://image.pbs.org/contentchannels/nvFYXaF-color-logo-41-FxXVIwa.png",
+                        "updated_at": "2017-11-14T19:17:51.140364Z"
+                    }
+                ],
+                "franchise": null,
+                "audience": [
+                    {
+                        "scope": "national",
+                        "station": null
+                    }
+                ],
+                "platforms": [
+                    {
+                        "id": "e5a289b8-01b3-41ce-92c1-3eb5a4e14bc0",
+                        "name": "All Platforms",
+                        "slug": "allplatforms",
+                        "updated_at": "2017-04-03T15:57:09.459445Z"
+                    }
+                ],
+                "episodes_count": 97,
+                "assets": [
+                    {
+                        "attributes": {
+                            "slug": "im-pei-memoriam-ufc96p",
+                            "title": "I.M. Pei In Memoriam",
+                            "title_sortable": "I.M. Pei In Memoriam",
+                            "description_short": "We mourn the loss of renowned architect I.M. Pei.",
+                            "description_long": "We mourn the loss of renowned architect I.M. Pei, subject of an American Masters documentary in 2010. In this clip from American Masters—Alexander Calder¸ Pei discusses sculpture’s evolving relationship to architecture, and his initial reaction to Michelangelo’s David.",
+                            "object_type": "clip",
+                            "premiered_on": "2019-05-17",
+                            "encored_on": "2019-05-17",
+                            "duration": 74,
+                            "legacy_tp_media_id": 3028999784,
+                            "tags": null,
+                            "updated_at": "2019-05-17T17:32:10.704680Z",
+                            "availabilities": {
+                                "station_members": {
+                                    "end": null,
+                                    "updated_at": "2019-05-17T15:50:55.586168Z",
+                                    "start": "2019-05-17T15:50:55Z"
+                                },
+                                "public": {
+                                    "end": null,
+                                    "updated_at": "2019-05-17T15:50:55.586059Z",
+                                    "start": "2019-05-17T15:50:55Z"
+                                },
+                                "all_members": {
+                                    "end": null,
+                                    "updated_at": "2019-05-17T15:50:55.586118Z",
+                                    "start": "2019-05-17T15:50:55Z"
+                                }
+                            },
+                            "parent_tree": {
+                                "attributes": {
+                                    "display_episode_number": true,
+                                    "franchise": null,
+                                    "slug": "american-masters",
+                                    "tracking_ga_page": "UA-3992773-1",
+                                    "tracking_ga_event": "UA-3992773-2",
+                                    "title": "American Masters",
+                                    "audience": [
+                                        {
+                                            "scope": "national",
+                                            "station": null
+                                        }
+                                    ],
+                                    "seasons_count": 23
+                                },
+                                "id": "2e5c2027-ec2e-4214-baa3-6ff6af56c8c3",
+                                "type": "show",
+                                "links": {
+                                    "self": "https://media.services.pbs.org/api/v1/shows/2e5c2027-ec2e-4214-baa3-6ff6af56c8c3/"
+                                }
+                            },
+                            "has_captions": true,
+                            "images": [
+                                {
+                                    "updated_at": "2019-05-17T15:53:51.317894Z",
+                                    "image": "https://image.pbs.org/video-assets/BQ4t3Yt-asset-kids-mezzanine1-16x9-GiHHQD1.jpg",
+                                    "profile": "asset-kids-mezzanine1-16x9"
+                                }
+                            ],
+                            "platforms": [
+                                {
+                                    "name": "All Platforms",
+                                    "id": "e5a289b8-01b3-41ce-92c1-3eb5a4e14bc0",
+                                    "slug": "allplatforms",
+                                    "updated_at": "2017-04-03T15:57:09.459445Z"
+                                }
+                            ]
+                        },
+                        "id": "0b48c9c9-dd63-4485-8e80-9ef31acec22f",
+                        "type": "asset",
+                        "links": {
+                            "self": "https://media.services.pbs.org/api/v1/assets/0b48c9c9-dd63-4485-8e80-9ef31acec22f/"
+                        }
+                    },
+                    {
+                        "attributes": {
+                            "slug": "remembering-tim-conway-8xnqa2",
+                            "title": "Remembering Tim Conway",
+                            "title_sortable": "Remembering Tim Conway",
+                            "description_short": "Remembering Tim Conway",
+                            "description_long": "The late actor and comedian Tim Conway remembers an extended riff he had about two twin elephants during a rehearsal for \"The Carol Burnett Show.\" This exclusive outtake is from American Masters – Carol Burnett: A Woman of Character (2007), directed by Kyra Thompson.",
+                            "object_type": "clip",
+                            "premiered_on": "2019-05-14",
+                            "encored_on": "2019-05-14",
+                            "duration": 63,
+                            "legacy_tp_media_id": 3028887970,
+                            "tags": null,
+                            "updated_at": "2019-05-14T22:04:04.076966Z",
+                            "availabilities": {
+                                "station_members": {
+                                    "end": null,
+                                    "updated_at": "2019-05-14T21:54:24.706725Z",
+                                    "start": "2019-05-14T21:54:24Z"
+                                },
+                                "public": {
+                                    "end": null,
+                                    "updated_at": "2019-05-14T21:54:24.706615Z",
+                                    "start": "2019-05-14T21:54:24Z"
+                                },
+                                "all_members": {
+                                    "end": null,
+                                    "updated_at": "2019-05-14T21:54:24.706675Z",
+                                    "start": "2019-05-14T21:54:24Z"
+                                }
+                            },
+                            "parent_tree": {
+                                "attributes": {
+                                    "display_episode_number": true,
+                                    "franchise": null,
+                                    "slug": "american-masters",
+                                    "tracking_ga_page": "UA-3992773-1",
+                                    "tracking_ga_event": "UA-3992773-2",
+                                    "title": "American Masters",
+                                    "audience": [
+                                        {
+                                            "scope": "national",
+                                            "station": null
+                                        }
+                                    ],
+                                    "seasons_count": 23
+                                },
+                                "id": "2e5c2027-ec2e-4214-baa3-6ff6af56c8c3",
+                                "type": "show",
+                                "links": {
+                                    "self": "https://media.services.pbs.org/api/v1/shows/2e5c2027-ec2e-4214-baa3-6ff6af56c8c3/"
+                                }
+                            },
+                            "has_captions": true,
+                            "images": [
+                                {
+                                    "updated_at": "2019-05-14T22:03:26.765845Z",
+                                    "image": "https://image.pbs.org/video-assets/uA7rIt7-asset-mezzanine-16x9-idiVhzx.jpg",
+                                    "profile": "asset-mezzanine-16x9"
+                                }
+                            ],
+                            "platforms": [
+                                {
+                                    "name": "All Platforms",
+                                    "id": "e5a289b8-01b3-41ce-92c1-3eb5a4e14bc0",
+                                    "slug": "allplatforms",
+                                    "updated_at": "2017-04-03T15:57:09.459445Z"
+                                }
+                            ]
+                        },
+                        "id": "3b263ba0-ff62-4d5a-a4f6-7ad7093e348f",
+                        "type": "asset",
+                        "links": {
+                            "self": "https://media.services.pbs.org/api/v1/assets/3b263ba0-ff62-4d5a-a4f6-7ad7093e348f/"
+                        }
+                    },
+                    {
+                        "attributes": {
+                            "slug": "remembering-jonas-mekas-xosyco",
+                            "title": "Remembering Jonas Mekas",
+                            "title_sortable": "Remembering Jonas Mekas",
+                            "description_short": "Remembering Jonas Mekas",
+                            "description_long": "Jonas Mekas, the influential filmmaker and co-founder of Anthology Film Archives and the New York Film-Makers' Cooperative, talks to director Timothy Greenfield-Sanders for Lou Reed: Rock and Roll Heart (1998) about his 1960s loft space in New York where Andy Warhol learned about experimental filmmaking. Mekas recalls tying Warhol to his seat during a six-hour screening of Sleep, and describes the",
+                            "object_type": "clip",
+                            "premiered_on": "2019-01-23",
+                            "encored_on": "2019-01-23",
+                            "duration": 167,
+                            "legacy_tp_media_id": 3021713950,
+                            "tags": null,
+                            "updated_at": "2019-01-23T19:23:03.693991Z",
+                            "availabilities": {
+                                "station_members": {
+                                    "end": null,
+                                    "updated_at": "2019-01-23T18:32:50.973741Z",
+                                    "start": "2019-01-23T18:32:50Z"
+                                },
+                                "public": {
+                                    "end": null,
+                                    "updated_at": "2019-01-23T18:32:50.973631Z",
+                                    "start": "2019-01-23T18:32:50Z"
+                                },
+                                "all_members": {
+                                    "end": null,
+                                    "updated_at": "2019-01-23T18:32:50.973692Z",
+                                    "start": "2019-01-23T18:32:50Z"
+                                }
+                            },
+                            "parent_tree": {
+                                "attributes": {
+                                    "display_episode_number": true,
+                                    "franchise": null,
+                                    "slug": "american-masters",
+                                    "tracking_ga_page": "UA-3992773-1",
+                                    "tracking_ga_event": "UA-3992773-2",
+                                    "title": "American Masters",
+                                    "audience": [
+                                        {
+                                            "scope": "national",
+                                            "station": null
+                                        }
+                                    ],
+                                    "seasons_count": 23
+                                },
+                                "id": "2e5c2027-ec2e-4214-baa3-6ff6af56c8c3",
+                                "type": "show",
+                                "links": {
+                                    "self": "https://media.services.pbs.org/api/v1/shows/2e5c2027-ec2e-4214-baa3-6ff6af56c8c3/"
+                                }
+                            },
+                            "has_captions": true,
+                            "images": [
+                                {
+                                    "updated_at": "2019-01-23T19:04:43.172793Z",
+                                    "image": "https://image.pbs.org/video-assets/35i0FLH-asset-mezzanine-16x9-cCgF5eV.png",
+                                    "profile": "asset-mezzanine-16x9"
+                                }
+                            ],
+                            "platforms": [
+                                {
+                                    "name": "All Platforms",
+                                    "id": "e5a289b8-01b3-41ce-92c1-3eb5a4e14bc0",
+                                    "slug": "allplatforms",
+                                    "updated_at": "2017-04-03T15:57:09.459445Z"
+                                }
+                            ]
+                        },
+                        "id": "04f34102-5ebc-4aee-92c2-b56c0345a74c",
+                        "type": "asset",
+                        "links": {
+                            "self": "https://media.services.pbs.org/api/v1/assets/04f34102-5ebc-4aee-92c2-b56c0345a74c/"
+                        }
+                    },
+                    {
+                        "attributes": {
+                            "slug": "remembering-carol-channing-cltxtn",
+                            "title": "Remembering Carol Channing",
+                            "title_sortable": "Remembering Carol Channing",
+                            "description_short": "Remembering Carol Channing",
+                            "description_long": "TK",
+                            "object_type": "clip",
+                            "premiered_on": "2019-01-15",
+                            "encored_on": "2019-01-15",
+                            "duration": 63,
+                            "legacy_tp_media_id": 3020823609,
+                            "tags": null,
+                            "updated_at": "2019-01-15T23:39:25.667172Z",
+                            "availabilities": {
+                                "station_members": {
+                                    "end": null,
+                                    "updated_at": "2019-01-15T22:58:48.732122Z",
+                                    "start": "2019-01-15T22:58:48Z"
+                                },
+                                "public": {
+                                    "end": null,
+                                    "updated_at": "2019-01-15T22:58:48.732014Z",
+                                    "start": "2019-01-15T22:58:48Z"
+                                },
+                                "all_members": {
+                                    "end": null,
+                                    "updated_at": "2019-01-15T22:58:48.732073Z",
+                                    "start": "2019-01-15T22:58:48Z"
+                                }
+                            },
+                            "parent_tree": {
+                                "attributes": {
+                                    "display_episode_number": true,
+                                    "franchise": null,
+                                    "slug": "american-masters",
+                                    "tracking_ga_page": "UA-3992773-1",
+                                    "tracking_ga_event": "UA-3992773-2",
+                                    "title": "American Masters",
+                                    "audience": [
+                                        {
+                                            "scope": "national",
+                                            "station": null
+                                        }
+                                    ],
+                                    "seasons_count": 23
+                                },
+                                "id": "2e5c2027-ec2e-4214-baa3-6ff6af56c8c3",
+                                "type": "show",
+                                "links": {
+                                    "self": "https://media.services.pbs.org/api/v1/shows/2e5c2027-ec2e-4214-baa3-6ff6af56c8c3/"
+                                }
+                            },
+                            "has_captions": true,
+                            "images": [
+                                {
+                                    "updated_at": "2019-01-15T23:32:38.739231Z",
+                                    "image": "https://image.pbs.org/video-assets/2Av58uf-asset-mezzanine-16x9-cZz0Qet.png",
+                                    "profile": "asset-mezzanine-16x9"
+                                }
+                            ],
+                            "platforms": [
+                                {
+                                    "name": "All Platforms",
+                                    "id": "e5a289b8-01b3-41ce-92c1-3eb5a4e14bc0",
+                                    "slug": "allplatforms",
+                                    "updated_at": "2017-04-03T15:57:09.459445Z"
+                                }
+                            ]
+                        },
+                        "id": "22d85a55-fd57-40a1-a9f5-8d36f8ebe152",
+                        "type": "asset",
+                        "links": {
+                            "self": "https://media.services.pbs.org/api/v1/assets/22d85a55-fd57-40a1-a9f5-8d36f8ebe152/"
+                        }
+                    },
+                    {
+                        "attributes": {
+                            "slug": "remembering-stan-lee-r4sqpz",
+                            "title": "Remembering Stan Lee",
+                            "title_sortable": "Remembering Stan Lee",
+                            "description_short": "Stan Lee and others discuss Lee’s influential work at Marvel Comics.",
+                            "description_long": "In interviews with American Masters Executive Producer Michael Kantor for Superheroes: A Never-Ending Battle, comic book legend Stan Lee and others discuss Lee’s influential work at Marvel Comics, co-creating “The Fantastic Four,” “The Incredible Hulk,” Spider-Man and more.",
+                            "object_type": "clip",
+                            "premiered_on": "2018-11-13",
+                            "encored_on": "2018-11-13",
+                            "duration": 437,
+                            "legacy_tp_media_id": 3018433051,
+                            "tags": null,
+                            "updated_at": "2018-11-13T22:11:09.848733Z",
+                            "availabilities": {
+                                "station_members": {
+                                    "end": null,
+                                    "updated_at": "2018-11-13T20:07:37.169206Z",
+                                    "start": "2018-11-13T20:07:37.130773Z"
+                                },
+                                "public": {
+                                    "end": null,
+                                    "updated_at": "2018-11-13T20:07:37.169088Z",
+                                    "start": "2018-11-13T20:07:37.130773Z"
+                                },
+                                "all_members": {
+                                    "end": null,
+                                    "updated_at": "2018-11-13T20:07:37.169152Z",
+                                    "start": "2018-11-13T20:07:37.130773Z"
+                                }
+                            },
+                            "parent_tree": {
+                                "attributes": {
+                                    "display_episode_number": true,
+                                    "franchise": null,
+                                    "slug": "american-masters",
+                                    "tracking_ga_page": "UA-3992773-1",
+                                    "tracking_ga_event": "UA-3992773-2",
+                                    "title": "American Masters",
+                                    "audience": [
+                                        {
+                                            "scope": "national",
+                                            "station": null
+                                        }
+                                    ],
+                                    "seasons_count": 23
+                                },
+                                "id": "2e5c2027-ec2e-4214-baa3-6ff6af56c8c3",
+                                "type": "show",
+                                "links": {
+                                    "self": "https://media.services.pbs.org/api/v1/shows/2e5c2027-ec2e-4214-baa3-6ff6af56c8c3/"
+                                }
+                            },
+                            "has_captions": true,
+                            "images": [
+                                {
+                                    "updated_at": "2018-11-13T22:11:09.483915Z",
+                                    "image": "https://image.pbs.org/video-assets/7xb0Ydl-asset-mezzanine-16x9-Fb45Gh5.jpg",
+                                    "profile": "asset-mezzanine-16x9"
+                                }
+                            ],
+                            "platforms": [
+                                {
+                                    "name": "All Platforms",
+                                    "id": "e5a289b8-01b3-41ce-92c1-3eb5a4e14bc0",
+                                    "slug": "allplatforms",
+                                    "updated_at": "2017-04-03T15:57:09.459445Z"
+                                }
+                            ]
+                        },
+                        "id": "6733b3f1-894d-47a3-9098-cc3b89560b44",
+                        "type": "asset",
+                        "links": {
+                            "self": "https://media.services.pbs.org/api/v1/assets/6733b3f1-894d-47a3-9098-cc3b89560b44/"
+                        }
+                    },
+                    {
+                        "attributes": {
+                            "slug": "remembering-paula-wayne-deoykj",
+                            "title": "Remembering Paula Wayne",
+                            "title_sortable": "Remembering Paula Wayne",
+                            "description_short": "Remembering Paula Wayne",
+                            "description_long": "Paula Wayne starred alongside Sammy Davis, Jr., in the groundbreaking Broadway musical “Golden Boy” about a black boxer who falls for his manager's white girlfriend – they shared the first interracial kiss on a Broadway stage.",
+                            "object_type": "clip",
+                            "premiered_on": "2018-11-12",
+                            "encored_on": "2018-11-12",
+                            "duration": 189,
+                            "legacy_tp_media_id": 3018400378,
+                            "tags": null,
+                            "updated_at": "2018-11-12T22:55:17.753248Z",
+                            "availabilities": {
+                                "station_members": {
+                                    "end": null,
+                                    "updated_at": "2018-11-12T21:12:00.401573Z",
+                                    "start": "2018-11-12T21:12:00.394281Z"
+                                },
+                                "public": {
+                                    "end": null,
+                                    "updated_at": "2018-11-12T21:12:00.401459Z",
+                                    "start": "2018-11-12T21:12:00.394281Z"
+                                },
+                                "all_members": {
+                                    "end": null,
+                                    "updated_at": "2018-11-12T21:12:00.401522Z",
+                                    "start": "2018-11-12T21:12:00.394281Z"
+                                }
+                            },
+                            "parent_tree": {
+                                "attributes": {
+                                    "display_episode_number": true,
+                                    "franchise": null,
+                                    "slug": "american-masters",
+                                    "tracking_ga_page": "UA-3992773-1",
+                                    "tracking_ga_event": "UA-3992773-2",
+                                    "title": "American Masters",
+                                    "audience": [
+                                        {
+                                            "scope": "national",
+                                            "station": null
+                                        }
+                                    ],
+                                    "seasons_count": 23
+                                },
+                                "id": "2e5c2027-ec2e-4214-baa3-6ff6af56c8c3",
+                                "type": "show",
+                                "links": {
+                                    "self": "https://media.services.pbs.org/api/v1/shows/2e5c2027-ec2e-4214-baa3-6ff6af56c8c3/"
+                                }
+                            },
+                            "has_captions": true,
+                            "images": [
+                                {
+                                    "updated_at": "2018-11-12T21:25:51.314045Z",
+                                    "image": "https://image.pbs.org/video-assets/CfuYhkN-asset-mezzanine-16x9-HwN1FOK.png",
+                                    "profile": "asset-mezzanine-16x9"
+                                }
+                            ],
+                            "platforms": [
+                                {
+                                    "name": "All Platforms",
+                                    "id": "e5a289b8-01b3-41ce-92c1-3eb5a4e14bc0",
+                                    "slug": "allplatforms",
+                                    "updated_at": "2017-04-03T15:57:09.459445Z"
+                                }
+                            ]
+                        },
+                        "id": "e20603dd-9057-4311-8ad0-467746f993bc",
+                        "type": "asset",
+                        "links": {
+                            "self": "https://media.services.pbs.org/api/v1/assets/e20603dd-9057-4311-8ad0-467746f993bc/"
+                        }
+                    },
+                    {
+                        "attributes": {
+                            "slug": "artists-flight-series-promo-6ejmvz",
+                            "title": "Artists Flight On-Air Promo",
+                            "title_sortable": "Artists Flight On-Air Promo",
+                            "description_short": "THIRTEEN’s American Masters Presents an “Artists Flight” Fridays.",
+                            "description_long": "Four documentaries explore the lives of iconic visual artists Eva Hesse, Elizabeth Murray, Andrew Wyeth and Jean-Michel Basquiat.",
+                            "object_type": "preview",
+                            "premiered_on": "2018-08-31",
+                            "encored_on": "2018-08-31",
+                            "duration": 20,
+                            "legacy_tp_media_id": 3014613713,
+                            "tags": null,
+                            "updated_at": "2018-08-16T14:43:48.488655Z",
+                            "availabilities": {
+                                "station_members": {
+                                    "end": null,
+                                    "updated_at": "2018-08-15T19:29:31.514419Z",
+                                    "start": null
+                                },
+                                "public": {
+                                    "end": null,
+                                    "updated_at": "2018-08-15T19:29:31.461947Z",
+                                    "start": null
+                                },
+                                "all_members": {
+                                    "end": null,
+                                    "updated_at": "2018-08-15T19:29:31.498405Z",
+                                    "start": null
+                                }
+                            },
+                            "parent_tree": {
+                                "attributes": {
+                                    "display_episode_number": true,
+                                    "franchise": null,
+                                    "slug": "american-masters",
+                                    "tracking_ga_page": "UA-3992773-1",
+                                    "tracking_ga_event": "UA-3992773-2",
+                                    "title": "American Masters",
+                                    "audience": [
+                                        {
+                                            "scope": "national",
+                                            "station": null
+                                        }
+                                    ],
+                                    "seasons_count": 23
+                                },
+                                "id": "2e5c2027-ec2e-4214-baa3-6ff6af56c8c3",
+                                "type": "show",
+                                "links": {
+                                    "self": "https://media.services.pbs.org/api/v1/shows/2e5c2027-ec2e-4214-baa3-6ff6af56c8c3/"
+                                }
+                            },
+                            "has_captions": true,
+                            "images": [
+                                {
+                                    "updated_at": "2018-07-26T19:31:28.069725Z",
+                                    "image": "http://image.pbs.org/video-assets/DPaUjXi-asset-mezzanine-16x9-Kg5Royl.jpg",
+                                    "profile": "asset-mezzanine-16x9"
+                                }
+                            ],
+                            "platforms": [
+                                {
+                                    "name": "All Platforms",
+                                    "id": "e5a289b8-01b3-41ce-92c1-3eb5a4e14bc0",
+                                    "slug": "allplatforms",
+                                    "updated_at": "2017-04-03T15:57:09.459445Z"
+                                }
+                            ]
+                        },
+                        "id": "fc42bd32-8b3e-4a70-9025-c2287c2ca2f0",
+                        "type": "asset",
+                        "links": {
+                            "self": "https://media.services.pbs.org/api/v1/assets/fc42bd32-8b3e-4a70-9025-c2287c2ca2f0/"
+                        }
+                    },
+                    {
+                        "attributes": {
+                            "slug": "artists-flight-promo-updated-ubla4g",
+                            "title": "Artists Flight Series Promo",
+                            "title_sortable": "Artists Flight Series Promo",
+                            "description_short": "American Masters Presents an “Artists Flight” Fridays.",
+                            "description_long": "Four documentaries explore the lives of iconic visual artists Eva Hesse, Elizabeth Murray, Andrew Wyeth and Jean-Michel Basquiat.",
+                            "object_type": "preview",
+                            "premiered_on": "2018-08-31",
+                            "encored_on": "2018-08-31",
+                            "duration": 30,
+                            "legacy_tp_media_id": 3015356354,
+                            "tags": null,
+                            "updated_at": "2018-08-15T19:29:52.836981Z",
+                            "availabilities": {
+                                "station_members": {
+                                    "end": null,
+                                    "updated_at": "2018-08-15T16:57:49.978542Z",
+                                    "start": "2018-08-15T16:57:49.965948Z"
+                                },
+                                "public": {
+                                    "end": null,
+                                    "updated_at": "2018-08-15T16:57:49.978432Z",
+                                    "start": "2018-08-15T16:57:49.965948Z"
+                                },
+                                "all_members": {
+                                    "end": null,
+                                    "updated_at": "2018-08-15T16:57:49.978492Z",
+                                    "start": "2018-08-15T16:57:49.965948Z"
+                                }
+                            },
+                            "parent_tree": {
+                                "attributes": {
+                                    "display_episode_number": true,
+                                    "franchise": null,
+                                    "slug": "american-masters",
+                                    "tracking_ga_page": "UA-3992773-1",
+                                    "tracking_ga_event": "UA-3992773-2",
+                                    "title": "American Masters",
+                                    "audience": [
+                                        {
+                                            "scope": "national",
+                                            "station": null
+                                        }
+                                    ],
+                                    "seasons_count": 23
+                                },
+                                "id": "2e5c2027-ec2e-4214-baa3-6ff6af56c8c3",
+                                "type": "show",
+                                "links": {
+                                    "self": "https://media.services.pbs.org/api/v1/shows/2e5c2027-ec2e-4214-baa3-6ff6af56c8c3/"
+                                }
+                            },
+                            "has_captions": false,
+                            "images": [
+                                {
+                                    "updated_at": "2018-08-15T17:05:01.458157Z",
+                                    "image": "http://image.pbs.org/video-assets/7n0JEg5-asset-mezzanine-16x9-h45ygR9.png",
+                                    "profile": "asset-mezzanine-16x9"
+                                }
+                            ],
+                            "platforms": [
+                                {
+                                    "name": "All Platforms",
+                                    "id": "e5a289b8-01b3-41ce-92c1-3eb5a4e14bc0",
+                                    "slug": "allplatforms",
+                                    "updated_at": "2017-04-03T15:57:09.459445Z"
+                                }
+                            ]
+                        },
+                        "id": "4e3f7d73-0e25-4002-9a25-ad201d3cc244",
+                        "type": "asset",
+                        "links": {
+                            "self": "https://media.services.pbs.org/api/v1/assets/4e3f7d73-0e25-4002-9a25-ad201d3cc244/"
+                        }
+                    },
+                    {
+                        "attributes": {
+                            "slug": "remembering-neil-simon-e0u7rr",
+                            "title": "Remembering Neil Simon",
+                            "title_sortable": "Remembering Neil Simon",
+                            "description_short": "Remembering Neil Simon",
+                            "description_long": "Pulitzer Prize-winning playwright Neil Simon reflects on his fantasies and career while shooting a game of pool in Simply Simon: Not Just For Laughs\r\n(1989).",
+                            "object_type": "clip",
+                            "premiered_on": "2018-08-28",
+                            "encored_on": "2018-08-28",
+                            "duration": 64,
+                            "legacy_tp_media_id": 3015725842,
+                            "tags": null,
+                            "updated_at": "2018-08-29T16:31:22.737058Z",
+                            "availabilities": {
+                                "station_members": {
+                                    "end": null,
+                                    "updated_at": "2018-08-28T21:42:54.985278Z",
+                                    "start": "2018-08-28T21:42:54.972359Z"
+                                },
+                                "public": {
+                                    "end": null,
+                                    "updated_at": "2018-08-28T21:42:54.985168Z",
+                                    "start": "2018-08-28T21:42:54.972359Z"
+                                },
+                                "all_members": {
+                                    "end": null,
+                                    "updated_at": "2018-08-28T21:42:54.985227Z",
+                                    "start": "2018-08-28T21:42:54.972359Z"
+                                }
+                            },
+                            "parent_tree": {
+                                "attributes": {
+                                    "display_episode_number": true,
+                                    "franchise": null,
+                                    "slug": "american-masters",
+                                    "tracking_ga_page": "UA-3992773-1",
+                                    "tracking_ga_event": "UA-3992773-2",
+                                    "title": "American Masters",
+                                    "audience": [
+                                        {
+                                            "scope": "national",
+                                            "station": null
+                                        }
+                                    ],
+                                    "seasons_count": 23
+                                },
+                                "id": "2e5c2027-ec2e-4214-baa3-6ff6af56c8c3",
+                                "type": "show",
+                                "links": {
+                                    "self": "https://media.services.pbs.org/api/v1/shows/2e5c2027-ec2e-4214-baa3-6ff6af56c8c3/"
+                                }
+                            },
+                            "has_captions": true,
+                            "images": [
+                                {
+                                    "updated_at": "2018-08-28T21:43:35.619583Z",
+                                    "image": "http://image.pbs.org/video-assets/7e23IoS-asset-mezzanine-16x9-BJYV6Nr.jpg",
+                                    "profile": "asset-mezzanine-16x9"
+                                }
+                            ],
+                            "platforms": [
+                                {
+                                    "name": "All Platforms",
+                                    "id": "e5a289b8-01b3-41ce-92c1-3eb5a4e14bc0",
+                                    "slug": "allplatforms",
+                                    "updated_at": "2017-04-03T15:57:09.459445Z"
+                                }
+                            ]
+                        },
+                        "id": "8f54ac6c-5dd7-4eca-8849-f4fa8d832786",
+                        "type": "asset",
+                        "links": {
+                            "self": "https://media.services.pbs.org/api/v1/assets/8f54ac6c-5dd7-4eca-8849-f4fa8d832786/"
+                        }
+                    },
+                    {
+                        "attributes": {
+                            "slug": "2018-emmy-promo-eazj3o",
+                            "title": "2018 Emmy Promo",
+                            "title_sortable": "2018 Emmy Promo",
+                            "description_short": "Watch the 5 Outstanding Awards-Eligible American Masters documentaries from season 31-32.",
+                            "description_long": "American Masters celebrates all the incredible filmmakers, producers, directors and team members who brought us these inspirational documentaries.",
+                            "object_type": "preview",
+                            "premiered_on": "2018-08-08",
+                            "encored_on": "2018-08-08",
+                            "duration": 51,
+                            "legacy_tp_media_id": 3015173834,
+                            "tags": null,
+                            "updated_at": "2018-08-08T20:15:20.318013Z",
+                            "availabilities": {
+                                "station_members": {
+                                    "end": null,
+                                    "updated_at": "2018-08-08T18:31:42.066892Z",
+                                    "start": "2018-08-08T18:31:42.060397Z"
+                                },
+                                "public": {
+                                    "end": null,
+                                    "updated_at": "2018-08-08T18:31:42.066783Z",
+                                    "start": "2018-08-08T18:31:42.060397Z"
+                                },
+                                "all_members": {
+                                    "end": null,
+                                    "updated_at": "2018-08-08T18:31:42.066842Z",
+                                    "start": "2018-08-08T18:31:42.060397Z"
+                                }
+                            },
+                            "parent_tree": {
+                                "attributes": {
+                                    "display_episode_number": true,
+                                    "franchise": null,
+                                    "slug": "american-masters",
+                                    "tracking_ga_page": "UA-3992773-1",
+                                    "tracking_ga_event": "UA-3992773-2",
+                                    "title": "American Masters",
+                                    "audience": [
+                                        {
+                                            "scope": "national",
+                                            "station": null
+                                        }
+                                    ],
+                                    "seasons_count": 23
+                                },
+                                "id": "2e5c2027-ec2e-4214-baa3-6ff6af56c8c3",
+                                "type": "show",
+                                "links": {
+                                    "self": "https://media.services.pbs.org/api/v1/shows/2e5c2027-ec2e-4214-baa3-6ff6af56c8c3/"
+                                }
+                            },
+                            "has_captions": false,
+                            "images": [
+                                {
+                                    "updated_at": "2018-08-08T20:14:05.564238Z",
+                                    "image": "http://image.pbs.org/video-assets/XzzHt9x-asset-mezzanine-16x9-uhd2Pmx.png",
+                                    "profile": "asset-mezzanine-16x9"
+                                }
+                            ],
+                            "platforms": [
+                                {
+                                    "name": "All Platforms",
+                                    "id": "e5a289b8-01b3-41ce-92c1-3eb5a4e14bc0",
+                                    "slug": "allplatforms",
+                                    "updated_at": "2017-04-03T15:57:09.459445Z"
+                                }
+                            ]
+                        },
+                        "id": "5e7eb927-6103-4945-9162-39e1f13ed4ae",
+                        "type": "asset",
+                        "links": {
+                            "self": "https://media.services.pbs.org/api/v1/assets/5e7eb927-6103-4945-9162-39e1f13ed4ae/"
+                        }
+                    }
+                ],
+                "seasons": [
+                    {
+                        "attributes": {
+                            "ordinal": 33,
+                            "title": "Season 33",
+                            "title_sortable": "Season 33",
+                            "updated_at": "2019-07-01T18:44:30.197742Z"
+                        },
+                        "id": "cf7d189c-6a9d-4310-97b6-7918dc5afe66",
+                        "type": "season",
+                        "links": {
+                            "self": "https://media.services.pbs.org/api/v1/seasons/cf7d189c-6a9d-4310-97b6-7918dc5afe66/"
+                        }
+                    },
+                    {
+                        "attributes": {
+                            "ordinal": 32,
+                            "title": "",
+                            "title_sortable": "",
+                            "updated_at": "2018-10-11T20:15:11.059045Z"
+                        },
+                        "id": "ea36f406-bed2-466a-adc5-a5732d0abc61",
+                        "type": "season",
+                        "links": {
+                            "self": "https://media.services.pbs.org/api/v1/seasons/ea36f406-bed2-466a-adc5-a5732d0abc61/"
+                        }
+                    },
+                    {
+                        "attributes": {
+                            "ordinal": 31,
+                            "title": "",
+                            "title_sortable": "",
+                            "updated_at": "2019-06-03T15:47:34.273335Z"
+                        },
+                        "id": "fdf91af3-6171-4bb1-a817-785e5cbf5634",
+                        "type": "season",
+                        "links": {
+                            "self": "https://media.services.pbs.org/api/v1/seasons/fdf91af3-6171-4bb1-a817-785e5cbf5634/"
+                        }
+                    },
+                    {
+                        "attributes": {
+                            "ordinal": 30,
+                            "title": "",
+                            "title_sortable": "",
+                            "updated_at": "2018-03-15T07:52:25.056588Z"
+                        },
+                        "id": "0b13caaa-bf9b-4722-a528-7f801e1306ac",
+                        "type": "season",
+                        "links": {
+                            "self": "https://media.services.pbs.org/api/v1/seasons/0b13caaa-bf9b-4722-a528-7f801e1306ac/"
+                        }
+                    },
+                    {
+                        "attributes": {
+                            "ordinal": 29,
+                            "title": "",
+                            "title_sortable": "",
+                            "updated_at": "2018-09-12T19:11:14.956257Z"
+                        },
+                        "id": "6fe819ba-5814-4a30-8ae6-1a8cd459cfdd",
+                        "type": "season",
+                        "links": {
+                            "self": "https://media.services.pbs.org/api/v1/seasons/6fe819ba-5814-4a30-8ae6-1a8cd459cfdd/"
+                        }
+                    },
+                    {
+                        "attributes": {
+                            "ordinal": 28,
+                            "title": "",
+                            "title_sortable": "",
+                            "updated_at": "2018-03-15T07:52:23.770637Z"
+                        },
+                        "id": "82cc8777-4fe3-4d9c-961b-780f89ee4d69",
+                        "type": "season",
+                        "links": {
+                            "self": "https://media.services.pbs.org/api/v1/seasons/82cc8777-4fe3-4d9c-961b-780f89ee4d69/"
+                        }
+                    },
+                    {
+                        "attributes": {
+                            "ordinal": 27,
+                            "title": "",
+                            "title_sortable": "",
+                            "updated_at": "2018-07-27T15:42:23.942004Z"
+                        },
+                        "id": "a9bd76aa-de91-4c97-a770-29caebde0520",
+                        "type": "season",
+                        "links": {
+                            "self": "https://media.services.pbs.org/api/v1/seasons/a9bd76aa-de91-4c97-a770-29caebde0520/"
+                        }
+                    },
+                    {
+                        "attributes": {
+                            "ordinal": 26,
+                            "title": "",
+                            "title_sortable": "",
+                            "updated_at": "2018-11-27T17:19:08.149162Z"
+                        },
+                        "id": "4ea86193-9b46-4413-82ca-e6b290df6e7d",
+                        "type": "season",
+                        "links": {
+                            "self": "https://media.services.pbs.org/api/v1/seasons/4ea86193-9b46-4413-82ca-e6b290df6e7d/"
+                        }
+                    },
+                    {
+                        "attributes": {
+                            "ordinal": 25,
+                            "title": "",
+                            "title_sortable": "",
+                            "updated_at": "2018-03-15T07:52:21.522861Z"
+                        },
+                        "id": "b2473444-dac7-4449-b9aa-d968f810dfe4",
+                        "type": "season",
+                        "links": {
+                            "self": "https://media.services.pbs.org/api/v1/seasons/b2473444-dac7-4449-b9aa-d968f810dfe4/"
+                        }
+                    },
+                    {
+                        "attributes": {
+                            "ordinal": 24,
+                            "title": "",
+                            "title_sortable": "",
+                            "updated_at": "2018-03-15T07:52:20.875325Z"
+                        },
+                        "id": "8ed47093-3699-4dc6-b34d-0178e1cc6f81",
+                        "type": "season",
+                        "links": {
+                            "self": "https://media.services.pbs.org/api/v1/seasons/8ed47093-3699-4dc6-b34d-0178e1cc6f81/"
+                        }
+                    }
+                ],
+                "specials": [
+                    {
+                        "attributes": {
+                            "slug": "political-strategist-and-commentator-ana-navarro-wome-ahxgcm",
+                            "title": "Inspiring Woman: Political Strategist Ana Navarro",
+                            "title_sortable": "Inspiring Woman: Political Strategist Ana Navarro",
+                            "updated_at": "2017-12-08T22:13:42.351359Z"
+                        },
+                        "id": "c7708c4c-e7c1-4ecb-ad63-6d87c6baafa9",
+                        "type": "special",
+                        "links": {
+                            "self": "https://media.services.pbs.org/api/v1/specials/c7708c4c-e7c1-4ecb-ad63-6d87c6baafa9/"
+                        }
+                    },
+                    {
+                        "attributes": {
+                            "slug": "carmen-de-lavallades-inspiring-women-h3qdmo",
+                            "title": "Carmen de Lavallade's Inspiring Women",
+                            "title_sortable": "Carmen de Lavallade's Inspiring Women",
+                            "updated_at": "2017-12-01T21:10:39.275677Z"
+                        },
+                        "id": "50be144b-c6c8-4ed6-b1fe-3b26d83f48d2",
+                        "type": "special",
+                        "links": {
+                            "self": "https://media.services.pbs.org/api/v1/specials/50be144b-c6c8-4ed6-b1fe-3b26d83f48d2/"
+                        }
+                    },
+                    {
+                        "attributes": {
+                            "slug": "learn-about-women-who-inspired-denis-ohare-growing-tid46e",
+                            "title": "Learn about the women who inspired Denis O'Hare growing up",
+                            "title_sortable": "Learn about the women who inspired Denis O'Hare growing up",
+                            "updated_at": "2017-12-01T21:32:02.585983Z"
+                        },
+                        "id": "1bc21377-09ee-4049-9317-a27a0c3d04a5",
+                        "type": "special",
+                        "links": {
+                            "self": "https://media.services.pbs.org/api/v1/specials/1bc21377-09ee-4049-9317-a27a0c3d04a5/"
+                        }
+                    },
+                    {
+                        "attributes": {
+                            "slug": "inspiring-woman-web-series-atecul",
+                            "title": "Inspiring Woman Web Series",
+                            "title_sortable": "Inspiring Woman Web Series",
+                            "updated_at": "2017-12-01T21:11:56.569144Z"
+                        },
+                        "id": "89481a9c-749a-479f-9366-93ea0050f665",
+                        "type": "special",
+                        "links": {
+                            "self": "https://media.services.pbs.org/api/v1/specials/89481a9c-749a-479f-9366-93ea0050f665/"
+                        }
+                    },
+                    {
+                        "attributes": {
+                            "slug": "remembering-fats-domino-pv0edt",
+                            "title": "Remembering Fats Domino",
+                            "title_sortable": "Remembering Fats Domino",
+                            "updated_at": "2017-10-25T19:55:16.209426Z"
+                        },
+                        "id": "54f4b9b4-6b64-4ffb-9edb-d4bf1ba9ce7c",
+                        "type": "special",
+                        "links": {
+                            "self": "https://media.services.pbs.org/api/v1/specials/54f4b9b4-6b64-4ffb-9edb-d4bf1ba9ce7c/"
+                        }
+                    },
+                    {
+                        "attributes": {
+                            "slug": "memoriam-garry-marshall-p1odiz",
+                            "title": "In Memoriam: Garry Marshall",
+                            "title_sortable": "In Memoriam: Garry Marshall",
+                            "updated_at": "2017-10-11T19:08:06.489517Z"
+                        },
+                        "id": "6aab7b70-82b0-4e6f-99f1-11c6889305ea",
+                        "type": "special",
+                        "links": {
+                            "self": "https://media.services.pbs.org/api/v1/specials/6aab7b70-82b0-4e6f-99f1-11c6889305ea/"
+                        }
+                    },
+                    {
+                        "attributes": {
+                            "slug": "remembering-hugh-hefner-ic0stl",
+                            "title": "Remembering Hugh Hefner",
+                            "title_sortable": "Remembering Hugh Hefner",
+                            "updated_at": "2017-09-28T20:09:38.750479Z"
+                        },
+                        "id": "f464272e-e963-4ba4-9a02-1bbe36e6d416",
+                        "type": "special",
+                        "links": {
+                            "self": "https://media.services.pbs.org/api/v1/specials/f464272e-e963-4ba4-9a02-1bbe36e6d416/"
+                        }
+                    },
+                    {
+                        "attributes": {
+                            "slug": "dick-gregory-and-chicago-playboy-club-uog0dr",
+                            "title": "Dick Gregory and the Chicago Playboy Club",
+                            "title_sortable": "Dick Gregory and the Chicago Playboy Club",
+                            "updated_at": "2017-10-11T19:06:44.197421Z"
+                        },
+                        "id": "05dad8cf-0e14-414a-b751-c010b89b49ad",
+                        "type": "special",
+                        "links": {
+                            "self": "https://media.services.pbs.org/api/v1/specials/05dad8cf-0e14-414a-b751-c010b89b49ad/"
+                        }
+                    },
+                    {
+                        "attributes": {
+                            "slug": "bruce-sinfosky-filmmaker-interview-3qsfsy",
+                            "title": "Bruce Sinfosky Filmmaker Interview",
+                            "title_sortable": "Bruce Sinfosky Filmmaker Interview",
+                            "updated_at": "2017-09-12T17:50:46.316768Z"
+                        },
+                        "id": "2d213df5-30de-40df-b1f3-8c6d0d9fae56",
+                        "type": "special",
+                        "links": {
+                            "self": "https://media.services.pbs.org/api/v1/specials/2d213df5-30de-40df-b1f3-8c6d0d9fae56/"
+                        }
+                    },
+                    {
+                        "attributes": {
+                            "slug": "dick-van-patten-interview-48ntvj",
+                            "title": "Dick Van Patten Interview",
+                            "title_sortable": "Dick Van Patten Interview",
+                            "updated_at": "2017-09-12T17:54:28.524324Z"
+                        },
+                        "id": "360f0252-78f7-4c16-9398-a71df31ace62",
+                        "type": "special",
+                        "links": {
+                            "self": "https://media.services.pbs.org/api/v1/specials/360f0252-78f7-4c16-9398-a71df31ace62/"
+                        }
+                    }
+                ],
+                "collections": [
+                    {
+                        "attributes": {
+                            "slug": "artists-flight",
+                            "title": "Artists Flight",
+                            "title_sortable": "Artists Flight",
+                            "featured": false,
+                            "updated_at": "2019-05-15T15:06:48.754640Z",
+                            "latest_asset_images": [
+                                {
+                                    "updated_at": "2018-09-06T20:53:47.683236Z",
+                                    "image": "http://image.pbs.org/video-assets/FxEqV1T-asset-mezzanine-16x9-rKqXuDZ.jpg",
+                                    "profile": "asset-mezzanine-16x9"
+                                }
+                            ]
+                        },
+                        "id": "eb3fc3f2-acf7-40da-b920-caf9ca9184ba",
+                        "type": "collection",
+                        "links": {
+                            "self": "https://media.services.pbs.org/api/v1/collections/eb3fc3f2-acf7-40da-b920-caf9ca9184ba/"
+                        }
+                    },
+                    {
+                        "attributes": {
+                            "slug": "whats-streaming-february",
+                            "title": "Celebrating Black History Month",
+                            "title_sortable": "Celebrating Black History Month",
+                            "featured": false,
+                            "updated_at": "2019-02-13T20:41:14.276196Z",
+                            "latest_asset_images": [
+                                {
+                                    "updated_at": "2017-04-11T07:33:27.324015Z",
+                                    "image": "https://image.pbs.org/video-assets/pbs/american-masters/259473/images/mezzanine_914.jpg",
+                                    "profile": "asset-mezzanine-16x9"
+                                }
+                            ]
+                        },
+                        "id": "6e23f343-3c78-49e4-bcb1-a203e7000eda",
+                        "type": "collection",
+                        "links": {
+                            "self": "https://media.services.pbs.org/api/v1/collections/6e23f343-3c78-49e4-bcb1-a203e7000eda/"
+                        }
+                    },
+                    {
+                        "attributes": {
+                            "slug": "chefs-flight",
+                            "title": "Chef's Flight",
+                            "title_sortable": "Chef's Flight",
+                            "featured": false,
+                            "updated_at": "2019-05-15T15:08:27.643885Z",
+                            "latest_asset_images": [
+                                {
+                                    "updated_at": "2017-05-19T16:40:14.707077Z",
+                                    "image": "https://image.pbs.org/video-assets/rJGhUMm-asset-mezzanine-16x9-OTfviih.jpg",
+                                    "profile": "asset-mezzanine-16x9"
+                                }
+                            ]
+                        },
+                        "id": "5f390495-54d1-4f0c-91e4-0e72b91fb759",
+                        "type": "collection",
+                        "links": {
+                            "self": "https://media.services.pbs.org/api/v1/collections/5f390495-54d1-4f0c-91e4-0e72b91fb759/"
+                        }
+                    }
+                ]
+            },
+            "id": "2e5c2027-ec2e-4214-baa3-6ff6af56c8c3",
+            "type": "show",
+            "links": {
+                "assets": "https://media.services.pbs.org/api/v1/shows/2e5c2027-ec2e-4214-baa3-6ff6af56c8c3/assets/",
+                "self": "https://media.services.pbs.org/api/v1/shows/2e5c2027-ec2e-4214-baa3-6ff6af56c8c3/",
+                "taxonomies": "https://media.services.pbs.org/api/v1/shows/2e5c2027-ec2e-4214-baa3-6ff6af56c8c3/taxonomies/",
+                "collections": "https://media.services.pbs.org/api/v1/shows/2e5c2027-ec2e-4214-baa3-6ff6af56c8c3/collections/",
+                "specials": "https://media.services.pbs.org/api/v1/shows/2e5c2027-ec2e-4214-baa3-6ff6af56c8c3/specials/",
+                "seasons": "https://media.services.pbs.org/api/v1/shows/2e5c2027-ec2e-4214-baa3-6ff6af56c8c3/seasons/"
+            }
+        }
+    ],
+    "links": {
+        "prev": null,
+        "self": "https://media.services.pbs.org/api/v1/shows/?fetch-related&id=2e5c2027-ec2e-4214-baa3-6ff6af56c8c3",
+        "next": null,
+        "first": null,
+        "last": null
+    },
+    "jsonapi": {
+        "version": "1.0"
+    }
+}

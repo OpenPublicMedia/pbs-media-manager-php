@@ -1,0 +1,269 @@
+{
+    "jsonapi": {
+        "version": "1.0"
+    },
+    "meta": {
+        "type": "collection",
+        "filter": {
+            "slug": "https://media.services.pbs.org/api/v1/shows/2e5c2027-ec2e-4214-baa3-6ff6af56c8c3/collections/?slug=",
+            "id": "https://media.services.pbs.org/api/v1/shows/2e5c2027-ec2e-4214-baa3-6ff6af56c8c3/collections/?id="
+        },
+        "pagination": {
+            "per_page": 50,
+            "count": 3
+        },
+        "sort": {
+            "title_sortable": {
+                "desc": "https://media.services.pbs.org/api/v1/shows/2e5c2027-ec2e-4214-baa3-6ff6af56c8c3/collections/?sort=-title_sortable",
+                "asc": "https://media.services.pbs.org/api/v1/shows/2e5c2027-ec2e-4214-baa3-6ff6af56c8c3/collections/?sort=title_sortable"
+            },
+            "featured": {
+                "desc": "https://media.services.pbs.org/api/v1/shows/2e5c2027-ec2e-4214-baa3-6ff6af56c8c3/collections/?sort=-featured",
+                "asc": "https://media.services.pbs.org/api/v1/shows/2e5c2027-ec2e-4214-baa3-6ff6af56c8c3/collections/?sort=featured"
+            }
+        }
+    },
+    "data": [
+        {
+            "attributes": {
+                "slug": "chefs-flight",
+                "title": "Chef's Flight",
+                "title_sortable": "Chef's Flight",
+                "description_short": "Get to know some of America’s most iconic chefs.",
+                "description_long": "Get to know some of America’s most iconic chefs through American Masters’ Chefs Flight: four documentaries on iconic chefs James Beard, Julia Child, Jacques Pépin, and Alice Waters.",
+                "updated_at": "2019-05-15T15:08:27.643885Z",
+                "featured": false,
+                "latest_asset_images": [
+                    {
+                        "updated_at": "2017-05-19T16:40:14.707077Z",
+                        "profile": "asset-mezzanine-16x9",
+                        "image": "https://image.pbs.org/video-assets/rJGhUMm-asset-mezzanine-16x9-OTfviih.jpg"
+                    }
+                ],
+                "episodes": [
+                    {
+                        "attributes": {
+                            "slug": "julia-americas-favorite-chef",
+                            "ordinal": 8,
+                            "segment": "",
+                            "title": "Julia! America's Favorite Chef",
+                            "title_sortable": "Julia! America's Favorite Chef",
+                            "updated_at": "2019-05-24T13:40:03.399535Z"
+                        },
+                        "type": "episode",
+                        "id": "0dc046ab-790a-416e-9d66-9970222d4a4f",
+                        "links": {
+                            "self": "https://media.services.pbs.org/api/v1/episodes/0dc046ab-790a-416e-9d66-9970222d4a4f/"
+                        }
+                    },
+                    {
+                        "attributes": {
+                            "slug": "jacques-pepin-art-craft",
+                            "ordinal": 5,
+                            "segment": "",
+                            "title": "Jacques Pépin: The Art of Craft",
+                            "title_sortable": "Jacques Pépin: The Art of Craft",
+                            "updated_at": "2019-05-24T14:13:22.558288Z"
+                        },
+                        "type": "episode",
+                        "id": "9cf07034-1025-48df-956e-fa654fb423c5",
+                        "links": {
+                            "self": "https://media.services.pbs.org/api/v1/episodes/9cf07034-1025-48df-956e-fa654fb423c5/"
+                        }
+                    },
+                    {
+                        "attributes": {
+                            "slug": "james-beard-americas-first-foodie",
+                            "ordinal": 4,
+                            "segment": "",
+                            "title": "James Beard: America's First Foodie",
+                            "title_sortable": "James Beard: America's First Foodie",
+                            "updated_at": "2019-05-24T14:32:20.788159Z"
+                        },
+                        "type": "episode",
+                        "id": "78028766-67a4-4698-b025-8d2157c4a040",
+                        "links": {
+                            "self": "https://media.services.pbs.org/api/v1/episodes/78028766-67a4-4698-b025-8d2157c4a040/"
+                        }
+                    },
+                    {
+                        "attributes": {
+                            "slug": "alice-waters-and-her-delicious-revolution",
+                            "ordinal": 4,
+                            "segment": "",
+                            "title": "Alice Waters and Her Delicious Revolution",
+                            "title_sortable": "Alice Waters and Her Delicious Revolution",
+                            "updated_at": "2019-05-24T14:35:03.489750Z"
+                        },
+                        "type": "episode",
+                        "id": "f1003656-b44e-43b5-a905-8a256f9b4b66",
+                        "links": {
+                            "self": "https://media.services.pbs.org/api/v1/episodes/f1003656-b44e-43b5-a905-8a256f9b4b66/"
+                        }
+                    }
+                ],
+                "specials": []
+            },
+            "type": "collection",
+            "id": "5f390495-54d1-4f0c-91e4-0e72b91fb759",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/collections/5f390495-54d1-4f0c-91e4-0e72b91fb759/",
+                "episodes": "https://media.services.pbs.org/api/v1/collections/5f390495-54d1-4f0c-91e4-0e72b91fb759/episodes/",
+                "specials": "https://media.services.pbs.org/api/v1/collections/5f390495-54d1-4f0c-91e4-0e72b91fb759/specials/"
+            }
+        },
+        {
+            "attributes": {
+                "slug": "whats-streaming-february",
+                "title": "Celebrating Black History Month",
+                "title_sortable": "Celebrating Black History Month",
+                "description_short": "Enjoy these films, now available to stream for a limited time, via pbs.org/americanmasters",
+                "description_long": "This month, American Masters is proud to present documentaries about Fats Domino and Maya Angelou in celebration of Black History Month.",
+                "updated_at": "2019-02-13T20:41:14.276196Z",
+                "featured": false,
+                "latest_asset_images": [
+                    {
+                        "updated_at": "2017-04-11T07:33:27.324015Z",
+                        "profile": "asset-mezzanine-16x9",
+                        "image": "https://image.pbs.org/video-assets/pbs/american-masters/259473/images/mezzanine_914.jpg"
+                    }
+                ],
+                "episodes": [
+                    {
+                        "attributes": {
+                            "slug": "american-masters-fats-domino-and-birth-rock-n-roll",
+                            "ordinal": 4,
+                            "segment": "",
+                            "title": "Fats Domino and The Birth of Rock 'n' Roll",
+                            "title_sortable": "Fats Domino and The Birth of Rock 'n' Roll",
+                            "updated_at": "2019-05-24T14:32:27.744453Z"
+                        },
+                        "type": "episode",
+                        "id": "3c4772a6-fd5d-4ab4-a465-a41309bf2367",
+                        "links": {
+                            "self": "https://media.services.pbs.org/api/v1/episodes/3c4772a6-fd5d-4ab4-a465-a41309bf2367/"
+                        }
+                    },
+                    {
+                        "attributes": {
+                            "slug": "american-masters-maya-angelou-and-still-i-rise-0",
+                            "ordinal": 2,
+                            "segment": "",
+                            "title": "Maya Angelou: And Still I Rise",
+                            "title_sortable": "Maya Angelou: And Still I Rise",
+                            "updated_at": "2019-05-24T15:06:28.476882Z"
+                        },
+                        "type": "episode",
+                        "id": "d3c2b637-15e3-4c1d-8830-49bd1c6a9e41",
+                        "links": {
+                            "self": "https://media.services.pbs.org/api/v1/episodes/d3c2b637-15e3-4c1d-8830-49bd1c6a9e41/"
+                        }
+                    }
+                ],
+                "specials": []
+            },
+            "type": "collection",
+            "id": "6e23f343-3c78-49e4-bcb1-a203e7000eda",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/collections/6e23f343-3c78-49e4-bcb1-a203e7000eda/",
+                "episodes": "https://media.services.pbs.org/api/v1/collections/6e23f343-3c78-49e4-bcb1-a203e7000eda/episodes/",
+                "specials": "https://media.services.pbs.org/api/v1/collections/6e23f343-3c78-49e4-bcb1-a203e7000eda/specials/"
+            }
+        },
+        {
+            "attributes": {
+                "slug": "artists-flight",
+                "title": "Artists Flight",
+                "title_sortable": "Artists Flight",
+                "description_short": "Four documentaries explore the lives of iconic visual artists",
+                "description_long": "Four documentaries explore the lives of iconic visual artists Eva Hesse, Elizabeth Murray, Andrew Wyeth and Jean-Michel Basquiat.",
+                "updated_at": "2019-05-15T15:06:48.754640Z",
+                "featured": false,
+                "latest_asset_images": [
+                    {
+                        "updated_at": "2018-09-06T20:53:47.683236Z",
+                        "profile": "asset-mezzanine-16x9",
+                        "image": "http://image.pbs.org/video-assets/FxEqV1T-asset-mezzanine-16x9-rKqXuDZ.jpg"
+                    }
+                ],
+                "episodes": [
+                    {
+                        "attributes": {
+                            "slug": "jean-michel-basquiat-mbjo3p",
+                            "ordinal": 8,
+                            "segment": "",
+                            "title": "Basquiat: Rage to Riches",
+                            "title_sortable": "Basquiat: Rage to Riches",
+                            "updated_at": "2019-05-24T13:39:54.985124Z"
+                        },
+                        "type": "episode",
+                        "id": "6e7a2882-0b95-46c7-973b-fe9fd15f737d",
+                        "links": {
+                            "self": "https://media.services.pbs.org/api/v1/episodes/6e7a2882-0b95-46c7-973b-fe9fd15f737d/"
+                        }
+                    },
+                    {
+                        "attributes": {
+                            "slug": "andrew-wyeth-kkiboj",
+                            "ordinal": 7,
+                            "segment": "",
+                            "title": "Wyeth",
+                            "title_sortable": "Wyeth",
+                            "updated_at": "2019-05-24T13:55:55.810446Z"
+                        },
+                        "type": "episode",
+                        "id": "a04f2a63-a632-4485-a753-71acfd03ffcd",
+                        "links": {
+                            "self": "https://media.services.pbs.org/api/v1/episodes/a04f2a63-a632-4485-a753-71acfd03ffcd/"
+                        }
+                    },
+                    {
+                        "attributes": {
+                            "slug": "elizabeth-murray-ft4vrt",
+                            "ordinal": 6,
+                            "segment": "",
+                            "title": "Everybody Knows... Elizabeth Murray",
+                            "title_sortable": "Everybody Knows... Elizabeth Murray",
+                            "updated_at": "2019-05-24T14:11:50.394055Z"
+                        },
+                        "type": "episode",
+                        "id": "640512a1-a62a-4da3-af1c-e74dc9e5050e",
+                        "links": {
+                            "self": "https://media.services.pbs.org/api/v1/episodes/640512a1-a62a-4da3-af1c-e74dc9e5050e/"
+                        }
+                    },
+                    {
+                        "attributes": {
+                            "slug": "eva-hesse-pq178s",
+                            "ordinal": 5,
+                            "segment": "",
+                            "title": "Eva Hesse",
+                            "title_sortable": "Eva Hesse",
+                            "updated_at": "2019-05-24T14:20:34.323044Z"
+                        },
+                        "type": "episode",
+                        "id": "2b73e069-ff70-4dcc-bcc9-b752f026f5fe",
+                        "links": {
+                            "self": "https://media.services.pbs.org/api/v1/episodes/2b73e069-ff70-4dcc-bcc9-b752f026f5fe/"
+                        }
+                    }
+                ],
+                "specials": []
+            },
+            "type": "collection",
+            "id": "eb3fc3f2-acf7-40da-b920-caf9ca9184ba",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/collections/eb3fc3f2-acf7-40da-b920-caf9ca9184ba/",
+                "episodes": "https://media.services.pbs.org/api/v1/collections/eb3fc3f2-acf7-40da-b920-caf9ca9184ba/episodes/",
+                "specials": "https://media.services.pbs.org/api/v1/collections/eb3fc3f2-acf7-40da-b920-caf9ca9184ba/specials/"
+            }
+        }
+    ],
+    "links": {
+        "last": null,
+        "prev": null,
+        "self": "https://media.services.pbs.org/api/v1/shows/2e5c2027-ec2e-4214-baa3-6ff6af56c8c3/collections/?fetch-related",
+        "first": null,
+        "next": null
+    }
+}

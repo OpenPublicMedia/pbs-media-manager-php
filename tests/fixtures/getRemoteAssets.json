@@ -1,0 +1,846 @@
+{
+    "data": [
+        {
+            "id": "2f47f988-a142-4f35-83a3-e2c0d6218480",
+            "type": "remoteasset",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/remote-assets/2f47f988-a142-4f35-83a3-e2c0d6218480/"
+            },
+            "attributes": {
+                "title": "How to Install Under-Cabinet Lighting and Power",
+                "description_short": "A few ways to handle storm water, including French drains, channel drains, and dry wells.",
+                "description_long": "",
+                "url": "https://www.thisoldhouse.com/node/196876?utm_source=pbs&utm_medium=referral&utm_campaign=bmcm_4026_under_cabinet",
+                "tags": null,
+                "image": "https://image.pbs.org/webobjects/04-drainage.jpg",
+                "updated_at": "2019-06-28T21:13:13.316519Z"
+            }
+        },
+        {
+            "id": "09f617ff-d571-462a-9656-cee9e1da1ffc",
+            "type": "remoteasset",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/remote-assets/09f617ff-d571-462a-9656-cee9e1da1ffc/"
+            },
+            "attributes": {
+                "title": "How to Build a Simple Mudroom Bench",
+                "description_short": "Turn a single sheet of MDF into a piece of furniture that provides storage and seating.",
+                "description_long": "",
+                "url": "https://www.thisoldhouse.com/node/200961?utm_source=pbs&utm_medium=referral&utm_campaign=bmcm_4026_mudroom_bench",
+                "tags": null,
+                "image": "https://image.pbs.org/webobjects/03-mudroom-bench.jpg",
+                "updated_at": "2019-06-28T21:12:53.700074Z"
+            }
+        },
+        {
+            "id": "8c277442-3133-4a56-b856-817519f82c3d",
+            "type": "remoteasset",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/remote-assets/8c277442-3133-4a56-b856-817519f82c3d/"
+            },
+            "attributes": {
+                "title": "How to Remove a Load-Bearing Wall",
+                "description_short": "Tom Silva shows how to safely cut open up a wall.",
+                "description_long": "",
+                "url": "https://www.thisoldhouse.com/node/26201?utm_source=pbs&utm_medium=referral&utm_campaign=bmcm_4026_load_bearing",
+                "tags": null,
+                "image": "https://image.pbs.org/webobjects/02-load-bearing-wall.jpg",
+                "updated_at": "2019-06-28T21:12:17.670748Z"
+            }
+        },
+        {
+            "id": "cc018b68-d721-4e8c-bad8-cf8e7d6bf49c",
+            "type": "remoteasset",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/remote-assets/cc018b68-d721-4e8c-bad8-cf8e7d6bf49c/"
+            },
+            "attributes": {
+                "title": "Brookline Mid-century Modern House",
+                "description_short": "TOH heads to a century-old New England cottage in Jamestown, RI.",
+                "description_long": "",
+                "url": "https://www.thisoldhouse.com/node/192731?utm_source=pbs&utm_medium=referral&utm_campaign=bmcm_4026_Brookline_mcm",
+                "tags": null,
+                "image": "https://image.pbs.org/webobjects/01-brookline-MC-Modern-02.jpg",
+                "updated_at": "2019-06-28T21:11:56.135094Z"
+            }
+        },
+        {
+            "id": "40525767-6d3f-443a-8c1d-4ed63f317b85",
+            "type": "remoteasset",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/remote-assets/40525767-6d3f-443a-8c1d-4ed63f317b85/"
+            },
+            "attributes": {
+                "title": "This Old House Generation NEXT",
+                "description_short": "",
+                "description_long": "",
+                "url": "https://www.thisoldhouse.com/node/33906?utm_source=pbs&utm_medium=referral&utm_campaign=bmcm_4026_genNEXT",
+                "tags": null,
+                "image": null,
+                "updated_at": "2019-06-28T21:11:34.990865Z"
+            }
+        },
+        {
+            "id": "23a4bd51-c2cf-4fb8-9a2b-930ddac53d3c",
+            "type": "remoteasset",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/remote-assets/23a4bd51-c2cf-4fb8-9a2b-930ddac53d3c/"
+            },
+            "attributes": {
+                "title": "Products and Services From This Episode",
+                "description_short": "",
+                "description_long": "",
+                "url": "https://www.thisoldhouse.com/watch/old-house-tv/products-services-episodes-old-house-tv?project=192821&episode=210426#lbs?utm_source=pbs&utm_medium=referral&utm_campaign=bmcm_4026_products",
+                "tags": null,
+                "image": null,
+                "updated_at": "2019-06-28T21:11:23.993784Z"
+            }
+        },
+        {
+            "id": "71b1348f-d3b1-4263-9d7f-2908e975657a",
+            "type": "remoteasset",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/remote-assets/71b1348f-d3b1-4263-9d7f-2908e975657a/"
+            },
+            "attributes": {
+                "title": "Watch More Episodes of This Old House",
+                "description_short": "",
+                "description_long": "",
+                "url": "https://www.thisoldhouse.com/node/29621?utm_source=pbs&utm_medium=referral&utm_campaign=bmcm_4026_watch",
+                "tags": null,
+                "image": null,
+                "updated_at": "2019-06-28T21:11:14.335904Z"
+            }
+        },
+        {
+            "id": "9cec9f12-7345-48d9-9400-a4eb3ed97d32",
+            "type": "remoteasset",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/remote-assets/9cec9f12-7345-48d9-9400-a4eb3ed97d32/"
+            },
+            "attributes": {
+                "title": "All Previous This Old House Projects",
+                "description_short": "",
+                "description_long": "",
+                "url": "https://www.thisoldhouse.com/node/30056?utm_source=pbs&utm_medium=referral&utm_campaign=bmcm_4026_projects",
+                "tags": null,
+                "image": null,
+                "updated_at": "2019-06-28T21:11:01.757904Z"
+            }
+        },
+        {
+            "id": "833ad6ec-0441-4525-8807-c3b530209f9a",
+            "type": "remoteasset",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/remote-assets/833ad6ec-0441-4525-8807-c3b530209f9a/"
+            },
+            "attributes": {
+                "title": "Paint a Room Like a Pro",
+                "description_short": "Mauro Henrique teaches a homeowner the basics of painting a room perfectly.",
+                "description_long": "",
+                "url": "https://www.thisoldhouse.com/node/186511?utm_source=pbs&utm_medium=referral&utm_campaign=atoh1726_pro_paint",
+                "tags": null,
+                "image": "https://image.pbs.org/webobjects/04-paint-pro.jpg",
+                "updated_at": "2019-06-28T19:41:33.404991Z"
+            }
+        },
+        {
+            "id": "c98119bc-eb32-456f-8a23-6ff1cd1a57b2",
+            "type": "remoteasset",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/remote-assets/c98119bc-eb32-456f-8a23-6ff1cd1a57b2/"
+            },
+            "attributes": {
+                "title": "Home Inspection Nightmares",
+                "description_short": "The most appalling finds from our nation's intrepid home inspectors.",
+                "description_long": "",
+                "url": "https://www.thisoldhouse.com/node/31246?utm_source=pbs&utm_medium=referral&utm_campaign=atoh1726_HIN",
+                "tags": null,
+                "image": "https://image.pbs.org/webobjects/03-nightmares-33.jpg",
+                "updated_at": "2019-06-28T19:41:12.038467Z"
+            }
+        },
+        {
+            "id": "0dba6a20-192d-4333-b901-dd021cef6e57",
+            "type": "remoteasset",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/remote-assets/0dba6a20-192d-4333-b901-dd021cef6e57/"
+            },
+            "attributes": {
+                "title": "How to Plant Edible Foundation Plantings",
+                "description_short": "Roger Cook helps a homeowner select foundation plantings that include edible varieties.",
+                "description_long": "",
+                "url": "https://www.thisoldhouse.com/node/194296?utm_source=pbs&utm_medium=referral&utm_campaign=atoh1726_edible_foundation",
+                "tags": null,
+                "image": "https://image.pbs.org/webobjects/02-edibles.jpg",
+                "updated_at": "2019-06-28T19:40:48.851457Z"
+            }
+        },
+        {
+            "id": "372271ac-956f-4f53-b890-934c2e7e0ba4",
+            "type": "remoteasset",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/remote-assets/372271ac-956f-4f53-b890-934c2e7e0ba4/"
+            },
+            "attributes": {
+                "title": "Ask This Old House TV",
+                "description_short": "Solving the steady stream of home improvement problems faced by our viewers!",
+                "description_long": "",
+                "url": "https://www.thisoldhouse.com/node/29626?utm_source=pbs&utm_medium=referral&utm_campaign=atoh1726_ask_toh",
+                "tags": null,
+                "image": "https://image.pbs.org/webobjects/01-atoh-toh.jpg",
+                "updated_at": "2019-06-28T19:40:23.926887Z"
+            }
+        },
+        {
+            "id": "e2f61a55-3257-4b55-966d-e68882add7e8",
+            "type": "remoteasset",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/remote-assets/e2f61a55-3257-4b55-966d-e68882add7e8/"
+            },
+            "attributes": {
+                "title": "TV Schedule in Your Area",
+                "description_short": "",
+                "description_long": "",
+                "url": "https://www.thisoldhouse.com/tvfinder?utm_source=pbs&utm_medium=referral&utm_campaign=atoh1726_TV_schedule",
+                "tags": null,
+                "image": null,
+                "updated_at": "2019-06-28T19:39:46.069100Z"
+            }
+        },
+        {
+            "id": "85912496-5145-42b8-b918-ae9f52f43c5f",
+            "type": "remoteasset",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/remote-assets/85912496-5145-42b8-b918-ae9f52f43c5f/"
+            },
+            "attributes": {
+                "title": "Watch More Episodes of Ask This Old House",
+                "description_short": "",
+                "description_long": "",
+                "url": "https://www.thisoldhouse.com/watch/ask-old-house-tv?utm_source=pbs&utm_medium=referral&utm_campaign=atoh1726_episodes",
+                "tags": null,
+                "image": null,
+                "updated_at": "2019-06-28T19:39:33.707287Z"
+            }
+        },
+        {
+            "id": "0d077cb8-af83-4d4e-9f74-e14321886fc2",
+            "type": "remoteasset",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/remote-assets/0d077cb8-af83-4d4e-9f74-e14321886fc2/"
+            },
+            "attributes": {
+                "title": "Products and Services From This Episode",
+                "description_short": "",
+                "description_long": "",
+                "url": "https://www.thisoldhouse.com/watch/ask-old-house-tv/products-services-episodes-ask-old-house-tv?season=17&episode=210431#lbs?utm_source=pbs&utm_medium=referral&utm_campaign=atoh1726_products_services",
+                "tags": null,
+                "image": null,
+                "updated_at": "2019-06-28T19:39:22.435352Z"
+            }
+        },
+        {
+            "id": "0ce43cab-60e7-4529-92b8-442745d96d8f",
+            "type": "remoteasset",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/remote-assets/0ce43cab-60e7-4529-92b8-442745d96d8f/"
+            },
+            "attributes": {
+                "title": "Ask Your Own Question",
+                "description_short": "",
+                "description_long": "",
+                "url": "https://www.thisoldhouse.com/ask-old-house-tv?utm_source=pbs&utm_medium=referral&utm_campaign=atoh1726_ask_question",
+                "tags": null,
+                "image": null,
+                "updated_at": "2019-06-28T19:39:10.674851Z"
+            }
+        },
+        {
+            "id": "1bdfbe6d-0de0-4af8-9513-9352c6f22851",
+            "type": "remoteasset",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/remote-assets/1bdfbe6d-0de0-4af8-9513-9352c6f22851/"
+            },
+            "attributes": {
+                "title": "Get to Know the Cast of Season 6",
+                "description_short": "Wondering where you’ve seen the Endeavour cast before? Mystery solved!",
+                "description_long": "",
+                "url": "https://www.pbs.org/wgbh/masterpiece/specialfeatures/get-to-know-the-endeavour-cast/",
+                "tags": null,
+                "image": "https://image.pbs.org/webobjects/endeavour-s6-cast-icon-1920x1080.jpg",
+                "updated_at": "2019-06-28T18:18:39.835702Z"
+            }
+        },
+        {
+            "id": "18402e35-8edd-45e1-87aa-67969aec1a63",
+            "type": "remoteasset",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/remote-assets/18402e35-8edd-45e1-87aa-67969aec1a63/"
+            },
+            "attributes": {
+                "title": "Best of July 2019",
+                "description_short": "Best of PBS Newsletter Image",
+                "description_long": "",
+                "url": "http://www.pbs.org",
+                "tags": null,
+                "image": "https://image.pbs.org/webobjects/anrobestof2019.jpg",
+                "updated_at": "2019-06-28T03:19:52.956627Z"
+            }
+        },
+        {
+            "id": "7ae071ec-cd8a-423a-8470-93e243e887d7",
+            "type": "remoteasset",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/remote-assets/7ae071ec-cd8a-423a-8470-93e243e887d7/"
+            },
+            "attributes": {
+                "title": "Coming to MASTERPIECE: All Creatures Great and Small",
+                "description_short": "A new adaptation of James Herriot's All Creatures Great and Small has just been announced.",
+                "description_long": "",
+                "url": "https://www.pbs.org/wgbh/masterpiece/specialfeatures/coming-to-masterpiece-all-creatures-great-and-small/",
+                "tags": null,
+                "image": "https://image.pbs.org/webobjects/mpt-news-1920x1080-black.png",
+                "updated_at": "2019-06-27T15:06:17.664382Z"
+            }
+        },
+        {
+            "id": "ca8fdea9-581c-4c0d-8c40-2a1854026e4d",
+            "type": "remoteasset",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/remote-assets/ca8fdea9-581c-4c0d-8c40-2a1854026e4d/"
+            },
+            "attributes": {
+                "title": "History of the American Flag",
+                "description_short": "Learn about the fascinating history of the flag of the United States of America.",
+                "description_long": "",
+                "url": "http://www.pbs.org/a-capitol-fourth/history/old-glory/",
+                "tags": [
+                    "flag",
+                    "old glory",
+                    "fun facts",
+                    "America",
+                    "history"
+                ],
+                "image": "https://image.pbs.org/webobjects/Fireworks_2_16x9.png",
+                "updated_at": "2019-06-26T23:54:29.085889Z"
+            }
+        },
+        {
+            "id": "56fb8c8c-976b-44a0-9a26-daf618049664",
+            "type": "remoteasset",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/remote-assets/56fb8c8c-976b-44a0-9a26-daf618049664/"
+            },
+            "attributes": {
+                "title": "Take the July 4th Trivia Quiz 2019",
+                "description_short": "Test your knowledge of America’s Independence Day.",
+                "description_long": "",
+                "url": "http://www.pbs.org/a-capitol-fourth/fireworks-fun/fourth-july-activities/",
+                "tags": [
+                    "patriotic music",
+                    "a capitol fourth",
+                    "july 4th",
+                    "fourth of july",
+                    "pbs",
+                    "american history",
+                    "july 4th history",
+                    "trivia",
+                    "quiz"
+                ],
+                "image": "https://image.pbs.org/webobjects/Fireworks_1_16x9.png",
+                "updated_at": "2019-06-26T23:53:11.255403Z"
+            }
+        },
+        {
+            "id": "0afd14c3-ef1e-410e-b1d3-baaeb9b5aae7",
+            "type": "remoteasset",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/remote-assets/0afd14c3-ef1e-410e-b1d3-baaeb9b5aae7/"
+            },
+            "attributes": {
+                "title": "2019 Fireworks & Fun!",
+                "description_short": "Parents- Check our website to take fun quizzes, download coloring pages and much more!",
+                "description_long": "",
+                "url": "http://www.pbs.org/a-capitol-fourth/fireworks-fun/fourth-july-activities/",
+                "tags": null,
+                "image": "https://image.pbs.org/webobjects/Coloring_Page_16x9.png",
+                "updated_at": "2019-06-26T23:51:42.771621Z"
+            }
+        },
+        {
+            "id": "73da9c8e-cb2b-4b70-bb5e-bd8708685575",
+            "type": "remoteasset",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/remote-assets/73da9c8e-cb2b-4b70-bb5e-bd8708685575/"
+            },
+            "attributes": {
+                "title": "2019 A Capitol Fourth Performers",
+                "description_short": "View the all-star line-up for A Capitol Fourth.",
+                "description_long": "",
+                "url": "http://www.pbs.org/a-capitol-fourth/concert/performers/",
+                "tags": null,
+                "image": "https://image.pbs.org/webobjects/Sesame_16x9.png",
+                "updated_at": "2019-06-26T23:47:52.775843Z"
+            }
+        },
+        {
+            "id": "dbbb88e9-7d14-429b-a0fe-e99fef54d722",
+            "type": "remoteasset",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/remote-assets/dbbb88e9-7d14-429b-a0fe-e99fef54d722/"
+            },
+            "attributes": {
+                "title": "2019 Concert Highlights",
+                "description_short": "Learn more about the 2019 \"A Capitol Fourth\"",
+                "description_long": "",
+                "url": "http://www.pbs.org/a-capitol-fourth/concert/concert-highlights/",
+                "tags": null,
+                "image": "https://image.pbs.org/webobjects/Stamos_16x9.png",
+                "updated_at": "2019-06-26T23:45:44.744767Z"
+            }
+        },
+        {
+            "id": "110d24ca-a92b-41e2-8c8d-038b07cdb00f",
+            "type": "remoteasset",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/remote-assets/110d24ca-a92b-41e2-8c8d-038b07cdb00f/"
+            },
+            "attributes": {
+                "title": "Sanditon: First Look Slideshow",
+                "description_short": "See new images from the first TV adaptation of Jane Austen's unfinished novel.",
+                "description_long": "",
+                "url": "https://www.pbs.org/wgbh/masterpiece/specialfeatures/sanditon-first-look-slideshow/",
+                "tags": null,
+                "image": "https://image.pbs.org/webobjects/sanditon-first-look-icon-01-1920x1080.jpg",
+                "updated_at": "2019-06-24T23:23:05.132610Z"
+            }
+        },
+        {
+            "id": "9d98fc76-7e49-4e6c-8525-ad207adcb337",
+            "type": "remoteasset",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/remote-assets/9d98fc76-7e49-4e6c-8525-ad207adcb337/"
+            },
+            "attributes": {
+                "title": "Shaun Evans on Directing “Apollo”",
+                "description_short": "Endeavour star Shaun Evans shares what it was like directing Season 6 episode \"Apollo.\"",
+                "description_long": "",
+                "url": "https://www.pbs.org/wgbh/masterpiece/specialfeatures/endeavour-s6-shaun-evans-on-directing-apollo/",
+                "tags": null,
+                "image": "https://image.pbs.org/webobjects/endeavour-s6-shaun-evans-directing-icon-1920x1080.jpg",
+                "updated_at": "2019-06-24T15:44:39.095512Z"
+            }
+        },
+        {
+            "id": "32ece79f-caf5-4854-89b7-fe1a9d44a375",
+            "type": "remoteasset",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/remote-assets/32ece79f-caf5-4854-89b7-fe1a9d44a375/"
+            },
+            "attributes": {
+                "title": "How to Install Under-Cabinet Lighting and Power",
+                "description_short": "Scott Caron helps a homeowner upgrade her kitchen with LED lights and electrical outlets.",
+                "description_long": "",
+                "url": "https://www.thisoldhouse.com/node/32161?utm_source=pbs&utm_medium=referral&utm_campaign=bmcm_4025_under_cabinet",
+                "tags": null,
+                "image": "https://image.pbs.org/webobjects/04-caron-undercabinet.jpg",
+                "updated_at": "2019-06-21T19:12:55.523363Z"
+            }
+        },
+        {
+            "id": "0cd0be96-28f7-45fc-85a0-86516ee2a9dd",
+            "type": "remoteasset",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/remote-assets/0cd0be96-28f7-45fc-85a0-86516ee2a9dd/"
+            },
+            "attributes": {
+                "title": "How to Install Baseboards",
+                "description_short": "Tom Silva shows how to install baseboards that become visual anchors for any room.",
+                "description_long": "",
+                "url": "https://www.thisoldhouse.com/node/5307?utm_source=pbs&utm_medium=referral&utm_campaign=bmcm_4025_baseboards",
+                "tags": null,
+                "image": "https://image.pbs.org/webobjects/03-running-baseboard.jpg",
+                "updated_at": "2019-06-21T19:12:14.305370Z"
+            }
+        },
+        {
+            "id": "72e9e5ed-11b6-4af5-9d71-4c1b91b2fe4f",
+            "type": "remoteasset",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/remote-assets/72e9e5ed-11b6-4af5-9d71-4c1b91b2fe4f/"
+            },
+            "attributes": {
+                "title": "How to Build Walk-in Closet Storage",
+                "description_short": "Tom Silva shows how to maximize closet space with plywood shelves and boxes.",
+                "description_long": "",
+                "url": "https://www.thisoldhouse.com/node/28541?utm_source=pbs&utm_medium=referral&utm_campaign=bmcm_4025_walk_in",
+                "tags": null,
+                "image": "https://image.pbs.org/webobjects/02-upgrade-projects.jpg",
+                "updated_at": "2019-06-21T19:11:53.154399Z"
+            }
+        },
+        {
+            "id": "04fef3c5-9918-4c87-9dc7-d1f56231f867",
+            "type": "remoteasset",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/remote-assets/04fef3c5-9918-4c87-9dc7-d1f56231f867/"
+            },
+            "attributes": {
+                "title": "Brookline Mid-century Modern House",
+                "description_short": "TOH heads to a century-old New England cottage in Jamestown, RI.",
+                "description_long": "",
+                "url": "https://www.thisoldhouse.com/node/192731?utm_source=pbs&utm_medium=referral&utm_campaign=bmcm_4025_Brookline_mcm",
+                "tags": null,
+                "image": "https://image.pbs.org/webobjects/01-brookline-MC-Modern-02.jpg",
+                "updated_at": "2019-06-21T19:09:25.120595Z"
+            }
+        },
+        {
+            "id": "ce5893c9-16d0-45ae-a83b-613a29a0534d",
+            "type": "remoteasset",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/remote-assets/ce5893c9-16d0-45ae-a83b-613a29a0534d/"
+            },
+            "attributes": {
+                "title": "This Old House Generation NEXT",
+                "description_short": "",
+                "description_long": "",
+                "url": "https://www.thisoldhouse.com/node/33906?utm_source=pbs&utm_medium=referral&utm_campaign=bmcm_4025_genNEXT",
+                "tags": null,
+                "image": null,
+                "updated_at": "2019-06-21T19:09:05.087001Z"
+            }
+        },
+        {
+            "id": "33eede03-2be0-486d-8f4d-51781cdc6756",
+            "type": "remoteasset",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/remote-assets/33eede03-2be0-486d-8f4d-51781cdc6756/"
+            },
+            "attributes": {
+                "title": "Products and Services From This Episode",
+                "description_short": "",
+                "description_long": "",
+                "url": "https://www.thisoldhouse.com/watch/old-house-tv/products-services-episodes-old-house-tv?project=192821&episode=209906#lbs?utm_source=pbs&utm_medium=referral&utm_campaign=bmcm_4025_products",
+                "tags": null,
+                "image": null,
+                "updated_at": "2019-06-21T19:08:54.782734Z"
+            }
+        },
+        {
+            "id": "85ad73df-b467-4251-8c48-04b5353f246d",
+            "type": "remoteasset",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/remote-assets/85ad73df-b467-4251-8c48-04b5353f246d/"
+            },
+            "attributes": {
+                "title": "Watch More Episodes of This Old House",
+                "description_short": "",
+                "description_long": "",
+                "url": "https://www.thisoldhouse.com/node/29621?utm_source=pbs&utm_medium=referral&utm_campaign=bmcm_4025_watch",
+                "tags": null,
+                "image": null,
+                "updated_at": "2019-06-21T19:08:38.915174Z"
+            }
+        },
+        {
+            "id": "7b636c9e-3930-4dba-bb7f-f9f58358a165",
+            "type": "remoteasset",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/remote-assets/7b636c9e-3930-4dba-bb7f-f9f58358a165/"
+            },
+            "attributes": {
+                "title": "All Previous This Old House Projects",
+                "description_short": "",
+                "description_long": "",
+                "url": "https://www.thisoldhouse.com/node/30056?utm_source=pbs&utm_medium=referral&utm_campaign=bmcm_4025_projects",
+                "tags": null,
+                "image": null,
+                "updated_at": "2019-06-21T19:08:20.583922Z"
+            }
+        },
+        {
+            "id": "f03cb30a-29ac-4509-96df-f13808e9c838",
+            "type": "remoteasset",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/remote-assets/f03cb30a-29ac-4509-96df-f13808e9c838/"
+            },
+            "attributes": {
+                "title": "All About Exterior Stain",
+                "description_short": "The differences between the various types of stain so that you can get the look you want.",
+                "description_long": "",
+                "url": "https://www.thisoldhouse.com/node/3309?utm_source=pbs&utm_medium=referral&utm_campaign=atoh1725_all_stain",
+                "tags": null,
+                "image": "https://image.pbs.org/webobjects/03-all-about-stain.jpg",
+                "updated_at": "2019-06-21T17:01:25.752014Z"
+            }
+        },
+        {
+            "id": "4ceb04b2-ae2c-4528-a950-dac432aacba1",
+            "type": "remoteasset",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/remote-assets/4ceb04b2-ae2c-4528-a950-dac432aacba1/"
+            },
+            "attributes": {
+                "title": "Ask This Old House TV",
+                "description_short": "Solving the steady stream of home improvement problems faced by our viewers!",
+                "description_long": "",
+                "url": "https://www.thisoldhouse.com/node/29626?utm_source=pbs&utm_medium=referral&utm_campaign=atoh1725_ask_toh",
+                "tags": null,
+                "image": "https://image.pbs.org/webobjects/01-atoh-toh.jpg",
+                "updated_at": "2019-06-21T17:01:04.587205Z"
+            }
+        },
+        {
+            "id": "4b03de8c-ff97-4ef3-bf94-0feebe4090f3",
+            "type": "remoteasset",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/remote-assets/4b03de8c-ff97-4ef3-bf94-0feebe4090f3/"
+            },
+            "attributes": {
+                "title": "How to Sharpen a Lawn Mower Blade",
+                "description_short": "Cutting grass cleanly with This Old House landscape contractor Roger Cook.",
+                "description_long": "",
+                "url": "https://www.thisoldhouse.com/node/26956?utm_source=pbs&utm_medium=referral&utm_campaign=atoh1725_sharpen_blade",
+                "tags": null,
+                "image": "https://image.pbs.org/webobjects/02-blade.jpg",
+                "updated_at": "2019-06-21T17:00:30.034390Z"
+            }
+        },
+        {
+            "id": "60ab9bc5-2c9d-4d43-bf35-a3407423631d",
+            "type": "remoteasset",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/remote-assets/60ab9bc5-2c9d-4d43-bf35-a3407423631d/"
+            },
+            "attributes": {
+                "title": "How to Install a Fire Escape Ladder",
+                "description_short": "Tom Silva helps a homeowner install an emergency escape ladder.",
+                "description_long": "",
+                "url": "https://www.thisoldhouse.com/node/27111?utm_source=pbs&utm_medium=referral&utm_campaign=atoh1725_fire_ladder",
+                "tags": null,
+                "image": "https://image.pbs.org/webobjects/04-fire-ladder.jpg",
+                "updated_at": "2019-06-21T16:41:38.531124Z"
+            }
+        },
+        {
+            "id": "609342fc-14ce-4e3f-b564-5002d9dda94e",
+            "type": "remoteasset",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/remote-assets/609342fc-14ce-4e3f-b564-5002d9dda94e/"
+            },
+            "attributes": {
+                "title": "All About Exterior Stain",
+                "description_short": "The differences between the various types of stain so that you can get the look you want.",
+                "description_long": "",
+                "url": "https://www.thisoldhouse.com/node/3309?utm_source=pbs&utm_medium=referral&utm_campaign=atoh1725_all_stain",
+                "tags": null,
+                "image": "https://image.pbs.org/webobjects/03-running-baseboard.jpg",
+                "updated_at": "2019-06-21T16:20:18.055478Z"
+            }
+        },
+        {
+            "id": "4e7620fa-aef9-4ba8-9ad9-6ee4b49610c9",
+            "type": "remoteasset",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/remote-assets/4e7620fa-aef9-4ba8-9ad9-6ee4b49610c9/"
+            },
+            "attributes": {
+                "title": "TV Schedule in Your Area",
+                "description_short": "",
+                "description_long": "",
+                "url": "https://www.thisoldhouse.com/tvfinder?utm_source=pbs&utm_medium=referral&utm_campaign=atoh1725_TV_schedule",
+                "tags": null,
+                "image": null,
+                "updated_at": "2019-06-21T16:13:45.219404Z"
+            }
+        },
+        {
+            "id": "a5c6628a-8a34-40d9-8d9e-3271d74cd992",
+            "type": "remoteasset",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/remote-assets/a5c6628a-8a34-40d9-8d9e-3271d74cd992/"
+            },
+            "attributes": {
+                "title": "Watch More Episodes of Ask This Old House",
+                "description_short": "",
+                "description_long": "",
+                "url": "https://www.thisoldhouse.com/watch/ask-old-house-tv?utm_source=pbs&utm_medium=referral&utm_campaign=atoh1725_episodes",
+                "tags": null,
+                "image": null,
+                "updated_at": "2019-06-21T16:10:59.434736Z"
+            }
+        },
+        {
+            "id": "15580936-92ed-4c46-a70f-b283c541a3c5",
+            "type": "remoteasset",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/remote-assets/15580936-92ed-4c46-a70f-b283c541a3c5/"
+            },
+            "attributes": {
+                "title": "Products and Services From This Episode",
+                "description_short": "",
+                "description_long": "",
+                "url": "https://www.thisoldhouse.com/watch/ask-old-house-tv/products-services-episodes-ask-old-house-tv?season=17&episode=209986#lbs?utm_source=pbs&utm_medium=referral&utm_campaign=atoh1725_products_services",
+                "tags": null,
+                "image": null,
+                "updated_at": "2019-06-21T16:10:47.509530Z"
+            }
+        },
+        {
+            "id": "58e63cb2-9d3e-4091-bb0f-f6f6660c9df6",
+            "type": "remoteasset",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/remote-assets/58e63cb2-9d3e-4091-bb0f-f6f6660c9df6/"
+            },
+            "attributes": {
+                "title": "Ask Your Own Question",
+                "description_short": "",
+                "description_long": "",
+                "url": "https://www.thisoldhouse.com/ask-old-house-tv?utm_source=pbs&utm_medium=referral&utm_campaign=atoh1725_ask_question",
+                "tags": null,
+                "image": null,
+                "updated_at": "2019-06-21T16:10:32.388524Z"
+            }
+        },
+        {
+            "id": "376b3091-184b-4d68-aed9-df00e6ac7cbf",
+            "type": "remoteasset",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/remote-assets/376b3091-184b-4d68-aed9-df00e6ac7cbf/"
+            },
+            "attributes": {
+                "title": "Grantchester, Season 4: Everything You Need to Know",
+                "description_short": "Where we left off, where we pick up, and big changes at the vicarage!",
+                "description_long": "",
+                "url": "https://www.pbs.org/wgbh/masterpiece/specialfeatures/grantchester-s4-everything-you-need-to-know/",
+                "tags": null,
+                "image": "https://image.pbs.org/webobjects/grantchester-s4-everything-you-need-to-know-icon-1920x1080.jpg",
+                "updated_at": "2019-06-19T12:07:18.200908Z"
+            }
+        },
+        {
+            "id": "fd621fe5-2f30-4417-ab47-df262fd8ef61",
+            "type": "remoteasset",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/remote-assets/fd621fe5-2f30-4417-ab47-df262fd8ef61/"
+            },
+            "attributes": {
+                "title": "Grantchester Season 4: Everything You Need to Know",
+                "description_short": "Find out about the Season 4 release date, James Norton's final episodes, & the new vicar!",
+                "description_long": "",
+                "url": "https://www.pbs.org/wgbh/masterpiece/specialfeatures/grantchester-s4-everything-you-need-to-know/",
+                "tags": null,
+                "image": "https://image.pbs.org/webobjects/grantchester-s4-everything-you-need-to-know-icon-1920x1080.jpg",
+                "updated_at": "2019-06-13T18:35:39.410388Z"
+            }
+        },
+        {
+            "id": "801c77b4-c439-4824-a77f-726a289b4c4f",
+            "type": "remoteasset",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/remote-assets/801c77b4-c439-4824-a77f-726a289b4c4f/"
+            },
+            "attributes": {
+                "title": "Endeavour Season 6: Everything You Need to Know",
+                "description_short": "Find out all about Endeavour Season 6's release date, where we left off & much more!",
+                "description_long": "",
+                "url": "https://www.pbs.org/wgbh/masterpiece/specialfeatures/endeavour-s6-everything-you-need-to-know/",
+                "tags": null,
+                "image": "https://image.pbs.org/webobjects/endeavour-s6-everything-to-know-icon-1920x1080.jpg",
+                "updated_at": "2019-05-30T18:20:43.148385Z"
+            }
+        },
+        {
+            "id": "9093c13b-2743-4db0-b4d9-99f8f61b2c16",
+            "type": "remoteasset",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/remote-assets/9093c13b-2743-4db0-b4d9-99f8f61b2c16/"
+            },
+            "attributes": {
+                "title": "How to Maintain an Air Conditioner",
+                "description_short": "Richard Trethewey shares tips for keeping an air conditioner running efficiently.",
+                "description_long": "",
+                "url": "https://www.thisoldhouse.com/node/193176?utm_source=pbs&utm_medium=referral&utm_campaign=atoh1724_air_condition",
+                "tags": null,
+                "image": "https://image.pbs.org/webobjects/04-ac.jpg",
+                "updated_at": "2019-05-24T19:10:14.886609Z"
+            }
+        },
+        {
+            "id": "2dca0932-d688-4b39-ac19-55c2c4871b6e",
+            "type": "remoteasset",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/remote-assets/2dca0932-d688-4b39-ac19-55c2c4871b6e/"
+            },
+            "attributes": {
+                "title": "How to Prep for Exterior Painting",
+                "description_short": "Kevin O'Connor and Rich O'Neil show how to properly prepare a house for paint.",
+                "description_long": "",
+                "url": "https://www.thisoldhouse.com/node/27621utm_source=pbs&utm_medium=referral&utm_campaign=atoh1724__exterior",
+                "tags": null,
+                "image": "https://image.pbs.org/webobjects/03-prep-exterior-paint.jpg",
+                "updated_at": "2019-05-24T19:09:52.001378Z"
+            }
+        },
+        {
+            "id": "40d54b7d-681e-4355-b1cc-2a7934a55daf",
+            "type": "remoteasset",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/remote-assets/40d54b7d-681e-4355-b1cc-2a7934a55daf/"
+            },
+            "attributes": {
+                "title": "How to Repoint a Brick Foundation",
+                "description_short": "Replacing crumbling, missing mortar with Tom Silva.",
+                "description_long": "",
+                "url": "https://www.thisoldhouse.com/node/27986?utm_source=pbs&utm_medium=referral&utm_campaign=atoh1724_foundation",
+                "tags": null,
+                "image": "https://image.pbs.org/webobjects/02-repoint.jpg",
+                "updated_at": "2019-05-24T19:09:09.586052Z"
+            }
+        },
+        {
+            "id": "a518c7f5-d3f9-4fc6-b41a-cb4200600ad7",
+            "type": "remoteasset",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/remote-assets/a518c7f5-d3f9-4fc6-b41a-cb4200600ad7/"
+            },
+            "attributes": {
+                "title": "Ask This Old House TV",
+                "description_short": "Solving the steady stream of home improvement problems faced by our viewers!",
+                "description_long": "",
+                "url": "https://www.thisoldhouse.com/node/29626?utm_source=pbs&utm_medium=referral&utm_campaign=atoh1723_ask_toh",
+                "tags": null,
+                "image": "https://image.pbs.org/webobjects/01-atoh-toh.jpg",
+                "updated_at": "2019-05-24T19:08:51.585830Z"
+            }
+        }
+    ],
+    "jsonapi": {
+        "version": "1.0"
+    },
+    "links": {
+        "self": "https://media.services.pbs.org/api/v1/remote-assets/?page-size=50",
+        "last": "https://media.services.pbs.org/api/v1/remote-assets/?page=1016&page-size=50",
+        "next": "https://media.services.pbs.org/api/v1/remote-assets/?page=2&page-size=50",
+        "first": "https://media.services.pbs.org/api/v1/remote-assets/?page-size=50",
+        "prev": null
+    },
+    "meta": {
+        "type": "collection",
+        "pagination": {
+            "count": 50791,
+            "per_page": 50
+        },
+        "filter": {
+            "franchise-id": "https://media.services.pbs.org/api/v1/remote-assets/?franchise-id=",
+            "id": "https://media.services.pbs.org/api/v1/remote-assets/?id=",
+            "type": "https://media.services.pbs.org/api/v1/remote-assets/?type=",
+            "query": "https://media.services.pbs.org/api/v1/remote-assets/?query=",
+            "show-id": "https://media.services.pbs.org/api/v1/remote-assets/?show-id=",
+            "franchise-slug": "https://media.services.pbs.org/api/v1/remote-assets/?franchise-slug=",
+            "show-slug": "https://media.services.pbs.org/api/v1/remote-assets/?show-slug="
+        }
+    }
+}

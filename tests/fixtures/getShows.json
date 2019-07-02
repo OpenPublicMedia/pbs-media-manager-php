@@ -1,0 +1,155 @@
+{
+    "data": [
+        {
+            "id": "2e5c2027-ec2e-4214-baa3-6ff6af56c8c3",
+            "type": "show",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/shows/2e5c2027-ec2e-4214-baa3-6ff6af56c8c3/",
+                "collections": "https://media.services.pbs.org/api/v1/shows/2e5c2027-ec2e-4214-baa3-6ff6af56c8c3/collections/",
+                "taxonomies": "https://media.services.pbs.org/api/v1/shows/2e5c2027-ec2e-4214-baa3-6ff6af56c8c3/taxonomies/",
+                "seasons": "https://media.services.pbs.org/api/v1/shows/2e5c2027-ec2e-4214-baa3-6ff6af56c8c3/seasons/",
+                "specials": "https://media.services.pbs.org/api/v1/shows/2e5c2027-ec2e-4214-baa3-6ff6af56c8c3/specials/",
+                "assets": "https://media.services.pbs.org/api/v1/shows/2e5c2027-ec2e-4214-baa3-6ff6af56c8c3/assets/"
+            },
+            "attributes": {
+                "slug": "american-masters",
+                "nola": "AMMS",
+                "title": "American Masters",
+                "title_sortable": "American Masters",
+                "tms_id": "SH000002880000",
+                "description_short": "Discover insightful profiles of important figures in America's artistic and cultural life.",
+                "description_long": "American Masters, committed to producing comprehensive film biographies about the broad cast of characters who comprise our cultural history.",
+                "premiered_on": null,
+                "is_excluded_from_dfp": false,
+                "funder_message": "Major support for American Masters is provided by AARP. Additional funding is provided by Rosalind P. Walter, The Philip and Janice Levin Foundation, Judith and Burton Resnick, Ellen and James S. Marcus, Lillian Goldman Programming Endowment, The Blanche & Irving Laurie Foundation, Vital Projects Fund, Cheryl and Philip Milstein Family, The André and Elizabeth Kertész Foundation, Lenore Hecht Foundation, Michael & Helen Schaffer Foundation, and public television viewers.",
+                "tracking_ga_page": "UA-3992773-1",
+                "tracking_ga_event": "UA-3992773-2",
+                "updated_at": "2019-07-01T18:41:23.603300Z",
+                "hashtag": "AmericanMastersPBS",
+                "display_episode_number": true,
+                "can_embed_player": true,
+                "language": "en",
+                "ordinal_season": true,
+                "sort_episodes_descending": true,
+                "genre": {
+                    "id": "d68d138e-dae6-4fa9-9148-addc88fa6efb",
+                    "slug": "history",
+                    "title": "History",
+                    "title_sortable": "History",
+                    "updated_at": "2017-04-04T10:27:45.732884Z"
+                },
+                "links": [],
+                "images": [],
+                "franchise": null,
+                "audience": [
+                    {
+                        "scope": "national",
+                        "station": null
+                    }
+                ],
+                "platforms": [],
+                "episodes_count": 97,
+                "assets": [],
+                "seasons": [],
+                "specials": [],
+                "collections": []
+            }
+        },
+        {
+            "id": "0c8c8603-b4b9-49ad-bbb4-7c6073b97be5",
+            "type": "show",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/shows/0c8c8603-b4b9-49ad-bbb4-7c6073b97be5/",
+                "collections": "https://media.services.pbs.org/api/v1/shows/0c8c8603-b4b9-49ad-bbb4-7c6073b97be5/collections/",
+                "taxonomies": "https://media.services.pbs.org/api/v1/shows/0c8c8603-b4b9-49ad-bbb4-7c6073b97be5/taxonomies/",
+                "seasons": "https://media.services.pbs.org/api/v1/shows/0c8c8603-b4b9-49ad-bbb4-7c6073b97be5/seasons/",
+                "specials": "https://media.services.pbs.org/api/v1/shows/0c8c8603-b4b9-49ad-bbb4-7c6073b97be5/specials/",
+                "assets": "https://media.services.pbs.org/api/v1/shows/0c8c8603-b4b9-49ad-bbb4-7c6073b97be5/assets/"
+            },
+            "attributes": {
+                "slug": "antiques-roadshow",
+                "nola": "ANRO",
+                "title": "Antiques Roadshow",
+                "title_sortable": "Antiques Roadshow",
+                "tms_id": "SH002036520000",
+                "description_short": "Trash or treasure? Discover the value of ordinary peoples' antique treasures.",
+                "description_long": "ANTIQUES ROADSHOW is part adventure, part history lesson, and part treasure hunt! Watch as specialists from the country's leading auction houses and independent dealers offer free appraisals of antiques and collectibles, revealing fascinating truths about family treasures and flea market finds.",
+                "premiered_on": null,
+                "is_excluded_from_dfp": false,
+                "funder_message": "Funding for ANTIQUES ROADSHOW is provided by <a href=\"https://www.libertymutual.com/?src=cm-ddis-brd-ars1403100630\" target=_blank>Liberty Mutual Insurance</a>, <a href=\"https://www.ancestry.com/s55735/t30590/rd.ashx\" target=\"_blank\">Ancestry</a>, and <a href=\"https://www.consumercellular.com/pbs/\" target=blank>Consumer Cellular</a>. Additional funding is provided by public television viewers.",
+                "tracking_ga_page": "UA-3992054-1",
+                "tracking_ga_event": "UA-3992054-2",
+                "updated_at": "2019-06-27T17:45:38.950758Z",
+                "hashtag": "AntiquesRoadshow",
+                "display_episode_number": true,
+                "can_embed_player": true,
+                "language": "en",
+                "ordinal_season": true,
+                "sort_episodes_descending": true,
+                "genre": {
+                    "id": "313ba604-842f-434d-b40b-d6f31cc3cd1a",
+                    "slug": "home-and-howto",
+                    "title": "Home and How To",
+                    "title_sortable": "Home and How To",
+                    "updated_at": "2018-01-29T12:14:00.578822Z"
+                },
+                "links": [],
+                "images": [],
+                "franchise": null,
+                "audience": [
+                    {
+                        "scope": "national",
+                        "station": null
+                    }
+                ],
+                "platforms": [],
+                "episodes_count": 367,
+                "assets": [],
+                "seasons": [],
+                "specials": [],
+                "collections": []
+            }
+        }
+    ],
+    "jsonapi": {
+        "version": "1.0"
+    },
+    "links": {
+        "self": "https://media.services.pbs.org/api/v1/shows/?fetch-related",
+        "last": null,
+        "next": null,
+        "first": null,
+        "prev": null
+    },
+    "meta": {
+        "type": "collection",
+        "pagination": {
+            "count": 2,
+            "per_page": 50
+        },
+        "filter": {
+            "genre-id": "https://media.services.pbs.org/api/v1/shows/?genre-id=",
+            "franchise-id": "https://media.services.pbs.org/api/v1/shows/?franchise-id=",
+            "slug": "https://media.services.pbs.org/api/v1/shows/?slug=",
+            "platform-slug": "https://media.services.pbs.org/api/v1/shows/?platform-slug=",
+            "local_audience": "https://media.services.pbs.org/api/v1/shows/?audience=&audience-scope=local",
+            "franchise-slug": "https://media.services.pbs.org/api/v1/shows/?franchise-slug=",
+            "national_audience": "https://media.services.pbs.org/api/v1/shows/?audience-scope=national",
+            "genre-slug": "https://media.services.pbs.org/api/v1/shows/?genre-slug=",
+            "nola": "https://media.services.pbs.org/api/v1/shows/?nola=",
+            "platform-id": "https://media.services.pbs.org/api/v1/shows/?platform-id=",
+            "id": "https://media.services.pbs.org/api/v1/shows/?id=",
+            "kids_audience": "https://media.services.pbs.org/api/v1/shows/?audience-scope=kids"
+        },
+        "sort": {
+            "title": {
+                "desc": "https://media.services.pbs.org/api/v1/shows/?sort=-title",
+                "asc": "https://media.services.pbs.org/api/v1/shows/?sort=title"
+            },
+            "title_sortable": {
+                "desc": "https://media.services.pbs.org/api/v1/shows/?sort=-title_sortable",
+                "asc": "https://media.services.pbs.org/api/v1/shows/?sort=title_sortable"
+            }
+        }
+    }
+}

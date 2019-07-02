@@ -1,0 +1,144 @@
+{
+    "links": {
+        "self": "https://media.services.pbs.org/api/v1/genres/",
+        "first": null,
+        "next": null,
+        "prev": null,
+        "last": null
+    },
+    "meta": {
+        "pagination": {
+            "count": 9,
+            "per_page": 25
+        },
+        "sort": {
+            "title": {
+                "asc": "https://media.services.pbs.org/api/v1/genres/?sort=title",
+                "desc": "https://media.services.pbs.org/api/v1/genres/?sort=-title"
+            }
+        },
+        "type": "collection"
+    },
+    "jsonapi": {
+        "version": "1.0"
+    },
+    "data": [
+        {
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/genres/c52e4777-9649-4977-b13c-a3194c3e42fe/"
+            },
+            "attributes": {
+                "slug": "arts-and-music",
+                "title": "Arts and Music",
+                "created_at": "2017-04-04T09:00:04.501285Z",
+                "updated_at": "2018-01-29T12:15:40.104029Z"
+            },
+            "type": "genre",
+            "id": "c52e4777-9649-4977-b13c-a3194c3e42fe"
+        },
+        {
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/genres/9a9f5b68-539c-4aea-83cc-a3f8d67505a0/"
+            },
+            "attributes": {
+                "slug": "culture",
+                "title": "Culture",
+                "created_at": "2017-04-04T09:00:04.491854Z",
+                "updated_at": "2017-04-04T10:27:37.018056Z"
+            },
+            "type": "genre",
+            "id": "9a9f5b68-539c-4aea-83cc-a3f8d67505a0"
+        },
+        {
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/genres/a6c8f8a3-fd3a-4ffe-9a0d-d32e6e584d5d/"
+            },
+            "attributes": {
+                "slug": "drama",
+                "title": "Drama",
+                "created_at": "2017-04-04T09:00:04.510649Z",
+                "updated_at": "2017-04-04T10:27:05.577522Z"
+            },
+            "type": "genre",
+            "id": "a6c8f8a3-fd3a-4ffe-9a0d-d32e6e584d5d"
+        },
+        {
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/genres/46578c3e-f467-4332-9400-959a31729a0f/"
+            },
+            "attributes": {
+                "slug": "food",
+                "title": "Food",
+                "created_at": "2017-04-04T09:00:04.482000Z",
+                "updated_at": "2017-04-04T10:27:52.103366Z"
+            },
+            "type": "genre",
+            "id": "46578c3e-f467-4332-9400-959a31729a0f"
+        },
+        {
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/genres/d68d138e-dae6-4fa9-9148-addc88fa6efb/"
+            },
+            "attributes": {
+                "slug": "history",
+                "title": "History",
+                "created_at": "2017-04-04T09:00:04.487154Z",
+                "updated_at": "2017-04-04T10:27:45.732884Z"
+            },
+            "type": "genre",
+            "id": "d68d138e-dae6-4fa9-9148-addc88fa6efb"
+        },
+        {
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/genres/313ba604-842f-434d-b40b-d6f31cc3cd1a/"
+            },
+            "attributes": {
+                "slug": "home-and-howto",
+                "title": "Home and How To",
+                "created_at": "2017-04-04T09:00:04.519982Z",
+                "updated_at": "2018-01-29T12:14:00.578822Z"
+            },
+            "type": "genre",
+            "id": "313ba604-842f-434d-b40b-d6f31cc3cd1a"
+        },
+        {
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/genres/913015f1-c747-4109-a64b-4876c5929846/"
+            },
+            "attributes": {
+                "slug": "indie-films",
+                "title": "Indie Films",
+                "created_at": "2017-04-04T09:00:04.505962Z",
+                "updated_at": "2018-01-29T12:14:49.937606Z"
+            },
+            "type": "genre",
+            "id": "913015f1-c747-4109-a64b-4876c5929846"
+        },
+        {
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/genres/32aabe94-4417-40a9-ab55-bd22707e275f/"
+            },
+            "attributes": {
+                "slug": "news-and-public-affairs",
+                "title": "News and Public Affairs",
+                "created_at": "2017-04-04T09:00:04.496553Z",
+                "updated_at": "2018-01-29T12:16:12.111398Z"
+            },
+            "type": "genre",
+            "id": "32aabe94-4417-40a9-ab55-bd22707e275f"
+        },
+        {
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/genres/09684cc5-9a7e-460f-841f-4d95987a8f53/"
+            },
+            "attributes": {
+                "slug": "science-and-nature",
+                "title": "Science and Nature",
+                "created_at": "2017-04-04T09:00:04.515311Z",
+                "updated_at": "2018-01-29T12:16:58.141587Z"
+            },
+            "type": "genre",
+            "id": "09684cc5-9a7e-460f-841f-4d95987a8f53"
+        }
+    ]
+}

@@ -1,0 +1,159 @@
+{
+    "data": [
+        {
+            "attributes": {
+                "ordinal": 3,
+                "title": "",
+                "title_sortable": "",
+                "description_short": "It’s boom time in Jamestown, but power, greed and corruption soon lead to conflict.",
+                "description_long": "It’s boom time in Jamestown but success brings the scrutiny of the Crown and there are few in the settlement who have nothing to hide. Relations with the Native Americans offer hope and advancement for the settlers until greed for land and want of power corrupts those with influence. What ensues is devastating conflict; the fallout of which will shape the New World for centuries to come.",
+                "updated_at": "2019-07-01T14:18:25.389258Z",
+                "latest_asset_images": [
+                    {
+                        "profile": "asset-mezzanine-16x9",
+                        "image": "https://image.pbs.org/video-assets/HldVlsA-asset-mezzanine-16x9-uRtkMsO.jpg",
+                        "updated_at": "2019-05-13T21:10:08.956622Z"
+                    }
+                ],
+                "links": [
+                    {
+                        "value": "https://www.amazon.com/gp/product/B07T4JWMH9/ref=as_li_tl?ie=UTF8&tag=p05a2-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=B07T4JWMH9&linkId=6775779332dd8f7e47318942725341ce",
+                        "profile": "amazon",
+                        "updated_at": "2019-06-20T22:09:09.910504Z"
+                    },
+                    {
+                        "value": "https://shop.pbs.org/product/JAME630",
+                        "profile": "buy-dvd",
+                        "updated_at": "2019-07-01T14:18:25.180732Z"
+                    },
+                    {
+                        "value": "https://geo.itunes.apple.com/us/tv-season/jamestown-season-3/id1463876851?4&at=11l3Sf&ct=JamestownSeason3MM",
+                        "profile": "itunes",
+                        "updated_at": "2019-06-20T22:09:10.053900Z"
+                    }
+                ],
+                "assets": [],
+                "episodes": []
+            },
+            "id": "bd2cf784-bf4a-4638-a477-721dfb29b12e",
+            "type": "season",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/seasons/bd2cf784-bf4a-4638-a477-721dfb29b12e/",
+                "assets": "https://media.services.pbs.org/api/v1/seasons/bd2cf784-bf4a-4638-a477-721dfb29b12e/assets/",
+                "episodes": "https://media.services.pbs.org/api/v1/seasons/bd2cf784-bf4a-4638-a477-721dfb29b12e/episodes/"
+            }
+        },
+        {
+            "attributes": {
+                "ordinal": 2,
+                "title": "Season 2",
+                "title_sortable": "Season 2",
+                "description_short": "The status quo will soon be disrupted by birth, death and broken marriages.",
+                "description_long": "Season 2 returns to a thriving Jamestown, but the status quo will soon be disrupted by birth, death and broken marriages. The settlers find themselves at the heart of adventure once more as new romantic connections are made, desires repressed, and even the purest of loves will be tested. The power of politics will impact the whole community, as the battle for supremacy continues.",
+                "updated_at": "2019-07-01T14:21:10.858717Z",
+                "latest_asset_images": [
+                    {
+                        "profile": "asset-mezzanine-16x9",
+                        "image": "https://image.pbs.org/video-assets/mBIURwQ-asset-mezzanine-16x9-O3mG3E2.jpg",
+                        "updated_at": "2018-11-05T20:20:02.549236Z"
+                    }
+                ],
+                "links": [
+                    {
+                        "value": "https://www.amazon.com/gp/product/B07KPT9RG3/ref=as_li_tl?ie=UTF8&tag=p05a2-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=B07KPT9RG3&linkId=636b5fc568d792e460b595a5f5aab74c",
+                        "profile": "amazon",
+                        "updated_at": "2019-02-11T17:08:22.543280Z"
+                    },
+                    {
+                        "value": "https://shop.pbs.org/product/JAME600",
+                        "profile": "buy-dvd",
+                        "updated_at": "2019-07-01T14:21:10.597535Z"
+                    },
+                    {
+                        "value": "https://geo.itunes.apple.com/us/tv-season/jamestown-season-2/id1448769957?4&at=11l3Sf&ct=JamestownSeason2MM",
+                        "profile": "itunes",
+                        "updated_at": "2019-02-11T17:08:23.398027Z"
+                    }
+                ],
+                "assets": [],
+                "episodes": []
+            },
+            "id": "cda297b8-6293-4d55-a52a-27ef8aa2a013",
+            "type": "season",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/seasons/cda297b8-6293-4d55-a52a-27ef8aa2a013/",
+                "assets": "https://media.services.pbs.org/api/v1/seasons/cda297b8-6293-4d55-a52a-27ef8aa2a013/assets/",
+                "episodes": "https://media.services.pbs.org/api/v1/seasons/cda297b8-6293-4d55-a52a-27ef8aa2a013/episodes/"
+            }
+        },
+        {
+            "attributes": {
+                "ordinal": 1,
+                "title": "",
+                "title_sortable": "",
+                "description_short": "1619. Jamestown has been populated only by men, but now, the first women land.",
+                "description_long": "1619. On what feels like the edge of the world sits the British colony of Jamestown, Virginia. For 12 years, it has been populated only by men, but the settlement is shaken up when the first women, including Alice, Verity, and Jocelyn, land in this wilderness. The disruptive new arrivals make an immediate impact and are thrust into a new world of love, desire, power, and survival. UK Edition.",
+                "updated_at": "2018-12-06T22:08:30.490313Z",
+                "latest_asset_images": [
+                    {
+                        "profile": "asset-mezzanine-16x9",
+                        "image": "http://image.pbs.org/video-assets/KhIxs2b-asset-mezzanine-16x9-lQdKodq.jpg",
+                        "updated_at": "2018-03-07T17:21:50.703988Z"
+                    }
+                ],
+                "links": [
+                    {
+                        "value": "https://www.amazon.com/gp/product/B07B46YX7R/ref=as_li_tl?ie=UTF8&tag=jamestown_fbc-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=B07B46YX7R&linkId=c590413117b39bb9869c9d7996fcf86b",
+                        "profile": "amazon",
+                        "updated_at": "2018-12-06T22:08:30.242441Z"
+                    },
+                    {
+                        "value": "https://geo.itunes.apple.com/us/tv-season/jamestown-season-1/id1438649589?4&at=11l3Sf&ct=JamestownSeason1MM",
+                        "profile": "itunes",
+                        "updated_at": "2018-12-06T22:08:30.455004Z"
+                    }
+                ],
+                "assets": [],
+                "episodes": []
+            },
+            "id": "293b3f24-0070-441a-9ec4-5fa7a0165206",
+            "type": "season",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/seasons/293b3f24-0070-441a-9ec4-5fa7a0165206/",
+                "assets": "https://media.services.pbs.org/api/v1/seasons/293b3f24-0070-441a-9ec4-5fa7a0165206/assets/",
+                "episodes": "https://media.services.pbs.org/api/v1/seasons/293b3f24-0070-441a-9ec4-5fa7a0165206/episodes/"
+            }
+        }
+    ],
+    "jsonapi": {
+        "version": "1.0"
+    },
+    "meta": {
+        "pagination": {
+            "per_page": 50,
+            "count": 3
+        },
+        "filter": {
+            "ordinal": "https://media.services.pbs.org/api/v1/shows/d9588363-71f8-466d-a520-0dd73c7bbd0e/seasons/?ordinal=",
+            "id": "https://media.services.pbs.org/api/v1/shows/d9588363-71f8-466d-a520-0dd73c7bbd0e/seasons/?id="
+        },
+        "type": "collection",
+        "sort": {
+            "ordinal": {
+                "desc": "https://media.services.pbs.org/api/v1/shows/d9588363-71f8-466d-a520-0dd73c7bbd0e/seasons/?per-page=50&sort=-ordinal",
+                "asc": "https://media.services.pbs.org/api/v1/shows/d9588363-71f8-466d-a520-0dd73c7bbd0e/seasons/?per-page=50&sort=ordinal"
+            },
+            "title_sortable": {
+                "desc": "https://media.services.pbs.org/api/v1/shows/d9588363-71f8-466d-a520-0dd73c7bbd0e/seasons/?per-page=50&sort=-title_sortable",
+                "asc": "https://media.services.pbs.org/api/v1/shows/d9588363-71f8-466d-a520-0dd73c7bbd0e/seasons/?per-page=50&sort=title_sortable"
+            }
+        }
+    },
+    "links": {
+        "self": "https://media.services.pbs.org/api/v1/shows/d9588363-71f8-466d-a520-0dd73c7bbd0e/seasons/?fetch-related&per-page=50",
+        "first": null,
+        "prev": null,
+        "last": null,
+        "next": null
+    }
+}

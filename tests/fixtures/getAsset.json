@@ -1,0 +1,245 @@
+{
+    "data": [
+        {
+            "id": "a2ab3573-5a7a-4551-bd62-2688b9ec793a",
+            "type": "asset",
+            "attributes": {
+                "slug": "episode-1-ree4hr",
+                "title": "Episode 1",
+                "title_sortable": "Episode 1",
+                "description_short": "After the burning of her plantation, Jocelyn regains her thirst for advancement.",
+                "description_long": "After the burning of her plantation, Jocelyn regains her thirst for advancement. Banished Silas is devoted to his new life with the Pamunkey, forcing Alice to make a devastating decision. Yeardley brutally proves that disloyalty will not be tolerated.",
+                "object_type": "full_length",
+                "premiered_on": "2019-06-16",
+                "encored_on": "2019-06-16",
+                "is_excluded_from_dfp": false,
+                "duration": 2664,
+                "content_rating": "TV-14",
+                "content_rating_descriptor": [
+                    "V"
+                ],
+                "legacy_tp_media_id": 3028837098,
+                "can_embed_player": true,
+                "tags": null,
+                "language": "en",
+                "funder_message": "",
+                "images": [
+                    {
+                        "profile": "asset-mezzanine-16x9",
+                        "image": "https://image.pbs.org/video-assets/0LADknt-asset-mezzanine-16x9-hNjslTr.jpg",
+                        "updated_at": "2019-05-13T20:53:50.673751Z"
+                    }
+                ],
+                "updated_at": "2019-07-01T14:18:36.792393Z",
+                "countries": [
+                    {
+                        "name": "United States",
+                        "id": "6a9df090-8ede-44c0-8781-5ddbb942966b",
+                        "code": "US",
+                        "updated_at": "2017-04-04T09:00:32.190936Z"
+                    },
+                    {
+                        "name": "Northern Mariana Islands",
+                        "id": "9a9c8e4e-a700-4713-85f4-b3ee31a27879",
+                        "code": "MP",
+                        "updated_at": "2017-04-04T09:00:32.372517Z"
+                    },
+                    {
+                        "name": "Puerto Rico",
+                        "id": "f3c41bf8-f17c-4b55-a540-0e74c80c2cce",
+                        "code": "PR",
+                        "updated_at": "2017-04-04T09:00:32.377009Z"
+                    },
+                    {
+                        "name": "American Samoa",
+                        "id": "c54cfde7-42cb-49df-bb72-d355332d50c9",
+                        "code": "AS",
+                        "updated_at": "2017-04-04T09:00:32.381542Z"
+                    },
+                    {
+                        "name": "Guam",
+                        "id": "4f9b354c-7ada-4d83-9085-fcb6c887a5b5",
+                        "code": "GU",
+                        "updated_at": "2017-04-04T09:00:32.386117Z"
+                    },
+                    {
+                        "name": "U.S. Virgin Islands",
+                        "id": "eefe903e-3af4-4b31-a796-3a4b6dd19214",
+                        "code": "VI",
+                        "updated_at": "2017-04-04T09:00:32.390727Z"
+                    },
+                    {
+                        "name": "U.S. Minor Outlying Islands",
+                        "id": "cf58f575-b194-48e3-8700-1086909ed0e1",
+                        "code": "UM",
+                        "updated_at": "2017-04-04T09:00:32.395225Z"
+                    }
+                ],
+                "geo_profile": {
+                    "id": "c94e2e6d-0052-493a-a67d-266d51cc6445",
+                    "name": "US & Territories",
+                    "updated_at": "2017-04-04T09:00:32.641361Z"
+                },
+                "topics": [],
+                "platforms": [
+                    {
+                        "slug": "allplatforms",
+                        "id": "e5a289b8-01b3-41ce-92c1-3eb5a4e14bc0",
+                        "name": "All Platforms",
+                        "updated_at": "2017-04-03T15:57:09.459445Z"
+                    }
+                ],
+                "player_code": "<iframe  id='partnerPlayer' frameborder='0' marginwidth='0' marginheight='0' scrolling='no' width='100%' height='100%' src='//player.pbs.org/partnerplayer/-M_tca4DtcO1zA6d9dazPw==/?topbar=false&end=0&endscreen=true&start=0&autoplay=false' allowfullscreen></iframe>",
+                "availabilities": {
+                    "station_members": {
+                        "updated_at": "2019-06-03T18:45:26.344042Z",
+                        "start": "2019-06-17T02:00:00Z",
+                        "end": "2024-06-16T03:59:59Z"
+                    },
+                    "all_members": {
+                        "updated_at": "2019-06-03T18:45:26.256623Z",
+                        "start": "2019-06-17T02:00:00Z",
+                        "end": "2024-06-16T03:59:59Z"
+                    },
+                    "public": {
+                        "updated_at": "2019-06-03T18:45:25.934070Z",
+                        "start": null,
+                        "end": null
+                    }
+                },
+                "related_links": [],
+                "related_promos": [],
+                "parent_tree": {
+                    "id": "d5cdd80c-4614-452b-91ed-cd4e583e0ef7",
+                    "type": "episode",
+                    "attributes": {
+                        "slug": "episode-1-7fvgdu",
+                        "season": {
+                            "id": "bd2cf784-bf4a-4638-a477-721dfb29b12e",
+                            "type": "season",
+                            "attributes": {
+                                "show": {
+                                    "id": "d9588363-71f8-466d-a520-0dd73c7bbd0e",
+                                    "type": "show",
+                                    "attributes": {
+                                        "franchise": null,
+                                        "seasons_count": 3,
+                                        "title": "Jamestown",
+                                        "tracking_ga_page": "",
+                                        "display_episode_number": true,
+                                        "funder_message": "",
+                                        "slug": "jamestown",
+                                        "audience": [
+                                            {
+                                                "station": null,
+                                                "scope": "national"
+                                            }
+                                        ],
+                                        "tracking_ga_event": ""
+                                    },
+                                    "links": {
+                                        "self": "https://media.services.pbs.org/api/v1/shows/d9588363-71f8-466d-a520-0dd73c7bbd0e/"
+                                    }
+                                },
+                                "title": "",
+                                "ordinal": 3
+                            },
+                            "links": {
+                                "self": "https://media.services.pbs.org/api/v1/seasons/bd2cf784-bf4a-4638-a477-721dfb29b12e/"
+                            }
+                        },
+                        "title": "Episode 1",
+                        "ordinal": 1
+                    },
+                    "links": {
+                        "self": "https://media.services.pbs.org/api/v1/episodes/d5cdd80c-4614-452b-91ed-cd4e583e0ef7/"
+                    }
+                },
+                "has_captions": true,
+                "episode": {
+                    "id": "d5cdd80c-4614-452b-91ed-cd4e583e0ef7",
+                    "type": "episode",
+                    "attributes": {
+                        "slug": "episode-1-7fvgdu",
+                        "ordinal": 1,
+                        "segment": "",
+                        "title": "Episode 1",
+                        "title_sortable": "Episode 1",
+                        "updated_at": "2019-07-01T14:18:36.887569Z"
+                    },
+                    "links": {
+                        "self": "https://media.services.pbs.org/api/v1/episodes/d5cdd80c-4614-452b-91ed-cd4e583e0ef7/"
+                    }
+                },
+                "season": null,
+                "show": null,
+                "franchise": null,
+                "chapters": [],
+                "episode_links": [
+                    {
+                        "profile": "amazon",
+                        "value": "https://www.amazon.com/gp/product/B07T4JWMH9/ref=as_li_tl?ie=UTF8&tag=p05a2-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=B07T4JWMH9&linkId=6775779332dd8f7e47318942725341ce",
+                        "updated_at": "2019-06-20T22:09:41.963449Z"
+                    },
+                    {
+                        "profile": "buy-dvd",
+                        "value": "https://shop.pbs.org/product/JAME630",
+                        "updated_at": "2019-07-01T14:18:36.589554Z"
+                    },
+                    {
+                        "profile": "itunes",
+                        "value": "https://geo.itunes.apple.com/us/tv-season/jamestown-season-3/id1463876851?4&at=11l3Sf&ct=JamestownSeason3MM",
+                        "updated_at": "2019-06-20T22:09:41.839162Z"
+                    }
+                ]
+            },
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/assets/a2ab3573-5a7a-4551-bd62-2688b9ec793a/"
+            }
+        }
+    ],
+    "links": {
+        "first": null,
+        "next": null,
+        "prev": null,
+        "last": null,
+        "self": "https://media.services.pbs.org/api/v1/assets/?fetch-related&page-size=50&id=a2ab3573-5a7a-4551-bd62-2688b9ec793a"
+    },
+    "jsonapi": {
+        "version": "1.0"
+    },
+    "meta": {
+        "sort": {
+            "premiered_on": {
+                "asc": "https://media.services.pbs.org/api/v1/assets/?page-size=50&id=a2ab3573-5a7a-4551-bd62-2688b9ec793a&sort=premiered_on",
+                "desc": "https://media.services.pbs.org/api/v1/assets/?page-size=50&id=a2ab3573-5a7a-4551-bd62-2688b9ec793a&sort=-premiered_on"
+            },
+            "updated_at": {
+                "asc": "https://media.services.pbs.org/api/v1/assets/?page-size=50&id=a2ab3573-5a7a-4551-bd62-2688b9ec793a&sort=updated_at",
+                "desc": "https://media.services.pbs.org/api/v1/assets/?page-size=50&id=a2ab3573-5a7a-4551-bd62-2688b9ec793a&sort=-updated_at"
+            },
+            "encored_on": {
+                "asc": "https://media.services.pbs.org/api/v1/assets/?page-size=50&id=a2ab3573-5a7a-4551-bd62-2688b9ec793a&sort=encored_on",
+                "desc": "https://media.services.pbs.org/api/v1/assets/?page-size=50&id=a2ab3573-5a7a-4551-bd62-2688b9ec793a&sort=-encored_on"
+            }
+        },
+        "type": "collection",
+        "filter": {
+            "show-slug": "https://media.services.pbs.org/api/v1/assets/?show-slug=",
+            "special-id": "https://media.services.pbs.org/api/v1/assets/?special-id=",
+            "platform-slug": "https://media.services.pbs.org/api/v1/assets/?platform-slug=",
+            "id": "https://media.services.pbs.org/api/v1/assets/?id=",
+            "episode-slug": "https://media.services.pbs.org/api/v1/assets/?episode-slug=",
+            "show-id": "https://media.services.pbs.org/api/v1/assets/?show-id=",
+            "episode-id": "https://media.services.pbs.org/api/v1/assets/?episode-id=",
+            "special-slug": "https://media.services.pbs.org/api/v1/assets/?special-slug=",
+            "slug": "https://media.services.pbs.org/api/v1/assets/?slug=",
+            "platform-id": "https://media.services.pbs.org/api/v1/assets/?platform-id=",
+            "type": "https://media.services.pbs.org/api/v1/assets/?type="
+        },
+        "pagination": {
+            "count": 1,
+            "per_page": 50
+        }
+    }
+}

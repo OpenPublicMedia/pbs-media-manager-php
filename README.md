@@ -73,6 +73,9 @@ class stdClass#80 (4) {
 
 ## Development goals
 
+See [CONTRIBUTING](CONTRIBUTING.md) for information about contributing to
+this project.
+
 ### v1
 
  - [x] API authentication (`OpenPublicMedia\PbsMediaManager\Client`)
