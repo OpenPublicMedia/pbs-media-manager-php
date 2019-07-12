@@ -1,134 +1,108 @@
 {
-    "data": [
-        {
-            "type": "collection",
-            "links": {
-                "self": "https://media.services.pbs.org/api/v1/collections/5f390495-54d1-4f0c-91e4-0e72b91fb759/",
-                "episodes": "https://media.services.pbs.org/api/v1/collections/5f390495-54d1-4f0c-91e4-0e72b91fb759/episodes/",
-                "specials": "https://media.services.pbs.org/api/v1/collections/5f390495-54d1-4f0c-91e4-0e72b91fb759/specials/"
+    "data": {
+        "id": "5f390495-54d1-4f0c-91e4-0e72b91fb759",
+        "type": "collection",
+        "attributes": {
+            "slug": "chefs-flight",
+            "title": "Chef's Flight",
+            "title_sortable": "Chef's Flight",
+            "description_short": "Get to know some of America’s most iconic chefs.",
+            "description_long": "Get to know some of America’s most iconic chefs through American Masters’ Chefs Flight: four documentaries on iconic chefs James Beard, Julia Child, Jacques Pépin, and Alice Waters.",
+            "updated_at": "2019-05-15T15:08:27.643885Z",
+            "featured": false,
+            "latest_asset_images": [
+                {
+                    "image": "https://image.pbs.org/video-assets/rJGhUMm-asset-mezzanine-16x9-OTfviih.jpg",
+                    "updated_at": "2017-05-19T16:40:14.707077Z",
+                    "profile": "asset-mezzanine-16x9"
+                }
+            ],
+            "show": {
+                "id": "2e5c2027-ec2e-4214-baa3-6ff6af56c8c3",
+                "type": "show",
+                "links": {
+                    "self": "https://media.services.pbs.org/api/v1/shows/2e5c2027-ec2e-4214-baa3-6ff6af56c8c3/"
+                },
+                "attributes": {
+                    "title": "American Masters",
+                    "title_sortable": "American Masters",
+                    "slug": "american-masters",
+                    "display_episode_number": true,
+                    "updated_at": "2019-07-01T18:41:23.603300Z"
+                }
             },
-            "id": "5f390495-54d1-4f0c-91e4-0e72b91fb759",
-            "attributes": {
-                "slug": "chefs-flight",
-                "title": "Chef's Flight",
-                "title_sortable": "Chef's Flight",
-                "description_short": "Get to know some of America’s most iconic chefs.",
-                "description_long": "Get to know some of America’s most iconic chefs through American Masters’ Chefs Flight: four documentaries on iconic chefs James Beard, Julia Child, Jacques Pépin, and Alice Waters.",
-                "updated_at": "2019-05-15T15:08:27.643885Z",
-                "featured": false,
-                "latest_asset_images": [
-                    {
-                        "profile": "asset-mezzanine-16x9",
-                        "image": "https://image.pbs.org/video-assets/rJGhUMm-asset-mezzanine-16x9-OTfviih.jpg",
-                        "updated_at": "2017-05-19T16:40:14.707077Z"
-                    }
-                ],
-                "show": {
-                    "type": "show",
+            "episodes": [
+                {
+                    "id": "0dc046ab-790a-416e-9d66-9970222d4a4f",
+                    "type": "episode",
                     "links": {
-                        "self": "https://media.services.pbs.org/api/v1/shows/2e5c2027-ec2e-4214-baa3-6ff6af56c8c3/"
+                        "self": "https://media.services.pbs.org/api/v1/episodes/0dc046ab-790a-416e-9d66-9970222d4a4f/"
                     },
-                    "id": "2e5c2027-ec2e-4214-baa3-6ff6af56c8c3",
                     "attributes": {
-                        "title": "American Masters",
-                        "title_sortable": "American Masters",
-                        "slug": "american-masters",
-                        "display_episode_number": true,
-                        "updated_at": "2019-07-01T18:41:23.603300Z"
+                        "slug": "julia-americas-favorite-chef",
+                        "ordinal": 8,
+                        "segment": "",
+                        "title": "Julia! America's Favorite Chef",
+                        "title_sortable": "Julia! America's Favorite Chef",
+                        "updated_at": "2019-05-24T13:40:03.399535Z"
                     }
                 },
-                "episodes": [
-                    {
-                        "type": "episode",
-                        "links": {
-                            "self": "https://media.services.pbs.org/api/v1/episodes/0dc046ab-790a-416e-9d66-9970222d4a4f/"
-                        },
-                        "id": "0dc046ab-790a-416e-9d66-9970222d4a4f",
-                        "attributes": {
-                            "slug": "julia-americas-favorite-chef",
-                            "ordinal": 8,
-                            "segment": "",
-                            "title": "Julia! America's Favorite Chef",
-                            "title_sortable": "Julia! America's Favorite Chef",
-                            "updated_at": "2019-05-24T13:40:03.399535Z"
-                        }
+                {
+                    "id": "9cf07034-1025-48df-956e-fa654fb423c5",
+                    "type": "episode",
+                    "links": {
+                        "self": "https://media.services.pbs.org/api/v1/episodes/9cf07034-1025-48df-956e-fa654fb423c5/"
                     },
-                    {
-                        "type": "episode",
-                        "links": {
-                            "self": "https://media.services.pbs.org/api/v1/episodes/9cf07034-1025-48df-956e-fa654fb423c5/"
-                        },
-                        "id": "9cf07034-1025-48df-956e-fa654fb423c5",
-                        "attributes": {
-                            "slug": "jacques-pepin-art-craft",
-                            "ordinal": 5,
-                            "segment": "",
-                            "title": "Jacques Pépin: The Art of Craft",
-                            "title_sortable": "Jacques Pépin: The Art of Craft",
-                            "updated_at": "2019-05-24T14:13:22.558288Z"
-                        }
-                    },
-                    {
-                        "type": "episode",
-                        "links": {
-                            "self": "https://media.services.pbs.org/api/v1/episodes/78028766-67a4-4698-b025-8d2157c4a040/"
-                        },
-                        "id": "78028766-67a4-4698-b025-8d2157c4a040",
-                        "attributes": {
-                            "slug": "james-beard-americas-first-foodie",
-                            "ordinal": 4,
-                            "segment": "",
-                            "title": "James Beard: America's First Foodie",
-                            "title_sortable": "James Beard: America's First Foodie",
-                            "updated_at": "2019-05-24T14:32:20.788159Z"
-                        }
-                    },
-                    {
-                        "type": "episode",
-                        "links": {
-                            "self": "https://media.services.pbs.org/api/v1/episodes/f1003656-b44e-43b5-a905-8a256f9b4b66/"
-                        },
-                        "id": "f1003656-b44e-43b5-a905-8a256f9b4b66",
-                        "attributes": {
-                            "slug": "alice-waters-and-her-delicious-revolution",
-                            "ordinal": 4,
-                            "segment": "",
-                            "title": "Alice Waters and Her Delicious Revolution",
-                            "title_sortable": "Alice Waters and Her Delicious Revolution",
-                            "updated_at": "2019-05-24T14:35:03.489750Z"
-                        }
+                    "attributes": {
+                        "slug": "jacques-pepin-art-craft",
+                        "ordinal": 5,
+                        "segment": "",
+                        "title": "Jacques Pépin: The Art of Craft",
+                        "title_sortable": "Jacques Pépin: The Art of Craft",
+                        "updated_at": "2019-05-24T14:13:22.558288Z"
                     }
-                ],
-                "specials": []
-            }
+                },
+                {
+                    "id": "78028766-67a4-4698-b025-8d2157c4a040",
+                    "type": "episode",
+                    "links": {
+                        "self": "https://media.services.pbs.org/api/v1/episodes/78028766-67a4-4698-b025-8d2157c4a040/"
+                    },
+                    "attributes": {
+                        "slug": "james-beard-americas-first-foodie",
+                        "ordinal": 4,
+                        "segment": "",
+                        "title": "James Beard: America's First Foodie",
+                        "title_sortable": "James Beard: America's First Foodie",
+                        "updated_at": "2019-05-24T14:32:20.788159Z"
+                    }
+                },
+                {
+                    "id": "f1003656-b44e-43b5-a905-8a256f9b4b66",
+                    "type": "episode",
+                    "links": {
+                        "self": "https://media.services.pbs.org/api/v1/episodes/f1003656-b44e-43b5-a905-8a256f9b4b66/"
+                    },
+                    "attributes": {
+                        "slug": "alice-waters-and-her-delicious-revolution",
+                        "ordinal": 4,
+                        "segment": "",
+                        "title": "Alice Waters and Her Delicious Revolution",
+                        "title_sortable": "Alice Waters and Her Delicious Revolution",
+                        "updated_at": "2019-05-24T14:35:03.489750Z"
+                    }
+                }
+            ],
+            "specials": []
         }
-    ],
-    "meta": {
-        "filter": {
-            "id": "https://media.services.pbs.org/api/v1/collections/?id="
-        },
-        "sort": {
-            "title_sortable": {
-                "asc": "https://media.services.pbs.org/api/v1/collections/?sort=title_sortable&id=5f390495-54d1-4f0c-91e4-0e72b91fb759",
-                "desc": "https://media.services.pbs.org/api/v1/collections/?sort=-title_sortable&id=5f390495-54d1-4f0c-91e4-0e72b91fb759"
-            },
-            "featured": {
-                "asc": "https://media.services.pbs.org/api/v1/collections/?sort=featured&id=5f390495-54d1-4f0c-91e4-0e72b91fb759",
-                "desc": "https://media.services.pbs.org/api/v1/collections/?sort=-featured&id=5f390495-54d1-4f0c-91e4-0e72b91fb759"
-            }
-        },
-        "pagination": {
-            "per_page": 50,
-            "count": 1
-        },
-        "type": "collection"
     },
     "links": {
-        "self": "https://media.services.pbs.org/api/v1/collections/?id=5f390495-54d1-4f0c-91e4-0e72b91fb759&fetch-related",
-        "prev": null,
-        "next": null,
-        "first": null,
-        "last": null
+        "episodes": "https://media.services.pbs.org/api/v1/collections/5f390495-54d1-4f0c-91e4-0e72b91fb759/episodes/",
+        "specials": "https://media.services.pbs.org/api/v1/collections/5f390495-54d1-4f0c-91e4-0e72b91fb759/specials/",
+        "self": "https://media.services.pbs.org/api/v1/collections/5f390495-54d1-4f0c-91e4-0e72b91fb759/?fetch-related"
+    },
+    "meta": {
+        "type": "resource"
     },
     "jsonapi": {
         "version": "1.0"

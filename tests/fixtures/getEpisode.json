@@ -1,135 +1,31 @@
 {
-    "data": [
-        {
-            "type": "episode",
-            "links": {
-                "collections": "https://media.services.pbs.org/api/v1/episodes/99aa15d6-946e-4acc-8d33-96eb173a26f7/collections/",
-                "self": "https://media.services.pbs.org/api/v1/episodes/99aa15d6-946e-4acc-8d33-96eb173a26f7/",
-                "assets": "https://media.services.pbs.org/api/v1/episodes/99aa15d6-946e-4acc-8d33-96eb173a26f7/assets/"
-            },
-            "id": "99aa15d6-946e-4acc-8d33-96eb173a26f7",
-            "attributes": {
-                "ordinal": 8,
-                "segment": "",
-                "title": "Episode 8",
-                "title_sortable": "Episode 8",
-                "slug": "episode-8-vnjd0e",
-                "tms_id": "",
-                "description_short": "Mercy and Pepper bring joy to the town but the Sharrows’ rivalry reaches breaking point.",
-                "description_long": "Mercy and Pepper bring joy to the town but the Sharrows’ rivalry reaches breaking point. Jocelyn gives Yeardley one last challenge which will alter both their futures. Opechancanough initiates an audacious plan that will change Jamestown forever.",
-                "premiered_on": "2019-08-04",
-                "encored_on": "2019-08-04",
-                "nola": "000308",
-                "language": "en",
-                "updated_at": "2019-07-01T14:19:38.885947Z",
-                "assets": [
-                    {
-                        "type": "asset",
-                        "links": {
-                            "self": "https://media.services.pbs.org/api/v1/assets/9a445cbe-15e7-4ee7-878b-ab8ec3060648/"
-                        },
-                        "id": "9a445cbe-15e7-4ee7-878b-ab8ec3060648",
-                        "attributes": {
-                            "slug": "episode-8-r2lkaf",
-                            "title": "Episode 8",
-                            "title_sortable": "Episode 8",
-                            "description_short": "Mercy and Pepper bring joy to the town but the Sharrows’ rivalry reaches breaking point.",
-                            "description_long": "Mercy and Pepper bring joy to the town but the Sharrows’ rivalry reaches breaking point. Jocelyn gives Yeardley one last challenge which will alter both their futures. Opechancanough initiates an audacious plan that will change Jamestown forever.",
-                            "object_type": "full_length",
-                            "premiered_on": "2019-08-04",
-                            "encored_on": "2019-08-04",
-                            "duration": 2701,
-                            "legacy_tp_media_id": 3028839330,
-                            "tags": null,
-                            "updated_at": "2019-07-01T14:19:38.811167Z",
-                            "availabilities": {
-                                "all_members": {
-                                    "updated_at": "2019-06-03T18:48:26.664450Z",
-                                    "start": "2019-06-17T02:00:00Z",
-                                    "end": "2024-06-16T03:59:59Z"
-                                },
-                                "public": {
-                                    "updated_at": "2019-06-03T18:48:26.585050Z",
-                                    "start": null,
-                                    "end": null
-                                },
-                                "station_members": {
-                                    "updated_at": "2019-06-03T18:48:26.719398Z",
-                                    "start": "2019-06-17T02:00:00Z",
-                                    "end": "2024-06-16T03:59:59Z"
-                                }
-                            },
-                            "parent_tree": {
-                                "type": "episode",
-                                "links": {
-                                    "self": "https://media.services.pbs.org/api/v1/episodes/99aa15d6-946e-4acc-8d33-96eb173a26f7/"
-                                },
-                                "id": "99aa15d6-946e-4acc-8d33-96eb173a26f7",
-                                "attributes": {
-                                    "season": {
-                                        "type": "season",
-                                        "links": {
-                                            "self": "https://media.services.pbs.org/api/v1/seasons/bd2cf784-bf4a-4638-a477-721dfb29b12e/"
-                                        },
-                                        "id": "bd2cf784-bf4a-4638-a477-721dfb29b12e",
-                                        "attributes": {
-                                            "ordinal": 3,
-                                            "title": "",
-                                            "show": {
-                                                "type": "show",
-                                                "links": {
-                                                    "self": "https://media.services.pbs.org/api/v1/shows/d9588363-71f8-466d-a520-0dd73c7bbd0e/"
-                                                },
-                                                "id": "d9588363-71f8-466d-a520-0dd73c7bbd0e",
-                                                "attributes": {
-                                                    "tracking_ga_page": "",
-                                                    "display_episode_number": true,
-                                                    "title": "Jamestown",
-                                                    "seasons_count": 3,
-                                                    "slug": "jamestown",
-                                                    "tracking_ga_event": "",
-                                                    "franchise": null,
-                                                    "audience": [
-                                                        {
-                                                            "scope": "national",
-                                                            "station": null
-                                                        }
-                                                    ]
-                                                }
-                                            }
-                                        }
-                                    },
-                                    "ordinal": 8,
-                                    "title": "Episode 8",
-                                    "slug": "episode-8-vnjd0e"
-                                }
-                            },
-                            "has_captions": true,
-                            "images": [
-                                {
-                                    "profile": "asset-mezzanine-16x9",
-                                    "image": "https://image.pbs.org/video-assets/HldVlsA-asset-mezzanine-16x9-uRtkMsO.jpg",
-                                    "updated_at": "2019-05-13T21:10:08.956622Z"
-                                }
-                            ],
-                            "platforms": [
-                                {
-                                    "name": "All Platforms",
-                                    "updated_at": "2017-04-03T15:57:09.459445Z",
-                                    "slug": "allplatforms",
-                                    "id": "e5a289b8-01b3-41ce-92c1-3eb5a4e14bc0"
-                                }
-                            ]
-                        }
-                    }
-                ],
-                "collections": [],
-                "full_length_asset": {
-                    "type": "asset",
+    "links": {
+        "self": "https://media.services.pbs.org/api/v1/episodes/99aa15d6-946e-4acc-8d33-96eb173a26f7/?fetch-related",
+        "assets": "https://media.services.pbs.org/api/v1/episodes/99aa15d6-946e-4acc-8d33-96eb173a26f7/assets/",
+        "collections": "https://media.services.pbs.org/api/v1/episodes/99aa15d6-946e-4acc-8d33-96eb173a26f7/collections/"
+    },
+    "data": {
+        "id": "99aa15d6-946e-4acc-8d33-96eb173a26f7",
+        "attributes": {
+            "ordinal": 8,
+            "segment": "",
+            "title": "Episode 8",
+            "title_sortable": "Episode 8",
+            "slug": "episode-8-vnjd0e",
+            "tms_id": "",
+            "description_short": "Mercy and Pepper bring joy to the town but the Sharrows’ rivalry reaches breaking point.",
+            "description_long": "Mercy and Pepper bring joy to the town but the Sharrows’ rivalry reaches breaking point. Jocelyn gives Yeardley one last challenge which will alter both their futures. Opechancanough initiates an audacious plan that will change Jamestown forever.",
+            "premiered_on": "2019-08-04",
+            "encored_on": "2019-08-04",
+            "nola": "000308",
+            "language": "en",
+            "updated_at": "2019-07-01T14:19:38.885947Z",
+            "assets": [
+                {
+                    "id": "9a445cbe-15e7-4ee7-878b-ab8ec3060648",
                     "links": {
                         "self": "https://media.services.pbs.org/api/v1/assets/9a445cbe-15e7-4ee7-878b-ab8ec3060648/"
                     },
-                    "id": "9a445cbe-15e7-4ee7-878b-ab8ec3060648",
                     "attributes": {
                         "slug": "episode-8-r2lkaf",
                         "title": "Episode 8",
@@ -144,171 +40,253 @@
                         "tags": null,
                         "updated_at": "2019-07-01T14:19:38.811167Z",
                         "availabilities": {
-                            "all_members": {
-                                "updated_at": "2019-06-03T18:48:26.664450Z",
-                                "start": "2019-06-17T02:00:00Z",
-                                "end": "2024-06-16T03:59:59Z"
+                            "station_members": {
+                                "updated_at": "2019-06-03T18:48:26.719398Z",
+                                "end": "2024-06-16T03:59:59Z",
+                                "start": "2019-06-17T02:00:00Z"
                             },
                             "public": {
                                 "updated_at": "2019-06-03T18:48:26.585050Z",
-                                "start": null,
-                                "end": null
+                                "end": null,
+                                "start": null
                             },
-                            "station_members": {
-                                "updated_at": "2019-06-03T18:48:26.719398Z",
-                                "start": "2019-06-17T02:00:00Z",
-                                "end": "2024-06-16T03:59:59Z"
+                            "all_members": {
+                                "updated_at": "2019-06-03T18:48:26.664450Z",
+                                "end": "2024-06-16T03:59:59Z",
+                                "start": "2019-06-17T02:00:00Z"
                             }
                         },
                         "parent_tree": {
-                            "type": "episode",
-                            "links": {
-                                "self": "https://media.services.pbs.org/api/v1/episodes/99aa15d6-946e-4acc-8d33-96eb173a26f7/"
-                            },
                             "id": "99aa15d6-946e-4acc-8d33-96eb173a26f7",
                             "attributes": {
                                 "season": {
-                                    "type": "season",
-                                    "links": {
-                                        "self": "https://media.services.pbs.org/api/v1/seasons/bd2cf784-bf4a-4638-a477-721dfb29b12e/"
-                                    },
                                     "id": "bd2cf784-bf4a-4638-a477-721dfb29b12e",
                                     "attributes": {
-                                        "ordinal": 3,
-                                        "title": "",
                                         "show": {
+                                            "id": "d9588363-71f8-466d-a520-0dd73c7bbd0e",
+                                            "attributes": {
+                                                "audience": [
+                                                    {
+                                                        "station": null,
+                                                        "scope": "national"
+                                                    }
+                                                ],
+                                                "tracking_ga_page": "",
+                                                "tracking_ga_event": "",
+                                                "franchise": null,
+                                                "display_episode_number": true,
+                                                "title": "Jamestown",
+                                                "slug": "jamestown",
+                                                "seasons_count": 3
+                                            },
                                             "type": "show",
                                             "links": {
                                                 "self": "https://media.services.pbs.org/api/v1/shows/d9588363-71f8-466d-a520-0dd73c7bbd0e/"
-                                            },
-                                            "id": "d9588363-71f8-466d-a520-0dd73c7bbd0e",
-                                            "attributes": {
-                                                "tracking_ga_page": "",
-                                                "display_episode_number": true,
-                                                "title": "Jamestown",
-                                                "seasons_count": 3,
-                                                "slug": "jamestown",
-                                                "tracking_ga_event": "",
-                                                "franchise": null,
-                                                "audience": [
-                                                    {
-                                                        "scope": "national",
-                                                        "station": null
-                                                    }
-                                                ]
                                             }
-                                        }
+                                        },
+                                        "ordinal": 3,
+                                        "title": ""
+                                    },
+                                    "type": "season",
+                                    "links": {
+                                        "self": "https://media.services.pbs.org/api/v1/seasons/bd2cf784-bf4a-4638-a477-721dfb29b12e/"
                                     }
                                 },
                                 "ordinal": 8,
                                 "title": "Episode 8",
                                 "slug": "episode-8-vnjd0e"
+                            },
+                            "type": "episode",
+                            "links": {
+                                "self": "https://media.services.pbs.org/api/v1/episodes/99aa15d6-946e-4acc-8d33-96eb173a26f7/"
                             }
                         },
                         "has_captions": true,
                         "images": [
                             {
+                                "updated_at": "2019-05-13T21:10:08.956622Z",
                                 "profile": "asset-mezzanine-16x9",
-                                "image": "https://image.pbs.org/video-assets/HldVlsA-asset-mezzanine-16x9-uRtkMsO.jpg",
-                                "updated_at": "2019-05-13T21:10:08.956622Z"
+                                "image": "https://image.pbs.org/video-assets/HldVlsA-asset-mezzanine-16x9-uRtkMsO.jpg"
                             }
                         ],
                         "platforms": [
                             {
+                                "id": "e5a289b8-01b3-41ce-92c1-3eb5a4e14bc0",
                                 "name": "All Platforms",
                                 "updated_at": "2017-04-03T15:57:09.459445Z",
-                                "slug": "allplatforms",
-                                "id": "e5a289b8-01b3-41ce-92c1-3eb5a4e14bc0"
+                                "slug": "allplatforms"
                             }
                         ]
-                    }
+                    },
+                    "type": "asset"
+                }
+            ],
+            "collections": [],
+            "full_length_asset": {
+                "id": "9a445cbe-15e7-4ee7-878b-ab8ec3060648",
+                "links": {
+                    "self": "https://media.services.pbs.org/api/v1/assets/9a445cbe-15e7-4ee7-878b-ab8ec3060648/"
                 },
-                "season": {
-                    "type": "season",
-                    "links": {
-                        "self": "https://media.services.pbs.org/api/v1/seasons/bd2cf784-bf4a-4638-a477-721dfb29b12e/"
+                "attributes": {
+                    "slug": "episode-8-r2lkaf",
+                    "title": "Episode 8",
+                    "title_sortable": "Episode 8",
+                    "description_short": "Mercy and Pepper bring joy to the town but the Sharrows’ rivalry reaches breaking point.",
+                    "description_long": "Mercy and Pepper bring joy to the town but the Sharrows’ rivalry reaches breaking point. Jocelyn gives Yeardley one last challenge which will alter both their futures. Opechancanough initiates an audacious plan that will change Jamestown forever.",
+                    "object_type": "full_length",
+                    "premiered_on": "2019-08-04",
+                    "encored_on": "2019-08-04",
+                    "duration": 2701,
+                    "legacy_tp_media_id": 3028839330,
+                    "tags": null,
+                    "updated_at": "2019-07-01T14:19:38.811167Z",
+                    "availabilities": {
+                        "station_members": {
+                            "updated_at": "2019-06-03T18:48:26.719398Z",
+                            "end": "2024-06-16T03:59:59Z",
+                            "start": "2019-06-17T02:00:00Z"
+                        },
+                        "public": {
+                            "updated_at": "2019-06-03T18:48:26.585050Z",
+                            "end": null,
+                            "start": null
+                        },
+                        "all_members": {
+                            "updated_at": "2019-06-03T18:48:26.664450Z",
+                            "end": "2024-06-16T03:59:59Z",
+                            "start": "2019-06-17T02:00:00Z"
+                        }
                     },
-                    "id": "bd2cf784-bf4a-4638-a477-721dfb29b12e",
-                    "attributes": {
-                        "ordinal": 3,
-                        "title": "",
-                        "title_sortable": "",
-                        "updated_at": "2019-07-01T14:18:25.389258Z"
-                    }
+                    "parent_tree": {
+                        "id": "99aa15d6-946e-4acc-8d33-96eb173a26f7",
+                        "attributes": {
+                            "season": {
+                                "id": "bd2cf784-bf4a-4638-a477-721dfb29b12e",
+                                "attributes": {
+                                    "show": {
+                                        "id": "d9588363-71f8-466d-a520-0dd73c7bbd0e",
+                                        "attributes": {
+                                            "audience": [
+                                                {
+                                                    "station": null,
+                                                    "scope": "national"
+                                                }
+                                            ],
+                                            "tracking_ga_page": "",
+                                            "tracking_ga_event": "",
+                                            "franchise": null,
+                                            "display_episode_number": true,
+                                            "title": "Jamestown",
+                                            "slug": "jamestown",
+                                            "seasons_count": 3
+                                        },
+                                        "type": "show",
+                                        "links": {
+                                            "self": "https://media.services.pbs.org/api/v1/shows/d9588363-71f8-466d-a520-0dd73c7bbd0e/"
+                                        }
+                                    },
+                                    "ordinal": 3,
+                                    "title": ""
+                                },
+                                "type": "season",
+                                "links": {
+                                    "self": "https://media.services.pbs.org/api/v1/seasons/bd2cf784-bf4a-4638-a477-721dfb29b12e/"
+                                }
+                            },
+                            "ordinal": 8,
+                            "title": "Episode 8",
+                            "slug": "episode-8-vnjd0e"
+                        },
+                        "type": "episode",
+                        "links": {
+                            "self": "https://media.services.pbs.org/api/v1/episodes/99aa15d6-946e-4acc-8d33-96eb173a26f7/"
+                        }
+                    },
+                    "has_captions": true,
+                    "images": [
+                        {
+                            "updated_at": "2019-05-13T21:10:08.956622Z",
+                            "profile": "asset-mezzanine-16x9",
+                            "image": "https://image.pbs.org/video-assets/HldVlsA-asset-mezzanine-16x9-uRtkMsO.jpg"
+                        }
+                    ],
+                    "platforms": [
+                        {
+                            "id": "e5a289b8-01b3-41ce-92c1-3eb5a4e14bc0",
+                            "name": "All Platforms",
+                            "updated_at": "2017-04-03T15:57:09.459445Z",
+                            "slug": "allplatforms"
+                        }
+                    ]
                 },
-                "show": {
-                    "type": "show",
-                    "links": {
-                        "self": "https://media.services.pbs.org/api/v1/shows/d9588363-71f8-466d-a520-0dd73c7bbd0e/"
-                    },
-                    "id": "d9588363-71f8-466d-a520-0dd73c7bbd0e",
-                    "attributes": {
-                        "title": "Jamestown",
-                        "title_sortable": "Jamestown",
-                        "slug": "jamestown",
-                        "display_episode_number": true,
-                        "updated_at": "2019-06-20T22:08:46.250579Z"
-                    }
+                "type": "asset"
+            },
+            "season": {
+                "id": "bd2cf784-bf4a-4638-a477-721dfb29b12e",
+                "links": {
+                    "self": "https://media.services.pbs.org/api/v1/seasons/bd2cf784-bf4a-4638-a477-721dfb29b12e/"
                 },
-                "links": [
-                    {
-                        "value": "https://shop.pbs.org/product/JAME630",
-                        "profile": "buy-dvd",
-                        "updated_at": "2019-07-01T14:19:38.720907Z"
-                    },
-                    {
-                        "value": "https://geo.itunes.apple.com/us/tv-season/jamestown-season-3/id1463876851?4&at=11l3Sf&ct=JamestownSeason3MM",
-                        "profile": "itunes",
-                        "updated_at": "2019-06-20T22:14:04.658287Z"
-                    },
-                    {
-                        "value": "https://www.amazon.com/gp/product/B07T4JWMH9/ref=as_li_tl?ie=UTF8&tag=p05a2-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=B07T4JWMH9&linkId=6775779332dd8f7e47318942725341ce",
-                        "profile": "amazon",
-                        "updated_at": "2019-06-20T22:14:04.591819Z"
-                    }
-                ],
-                "season_links": [
-                    {
-                        "profile": "amazon",
-                        "updated_at": "2019-06-20T22:09:09.910504Z",
-                        "value": "https://www.amazon.com/gp/product/B07T4JWMH9/ref=as_li_tl?ie=UTF8&tag=p05a2-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=B07T4JWMH9&linkId=6775779332dd8f7e47318942725341ce"
-                    },
-                    {
-                        "profile": "buy-dvd",
-                        "updated_at": "2019-07-01T14:18:25.180732Z",
-                        "value": "https://shop.pbs.org/product/JAME630"
-                    },
-                    {
-                        "profile": "itunes",
-                        "updated_at": "2019-06-20T22:09:10.053900Z",
-                        "value": "https://geo.itunes.apple.com/us/tv-season/jamestown-season-3/id1463876851?4&at=11l3Sf&ct=JamestownSeason3MM"
-                    }
-                ]
-            }
-        }
-    ],
-    "meta": {
-        "filter": {
-            "id": "https://media.services.pbs.org/api/v1/episodes/?id="
+                "attributes": {
+                    "ordinal": 3,
+                    "title": "",
+                    "title_sortable": "",
+                    "updated_at": "2019-07-01T14:18:25.389258Z"
+                },
+                "type": "season"
+            },
+            "show": {
+                "id": "d9588363-71f8-466d-a520-0dd73c7bbd0e",
+                "links": {
+                    "self": "https://media.services.pbs.org/api/v1/shows/d9588363-71f8-466d-a520-0dd73c7bbd0e/"
+                },
+                "attributes": {
+                    "title": "Jamestown",
+                    "title_sortable": "Jamestown",
+                    "slug": "jamestown",
+                    "display_episode_number": true,
+                    "updated_at": "2019-06-20T22:08:46.250579Z"
+                },
+                "type": "show"
+            },
+            "links": [
+                {
+                    "value": "https://shop.pbs.org/product/JAME630",
+                    "profile": "buy-dvd",
+                    "updated_at": "2019-07-01T14:19:38.720907Z"
+                },
+                {
+                    "value": "https://geo.itunes.apple.com/us/tv-season/jamestown-season-3/id1463876851?4&at=11l3Sf&ct=JamestownSeason3MM",
+                    "profile": "itunes",
+                    "updated_at": "2019-06-20T22:14:04.658287Z"
+                },
+                {
+                    "value": "https://www.amazon.com/gp/product/B07T4JWMH9/ref=as_li_tl?ie=UTF8&tag=p05a2-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=B07T4JWMH9&linkId=6775779332dd8f7e47318942725341ce",
+                    "profile": "amazon",
+                    "updated_at": "2019-06-20T22:14:04.591819Z"
+                }
+            ],
+            "season_links": [
+                {
+                    "profile": "amazon",
+                    "updated_at": "2019-06-20T22:09:09.910504Z",
+                    "value": "https://www.amazon.com/gp/product/B07T4JWMH9/ref=as_li_tl?ie=UTF8&tag=p05a2-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=B07T4JWMH9&linkId=6775779332dd8f7e47318942725341ce"
+                },
+                {
+                    "profile": "buy-dvd",
+                    "updated_at": "2019-07-01T14:18:25.180732Z",
+                    "value": "https://shop.pbs.org/product/JAME630"
+                },
+                {
+                    "profile": "itunes",
+                    "updated_at": "2019-06-20T22:09:10.053900Z",
+                    "value": "https://geo.itunes.apple.com/us/tv-season/jamestown-season-3/id1463876851?4&at=11l3Sf&ct=JamestownSeason3MM"
+                }
+            ]
         },
-        "sort": {
-            "title_sortable": {
-                "asc": "https://media.services.pbs.org/api/v1/episodes/?sort=title_sortable&id=99aa15d6-946e-4acc-8d33-96eb173a26f7&page-size=50",
-                "desc": "https://media.services.pbs.org/api/v1/episodes/?sort=-title_sortable&id=99aa15d6-946e-4acc-8d33-96eb173a26f7&page-size=50"
-            }
-        },
-        "pagination": {
-            "per_page": 50,
-            "count": 1
-        },
-        "type": "collection"
+        "type": "episode"
     },
-    "links": {
-        "self": "https://media.services.pbs.org/api/v1/episodes/?fetch-related&page-size=50&id=99aa15d6-946e-4acc-8d33-96eb173a26f7",
-        "prev": null,
-        "next": null,
-        "first": null,
-        "last": null
+    "meta": {
+        "type": "resource"
     },
     "jsonapi": {
         "version": "1.0"
