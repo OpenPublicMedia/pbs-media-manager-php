@@ -1,8 +1,10 @@
 <?php
+declare(strict_types=1);
 
 
 namespace OpenPublicMedia\PbsMediaManager\Query;
 
+use Generator;
 use IteratorAggregate;
 use OpenPublicMedia\PbsMediaManager\Response\PagedResponse;
 
@@ -31,7 +33,7 @@ class Results implements IteratorAggregate
     /**
      * @inheritDoc
      */
-    public function getIterator()
+    public function getIterator(): Generator
     {
         foreach ($this->pagedResponse as $response) {
             foreach ($response->data as $object) {

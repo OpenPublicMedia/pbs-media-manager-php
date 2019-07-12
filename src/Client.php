@@ -1,4 +1,5 @@
 <?php
+declare(strict_types=1);
 
 
 namespace OpenPublicMedia\PbsMediaManager;
@@ -12,6 +13,7 @@ use OpenPublicMedia\PbsMediaManager\Query\Results;
 use OpenPublicMedia\PbsMediaManager\Response\PagedResponse;
 use Psr\Http\Message\ResponseInterface;
 use RuntimeException;
+use stdClass;
 
 /**
  * PBS Media Manager API Client.
@@ -62,8 +64,12 @@ class Client
      * @param array $options
      *   Additional options to pass to Guzzle client.
      */
-    public function __construct($key, $secret, $base_uri = self::LIVE, array $options = [])
-    {
+    public function __construct(
+        string $key,
+        string $secret,
+        string $base_uri = self::LIVE,
+        array $options = []
+    ) {
         $options = ['base_uri' => $base_uri, 'auth' => [$key, $secret]] + $options;
         $this->client = new GuzzleClient($options);
     }
@@ -79,7 +85,7 @@ class Client
      * @return ResponseInterface
      *   Response data from the API.
      */
-    public function request($method, $endpoint, array $query = [])
+    public function request(string $method, string $endpoint, array $query = []): ResponseInterface
     {
         try {
             $response = $this->client->request($method, $endpoint, [
@@ -99,7 +105,7 @@ class Client
     /**
      * Gets an iterator for paging through API responses.
      *
-     * @param $endpoint
+     * @param string $endpoint
      *   URL to query.
      * @param array $query
      *   Additional query parameters in the form `param => value`.
@@ -107,7 +113,7 @@ class Client
      * @return Results
      *   Generator of the API query results.
      */
-    public function get($endpoint, array $query = [])
+    public function get(string $endpoint, array $query = []): Results
     {
         $response = new PagedResponse($this, $endpoint, $query);
         return new Results($response);
@@ -116,7 +122,7 @@ class Client
     /**
      * Gets a complete list of objects by paging through all results.
      *
-     * @param $endpoint
+     * @param string $endpoint
      *   URL to query.
      * @param array $query
      *   Additional query parameters in the form `param => value`.
@@ -124,7 +130,7 @@ class Client
      * @return array
      *   All data returned from the API.
      */
-    public function getAll($endpoint, array $query = [])
+    public function getAll(string $endpoint, array $query = []): array
     {
         $results = [];
         $response = new PagedResponse($this, $endpoint, $query);
@@ -137,22 +143,22 @@ class Client
     /**
      * Gets the a single object by ID from an API request.
      *
-     * @param $endpoint
+     * @param string $endpoint
      *   URL to query.
-     * @param $id
+     * @param string $id
      *   GUID of an API object.
      * @param array $query
      *   Additional query parameters in the form `param => value`.
      *
-     * @return object|null
+     * @return stdClass|null
      *   Single object record from the API or null.
      */
-    public function getOne($endpoint, $id, array $query = [])
+    public function getOne(string $endpoint, string $id, array $query = []): ?stdClass
     {
         $response = $this->request('get', $endpoint . '/' . $id, $query);
-        $json = json_decode($response->getBody());
-        if (!empty($json->data)) {
-            return $json->data[0];
+        $data = json_decode($response->getBody()->getContents());
+        if (!empty($data->data)) {
+            return $data->data;
         }
         return null;
     }
@@ -160,19 +166,19 @@ class Client
     /**
      * Searches a JSON response for a link containing next page information.
      *
-     * @param $json
+     * @param stdClass $response
      *   A full response from the API.
      *
      * @return int|null
      *   The number of the next page or null if there is no next page.
      */
-    public static function getNextPage($json)
+    public static function getNextPage(stdClass $response): ?int
     {
         $page = null;
-        if (isset($json->links) && isset($json->links->next)
-            && !empty($json->links->next)) {
+        if (isset($response->links) && isset($response->links->next)
+            && !empty($response->links->next)) {
             $parser = new Parser();
-            $query = $parser($json->links->next)['query'];
+            $query = $parser($response->links->next)['query'];
             $page = (int) QueryString::extract($query)['page'];
         }
         return $page;
@@ -195,7 +201,7 @@ class Client
      * @return string
      *   All parameters as a string.
      */
-    public static function buildQuery(array $parameters)
+    public static function buildQuery(array $parameters): string
     {
         $parameters += [
             'fetch-related' => true,
@@ -208,15 +214,15 @@ class Client
     /**
      * @url https://docs.pbs.org/display/CDA/Franchises
      *
-     * @param $id
+     * @param string $id
      *   GUID of a Franchise.
      * @param array $query
      *   Additional API query parameters.
      *
-     * @return object|null
+     * @return stdClass|null
      *   Franchise or null
      */
-    public function getFranchise($id, array $query = [])
+    public function getFranchise(string $id, array $query = []): ?stdClass
     {
         return $this->getOne('franchises', $id, $query);
     }
@@ -230,7 +236,7 @@ class Client
      * @return Results
      *   Generator of Franchises.
      */
-    public function getFranchises(array $query = [])
+    public function getFranchises(array $query = []): Results
     {
         return $this->get('franchises', $query);
     }
@@ -238,15 +244,15 @@ class Client
     /**
      * @url https://docs.pbs.org/display/CDA/Shows
      *
-     * @param $id
+     * @param string $id
      *   GUID of a Show.
      * @param array $query
      *   Additional API query parameters.
      *
-     * @return object|null
+     * @return stdClass|null
      *   Show or null
      */
-    public function getShow($id, array $query = [])
+    public function getShow(string $id, array $query = []): ?stdClass
     {
         return $this->getOne('shows', $id, $query);
     }
@@ -260,7 +266,7 @@ class Client
      * @return Results
      *   Generator of Shows.
      */
-    public function getShows(array $query = [])
+    public function getShows(array $query = []): Results
     {
         return $this->get('shows', $query);
     }
@@ -268,15 +274,15 @@ class Client
     /**
      * @url https://docs.pbs.org/display/CDA/Collections
      *
-     * @param $id
+     * @param string $id
      *   GUID of a Collection.
      * @param array $query
      *   Additional API query parameters.
      *
-     * @return object|null
+     * @return stdClass|null
      *   Collection or null
      */
-    public function getCollection($id, array $query = [])
+    public function getCollection(string $id, array $query = []): ?stdClass
     {
         return $this->getOne('collections', $id, $query);
     }
@@ -284,7 +290,7 @@ class Client
     /**
      * @url https://docs.pbs.org/display/CDA/Collections
      *
-     * @param $show_id
+     * @param string $show_id
      *   GUID of a Show.
      * @param array $query
      *   Additional API query parameters.
@@ -292,7 +298,7 @@ class Client
      * @return Results
      *   Generator of Collections belonging to the Show.
      */
-    public function getCollections($show_id, array $query = [])
+    public function getCollections(string $show_id, array $query = []): Results
     {
         return $this->get('shows/' . $show_id . '/collections', $query);
     }
@@ -300,15 +306,15 @@ class Client
     /**
      * @url https://docs.pbs.org/display/CDA/Specials
      *
-     * @param $id
+     * @param string $id
      *   GUID of a Special.
      * @param array $query
      *   Additional API query parameters.
      *
-     * @return object|null
+     * @return stdClass|null
      *   Special or null
      */
-    public function getSpecial($id, array $query = [])
+    public function getSpecial(string $id, array $query = []): ?stdClass
     {
         return $this->getOne('specials', $id, $query);
     }
@@ -316,7 +322,7 @@ class Client
     /**
      * @url https://docs.pbs.org/display/CDA/Specials
      *
-     * @param $show_id
+     * @param string $show_id
      *   GUID of a Show.
      * @param array $query
      *   Additional API query parameters.
@@ -324,7 +330,7 @@ class Client
      * @return Results
      *   Generator of Specials belonging to the Show.
      */
-    public function getSpecials($show_id, array $query = [])
+    public function getSpecials(string $show_id, array $query = []): Results
     {
         return $this->get('shows/' . $show_id . '/specials', $query);
     }
@@ -332,15 +338,15 @@ class Client
     /**
      * @url https://docs.pbs.org/display/CDA/Seasons
      *
-     * @param $id
+     * @param string $id
      *   GUID of a Season.
      * @param array $query
      *   Additional API query parameters.
      *
-     * @return object|null
+     * @return stdClass|null
      *   Season or null
      */
-    public function getSeason($id, array $query = [])
+    public function getSeason(string $id, array $query = []): ?stdClass
     {
         return $this->getOne('seasons', $id, $query);
     }
@@ -348,7 +354,7 @@ class Client
     /**
      * @url https://docs.pbs.org/display/CDA/Seasons
      *
-     * @param $show_id
+     * @param string $show_id
      *   GUID of a Show.
      * @param array $query
      *   Additional API query parameters.
@@ -356,7 +362,7 @@ class Client
      * @return Results
      *   Generator of Seasons belonging to the Show.
      */
-    public function getSeasons($show_id, array $query = [])
+    public function getSeasons(string $show_id, array $query = []): Results
     {
         return $this->get('shows/' . $show_id . '/seasons', $query);
     }
@@ -364,15 +370,15 @@ class Client
     /**
      * @url https://docs.pbs.org/display/CDA/Episodes
      *
-     * @param $id
+     * @param string $id
      *   GUID of a Episode.
      * @param array $query
      *   Additional API query parameters.
      *
-     * @return object|null
+     * @return stdClass|null
      *   Episode or null
      */
-    public function getEpisode($id, array $query = [])
+    public function getEpisode(string $id, array $query = []): ?stdClass
     {
         return $this->getOne('episodes', $id, $query);
     }
@@ -380,7 +386,7 @@ class Client
     /**
      * @url https://docs.pbs.org/display/CDA/Episodes
      *
-     * @param $season_id
+     * @param string $season_id
      *   GUID of a Season.
      * @param array $query
      *   Additional API query parameters.
@@ -388,7 +394,7 @@ class Client
      * @return Results
      *   Generator of Episodes belonging to the Season.
      */
-    public function getEpisodes($season_id, array $query = [])
+    public function getEpisodes(string $season_id, array $query = []): Results
     {
         return $this->get('seasons/' . $season_id . '/episodes', $query);
     }
@@ -396,15 +402,15 @@ class Client
     /**
      * @url https://docs.pbs.org/display/CDA/Assets
      *
-     * @param $id
+     * @param string $id
      *   GUID of an Asset.
      * @param array $query
      *   Additional API query parameters.
      *
-     * @return object|null
+     * @return stdClass|null
      *   Asset or null
      */
-    public function getAsset($id, array $query = [])
+    public function getAsset(string $id, array $query = []): ?stdClass
     {
         return $this->getOne('assets', $id, $query);
     }
@@ -422,7 +428,7 @@ class Client
      * @return Results
      *   Generator of Assets satisfying the query parameters.
      */
-    public function getAssets(array $query)
+    public function getAssets(array $query): Results
     {
         return $this->get('assets', $query);
     }
@@ -436,7 +442,7 @@ class Client
      * @return array
      *   All Genres.
      */
-    public function getGenres(array $query = [])
+    public function getGenres(array $query = []): array
     {
         return $this->getAll('genres', $query);
     }
@@ -450,7 +456,7 @@ class Client
      * @return array
      *   All Topics.
      */
-    public function getTopics(array $query = [])
+    public function getTopics(array $query = []): array
     {
         return $this->getAll('topics', $query);
     }
@@ -464,7 +470,7 @@ class Client
      * @return Results
      *   Generator of Changelog entries.
      */
-    public function getChangelog(array $query = [])
+    public function getChangelog(array $query = []): Results
     {
         return $this->get('changelog', $query);
     }
@@ -478,7 +484,7 @@ class Client
      * @return Results
      *   Generator of Remote Assets.
      */
-    public function getRemoteAssets(array $query = [])
+    public function getRemoteAssets(array $query = []): Results
     {
         return $this->get('remote-assets', $query);
     }

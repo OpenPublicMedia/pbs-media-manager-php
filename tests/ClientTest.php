@@ -1,4 +1,5 @@
 <?php
+declare(strict_types=1);
 
 
 namespace OpenPublicMedia\PbsMediaManager\Test;
@@ -11,7 +12,9 @@ use GuzzleHttp\Psr7\Response;
 use OpenPublicMedia\PbsMediaManager\Client;
 use OpenPublicMedia\PbsMediaManager\Query\Results;
 use PHPUnit\Framework\TestCase;
+use Psr\Http\Message\ResponseInterface;
 use RuntimeException;
+use stdClass;
 
 /**
  * Class ClientTest
@@ -50,10 +53,10 @@ class ClientTest extends TestCase
      * @param string $name
      *   Base file name for a JSON fixture file.
      *
-     * @return Response
+     * @return ResponseInterface
      *   Guzzle 200 response with JSON body content.
      */
-    private function jsonResponse($name)
+    private function jsonResponse(string $name): ResponseInterface
     {
         return new Response(
             200,
@@ -70,7 +73,7 @@ class ClientTest extends TestCase
      * @param string $type
      *   Expected type of the first Result object.
      */
-    private function verifyGenerator($result, $type)
+    private function verifyGenerator(Results $result, string $type): void
     {
         $generator = $result->getIterator();
         $this->assertInstanceOf(Generator::class, $generator);
@@ -83,14 +86,14 @@ class ClientTest extends TestCase
     /**
      * Verifies standard API object response.
      *
-     * @param object $result
+     * @param stdClass $result
      *   Results from an API query.
      * @param string $id
      *   Expected GUID of the object.
      * @param string $type
      *   Expected type of the object.
      */
-    private function verifryObject($result, $id, $type)
+    private function verifryObject(stdClass $result, string $id, string $type): void
     {
         $this->assertIsObject($result);
         $this->assertObjectHasAttribute('id', $result);
@@ -104,7 +107,7 @@ class ClientTest extends TestCase
     /**
      * @covers ::request
      */
-    public function testGuzzleException()
+    public function testGuzzleException(): void
     {
         $this->mockHandler->append(new RequestException(
             'Bad request.',
@@ -118,7 +121,7 @@ class ClientTest extends TestCase
     /**
      * @covers ::request
      */
-    public function testApiUnexpectedResponse()
+    public function testApiUnexpectedResponse(): void
     {
         $this->mockHandler->append(new Response(201));
         $this->expectException(RuntimeException::class);
@@ -128,14 +131,14 @@ class ClientTest extends TestCase
     /**
      * @covers ::getOne
      */
-    public function testGetOneNull()
+    public function testGetOneNull(): void
     {
         $this->mockHandler->append($this->jsonResponse('notFound'));
         $result = $this->client->getOne('franchise', 'bad-id');
         $this->assertNull($result);
     }
 
-    public function testGetFranchise()
+    public function testGetFranchise(): void
     {
         $id = 'e08bf78d-e6a3-44b9-b356-8753d01c7327';
         $this->mockHandler->append($this->jsonResponse('getFranchise'));
@@ -143,7 +146,7 @@ class ClientTest extends TestCase
         $this->verifryObject($result, $id, 'franchise');
     }
 
-    public function testGetFranchises()
+    public function testGetFranchises(): void
     {
         $this->mockHandler->append($this->jsonResponse('getFranchises'));
         $result = $this->client->getFranchises();
@@ -152,7 +155,7 @@ class ClientTest extends TestCase
         $this->verifyGenerator($result, 'franchise');
     }
 
-    public function testGetShow()
+    public function testGetShow(): void
     {
         $id = '2e5c2027-ec2e-4214-baa3-6ff6af56c8c3';
         $this->mockHandler->append($this->jsonResponse('getShow'));
@@ -160,7 +163,7 @@ class ClientTest extends TestCase
         $this->verifryObject($result, $id, 'show');
     }
 
-    public function testGetShows()
+    public function testGetShows(): void
     {
         $this->mockHandler->append($this->jsonResponse('getShows'));
         $result = $this->client->getShows();
@@ -169,7 +172,7 @@ class ClientTest extends TestCase
         $this->verifyGenerator($result, 'show');
     }
 
-    public function testGetCollection()
+    public function testGetCollection(): void
     {
         $id = '5f390495-54d1-4f0c-91e4-0e72b91fb759';
         $this->mockHandler->append($this->jsonResponse('getCollection'));
@@ -177,7 +180,7 @@ class ClientTest extends TestCase
         $this->verifryObject($result, $id, 'collection');
     }
 
-    public function testGetCollections()
+    public function testGetCollections(): void
     {
         $show_id = '2e5c2027-ec2e-4214-baa3-6ff6af56c8c3';
         $this->mockHandler->append($this->jsonResponse('getCollections'));
@@ -187,7 +190,7 @@ class ClientTest extends TestCase
         $this->verifyGenerator($result, 'collection');
     }
 
-    public function testGetSpecial()
+    public function testGetSpecial(): void
     {
         $id = 'c7708c4c-e7c1-4ecb-ad63-6d87c6baafa9';
         $this->mockHandler->append($this->jsonResponse('getSpecial'));
@@ -195,7 +198,7 @@ class ClientTest extends TestCase
         $this->verifryObject($result, $id, 'special');
     }
 
-    public function testGetSpecials()
+    public function testGetSpecials(): void
     {
         $show_id = '2e5c2027-ec2e-4214-baa3-6ff6af56c8c3';
         $this->mockHandler->append($this->jsonResponse('getSpecials'));
@@ -205,7 +208,7 @@ class ClientTest extends TestCase
         $this->verifyGenerator($result, 'special');
     }
 
-    public function testGetSeaon()
+    public function testGetSeaon(): void
     {
         $id = 'bd2cf784-bf4a-4638-a477-721dfb29b12e';
         $this->mockHandler->append($this->jsonResponse('getSeason'));
@@ -213,7 +216,7 @@ class ClientTest extends TestCase
         $this->verifryObject($result, $id, 'season');
     }
 
-    public function testGetSeaons()
+    public function testGetSeaons(): void
     {
         $show_id = 'd9588363-71f8-466d-a520-0dd73c7bbd0e';
         $this->mockHandler->append($this->jsonResponse('getSeasons'));
@@ -223,7 +226,7 @@ class ClientTest extends TestCase
         $this->verifyGenerator($result, 'season');
     }
 
-    public function testGetEpisode()
+    public function testGetEpisode(): void
     {
         $id = '99aa15d6-946e-4acc-8d33-96eb173a26f7';
         $this->mockHandler->append($this->jsonResponse('getEpisode'));
@@ -231,7 +234,7 @@ class ClientTest extends TestCase
         $this->verifryObject($result, $id, 'episode');
     }
 
-    public function testGetEpisodes()
+    public function testGetEpisodes(): void
     {
         $season_id = 'bd2cf784-bf4a-4638-a477-721dfb29b12e';
         $this->mockHandler->append($this->jsonResponse('getEpisodes'));
@@ -241,7 +244,7 @@ class ClientTest extends TestCase
         $this->verifyGenerator($result, 'episode');
     }
 
-    public function testGetAsset()
+    public function testGetAsset(): void
     {
         $id = 'a2ab3573-5a7a-4551-bd62-2688b9ec793a';
         $this->mockHandler->append($this->jsonResponse('getAsset'));
@@ -249,7 +252,7 @@ class ClientTest extends TestCase
         $this->verifryObject($result, $id, 'asset');
     }
 
-    public function testGetAssets()
+    public function testGetAssets(): void
     {
         $episode_id = 'd5cdd80c-4614-452b-91ed-cd4e583e0ef7';
         $this->mockHandler->append($this->jsonResponse('getAssets'));
@@ -259,7 +262,7 @@ class ClientTest extends TestCase
         $this->verifyGenerator($result, 'asset');
     }
 
-    public function testGetGenres()
+    public function testGetGenres(): void
     {
         $this->mockHandler->append($this->jsonResponse('getGenres'));
         $result = $this->client->getGenres();
@@ -267,7 +270,7 @@ class ClientTest extends TestCase
         $this->assertCount(9, $result);
     }
 
-    public function testGetTopics()
+    public function testGetTopics(): void
     {
         $this->mockHandler->append($this->jsonResponse('getTopics-1'));
         $this->mockHandler->append($this->jsonResponse('getTopics-2'));
@@ -275,7 +278,7 @@ class ClientTest extends TestCase
         $this->assertIsArray($result);
     }
 
-    public function testGetChangelog()
+    public function testGetChangelog(): void
     {
         $this->mockHandler->append($this->jsonResponse('getChangelog'));
         $result = $this->client->getChangelog();
@@ -285,7 +288,7 @@ class ClientTest extends TestCase
         $this->verifyGenerator($result, 'asset');
     }
 
-    public function testGetRemoteAssets()
+    public function testGetRemoteAssets(): void
     {
         $this->mockHandler->append($this->jsonResponse('getRemoteAssets'));
         $result = $this->client->getRemoteAssets();

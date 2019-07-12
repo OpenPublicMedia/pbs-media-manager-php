@@ -63,11 +63,10 @@ foreach ($franchises as $franchise) {
 $episode = $client->getEpisode('08e7ee9c-800a-406f-86f0-bf0bb77fe42b');
 
 var_dump($episode);
-class stdClass#80 (4) {
+class stdClass#80 (3) {
     public $attributes => class stdClass#38 (20) { ... }
     public $id => string(36) "08e7ee9c-800a-406f-86f0-bf0bb77fe42b"
     public $type => string(7) "episode"
-    public $links => class stdClass#81 (3) { ... }
 }
 ```
 
@@ -86,11 +85,11 @@ this project.
 
 ### v1.x
 
- - PUT/PATCH/POST support on relevant endpoints
- - DELETE support on relevant endpoints
+ - [ ] PUT/PATCH/POST support on relevant endpoints
+ - [ ] DELETE support on relevant endpoints
  
 ### v2.x
 
- - Entities for core data objects
- - Advanced Asset availability handling
- - Advanced Changelog endpoint operations
+ - [ ] Entities for core data objects
+ - [ ] Advanced Asset availability handling
+ - [ ] Advanced Changelog endpoint operations

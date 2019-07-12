@@ -1,10 +1,12 @@
 <?php
+declare(strict_types=1);
 
 
 namespace OpenPublicMedia\PbsMediaManager\Response;
 
 use Iterator;
 use OpenPublicMedia\PbsMediaManager\Client;
+use stdClass;
 
 /**
  * Page-traversable response data from the Media Manager API in JSON format.
@@ -56,7 +58,7 @@ class PagedResponse implements Iterator
      *   Starting page. This also acts as the first page for the Iterator so
      *   "first" may not necessarily mean page 1.
      */
-    public function __construct(Client $client, $endpoint, $query = [], $page = 1)
+    public function __construct(Client $client, string $endpoint, array $query = [], int $page = 1)
     {
         $this->client = $client;
         $this->endpoint = $endpoint;
@@ -67,22 +69,22 @@ class PagedResponse implements Iterator
     /**
      * @inheritDoc
      */
-    public function current()
+    public function current(): stdClass
     {
         $response = $this->client->request(
             'get',
             $this->endpoint,
             $this->query + ['page' => $this->page]
         );
-        $json = json_decode($response->getBody());
-        $this->next = $this->client::getNextPage($json);
-        return $json;
+        $data = json_decode($response->getBody()->getContents());
+        $this->next = $this->client::getNextPage($data);
+        return $data;
     }
 
     /**
      * @inheritDoc
      */
-    public function next()
+    public function next(): void
     {
         $this->page = $this->next;
     }
@@ -90,7 +92,7 @@ class PagedResponse implements Iterator
     /**
      * @inheritDoc
      */
-    public function key()
+    public function key(): int
     {
         return $this->page;
     }
@@ -98,7 +100,7 @@ class PagedResponse implements Iterator
     /**
      * @inheritDoc
      */
-    public function valid()
+    public function valid(): bool
     {
         return !is_null($this->page);
     }
@@ -106,7 +108,7 @@ class PagedResponse implements Iterator
     /**
      * @inheritDoc
      */
-    public function rewind()
+    public function rewind(): void
     {
         $this->page = $this->first;
     }
