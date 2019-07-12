@@ -18,7 +18,7 @@ use RuntimeException;
  *
  * @coversDefaultClass \OpenPublicMedia\PbsMediaManager\Client
  *
- * @package OpenPublicMedia\PbsTvSchedulesService\Test
+ * @package OpenPublicMedia\PbsMediaManager\Test
  */
 class ClientTest extends TestCase
 {
