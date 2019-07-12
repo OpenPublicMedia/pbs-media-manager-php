@@ -1,7 +1,7 @@
 <?php
 
 
-namespace OpenPublicMedia\PbsTvSchedulesService\Test;
+namespace OpenPublicMedia\PbsMediaManager\Test;
 
 use Generator;
 use GuzzleHttp\Exception\RequestException;
