@@ -2,9 +2,9 @@
 
 Contributions are **welcome** and will be fully **credited**.
 
-We accept contributions via Pull Requests on _TK_.
+We accept contributions via Pull Requests on Github at [OpenPublicMedia/pbs-media-manager-php](https://github.com/OpenPublicMedia/pbs-media-manager-php).
 
-All code should adhere to the [PSR-2 Coding Standard](https://www.php-fig.org/psr/psr-2/)
+All code should adhere to the [PSR-2 Coding Standard](https://www.php-fig.org/psr/psr-2/).
 
 ## Pull Requests
 
@@ -41,7 +41,7 @@ $ ./vendor/bin/phpunit
 ## Running PHP Code Sniffer
 
 ``` bash
-$ ./vendor/bin/phpcs src --standard=psr2 -sp
+$ ./vendor/bin/phpcs
 ```
 
 **Happy coding**!

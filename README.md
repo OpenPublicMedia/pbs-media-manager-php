@@ -8,6 +8,14 @@ the Media Manager Core Data Model:
 ![PBS Media Manager Core Data Model](pbs-media-manager-data-model.jpg)
 
 
+## Installation
+
+Install via composer:
+
+```bash
+composer require openpublicmedia/pbs-media-manager-php
+```
+
 ## Use
 
 The primary class provided by this library is the 
