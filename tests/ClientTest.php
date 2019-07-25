@@ -58,7 +58,7 @@ class ClientTest extends TestCaseBase
         $id = 'e08bf78d-e6a3-44b9-b356-8753d01c7327';
         $this->mockHandler->append($this->jsonFixtureResponse('getFranchise'));
         $result = $this->client->getFranchise($id);
-        $this->verifryObject($result, $id, 'franchise');
+        $this->verifyObject($result, $id, 'franchise');
     }
 
     public function testGetFranchises(): void
@@ -75,7 +75,7 @@ class ClientTest extends TestCaseBase
         $id = '2e5c2027-ec2e-4214-baa3-6ff6af56c8c3';
         $this->mockHandler->append($this->jsonFixtureResponse('getShow'));
         $result = $this->client->getShow($id);
-        $this->verifryObject($result, $id, 'show');
+        $this->verifyObject($result, $id, 'show');
     }
 
     public function testGetShows(): void
@@ -92,7 +92,7 @@ class ClientTest extends TestCaseBase
         $id = '5f390495-54d1-4f0c-91e4-0e72b91fb759';
         $this->mockHandler->append($this->jsonFixtureResponse('getCollection'));
         $result = $this->client->getCollection($id);
-        $this->verifryObject($result, $id, 'collection');
+        $this->verifyObject($result, $id, 'collection');
     }
 
     public function testGetCollections(): void
@@ -110,7 +110,7 @@ class ClientTest extends TestCaseBase
         $id = 'c7708c4c-e7c1-4ecb-ad63-6d87c6baafa9';
         $this->mockHandler->append($this->jsonFixtureResponse('getSpecial'));
         $result = $this->client->getSpecial($id);
-        $this->verifryObject($result, $id, 'special');
+        $this->verifyObject($result, $id, 'special');
     }
 
     public function testGetSpecials(): void
@@ -128,7 +128,7 @@ class ClientTest extends TestCaseBase
         $id = 'bd2cf784-bf4a-4638-a477-721dfb29b12e';
         $this->mockHandler->append($this->jsonFixtureResponse('getSeason'));
         $result = $this->client->getSeason($id);
-        $this->verifryObject($result, $id, 'season');
+        $this->verifyObject($result, $id, 'season');
     }
 
     public function testGetSeaons(): void
@@ -146,7 +146,7 @@ class ClientTest extends TestCaseBase
         $id = '99aa15d6-946e-4acc-8d33-96eb173a26f7';
         $this->mockHandler->append($this->jsonFixtureResponse('getEpisode'));
         $result = $this->client->getEpisode($id);
-        $this->verifryObject($result, $id, 'episode');
+        $this->verifyObject($result, $id, 'episode');
     }
 
     public function testGetEpisodes(): void
@@ -164,7 +164,7 @@ class ClientTest extends TestCaseBase
         $id = 'a2ab3573-5a7a-4551-bd62-2688b9ec793a';
         $this->mockHandler->append($this->jsonFixtureResponse('getAsset'));
         $result = $this->client->getAsset($id);
-        $this->verifryObject($result, $id, 'asset');
+        $this->verifyObject($result, $id, 'asset');
     }
 
     public function testGetAssets(): void

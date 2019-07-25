@@ -112,7 +112,7 @@ class TestCaseBase extends TestCase
      * @param string $type
      *   Expected type of the object.
      */
-    protected function verifryObject(stdClass $result, string $id, string $type): void
+    protected function verifyObject(stdClass $result, string $id, string $type): void
     {
         $this->assertIsObject($result);
         $this->assertObjectHasAttribute('id', $result);
