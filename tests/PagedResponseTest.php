@@ -21,12 +21,12 @@ class PagedResponseTest extends TestCaseBase
         return $this->client->getShows();
     }
 
-//    public function testEmptyResults(): void
-//    {
-//        $this->mockHandler->append($this->apiJsonResponse(404));
-//        $results = $this->client->getShows();
-//        $this->assertCount(0, $results);
-//    }
+    public function testEmptyResults(): void
+    {
+        $this->mockHandler->append($this->jsonFixtureResponse('emptyList'));
+        $results = $this->client->getShows();
+        $this->assertCount(0, $results);
+    }
 
     public function testResults(): void
     {

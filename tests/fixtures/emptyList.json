@@ -1,0 +1,44 @@
+{
+    "jsonapi": {
+        "version": "1.0"
+    },
+    "links": {
+        "next": null,
+        "self": "https://media.services.pbs.org/api/v1/shows/?slug=empty_results",
+        "prev": null,
+        "last": null,
+        "first": null
+    },
+    "data": [],
+    "meta": {
+        "pagination": {
+            "count": 0,
+            "per_page": 25
+        },
+        "sort": {
+            "title_sortable": {
+                "desc": "https://media.services.pbs.org/api/v1/shows/?sort=-title_sortable",
+                "asc": "https://media.services.pbs.org/api/v1/shows/?sort=title_sortable"
+            },
+            "title": {
+                "desc": "https://media.services.pbs.org/api/v1/shows/?sort=-title",
+                "asc": "https://media.services.pbs.org/api/v1/shows/?sort=title"
+            }
+        },
+        "filter": {
+            "franchise-slug": "https://media.services.pbs.org/api/v1/shows/?franchise-slug=",
+            "genre-slug": "https://media.services.pbs.org/api/v1/shows/?genre-slug=",
+            "id": "https://media.services.pbs.org/api/v1/shows/?id=",
+            "platform-slug": "https://media.services.pbs.org/api/v1/shows/?platform-slug=",
+            "national_audience": "https://media.services.pbs.org/api/v1/shows/?audience-scope=national",
+            "nola": "https://media.services.pbs.org/api/v1/shows/?nola=",
+            "local_audience": "https://media.services.pbs.org/api/v1/shows/?audience=&audience-scope=local",
+            "kids_audience": "https://media.services.pbs.org/api/v1/shows/?audience-scope=kids",
+            "slug": "https://media.services.pbs.org/api/v1/shows/?slug=",
+            "franchise-id": "https://media.services.pbs.org/api/v1/shows/?franchise-id=",
+            "platform-id": "https://media.services.pbs.org/api/v1/shows/?platform-id=",
+            "genre-id": "https://media.services.pbs.org/api/v1/shows/?genre-id="
+        },
+        "type": "collection"
+    }
+}
