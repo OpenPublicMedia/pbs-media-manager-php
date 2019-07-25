@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace OpenPublicMedia\PbsMediaManager\Query;
 
+use Countable;
 use Generator;
 use IteratorAggregate;
 use OpenPublicMedia\PbsMediaManager\Response\PagedResponse;
@@ -13,7 +14,7 @@ use OpenPublicMedia\PbsMediaManager\Response\PagedResponse;
  *
  * @package OpenPublicMedia\PbsMediaManager\Query
  */
-class Results implements IteratorAggregate
+class Results implements IteratorAggregate, Countable
 {
     /**
      * @var PagedResponse
@@ -40,5 +41,23 @@ class Results implements IteratorAggregate
                 yield $object->id => $object;
             }
         }
+    }
+
+    /**
+     * Gets the response object being iterated.
+     *
+     * @return PagedResponse
+     */
+    public function getResponse(): PagedResponse
+    {
+        return $this->pagedResponse;
+    }
+
+    /**
+     * @inheritDoc
+     */
+    public function count(): int
+    {
+        return $this->pagedResponse->getTotalItemsCount();
     }
 }

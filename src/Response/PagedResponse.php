@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace OpenPublicMedia\PbsMediaManager\Response;
 
+use Countable;
 use Iterator;
 use OpenPublicMedia\PbsMediaManager\Client;
 use stdClass;
@@ -13,7 +14,7 @@ use stdClass;
  *
  * @package OpenPublicMedia\PbsMediaManager\Response
  */
-class PagedResponse implements Iterator
+class PagedResponse implements Iterator, Countable
 {
     /**
      * @var Client
@@ -46,6 +47,21 @@ class PagedResponse implements Iterator
     private $page;
 
     /**
+     * @var int
+     */
+    private $count;
+
+    /**
+     * @var int
+     */
+    private $totalItemsCount;
+
+    /**
+     * @var array
+     */
+    private $response;
+
+    /**
      * PagedResponse constructor.
      *
      * @param Client $client
@@ -58,18 +74,29 @@ class PagedResponse implements Iterator
      *   Starting page. This also acts as the first page for the Iterator so
      *   "first" may not necessarily mean page 1.
      */
-    public function __construct(Client $client, string $endpoint, array $query = [], int $page = 1)
-    {
+    public function __construct(
+        Client $client,
+        string $endpoint,
+        array $query = [],
+        int $page = 1
+    ) {
         $this->client = $client;
         $this->endpoint = $endpoint;
         $this->query = $query;
         $this->first = $page;
+        $this->page = $page;
+
+        // Execute the initial query to init count data.
+        $this->response = $this->execute();
     }
 
     /**
-     * @inheritDoc
+     * Executes an API query and update count data for the iterator.
+     *
+     * @return stdClass
+     *   The full API response as an object.
      */
-    public function current(): stdClass
+    private function execute(): stdClass
     {
         $response = $this->client->request(
             'get',
@@ -78,7 +105,34 @@ class PagedResponse implements Iterator
         );
         $data = json_decode($response->getBody()->getContents());
         $this->next = $this->client::getNextPage($data);
+
+        // Update page and item totals (for Countable support).
+        if (isset($data->meta) && isset($data->meta->pagination)) {
+            $this->totalItemsCount = $data->meta->pagination->count;
+            $this->count = (int) ceil($this->totalItemsCount/$data->meta->pagination->per_page);
+        } else {
+            $data->meta = new stdClass();
+            $data->meta->pagination = new stdClass();
+            $this->totalItemsCount = 0;
+            $this->count = 0;
+        }
+
+        // Add current page to data.
+        $data->meta->pagination->current_page = $this->page;
+
         return $data;
+    }
+
+    /**
+     * @inheritDoc
+     */
+    public function current(): stdClass
+    {
+        // Only run the API query if necessary.
+        if ($this->response->meta->pagination->current_page != $this->page) {
+            $this->response = $this->execute();
+        }
+        return $this->response;
     }
 
     /**
@@ -111,5 +165,22 @@ class PagedResponse implements Iterator
     public function rewind(): void
     {
         $this->page = $this->first;
+    }
+
+    /**
+     * @inheritDoc
+     */
+    public function count(): int
+    {
+        return $this->count;
+    }
+
+    /**
+     * @return int
+     *   Number of objects (not pages) in the result set.
+     */
+    public function getTotalItemsCount(): int
+    {
+        return $this->totalItemsCount;
     }
 }
