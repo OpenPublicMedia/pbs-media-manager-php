@@ -9,6 +9,7 @@ use GuzzleHttp\Exception\GuzzleException;
 use League\Uri\Components\Query;
 use League\Uri\Parser;
 use League\Uri\Parser\QueryString;
+use OpenPublicMedia\PbsMediaManager\Exception\BadRequestException;
 use OpenPublicMedia\PbsMediaManager\Query\Results;
 use OpenPublicMedia\PbsMediaManager\Response\PagedResponse;
 use Psr\Http\Message\ResponseInterface;
@@ -70,7 +71,11 @@ class Client
         string $base_uri = self::LIVE,
         array $options = []
     ) {
-        $options = ['base_uri' => $base_uri, 'auth' => [$key, $secret]] + $options;
+        $options = [
+            'base_uri' => $base_uri,
+            'auth' => [$key, $secret],
+            'http_errors' => false
+        ] + $options;
         $this->client = new GuzzleClient($options);
     }
 
@@ -84,6 +89,8 @@ class Client
      *
      * @return ResponseInterface
      *   Response data from the API.
+     *
+     * @throws BadRequestException
      */
     public function request(string $method, string $endpoint, array $query = []): ResponseInterface
     {
@@ -92,13 +99,25 @@ class Client
                 'query' => self::buildQuery($query)
             ]);
         } catch (GuzzleException $e) {
-            // Implementors should handle this exception as the API responds 404 for invalid IDs.
-            throw new RuntimeException($e->getMessage());
+            throw new RuntimeException($e->getMessage(), $e->getCode(), $e);
         }
+
         /* @url https://docs.pbs.org/display/CDA/HTTP+Response+Status+Codes */
-        if ($response->getStatusCode() != 200 && $response->getStatusCode() != 204) {
-            throw new RuntimeException($response->getReasonPhrase(), $response->getStatusCode());
+        switch ($response->getStatusCode()) {
+            case 200:
+            case 204:
+                break;
+            case 400:
+            case 401:
+            case 403:
+            case 404:
+            case 409:
+            case 500:
+                throw new BadRequestException($response);
+            default:
+                throw new RuntimeException($response->getReasonPhrase(), $response->getStatusCode());
         }
+
         return $response;
     }
 
@@ -155,11 +174,17 @@ class Client
      */
     public function getOne(string $endpoint, string $id, array $query = []): ?stdClass
     {
-        $response = $this->request('get', $endpoint . '/' . $id, $query);
+        try {
+            $response = $this->request('get', $endpoint . '/' . $id, $query);
+        } catch (BadRequestException $e) {
+            return null;
+        }
+
         $data = json_decode($response->getBody()->getContents());
         if (!empty($data->data)) {
             return $data->data;
         }
+
         return null;
     }
 

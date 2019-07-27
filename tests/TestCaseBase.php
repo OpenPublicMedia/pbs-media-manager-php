@@ -65,6 +65,8 @@ class TestCaseBase extends TestCase
     }
 
     /**
+     * Returns a regular JSON response.
+     *
      * @param string $name
      *   Base file name for a JSON fixture file.
      *
@@ -79,6 +81,17 @@ class TestCaseBase extends TestCase
         );
     }
 
+    /**
+     * Returns a response with a provided code and json content.
+     *
+     * @param int $code
+     *   HTTP status code to respond with.
+     * @param string $json
+     *   JSON page content.
+     *
+     * @return Response
+     *   Guzzle response.
+     */
     protected static function apiJsonResponse(int $code, string $json = '[]'): Response
     {
         return new Response($code, ['Content-Type' => 'application/json'], $json);

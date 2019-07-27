@@ -78,6 +78,27 @@ class stdClass#80 (3) {
 }
 ```
 
+#### Handling exceptions
+
+Most plural `Client` getters (e.g. `Client::getShows`) can throw 
+`OpenPublicMedia\PbsMediaManager\Exception\BadRequestException`. This exception 
+will include a JSON encoded message that can be used to determine follow-up 
+actions. Singular getters (e.g. `Client::getShow`) will generally return `null` 
+for invalid IDs.
+
+```php
+try {
+    $shows = $client->getShows(['page' => 100000]);
+} catch (BadRequestException $e) {
+    $message = json_decode($e->getMessage());
+    var_dump($message);
+    class stdClass#17 (1) {
+      public $detail =>
+      string(13) "Invalid page."
+    }
+}
+```
+
 ## Development goals
 
 See [CONTRIBUTING](CONTRIBUTING.md) for information about contributing to

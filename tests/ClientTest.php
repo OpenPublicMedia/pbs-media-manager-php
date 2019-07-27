@@ -7,6 +7,7 @@ namespace OpenPublicMedia\PbsMediaManager\Test;
 use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\Psr7\Response;
+use OpenPublicMedia\PbsMediaManager\Exception\BadRequestException;
 use OpenPublicMedia\PbsMediaManager\Query\Results;
 use RuntimeException;
 
@@ -211,5 +212,39 @@ class ClientTest extends TestCaseBase
         $this->assertInstanceOf(Results::class, $result);
         $this->assertObjectHasAttribute('pagedResponse', $result);
         $this->verifyGenerator($result, 'remoteasset');
+    }
+
+    public function testBadRequestException()
+    {
+        $this->mockHandler->append($this->apiJsonResponse(
+            404,
+            '{"detail": "Invalid page."}'
+        ));
+        try {
+            $this->client->getShows();
+        } catch (BadRequestException $e) {
+            $message = json_decode($e->getMessage());
+            $this->assertEquals(404, $e->getCode());
+            $this->assertIsObject($message);
+            $this->assertObjectHasAttribute('detail', $message);
+            $this->assertEquals('Invalid page.', $message->detail);
+        }
+    }
+
+    public function testBadRequestExceptionUnexpectedMessage()
+    {
+        $this->mockHandler->append($this->apiJsonResponse(
+            409,
+            'NOT JSON!!'
+        ));
+        try {
+            $this->client->getShows();
+        } catch (BadRequestException $e) {
+            $message = json_decode($e->getMessage());
+            $this->assertEquals(409, $e->getCode());
+            $this->assertIsObject($message);
+            $this->assertObjectHasAttribute('detail', $message);
+            $this->assertEquals('Conflict', $message->detail);
+        }
     }
 }
