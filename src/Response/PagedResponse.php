@@ -57,6 +57,11 @@ class PagedResponse implements Iterator, Countable
     private $totalItemsCount;
 
     /**
+     * @var bool
+     */
+    private $singlePage;
+
+    /**
      * @var array
      */
     private $response;
@@ -70,7 +75,7 @@ class PagedResponse implements Iterator, Countable
      *   Endpoint to query.
      * @param array $query
      *   Additional API query parameters.
-     * @param int $page
+     * @param int $start_page
      *   Starting page. This also acts as the first page for the Iterator so
      *   "first" may not necessarily mean page 1.
      */
@@ -78,13 +83,22 @@ class PagedResponse implements Iterator, Countable
         Client $client,
         string $endpoint,
         array $query = [],
-        int $page = 1
+        int $start_page = 1
     ) {
         $this->client = $client;
         $this->endpoint = $endpoint;
         $this->query = $query;
-        $this->first = $page;
-        $this->page = $page;
+        $this->singlePage = isset($this->query['page']);
+
+        //If the "page" query parameter is set, this will only return a single
+        // page response.
+        if ($this->singlePage) {
+            $this->first = $this->query['page'];
+            $this->page = $this->query['page'];
+        } else {
+            $this->first = $start_page;
+            $this->page = $start_page;
+        }
 
         // Execute the initial query to init count data.
         $this->response = $this->execute();
@@ -108,8 +122,14 @@ class PagedResponse implements Iterator, Countable
 
         // Update page and item totals (for Countable support).
         if (isset($data->meta) && isset($data->meta->pagination)) {
-            $this->totalItemsCount = $data->meta->pagination->count;
-            $this->count = (int) ceil($this->totalItemsCount/$data->meta->pagination->per_page);
+            if ($this->singlePage) {
+                $this->totalItemsCount = count($data->data);
+                $this->count = 1;
+                $this->next = null;
+            } else {
+                $this->totalItemsCount = $data->meta->pagination->count;
+                $this->count = (int) ceil($this->totalItemsCount/$data->meta->pagination->per_page);
+            }
         } else {
             $data->meta = new stdClass();
             $data->meta->pagination = new stdClass();
@@ -182,5 +202,14 @@ class PagedResponse implements Iterator, Countable
     public function getTotalItemsCount(): int
     {
         return $this->totalItemsCount;
+    }
+
+    /**
+     * @return bool
+     *   Whether or not this is a single page response.
+     */
+    public function isSinglePage(): bool
+    {
+        return $this->singlePage;
     }
 }

@@ -14,11 +14,20 @@ use OpenPublicMedia\PbsMediaManager\Query\Results;
  */
 class PagedResponseTest extends TestCaseBase
 {
-    private function getChangelog(): Results
+    /**
+     * Gets an example two page response.
+     *
+     * @param array $query
+     *   Query parameters to pass to the client.
+     *
+     * @return Results
+     *   Generator of the mock results.
+     */
+    private function getChangelog(array $query = []): Results
     {
         $this->mockHandler->append($this->jsonFixtureResponse('getChangelog-1'));
         $this->mockHandler->append($this->jsonFixtureResponse('getChangelog-2'));
-        return $this->client->getChangelog();
+        return $this->client->getChangelog($query);
     }
 
     public function testEmptyResults(): void
@@ -66,5 +75,29 @@ class PagedResponseTest extends TestCaseBase
         $result = $this->getChangelog();
         $pagedResponse = $result->getResponse();
         $this->assertEquals(85, $pagedResponse->getTotalItemsCount());
+    }
+
+    /**
+     * @covers ::isSinglePage
+     */
+    public function testIsSinglePage(): void
+    {
+        $result = $this->getChangelog();
+        $response = $result->getResponse();
+        $this->assertFalse($response->isSinglePage());
+        $result = $this->getChangelog(['page' => 1]);
+        $response = $result->getResponse();
+        $this->assertTrue($response->isSinglePage());
+    }
+
+    public function testSinglePageQueryCount(): void
+    {
+        $this->mockHandler->append($this->jsonFixtureResponse('getChangelog-1'));
+        $result = $this->client->getChangelog(['page' => 1]);
+        $this->assertCount(50, $result);
+
+        $this->mockHandler->append($this->jsonFixtureResponse('getChangelog-2'));
+        $result = $this->client->getChangelog(['page' => 2]);
+        $this->assertCount(35, $result);
     }
 }
