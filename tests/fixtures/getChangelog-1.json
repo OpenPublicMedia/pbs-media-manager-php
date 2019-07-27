@@ -1,0 +1,733 @@
+{
+    "data": [
+        {
+            "type": "asset",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/assets/f9ce16db-8df3-4685-8183-7723968ec247/"
+            },
+            "id": "f9ce16db-8df3-4685-8183-7723968ec247",
+            "attributes": {
+                "action": "update",
+                "timestamp": "2019-07-02T21:00:11.101526Z",
+                "updated_fields": [
+                    "availability"
+                ]
+            }
+        },
+        {
+            "type": "availability",
+            "links": {
+                "self": null
+            },
+            "id": "7f897000-a4f0-4875-93f6-101b057f5bfe",
+            "attributes": {
+                "action": "update",
+                "timestamp": "2019-07-02T21:00:11.063827Z",
+                "updated_fields": [
+                    "availability_range"
+                ]
+            }
+        },
+        {
+            "type": "asset",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/assets/f9ce16db-8df3-4685-8183-7723968ec247/"
+            },
+            "id": "f9ce16db-8df3-4685-8183-7723968ec247",
+            "attributes": {
+                "action": "update",
+                "timestamp": "2019-07-02T21:00:11.048105Z",
+                "updated_fields": [
+                    "availability"
+                ]
+            }
+        },
+        {
+            "type": "availability",
+            "links": {
+                "self": null
+            },
+            "id": "a3c8bb1d-5eb5-40ef-9daf-4a4cd7d025eb",
+            "attributes": {
+                "action": "update",
+                "timestamp": "2019-07-02T21:00:10.998550Z",
+                "updated_fields": [
+                    "availability_range"
+                ]
+            }
+        },
+        {
+            "type": "asset",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/assets/f9ce16db-8df3-4685-8183-7723968ec247/"
+            },
+            "id": "f9ce16db-8df3-4685-8183-7723968ec247",
+            "attributes": {
+                "action": "update",
+                "timestamp": "2019-07-02T21:00:10.978409Z",
+                "updated_fields": [
+                    "availability"
+                ]
+            }
+        },
+        {
+            "type": "availability",
+            "links": {
+                "self": null
+            },
+            "id": "d36114e8-0b00-4a15-b5ff-737411a697e0",
+            "attributes": {
+                "action": "update",
+                "timestamp": "2019-07-02T21:00:10.843098Z",
+                "updated_fields": [
+                    "availability_range"
+                ]
+            }
+        },
+        {
+            "type": "season",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/seasons/f46854f0-e42e-4c9e-bfeb-3b30c00a0c90/"
+            },
+            "id": "f46854f0-e42e-4c9e-bfeb-3b30c00a0c90",
+            "attributes": {
+                "action": "update",
+                "timestamp": "2019-07-02T20:58:59.199565Z",
+                "updated_fields": [
+                    "asset"
+                ]
+            }
+        },
+        {
+            "type": "show",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/shows/eee60bac-eb00-4920-aedc-ae7dd63dd975/"
+            },
+            "id": "eee60bac-eb00-4920-aedc-ae7dd63dd975",
+            "attributes": {
+                "action": "update",
+                "timestamp": "2019-07-02T20:58:59.192742Z",
+                "updated_fields": [
+                    "asset"
+                ]
+            }
+        },
+        {
+            "type": "episode",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/episodes/a9db7ce8-2d4e-4102-b8f6-724570db5616/"
+            },
+            "id": "a9db7ce8-2d4e-4102-b8f6-724570db5616",
+            "attributes": {
+                "action": "update",
+                "timestamp": "2019-07-02T20:58:59.171575Z",
+                "updated_fields": [
+                    "asset"
+                ]
+            }
+        },
+        {
+            "type": "asset",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/assets/841ec171-3579-4ac0-9f1c-f2036d5afc26/"
+            },
+            "id": "841ec171-3579-4ac0-9f1c-f2036d5afc26",
+            "attributes": {
+                "action": "update",
+                "timestamp": "2019-07-02T20:58:59.146735Z",
+                "updated_fields": [
+                    "is_published"
+                ]
+            }
+        },
+        {
+            "type": "show",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/shows/eee60bac-eb00-4920-aedc-ae7dd63dd975/"
+            },
+            "id": "eee60bac-eb00-4920-aedc-ae7dd63dd975",
+            "attributes": {
+                "action": "update",
+                "timestamp": "2019-07-02T20:58:58.314060Z",
+                "updated_fields": [
+                    "asset"
+                ]
+            }
+        },
+        {
+            "type": "season",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/seasons/f46854f0-e42e-4c9e-bfeb-3b30c00a0c90/"
+            },
+            "id": "f46854f0-e42e-4c9e-bfeb-3b30c00a0c90",
+            "attributes": {
+                "action": "update",
+                "timestamp": "2019-07-02T20:58:58.289150Z",
+                "updated_fields": [
+                    "asset"
+                ]
+            }
+        },
+        {
+            "type": "episode",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/episodes/a9db7ce8-2d4e-4102-b8f6-724570db5616/"
+            },
+            "id": "a9db7ce8-2d4e-4102-b8f6-724570db5616",
+            "attributes": {
+                "action": "update",
+                "timestamp": "2019-07-02T20:58:58.280120Z",
+                "updated_fields": [
+                    "asset"
+                ]
+            }
+        },
+        {
+            "type": "asset",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/assets/841ec171-3579-4ac0-9f1c-f2036d5afc26/"
+            },
+            "id": "841ec171-3579-4ac0-9f1c-f2036d5afc26",
+            "attributes": {
+                "action": "update",
+                "timestamp": "2019-07-02T20:58:58.248578Z",
+                "updated_fields": [
+                    "auto_publish"
+                ]
+            }
+        },
+        {
+            "type": "show",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/shows/040822e8-1c54-4714-a133-c2a624e11885/"
+            },
+            "id": "040822e8-1c54-4714-a133-c2a624e11885",
+            "attributes": {
+                "action": "update",
+                "timestamp": "2019-07-02T20:57:23.565118Z",
+                "updated_fields": [
+                    "link"
+                ]
+            }
+        },
+        {
+            "type": "link",
+            "links": {
+                "self": null
+            },
+            "id": null,
+            "attributes": {
+                "action": "delete",
+                "timestamp": "2019-07-02T20:57:23.510913Z",
+                "updated_fields": []
+            }
+        },
+        {
+            "type": "show",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/shows/040822e8-1c54-4714-a133-c2a624e11885/"
+            },
+            "id": "040822e8-1c54-4714-a133-c2a624e11885",
+            "attributes": {
+                "action": "update",
+                "timestamp": "2019-07-02T20:57:01.485974Z",
+                "updated_fields": [
+                    "asset"
+                ]
+            }
+        },
+        {
+            "type": "episode",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/episodes/aab06142-b38c-4db8-9c2b-1c9b52585fba/"
+            },
+            "id": "aab06142-b38c-4db8-9c2b-1c9b52585fba",
+            "attributes": {
+                "action": "update",
+                "timestamp": "2019-07-02T20:57:01.448729Z",
+                "updated_fields": [
+                    "asset"
+                ]
+            }
+        },
+        {
+            "type": "season",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/seasons/990c43e7-60ad-4554-81d3-db6dad470272/"
+            },
+            "id": "990c43e7-60ad-4554-81d3-db6dad470272",
+            "attributes": {
+                "action": "update",
+                "timestamp": "2019-07-02T20:57:01.372425Z",
+                "updated_fields": [
+                    "asset"
+                ]
+            }
+        },
+        {
+            "type": "asset",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/assets/47190dc8-031b-46e9-b330-dfcab619a683/"
+            },
+            "id": "47190dc8-031b-46e9-b330-dfcab619a683",
+            "attributes": {
+                "action": "update",
+                "timestamp": "2019-07-02T20:57:01.329359Z",
+                "updated_fields": [
+                    "image"
+                ]
+            }
+        },
+        {
+            "type": "image",
+            "links": {
+                "self": null
+            },
+            "id": null,
+            "attributes": {
+                "action": "update",
+                "timestamp": "2019-07-02T20:57:01.272261Z",
+                "updated_fields": [
+                    "image"
+                ]
+            }
+        },
+        {
+            "type": "asset",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/assets/47190dc8-031b-46e9-b330-dfcab619a683/"
+            },
+            "id": "47190dc8-031b-46e9-b330-dfcab619a683",
+            "attributes": {
+                "action": "update",
+                "timestamp": "2019-07-02T20:57:01.242330Z",
+                "updated_fields": [
+                    "title_sortable",
+                    "title"
+                ]
+            }
+        },
+        {
+            "type": "show",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/shows/040822e8-1c54-4714-a133-c2a624e11885/"
+            },
+            "id": "040822e8-1c54-4714-a133-c2a624e11885",
+            "attributes": {
+                "action": "update",
+                "timestamp": "2019-07-02T20:56:39.515189Z",
+                "updated_fields": [
+                    "asset"
+                ]
+            }
+        },
+        {
+            "type": "show",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/shows/5029be77-6d77-4f8a-a0ee-6054522f5497/"
+            },
+            "id": "5029be77-6d77-4f8a-a0ee-6054522f5497",
+            "attributes": {
+                "action": "update",
+                "timestamp": "2019-07-02T20:56:38.875186Z",
+                "updated_fields": [
+                    "asset"
+                ]
+            }
+        },
+        {
+            "type": "episode",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/episodes/5654538d-2bbc-4abb-b470-3037b56bc35f/"
+            },
+            "id": "5654538d-2bbc-4abb-b470-3037b56bc35f",
+            "attributes": {
+                "action": "update",
+                "timestamp": "2019-07-02T20:56:38.848912Z",
+                "updated_fields": [
+                    "asset"
+                ]
+            }
+        },
+        {
+            "type": "season",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/seasons/3500d118-7f31-4024-9a0f-313d146b3ba6/"
+            },
+            "id": "3500d118-7f31-4024-9a0f-313d146b3ba6",
+            "attributes": {
+                "action": "update",
+                "timestamp": "2019-07-02T20:56:38.838749Z",
+                "updated_fields": [
+                    "asset"
+                ]
+            }
+        },
+        {
+            "type": "asset",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/assets/321c4b17-523c-4fbf-8ea4-7cf35844929f/"
+            },
+            "id": "321c4b17-523c-4fbf-8ea4-7cf35844929f",
+            "attributes": {
+                "action": "update",
+                "timestamp": "2019-07-02T20:56:38.813743Z",
+                "updated_fields": [
+                    "duration"
+                ]
+            }
+        },
+        {
+            "type": "episode",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/episodes/3560792b-b1d2-4aaf-96a9-37be558b275a/"
+            },
+            "id": "3560792b-b1d2-4aaf-96a9-37be558b275a",
+            "attributes": {
+                "action": "update",
+                "timestamp": "2019-07-02T20:56:38.380528Z",
+                "updated_fields": [
+                    "asset"
+                ]
+            }
+        },
+        {
+            "type": "season",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/seasons/990c43e7-60ad-4554-81d3-db6dad470272/"
+            },
+            "id": "990c43e7-60ad-4554-81d3-db6dad470272",
+            "attributes": {
+                "action": "update",
+                "timestamp": "2019-07-02T20:56:38.332733Z",
+                "updated_fields": [
+                    "asset"
+                ]
+            }
+        },
+        {
+            "type": "asset",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/assets/c301c5bf-13fd-4ffa-8bf6-908f9d689f87/"
+            },
+            "id": "c301c5bf-13fd-4ffa-8bf6-908f9d689f87",
+            "attributes": {
+                "action": "update",
+                "timestamp": "2019-07-02T20:56:38.005562Z",
+                "updated_fields": [
+                    "image"
+                ]
+            }
+        },
+        {
+            "type": "image",
+            "links": {
+                "self": null
+            },
+            "id": null,
+            "attributes": {
+                "action": "update",
+                "timestamp": "2019-07-02T20:56:37.958983Z",
+                "updated_fields": [
+                    "image"
+                ]
+            }
+        },
+        {
+            "type": "asset",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/assets/c301c5bf-13fd-4ffa-8bf6-908f9d689f87/"
+            },
+            "id": "c301c5bf-13fd-4ffa-8bf6-908f9d689f87",
+            "attributes": {
+                "action": "update",
+                "timestamp": "2019-07-02T20:56:37.906847Z",
+                "updated_fields": [
+                    "title_sortable",
+                    "title"
+                ]
+            }
+        },
+        {
+            "type": "show",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/shows/eee60bac-eb00-4920-aedc-ae7dd63dd975/"
+            },
+            "id": "eee60bac-eb00-4920-aedc-ae7dd63dd975",
+            "attributes": {
+                "action": "update",
+                "timestamp": "2019-07-02T20:55:59.130801Z",
+                "updated_fields": [
+                    "asset"
+                ]
+            }
+        },
+        {
+            "type": "episode",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/episodes/0f82be03-0005-4086-b9cb-fdaf576c9d92/"
+            },
+            "id": "0f82be03-0005-4086-b9cb-fdaf576c9d92",
+            "attributes": {
+                "action": "update",
+                "timestamp": "2019-07-02T20:55:59.095254Z",
+                "updated_fields": [
+                    "asset"
+                ]
+            }
+        },
+        {
+            "type": "season",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/seasons/f46854f0-e42e-4c9e-bfeb-3b30c00a0c90/"
+            },
+            "id": "f46854f0-e42e-4c9e-bfeb-3b30c00a0c90",
+            "attributes": {
+                "action": "update",
+                "timestamp": "2019-07-02T20:55:58.939053Z",
+                "updated_fields": [
+                    "asset"
+                ]
+            }
+        },
+        {
+            "type": "asset",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/assets/8319ca99-2f72-4137-8641-6b9ce9b21c04/"
+            },
+            "id": "8319ca99-2f72-4137-8641-6b9ce9b21c04",
+            "attributes": {
+                "action": "update",
+                "timestamp": "2019-07-02T20:55:58.923880Z",
+                "updated_fields": [
+                    "availability"
+                ]
+            }
+        },
+        {
+            "type": "availability",
+            "links": {
+                "self": null
+            },
+            "id": "eac1aeda-44ad-44ae-ad7c-a386dcebd54e",
+            "attributes": {
+                "action": "update",
+                "timestamp": "2019-07-02T20:55:58.872629Z",
+                "updated_fields": [
+                    "availability_range"
+                ]
+            }
+        },
+        {
+            "type": "asset",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/assets/8319ca99-2f72-4137-8641-6b9ce9b21c04/"
+            },
+            "id": "8319ca99-2f72-4137-8641-6b9ce9b21c04",
+            "attributes": {
+                "action": "update",
+                "timestamp": "2019-07-02T20:55:58.790369Z",
+                "updated_fields": [
+                    "availability"
+                ]
+            }
+        },
+        {
+            "type": "availability",
+            "links": {
+                "self": null
+            },
+            "id": "37fd4c3c-76af-4e5d-93eb-cf8cb554ff73",
+            "attributes": {
+                "action": "update",
+                "timestamp": "2019-07-02T20:55:58.739391Z",
+                "updated_fields": [
+                    "availability_range"
+                ]
+            }
+        },
+        {
+            "type": "asset",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/assets/8319ca99-2f72-4137-8641-6b9ce9b21c04/"
+            },
+            "id": "8319ca99-2f72-4137-8641-6b9ce9b21c04",
+            "attributes": {
+                "action": "update",
+                "timestamp": "2019-07-02T20:55:58.724098Z",
+                "updated_fields": [
+                    "availability"
+                ]
+            }
+        },
+        {
+            "type": "availability",
+            "links": {
+                "self": null
+            },
+            "id": "b79c74bd-a7e7-407b-ad46-fcf4631177d4",
+            "attributes": {
+                "action": "update",
+                "timestamp": "2019-07-02T20:55:58.671852Z",
+                "updated_fields": [
+                    "availability_range"
+                ]
+            }
+        },
+        {
+            "type": "asset",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/assets/8319ca99-2f72-4137-8641-6b9ce9b21c04/"
+            },
+            "id": "8319ca99-2f72-4137-8641-6b9ce9b21c04",
+            "attributes": {
+                "action": "update",
+                "timestamp": "2019-07-02T20:55:58.650309Z",
+                "updated_fields": [
+                    "auto_publish"
+                ]
+            }
+        },
+        {
+            "type": "show",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/shows/eee60bac-eb00-4920-aedc-ae7dd63dd975/"
+            },
+            "id": "eee60bac-eb00-4920-aedc-ae7dd63dd975",
+            "attributes": {
+                "action": "update",
+                "timestamp": "2019-07-02T20:55:50.597067Z",
+                "updated_fields": [
+                    "asset"
+                ]
+            }
+        },
+        {
+            "type": "episode",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/episodes/11d1b3a4-c37d-4000-b1bd-45d1d307df26/"
+            },
+            "id": "11d1b3a4-c37d-4000-b1bd-45d1d307df26",
+            "attributes": {
+                "action": "update",
+                "timestamp": "2019-07-02T20:55:50.558093Z",
+                "updated_fields": [
+                    "asset"
+                ]
+            }
+        },
+        {
+            "type": "season",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/seasons/f46854f0-e42e-4c9e-bfeb-3b30c00a0c90/"
+            },
+            "id": "f46854f0-e42e-4c9e-bfeb-3b30c00a0c90",
+            "attributes": {
+                "action": "update",
+                "timestamp": "2019-07-02T20:55:50.541204Z",
+                "updated_fields": [
+                    "asset"
+                ]
+            }
+        },
+        {
+            "type": "asset",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/assets/708501a7-dd1c-48ea-87b1-4108b5c640e9/"
+            },
+            "id": "708501a7-dd1c-48ea-87b1-4108b5c640e9",
+            "attributes": {
+                "action": "update",
+                "timestamp": "2019-07-02T20:55:50.525100Z",
+                "updated_fields": [
+                    "availability"
+                ]
+            }
+        },
+        {
+            "type": "availability",
+            "links": {
+                "self": null
+            },
+            "id": "2e1c59c5-08dd-4c5f-b7c9-8a0df1472fed",
+            "attributes": {
+                "action": "update",
+                "timestamp": "2019-07-02T20:55:50.454317Z",
+                "updated_fields": [
+                    "availability_range"
+                ]
+            }
+        },
+        {
+            "type": "asset",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/assets/708501a7-dd1c-48ea-87b1-4108b5c640e9/"
+            },
+            "id": "708501a7-dd1c-48ea-87b1-4108b5c640e9",
+            "attributes": {
+                "action": "update",
+                "timestamp": "2019-07-02T20:55:50.441285Z",
+                "updated_fields": [
+                    "availability"
+                ]
+            }
+        },
+        {
+            "type": "availability",
+            "links": {
+                "self": null
+            },
+            "id": "2a8156c2-c1a2-4139-ace8-69d8726a9265",
+            "attributes": {
+                "action": "update",
+                "timestamp": "2019-07-02T20:55:50.390026Z",
+                "updated_fields": [
+                    "availability_range"
+                ]
+            }
+        },
+        {
+            "type": "asset",
+            "links": {
+                "self": "https://media.services.pbs.org/api/v1/assets/708501a7-dd1c-48ea-87b1-4108b5c640e9/"
+            },
+            "id": "708501a7-dd1c-48ea-87b1-4108b5c640e9",
+            "attributes": {
+                "action": "update",
+                "timestamp": "2019-07-02T20:55:50.376817Z",
+                "updated_fields": [
+                    "availability"
+                ]
+            }
+        }
+    ],
+    "meta": {
+        "filter": {
+            "type": "https://media.services.pbs.org/api/v1/changelog/?type=",
+            "action": "https://media.services.pbs.org/api/v1/changelog/?action=",
+            "id": "https://media.services.pbs.org/api/v1/changelog/?id=",
+            "since": "https://media.services.pbs.org/api/v1/changelog/?since="
+        },
+        "sort": {
+            "timestamp": {
+                "asc": "https://media.services.pbs.org/api/v1/changelog/?sort=timestamp",
+                "desc": "https://media.services.pbs.org/api/v1/changelog/?sort=-timestamp"
+            }
+        },
+        "pagination": {
+            "per_page": 50,
+            "count": 85
+        },
+        "type": "collection"
+    },
+    "links": {
+        "self": "https://media.services.pbs.org/api/v1/changelog/?page-size=50",
+        "prev": null,
+        "next": "https://media.services.pbs.org/api/v1/changelog/?page=2&page-size=50",
+        "first": "https://media.services.pbs.org/api/v1/changelog/?page-size=50",
+        "last": "https://media.services.pbs.org/api/v1/changelog/?page=2&page-size=50"
+    },
+    "jsonapi": {
+        "version": "1.0"
+    }
+}

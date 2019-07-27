@@ -195,7 +195,8 @@ class ClientTest extends TestCaseBase
 
     public function testGetChangelog(): void
     {
-        $this->mockHandler->append($this->jsonFixtureResponse('getChangelog'));
+        $this->mockHandler->append($this->jsonFixtureResponse('getChangelog-1'));
+        $this->mockHandler->append($this->jsonFixtureResponse('getChangelog-2'));
         $result = $this->client->getChangelog();
         $this->assertInstanceOf(Results::class, $result);
         $this->assertObjectHasAttribute('pagedResponse', $result);

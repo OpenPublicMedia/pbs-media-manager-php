@@ -14,11 +14,11 @@ use OpenPublicMedia\PbsMediaManager\Query\Results;
  */
 class PagedResponseTest extends TestCaseBase
 {
-    private function getTopics(): Results
+    private function getChangelog(): Results
     {
-        $this->mockHandler->append($this->jsonFixtureResponse('getTopics-1'));
-        $this->mockHandler->append($this->jsonFixtureResponse('getTopics-2'));
-        return $this->client->getShows();
+        $this->mockHandler->append($this->jsonFixtureResponse('getChangelog-1'));
+        $this->mockHandler->append($this->jsonFixtureResponse('getChangelog-2'));
+        return $this->client->getChangelog();
     }
 
     public function testEmptyResults(): void
@@ -30,7 +30,7 @@ class PagedResponseTest extends TestCaseBase
 
     public function testResults(): void
     {
-        $result = $this->getTopics();
+        $result = $this->getChangelog();
         foreach ($result as $item) {
             $this->assertIsObject($item);
         }
@@ -38,7 +38,7 @@ class PagedResponseTest extends TestCaseBase
 
     public function testNavigation(): void
     {
-        $result = $this->getTopics();
+        $result = $this->getChangelog();
         $pagedResponse = $result->getResponse();
         $this->assertIsObject($pagedResponse->current());
         $this->assertEquals(1, $pagedResponse->key());
@@ -53,7 +53,7 @@ class PagedResponseTest extends TestCaseBase
      */
     public function testCount(): void
     {
-        $result = $this->getTopics();
+        $result = $this->getChangelog();
         $pagedResponse = $result->getResponse();
         $this->assertCount(2, $pagedResponse);
     }
@@ -63,8 +63,8 @@ class PagedResponseTest extends TestCaseBase
      */
     public function testGetTotalItemsCount(): void
     {
-        $result = $this->getTopics();
+        $result = $this->getChangelog();
         $pagedResponse = $result->getResponse();
-        $this->assertEquals(92, $pagedResponse->getTotalItemsCount());
+        $this->assertEquals(85, $pagedResponse->getTotalItemsCount());
     }
 }
