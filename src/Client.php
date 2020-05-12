@@ -525,6 +525,24 @@ class Client
     }
 
     /**
+     * @url https://docs.pbs.org/display/CDA/Search+Assets
+     *
+     * Asset search supports a much broader set of arguments so this base method
+     * only accepts query arguments.
+     *
+     * @param array $query
+     *   Search query parameters.
+     *
+     * @return \OpenPublicMedia\PbsMediaManager\Query\Results
+     */
+    public function searchAssets(array $query): Results
+    {
+        // The assets search endpoint does not support `fetch-related`.
+        $query['fetch-related'] = null;
+        return $this->get('assets/search', $query);
+    }
+
+    /**
      * @url https://docs.pbs.org/display/CDA/Shows#Shows-genreTableGenreList
      *
      * @param array $query
