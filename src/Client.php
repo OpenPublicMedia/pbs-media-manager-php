@@ -267,6 +267,22 @@ class Client
     }
 
     /**
+     * @url https://docs.pbs.org/display/CDA/Search+Franchises
+     *
+     * @param string $search_term
+     *   Search term.
+     * @param array $query
+     *   Additional API query parameters.
+     *
+     * @return \OpenPublicMedia\PbsMediaManager\Query\Results
+     */
+    public function searchFranchises(string $search_term, array $query = []): Results
+    {
+        $query['query'] = $search_term;
+        return $this->get('franchises/search', $query);
+    }
+
+    /**
      * @url https://docs.pbs.org/display/CDA/Shows
      *
      * @param string $id
@@ -294,6 +310,22 @@ class Client
     public function getShows(array $query = []): Results
     {
         return $this->get('shows', $query);
+    }
+
+    /**
+     * @url https://docs.pbs.org/display/CDA/Search+Shows
+     *
+     * @param string $search_term
+     *   Search term.
+     * @param array $query
+     *   Additional API query parameters.
+     *
+     * @return \OpenPublicMedia\PbsMediaManager\Query\Results
+     */
+    public function searchShows(string $search_term, array $query = []): Results
+    {
+        $query['query'] = $search_term;
+        return $this->get('shows/search', $query);
     }
 
     /**
@@ -361,6 +393,22 @@ class Client
     }
 
     /**
+     * @url https://docs.pbs.org/display/CDA/Search+Specials
+     *
+     * @param string $search_term
+     *   Search term.
+     * @param array $query
+     *   Additional API query parameters.
+     *
+     * @return \OpenPublicMedia\PbsMediaManager\Query\Results
+     */
+    public function searchSpecials(string $search_term, array $query = []): Results
+    {
+        $query['query'] = $search_term;
+        return $this->get('specials/search', $query);
+    }
+
+    /**
      * @url https://docs.pbs.org/display/CDA/Seasons
      *
      * @param string $id
@@ -422,6 +470,22 @@ class Client
     public function getEpisodes(string $season_id, array $query = []): Results
     {
         return $this->get('seasons/' . $season_id . '/episodes', $query);
+    }
+
+    /**
+     * @url https://docs.pbs.org/display/CDA/Search+Episodes
+     *
+     * @param string $search_term
+     *   Search term.
+     * @param array $query
+     *   Additional API query parameters.
+     *
+     * @return \OpenPublicMedia\PbsMediaManager\Query\Results
+     */
+    public function searchEpisodes(string $search_term, array $query = []): Results
+    {
+        $query['query'] = $search_term;
+        return $this->get('episodes/search', $query);
     }
 
     /**
