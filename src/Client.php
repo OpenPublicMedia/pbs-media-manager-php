@@ -232,6 +232,8 @@ class Client
             'fetch-related' => true,
             'page-size' => self::MAX_PAGE_SIZE,
         ];
+        // Remove any empty parameters.
+        $parameters = array_filter($parameters);
         $query = Query::createFromPairs($parameters);
         return (string) $query;
     }
