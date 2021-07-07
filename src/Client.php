@@ -80,24 +80,28 @@ class Client
     }
 
     /**
+     * Sends a request to the API.
+     *
      * @param string $method
      *   Request method (e.g. 'get', 'post', 'put', etc.).
      * @param string $endpoint
      *   API endpoint to query.
-     * @param array $query
-     *   Additional query parameters in the form `param => value`.
+     * @param array $options
+     *   Additional options to pass with the request.
      *
-     * @return ResponseInterface
+     * @return \Psr\Http\Message\ResponseInterface
      *   Response data from the API.
      *
-     * @throws BadRequestException
+     * @throws \OpenPublicMedia\PbsMediaManager\Exception\BadRequestException
      */
-    public function request(string $method, string $endpoint, array $query = []): ResponseInterface
+    public function request(string $method, string $endpoint, array $options = []): ResponseInterface
     {
+        if ($method === 'get' && isset($options['query'])) {
+            $options['query'] = self::buildGetQuery($options['query']);
+        }
+
         try {
-            $response = $this->client->request($method, $endpoint, [
-                'query' => self::buildQuery($query)
-            ]);
+            $response = $this->client->request($method, $endpoint, $options);
         } catch (GuzzleException $e) {
             throw new RuntimeException($e->getMessage(), $e->getCode(), $e);
         }
@@ -120,6 +124,10 @@ class Client
 
         return $response;
     }
+
+    /*
+     * GET methods.
+     */
 
     /**
      * Gets an iterator for paging through API responses.
@@ -175,7 +183,7 @@ class Client
     public function getOne(string $endpoint, string $id, array $query = []): ?stdClass
     {
         try {
-            $response = $this->request('get', $endpoint . '/' . $id, $query);
+            $response = $this->request('get', $endpoint . '/' . $id, ['query' => $query]);
         } catch (BadRequestException $e) {
             return null;
         }
@@ -210,7 +218,7 @@ class Client
     }
 
     /**
-     * Creates a query string from an array of parameters.
+     * Creates a query string from an array of parameters for a GET request.
      *
      * The parameter "fetch-related" is provided as a default here in order to
      * include related objects for most queries. E.g. Episodes will also have
@@ -226,7 +234,7 @@ class Client
      * @return string
      *   All parameters as a string.
      */
-    public static function buildQuery(array $parameters): string
+    public static function buildGetQuery(array $parameters): string
     {
         $parameters += [
             'fetch-related' => true,

@@ -7,3 +7,4 @@
 # Testing files
 coverage
 .phpunit*
+example.php

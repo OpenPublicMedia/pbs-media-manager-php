@@ -115,7 +115,7 @@ class PagedResponse implements Iterator, Countable
         $response = $this->client->request(
             'get',
             $this->endpoint,
-            $this->query + ['page' => $this->page]
+            ['query' => $this->query + ['page' => $this->page]]
         );
         $data = json_decode($response->getBody()->getContents());
         $this->next = $this->client::getNextPage($data);
