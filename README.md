@@ -153,20 +153,30 @@ this project.
 
 ### v1
 
- - [x] API authentication (`OpenPublicMedia\PbsMediaManager\Client`)
- - [x] API direct querying (`$client->request()`)
- - [x] Result/error handling
- - [x] GET wrappers for core data objects (`$client->getXXX()`)
- - [x] Transparent paged response handling (`OpenPublicMedia\PbsMediaManager\Response\PagesResponse`)
+- [x] API authentication (`OpenPublicMedia\PbsMediaManager\Client`)
+- [x] API direct querying (`$client->request()`)
+- [x] Result/error handling
+- [x] GET wrappers for core data objects (`$client->getXXX()`)
+- [x] Transparent paged response handling (`OpenPublicMedia\PbsMediaManager\Response\PagesResponse`)
 
 ### v1.x
 
- - [ ] PUT/PATCH/POST support on relevant endpoints
- - [ ] DELETE support on relevant endpoints
+- [ ] POST support
+    - [ ] Asset
+    - [ ] Episode
+    - [ ] Special
+- [ ] PATCH support
+    - [ ] Asset
+    - [ ] Episode
+    - [ ] Special
+- [ ] DELETE support
+    - [ ] Asset
+    - [ ] Episode
+    - [ ] Special
 
 ### v2.x
 
- - [ ] Entities for core data objects
- - [ ] Advanced Asset availability handling
- - [ ] Advanced Changelog endpoint operations
- - [ ] Chainable query argument building (mostly for Asset search)
+- [ ] Entities for core data objects
+- [ ] Advanced Asset availability handling
+- [ ] Advanced Changelog endpoint operations
+- [ ] Chainable query argument building (mostly for Asset search)

@@ -605,4 +605,26 @@ class Client
     {
         return $this->get('remote-assets', $query);
     }
+
+
+    /*
+     * POST methods.
+     */
+
+    /**
+     * Sends a POST API request.
+     *
+     * @param string $endpoint
+     *   URL to send the POST request to.
+     * @param array $data
+     *   Data to include in the POST body as JSON.
+     *
+     * @return string
+     *   ID of created object.
+     */
+    public function post(string $endpoint, array $data): string
+    {
+        $response = $this->request('post', $endpoint, ['json' => $data]);
+        return $response->getHeader('location')[0];
+    }
 }
