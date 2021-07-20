@@ -165,14 +165,18 @@ this project.
     - [ ] Asset
     - [ ] Episode
     - [ ] Special
+    - [ ] Season
 - [ ] PATCH support
     - [ ] Asset
     - [ ] Episode
     - [ ] Special
+    - [ ] Season
+    - [ ] Show
 - [ ] DELETE support
     - [ ] Asset
     - [ ] Episode
     - [ ] Special
+    - [ ] Season
 
 ### v2.x
 
