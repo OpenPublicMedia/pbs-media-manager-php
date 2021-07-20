@@ -242,7 +242,7 @@ class Client
         ];
         // Remove any empty parameters.
         $parameters = array_filter($parameters);
-        $query = Query::createFromPairs($parameters);
+        $query = Query::createFromParams($parameters);
         return (string) $query;
     }
 
