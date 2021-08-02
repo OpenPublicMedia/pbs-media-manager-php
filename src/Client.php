@@ -1,4 +1,5 @@
 <?php
+/** @noinspection PhpUnused */
 declare(strict_types=1);
 
 
@@ -780,6 +781,87 @@ class Client
             "shows/$show_id/specials/",
             ['data' => ['type' => 'special', 'attributes' => $attributes]]
         );
+    }
+
+    /**
+     * @url https://docs.pbs.org/display/CDA/Create+Asset#CreateAsset-create
+     *
+     * This method reflects only the minimum number of required attributes to
+     * crete an initial entry for an asset -- i.e. a full length episode asset
+     * requires nothing more than the parent identifier and "full_length" value
+     * for the `object_type` attribute.
+     *
+     * @param string $parent_type
+     * @param string $parent_id
+     * @param string $object_type
+     * @param array $attributes
+     *
+     * @return string
+     */
+    public function addAsset(
+        string $parent_type,
+        string $parent_id,
+        string $object_type,
+        array $attributes = []
+    ): string {
+        $attributes['object_type'] = $object_type;
+        return $this->post(
+            "{$parent_type}s/$parent_id/assets/",
+            ['data' => ['type' => 'asset', 'attributes' => array_filter($attributes)]]
+        );
+    }
+
+    /**
+     * @url https://docs.pbs.org/display/CDA/Create+Asset#CreateAsset-create
+     *
+     * @param string $parent_type
+     * @param string $parent_id
+     * @param array $attributes
+     *
+     * @return string
+     */
+    public function addFullLengthAsset(
+        string $parent_type,
+        string $parent_id,
+        array $attributes = []
+    ): string {
+        return $this->addAsset($parent_type, $parent_id, 'full_length', $attributes);
+    }
+
+    /**
+     * @url https://docs.pbs.org/display/CDA/Create+Asset#CreateAsset-create
+     *
+     * @param string $parent_type
+     * @param string $parent_id
+     * @param string $asset_type
+     * @param string $title
+     * @param string $description_short
+     * @param string $description_long
+     * @param \DateTimeInterface $premiered_on
+     * @param \DateTimeInterface $encored_on
+     * @param array $additional_attributes
+     *
+     * @return string
+     */
+    public function addPreviewOrClipAsset(
+        string $parent_type,
+        string $parent_id,
+        string $asset_type,
+        string $title,
+        string $description_short,
+        string $description_long,
+        DateTimeInterface $premiered_on,
+        DateTimeInterface $encored_on,
+        array $additional_attributes = []
+    ): string {
+        $attributes = array_filter([
+            'title' => $title,
+            'description_short' => $description_short,
+            'description_long' => $description_long,
+            'premiered_on' => $premiered_on->format('Y-m-d'),
+            'encored_on' => $encored_on->format('Y-m-d'),
+        ] + $additional_attributes);
+        return $this->addAsset($parent_type, $parent_id, $asset_type, $attributes);
     }
 
     /*
