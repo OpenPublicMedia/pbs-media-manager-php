@@ -649,6 +649,8 @@ class Client
      *
      * @return string
      *   ID of created object.
+     *
+     * @throws \OpenPublicMedia\PbsMediaManager\Exception\BadRequestException
      */
     public function post(string $endpoint, array $data): string
     {
@@ -668,6 +670,8 @@ class Client
      *
      * @return string
      *   ID of added season.
+     *
+     * @throws \OpenPublicMedia\PbsMediaManager\Exception\BadRequestException
      */
     public function addSeason(
         string $show_id,
@@ -706,6 +710,8 @@ class Client
      *
      * @return string
      *   ID of added episode.
+     *
+     * @throws \OpenPublicMedia\PbsMediaManager\Exception\BadRequestException
      */
     public function addEpisode(
         string $season_id,
@@ -754,6 +760,8 @@ class Client
      *
      * @return string
      *   ID of added special.
+     *
+     * @throws \OpenPublicMedia\PbsMediaManager\Exception\BadRequestException
      */
     public function addSpecial(
         string $show_id,
@@ -797,6 +805,8 @@ class Client
      * @param array $attributes
      *
      * @return string
+     *
+     * @throws \OpenPublicMedia\PbsMediaManager\Exception\BadRequestException
      */
     public function addAsset(
         string $parent_type,
@@ -819,6 +829,8 @@ class Client
      * @param array $attributes
      *
      * @return string
+     *
+     * @throws \OpenPublicMedia\PbsMediaManager\Exception\BadRequestException
      */
     public function addFullLengthAsset(
         string $parent_type,
@@ -842,6 +854,8 @@ class Client
      * @param array $additional_attributes
      *
      * @return string
+     *
+     * @throws \OpenPublicMedia\PbsMediaManager\Exception\BadRequestException
      */
     public function addPreviewOrClipAsset(
         string $parent_type,
@@ -875,6 +889,8 @@ class Client
      *   URL to send the PATCH request to.
      * @param array $data
      *   Data to include in the PATCH body as JSON.
+     *
+     * @throws \OpenPublicMedia\PbsMediaManager\Exception\BadRequestException
      */
     public function patch(string $endpoint, array $data): void
     {
@@ -887,6 +903,8 @@ class Client
      * @param string $type
      * @param string $id
      * @param array $attributes
+     *
+     * @throws \OpenPublicMedia\PbsMediaManager\Exception\BadRequestException
      */
     public function updateObject(string $type, string $id, array $attributes = []): void
     {
@@ -910,6 +928,8 @@ class Client
      * @param string $id
      * @param array $attributes
      *
+     * @throws \OpenPublicMedia\PbsMediaManager\Exception\BadRequestException
+     *
      * @see \OpenPublicMedia\PbsMediaManager\Client::addEpisode()
      */
     public function updateEpisode(string $id, array $attributes): void
@@ -923,6 +943,8 @@ class Client
      * @param string $id
      * @param string $to_type
      * @param string $to_id
+     *
+     * @throws \OpenPublicMedia\PbsMediaManager\Exception\BadRequestException
      */
     public function moveEpisode(string $id, string $to_type, string $to_id): void
     {
@@ -934,6 +956,8 @@ class Client
      *
      * @param string $id
      * @param array $attributes
+     *
+     * @throws \OpenPublicMedia\PbsMediaManager\Exception\BadRequestException
      *
      * @see \OpenPublicMedia\PbsMediaManager\Client::addSpecial()
      */
@@ -948,6 +972,8 @@ class Client
      * @param string $id
      * @param string $to_type
      * @param string $to_id
+     *
+     * @throws \OpenPublicMedia\PbsMediaManager\Exception\BadRequestException
      */
     public function moveSpecial(string $id, string $to_type, string $to_id): void
     {
@@ -963,6 +989,8 @@ class Client
      *
      * @param string $endpoint
      *   URL to send the DELETE request to.
+     *
+     * @throws \OpenPublicMedia\PbsMediaManager\Exception\BadRequestException
      */
     public function delete(string $endpoint): void
     {
@@ -973,6 +1001,8 @@ class Client
      * @url https://docs.pbs.org/display/CDA/Delete+Asset
      *
      * @param $id
+     *
+     * @throws \OpenPublicMedia\PbsMediaManager\Exception\BadRequestException
      */
     public function deleteAsset($id): void
     {
@@ -983,6 +1013,8 @@ class Client
      * @url https://docs.pbs.org/display/CDA/Delete+Episode
      *
      * @param $id
+     *
+     * @throws \OpenPublicMedia\PbsMediaManager\Exception\BadRequestException
      */
     public function deleteEpisode($id): void
     {
@@ -993,6 +1025,8 @@ class Client
      * @url https://docs.pbs.org/display/CDA/Delete+Special
      *
      * @param $id
+     *
+     * @throws \OpenPublicMedia\PbsMediaManager\Exception\BadRequestException
      */
     public function deleteSpecial($id): void
     {
