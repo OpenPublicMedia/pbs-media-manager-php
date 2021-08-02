@@ -862,6 +862,16 @@ class Client
     }
 
     /**
+     * @url https://docs.pbs.org/display/CDA/Delete+Asset
+     *
+     * @param $id
+     */
+    public function deleteAsset($id): void
+    {
+        $this->delete("assets/$id/edit/");
+    }
+
+    /**
      * @url https://docs.pbs.org/display/CDA/Delete+Episode
      *
      * @param $id
