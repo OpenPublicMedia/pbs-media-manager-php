@@ -845,4 +845,39 @@ class Client
     {
         $this->updateSpecial($id, [$to_type => $to_id]);
     }
+
+    /*
+     * DELETE methods.
+     */
+
+    /**
+     * Sends a DELETE API request.
+     *
+     * @param string $endpoint
+     *   URL to send the DELETE request to.
+     */
+    public function delete(string $endpoint): void
+    {
+        $this->request('delete', $endpoint);
+    }
+
+    /**
+     * @url https://docs.pbs.org/display/CDA/Delete+Episode
+     *
+     * @param $id
+     */
+    public function deleteEpisode($id): void
+    {
+        $this->delete("episodes/$id/");
+    }
+
+    /**
+     * @url https://docs.pbs.org/display/CDA/Delete+Special
+     *
+     * @param $id
+     */
+    public function deleteSpecial($id): void
+    {
+        $this->delete("specials/$id/");
+    }
 }
