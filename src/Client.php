@@ -103,7 +103,6 @@ class Client
 
         try {
             $response = $this->client->request($method, $endpoint, $options);
-            var_dump($response);
         } catch (GuzzleException $e) {
             throw new RuntimeException($e->getMessage(), $e->getCode(), $e);
         }
