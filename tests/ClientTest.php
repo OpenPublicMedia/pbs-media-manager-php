@@ -214,7 +214,7 @@ class ClientTest extends TestCaseBase
         $this->verifyGenerator($result, 'remoteasset');
     }
 
-    public function testBadRequestException()
+    public function testBadRequestExceptionWithDetail()
     {
         $this->mockHandler->append($this->apiJsonResponse(
             404,
@@ -228,6 +228,24 @@ class ClientTest extends TestCaseBase
             $this->assertIsObject($message);
             $this->assertObjectHasAttribute('detail', $message);
             $this->assertEquals('Invalid page.', $message->detail);
+        }
+    }
+
+    public function testBadRequestExceptionWithErrors()
+    {
+        $json = '{"errors":{"meta":{"segment":["Episode with this ordinal and segment already exists."]}}}';
+        $this->mockHandler->append($this->apiJsonResponse(
+            500,
+            json_encode($json)
+        ));
+        try {
+            $this->client->getShows();
+        } catch (BadRequestException $e) {
+            $message = json_decode($e->getMessage());
+            $this->assertEquals(500, $e->getCode());
+            $this->assertIsObject($message);
+            $this->assertObjectHasAttribute('detail', $message);
+            $this->assertJson($json, $message->detail);
         }
     }
 

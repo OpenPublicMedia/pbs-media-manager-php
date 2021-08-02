@@ -33,8 +33,12 @@ class BadRequestException extends PbsMediaManagerException
     public function __construct(Response $response, int $code = 0, Throwable $previous = null)
     {
         $data = json_decode($response->getBody()->getContents());
-        if (!empty($data) && isset($data->detail)) {
-            $message = $data->detail;
+        if (!empty($data)) {
+            if (isset($data->detail)) {
+                $message = $data->detail;
+            } else {
+                $message = $data;
+            }
         } else {
             $message = $response->getReasonPhrase();
         }
