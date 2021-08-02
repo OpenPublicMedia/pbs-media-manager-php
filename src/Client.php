@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace OpenPublicMedia\PbsMediaManager;
 
+use DateTimeInterface;
 use GuzzleHttp\Client as GuzzleClient;
 use GuzzleHttp\Exception\GuzzleException;
 use League\Uri\Components\Query;
@@ -625,6 +626,118 @@ class Client
     public function post(string $endpoint, array $data): string
     {
         $response = $this->request('post', $endpoint, ['json' => $data]);
+        // @todo Handle response and return _just_ GUID.
         return $response->getHeader('location')[0];
+    }
+
+    /**
+     * Add a season to a show (undocumented endpoint).
+     *
+     * @param string $show_id
+     * @param int $ordinal
+     *
+     * @return string
+     *   ID of added season.
+     */
+    public function addSeason(string $show_id, int $ordinal): string
+    {
+        return $this->post(
+            "shows/$show_id/seasons/",
+            ['data' => ['type' => 'season', 'attributes' => ['ordinal' => $ordinal]]]
+        );
+    }
+
+    /**
+     * @url https://docs.pbs.org/display/CDA/Create+Episode
+     *
+     * @param string $season_id
+     * @param string $title
+     * @param string $description_short
+     * @param string $description_long
+     * @param int|null $ordinal
+     * @param string|null $segment
+     * @param string|null $title_sortable
+     * @param string|null $nola
+     * @param string|null $language
+     * @param \DateTimeInterface|null $premiered_on
+     * @param \DateTimeInterface|null $encored_on
+     *
+     * @return string
+     *   ID of added episode.
+     */
+    public function addEpisode(
+        string $season_id,
+        string $title,
+        string $description_short,
+        string $description_long,
+        ?int $ordinal = null,
+        ?string $segment = null,
+        ?string $title_sortable = null,
+        ?string $nola = null,
+        ?string $language = null,
+        ?DateTimeInterface $premiered_on = null,
+        ?DateTimeInterface $encored_on = null
+    ): string {
+        $attributes = array_filter([
+            'title' => $title,
+            'description_short' => $description_short,
+            'description_long' => $description_long,
+            'ordinal' => $ordinal ?? null,
+            'segment' => $segment ?? null,
+            'title_sortable' => $title_sortable ?? null,
+            'nola' => $nola ?? null,
+            'language' => $language ?? null,
+            'premiered_on' => ($premiered_on ? $premiered_on->format('Y-m-d') : null),
+            'encored_on' => ($encored_on ? $encored_on->format('Y-m-d') : null),
+        ]);
+
+        return $this->post(
+            "seasons/$season_id/episodes/",
+            ['data' => ['type' => 'episode', 'attributes' => $attributes]]
+        );
+    }
+
+    /**
+     * @url https://docs.pbs.org/display/CDA/Create+Special
+     *
+     * @param string $show_id
+     * @param string $title
+     * @param string $description_short
+     * @param string $description_long
+     * @param string|null $title_sortable
+     * @param string|null $nola
+     * @param string|null $language
+     * @param \DateTimeInterface|null $premiered_on
+     * @param \DateTimeInterface|null $encored_on
+     *
+     * @return string
+     *   ID of added special.
+     */
+    public function addSpecial(
+        string $show_id,
+        string $title,
+        string $description_short,
+        string $description_long,
+        ?string $title_sortable = null,
+        ?string $nola = null,
+        ?string $language = null,
+        ?DateTimeInterface $premiered_on = null,
+        ?DateTimeInterface $encored_on = null
+    ): string {
+        $attributes = array_filter([
+            'title' => $title,
+            'description_short' => $description_short,
+            'description_long' => $description_long,
+            'title_sortable' => $title_sortable ?? null,
+            'nola' => $nola ?? null,
+            'language' => $language ?? null,
+            'premiered_on' => ($premiered_on ? $premiered_on->format('Y-m-d') : null),
+            'encored_on' => ($encored_on ? $encored_on->format('Y-m-d') : null),
+        ]);
+
+        return $this->post(
+            "shows/$show_id/specials/",
+            ['data' => ['type' => 'special', 'attributes' => $attributes]]
+        );
     }
 }
