@@ -103,6 +103,7 @@ class Client
 
         try {
             $response = $this->client->request($method, $endpoint, $options);
+            var_dump($response);
         } catch (GuzzleException $e) {
             throw new RuntimeException($e->getMessage(), $e->getCode(), $e);
         }
@@ -635,15 +636,30 @@ class Client
      *
      * @param string $show_id
      * @param int $ordinal
+     * @param string|null $title
+     * @param string|null $description_short
+     * @param string|null $description_long
      *
      * @return string
      *   ID of added season.
      */
-    public function addSeason(string $show_id, int $ordinal): string
-    {
+    public function addSeason(
+        string $show_id,
+        int $ordinal,
+        ?string $title = null,
+        ?string $description_short = null,
+        ?string $description_long = null
+    ): string {
+        $attributes = array_filter([
+            'ordinal' => $ordinal,
+            'title' => $title ?? null,
+            'description_short' => $description_short ?? null,
+            'description_long' => $description_long ?? null,
+        ]);
+
         return $this->post(
             "shows/$show_id/seasons/",
-            ['data' => ['type' => 'season', 'attributes' => ['ordinal' => $ordinal]]]
+            ['data' => ['type' => 'season', 'attributes' => $attributes]]
         );
     }
 
