@@ -755,4 +755,94 @@ class Client
             ['data' => ['type' => 'special', 'attributes' => $attributes]]
         );
     }
+
+    /*
+     * PATCH methods.
+     */
+
+    /**
+     * Sends a PATCH API request.
+     *
+     * @param string $endpoint
+     *   URL to send the PATCH request to.
+     * @param array $data
+     *   Data to include in the PATCH body as JSON.
+     */
+    public function patch(string $endpoint, array $data): void
+    {
+        $this->request('patch', $endpoint, ['json' => $data]);
+    }
+
+    /**
+     * Update a Media Manager object with arbitrary attributes.
+     *
+     * @param string $type
+     * @param string $id
+     * @param array $attributes
+     */
+    public function updateObject(string $type, string $id, array $attributes = []): void
+    {
+        // Convert common `premiered_on` and `encored_on` fields if provided and
+        // implementing DateTimeInterface.
+        foreach (['premiered_on', 'encored_on'] as $field) {
+            if (isset($attributes[$field]) && $attributes[$field] instanceof DateTimeInterface) {
+                $attributes[$field] = $attributes[$field]->format('Y-m-d');
+            }
+        }
+
+        $this->patch(
+            "{$type}s/$id/",
+            ['data' => ['type' => $type, 'id' => $id, 'attributes' => $attributes]]
+        );
+    }
+
+    /**
+     * @url https://docs.pbs.org/display/CDA/Update+Episode
+     *
+     * @param string $id
+     * @param array $attributes
+     *
+     * @see \OpenPublicMedia\PbsMediaManager\Client::addEpisode()
+     */
+    public function updateEpisode(string $id, array $attributes): void
+    {
+        $this->updateObject('episode', $id, $attributes);
+    }
+
+    /**
+     * @url https://docs.pbs.org/display/CDA/Update+Episode#UpdateEpisode-Movingepisodes
+     *
+     * @param string $id
+     * @param string $to_type
+     * @param string $to_id
+     */
+    public function moveEpisode(string $id, string $to_type, string $to_id): void
+    {
+        $this->updateEpisode($id, [$to_type => $to_id]);
+    }
+
+    /**
+     * @url https://docs.pbs.org/display/CDA/Update+Special
+     *
+     * @param string $id
+     * @param array $attributes
+     *
+     * @see \OpenPublicMedia\PbsMediaManager\Client::addSpecial()
+     */
+    public function updateSpecial(string $id, array $attributes): void
+    {
+        $this->updateObject('special', $id, $attributes);
+    }
+
+    /**
+     * @url https://docs.pbs.org/display/CDA/Update+Special#UpdateSpecial-Movingspecials
+     *
+     * @param string $id
+     * @param string $to_type
+     * @param string $to_id
+     */
+    public function moveSpecial(string $id, string $to_type, string $to_id): void
+    {
+        $this->updateSpecial($id, [$to_type => $to_id]);
+    }
 }
