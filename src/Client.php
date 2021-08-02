@@ -516,6 +516,32 @@ class Client
     }
 
     /**
+     * @url https://docs.pbs.org/display/CDA/Update+Asset#UpdateAsset-get
+     *
+     * This endpoint differs slightly from the regular GET asset endpoint in
+     * that it returns additional information about the asset relevant to an
+     * "edit" context.
+     *
+     * A key addition at this endpoint is the `original_video` which can be used
+     * to get status information about video ingestion for the asset.
+     *
+     * @param string $id
+     *
+     * @return stdClass
+     *   Note: unlike other getter methods, this one does not return null. It
+     *   will returned the requested asset data or throw an exception if the
+     *   request fails for any reason.
+     *
+     * @throws \OpenPublicMedia\PbsMediaManager\Exception\BadRequestException
+     */
+    public function getAssetEditable(string $id): stdClass
+    {
+        $response = $this->request('get', "assets/$id/edit");
+        $data = json_decode($response->getBody()->getContents());
+        return $data->data;
+    }
+
+    /**
      * One of the following query parameters must be used when querying this
      * endpoint: special-id, show-slug, slug, episode-id, available, show-id,
      * special-slug, episode-slug, tp-media-id, id.
