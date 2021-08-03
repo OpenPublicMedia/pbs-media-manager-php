@@ -173,10 +173,11 @@ this project.
     - [ ] ~~Season~~ (unsupported by API)
     - [ ] ~~Show~~ (unsupported by API)
 - [x] DELETE support (`OpenPublicMedia\PbsMediaManager\Client::delete`)
-    - [x] Asset
+    - [x] Asset (`OpenPublicMedia\PbsMediaManager\Client::deleteAsset`)
     - [x] Episode (`OpenPublicMedia\PbsMediaManager\Client::deleteEpisode`)
     - [x] Special (`OpenPublicMedia\PbsMediaManager\Client::deleteSpecial`)
     - [ ] ~~Season~~ (unsupported by API)
+- [ ] Asset ingestion/replace status wrangling
 
 ### v2.x
 

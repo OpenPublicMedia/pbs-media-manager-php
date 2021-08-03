@@ -996,8 +996,8 @@ class Client
     /**
      * @url https://docs.pbs.org/display/CDA/Update+Asset
      *
-     * Note: inherited fields for full length assets will be silently ignored.
-     * These fields include:
+     * Inherited fields for full length assets will be silently ignored. These
+     * fields include:
      *  - title,
      *  - title_sortable,
      *  - description_short, and
@@ -1011,6 +1011,38 @@ class Client
     public function updateAsset(string $id, array $attributes): void
     {
         $this->updateObject('asset', $id, $attributes);
+    }
+
+    /**
+     * @url https://docs.pbs.org/display/CDA/Update+Asset#UpdateAsset-ReplacingVideoandCaptionFiles
+     *
+     * @param string $id
+     * @param string $video_url
+     * @param string|null $video_profile
+     * @param string|null $caption_url
+     *
+     * @throws \OpenPublicMedia\PbsMediaManager\Exception\BadRequestException
+     *
+     * @see \OpenPublicMedia\PbsMediaManager\Client::getAssetEditable()
+     */
+    public function addOrReplaceAssetVideo(
+        string $id,
+        string $video_url,
+        string $video_profile = null,
+        string $caption_url = null
+    ): void {
+        $attributes = ['video' => ['source' => $video_url]];
+        if ($video_profile) {
+            $attributes['video']['profile'] = $video_profile;
+        }
+        if ($caption_url) {
+            $attributes['caption'] = $caption_url;
+        }
+        $data = $this->getAssetEditable($id);
+        if (!empty($data->attributes->original_video)) {
+            $attributes['replace'] = true;
+        }
+        $this->updateAsset($id, $attributes);
     }
 
     /**
