@@ -824,6 +824,13 @@ class Client
     /**
      * @url https://docs.pbs.org/display/CDA/Create+Asset#CreateAsset-create
      *
+     * Note: inherited fields for full length assets will be silently ignored.
+     * These fields include:
+     *  - title,
+     *  - title_sortable,
+     *  - description_short, and
+     *  - description_long.
+     *
      * @param string $parent_type
      * @param string $parent_id
      * @param array $attributes
@@ -916,8 +923,14 @@ class Client
             }
         }
 
+        // Handle special endpoint for asset.
+        $endpoint = "{$type}s/$id/";
+        if ($type === 'asset') {
+            $endpoint .= 'edit/';
+        }
+
         $this->patch(
-            "{$type}s/$id/",
+            $endpoint,
             ['data' => ['type' => $type, 'id' => $id, 'attributes' => $attributes]]
         );
     }
@@ -978,6 +991,40 @@ class Client
     public function moveSpecial(string $id, string $to_type, string $to_id): void
     {
         $this->updateSpecial($id, [$to_type => $to_id]);
+    }
+
+    /**
+     * @url https://docs.pbs.org/display/CDA/Update+Asset
+     *
+     * Note: inherited fields for full length assets will be silently ignored.
+     * These fields include:
+     *  - title,
+     *  - title_sortable,
+     *  - description_short, and
+     *  - description_long.
+     *
+     * @param string $id
+     * @param array $attributes
+     *
+     * @throws \OpenPublicMedia\PbsMediaManager\Exception\BadRequestException
+     */
+    public function updateAsset(string $id, array $attributes): void
+    {
+        $this->updateObject('asset', $id, $attributes);
+    }
+
+    /**
+     * @url https://docs.pbs.org/display/CDA/Update+Asset#UpdateAsset-MovingAssets
+     *
+     * @param string $id
+     * @param string $to_type
+     * @param string $to_id
+     *
+     * @throws \OpenPublicMedia\PbsMediaManager\Exception\BadRequestException
+     */
+    public function moveAsset(string $id, string $to_type, string $to_id): void
+    {
+        $this->updateAsset($id, [$to_type => $to_id]);
     }
 
     /*

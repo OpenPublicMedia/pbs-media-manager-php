@@ -161,17 +161,17 @@ this project.
 
 ### v1.x
 
-- [ ] POST support (`OpenPublicMedia\PbsMediaManager\Client::post`)
-    - [ ] Asset
+- [x] POST support (`OpenPublicMedia\PbsMediaManager\Client::post`)
+    - [x] Asset (`OpenPublicMedia\PbsMediaManager\Client::addAsset`)
     - [x] Episode (`OpenPublicMedia\PbsMediaManager\Client::addEpisode`)
     - [x] Special (`OpenPublicMedia\PbsMediaManager\Client::addSpecial`)
     - [x] Season (`OpenPublicMedia\PbsMediaManager\Client::addSeason`)
-- [ ] PATCH support (`OpenPublicMedia\PbsMediaManager\Client::patch`)
-    - [ ] Asset
+- [x] PATCH support (`OpenPublicMedia\PbsMediaManager\Client::patch`)
+    - [x] Asset (`OpenPublicMedia\PbsMediaManager\Client::updateAsset`)
     - [x] Episode (`OpenPublicMedia\PbsMediaManager\Client::updateEpisode`)
     - [x] Special (`OpenPublicMedia\PbsMediaManager\Client::updateSpecial`)
     - [ ] ~~Season~~ (unsupported by API)
-    - [ ] Show
+    - [ ] ~~Show~~ (unsupported by API)
 - [x] DELETE support (`OpenPublicMedia\PbsMediaManager\Client::delete`)
     - [x] Asset
     - [x] Episode (`OpenPublicMedia\PbsMediaManager\Client::deleteEpisode`)
