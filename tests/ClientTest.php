@@ -7,6 +7,7 @@ namespace OpenPublicMedia\PbsMediaManager\Test;
 use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\Psr7\Response;
+use OpenPublicMedia\PbsMediaManager\Client;
 use OpenPublicMedia\PbsMediaManager\Exception\BadRequestException;
 use OpenPublicMedia\PbsMediaManager\Query\Results;
 use RuntimeException;
@@ -264,5 +265,14 @@ class ClientTest extends TestCaseBase
             $this->assertObjectHasAttribute('detail', $message);
             $this->assertEquals('Conflict', $message->detail);
         }
+    }
+
+    public function testBuildGetQuery()
+    {
+        $query = ['id' => ['one', 'two', 'three']];
+        $this->assertEquals(
+            'id=one&id=two&id=three&fetch-related=1&page-size=50',
+            Client::buildGetQuery($query)
+        );
     }
 }
