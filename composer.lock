@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "39b0b67a9eac754fbc6af73f5faf5968",
+    "content-hash": "43dc382a3a17b58cd7c2de3a6a8264d6",
     "packages": [
         {
             "name": "guzzlehttp/guzzle",
@@ -246,33 +246,33 @@
         },
         {
             "name": "league/uri-components",
-            "version": "2.3.0",
+            "version": "2.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/uri-components.git",
-                "reference": "14540a610ba5b70a7daf83582a109291baa004d0"
+                "reference": "c97c83e7d915cdb0163f0322a87a07df1d0d9fe1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/uri-components/zipball/14540a610ba5b70a7daf83582a109291baa004d0",
-                "reference": "14540a610ba5b70a7daf83582a109291baa004d0",
+                "url": "https://api.github.com/repos/thephpleague/uri-components/zipball/c97c83e7d915cdb0163f0322a87a07df1d0d9fe1",
+                "reference": "c97c83e7d915cdb0163f0322a87a07df1d0d9fe1",
                 "shasum": ""
             },
             "require": {
                 "ext-json": "*",
-                "league/uri-interfaces": "^2.1",
+                "league/uri-interfaces": "^2.3",
                 "php": "^7.3 || ^8.0",
                 "psr/http-message": "^1.0"
             },
             "require-dev": {
-                "friendsofphp/php-cs-fixer": "^2.18",
+                "friendsofphp/php-cs-fixer": "^2.19",
                 "guzzlehttp/psr7": "^1.4.2",
-                "laminas/laminas-diactoros": "^2.0",
+                "laminas/laminas-diactoros": "^2.6.0",
                 "league/uri": "^6.0",
-                "phpstan/phpstan": "^0.12",
-                "phpstan/phpstan-phpunit": "^0.12",
-                "phpstan/phpstan-strict-rules": "^0.12",
-                "phpunit/phpunit": "^9.0"
+                "phpstan/phpstan": "^0.12.94",
+                "phpstan/phpstan-phpunit": "^0.12.21",
+                "phpstan/phpstan-strict-rules": "^0.12.10",
+                "phpunit/phpunit": "^9.5.8"
             },
             "suggest": {
                 "ext-fileinfo": "Needed to create Data URI from a filepath",
@@ -323,7 +323,7 @@
             ],
             "support": {
                 "issues": "https://github.com/thephpleague/uri-components/issues",
-                "source": "https://github.com/thephpleague/uri-components/tree/2.3.0"
+                "source": "https://github.com/thephpleague/uri-components/tree/2.4.0"
             },
             "funding": [
                 {
@@ -331,7 +331,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-01-26T19:38:41+00:00"
+            "time": "2021-08-02T20:31:29+00:00"
         },
         {
             "name": "league/uri-interfaces",
@@ -2538,7 +2538,6 @@
                     "type": "github"
                 }
             ],
-            "abandoned": true,
             "time": "2020-09-28T06:45:17+00:00"
         },
         {
