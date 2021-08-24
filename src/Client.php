@@ -1027,6 +1027,7 @@ class Client
      * @param string $video_url
      * @param string|null $video_profile
      * @param string|null $caption_url
+     * @param string|null $caption_justification
      * @param array $images
      *   Each item in this array must be an array with keys "source" containing
      *   the publicly accessible image URL and "profile" with a valid profile.
@@ -1035,12 +1036,14 @@ class Client
      *
      * @see \OpenPublicMedia\PbsMediaManager\Client::getAssetEditable()
      * @see https://docs.pbs.org/display/CDA/Update+Asset#UpdateAsset-AvailableImageProfiles
+     * @see https://docs.pbs.org/display/CDA/Create+Asset#CreateAsset-CreateAsset-caption_justificationsAvailableCaptionJustifications
      */
     public function addOrReplaceAssetVideo(
         string $id,
         string $video_url,
         string $video_profile = null,
         string $caption_url = null,
+        string $caption_justification = null,
         array $images = []
     ): void {
         $attributes = ['video' => ['source' => $video_url]];
@@ -1049,6 +1052,9 @@ class Client
         }
         if ($caption_url) {
             $attributes['caption'] = $caption_url;
+        }
+        if ($caption_justification) {
+            $attributes['caption_justification'] = $caption_justification;
         }
         if (!empty($images)) {
             $attributes['images'] = $images;
