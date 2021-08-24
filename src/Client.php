@@ -1027,16 +1027,21 @@ class Client
      * @param string $video_url
      * @param string|null $video_profile
      * @param string|null $caption_url
+     * @param array $images
+     *   Each item in this array must be an array with keys "source" containing
+     *   the publicly accessible image URL and "profile" with a valid profile.
      *
      * @throws \OpenPublicMedia\PbsMediaManager\Exception\BadRequestException
      *
      * @see \OpenPublicMedia\PbsMediaManager\Client::getAssetEditable()
+     * @see https://docs.pbs.org/display/CDA/Update+Asset#UpdateAsset-AvailableImageProfiles
      */
     public function addOrReplaceAssetVideo(
         string $id,
         string $video_url,
         string $video_profile = null,
-        string $caption_url = null
+        string $caption_url = null,
+        array $images = []
     ): void {
         $attributes = ['video' => ['source' => $video_url]];
         if ($video_profile) {
@@ -1044,6 +1049,9 @@ class Client
         }
         if ($caption_url) {
             $attributes['caption'] = $caption_url;
+        }
+        if (!empty($images)) {
+            $attributes['images'] = $images;
         }
         $data = $this->getAssetEditable($id);
         if (!empty($data->attributes->original_video)) {
