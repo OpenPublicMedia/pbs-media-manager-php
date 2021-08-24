@@ -654,16 +654,16 @@ class Client
      * @param array $data
      *   Data to include in the POST body as JSON.
      *
-     * @return string
-     *   ID of created object.
+     * @return string|null
+     *   Location (path) of newly created object or NULL if location header is
+     *   not present.
      *
      * @throws \OpenPublicMedia\PbsMediaManager\Exception\BadRequestException
      */
-    public function post(string $endpoint, array $data): string
+    public function post(string $endpoint, array $data): ?string
     {
         $response = $this->request('post', $endpoint, ['json' => $data]);
-        // @todo Handle response and return _just_ GUID.
-        return $response->getHeader('location')[0];
+        return $response->getHeader('location')[0] ?? null;
     }
 
     /**
