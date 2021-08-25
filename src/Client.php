@@ -1003,6 +1003,9 @@ class Client
     /**
      * @url https://docs.pbs.org/display/CDA/Update+Asset
      *
+     * When the "video" or "caption" is part of $attributes the "replace"
+     * attribute will be added automatically.
+     *
      * Inherited fields for full length assets will be silently ignored. These
      * fields include:
      *  - title,
@@ -1014,56 +1017,19 @@ class Client
      * @param array $attributes
      *
      * @throws \OpenPublicMedia\PbsMediaManager\Exception\BadRequestException
+     *
+     * @see https://docs.pbs.org/display/CDA/Update+Asset#UpdateAsset-ReplacingVideoandCaptionFiles
+     * @see https://docs.pbs.org/display/CDA/Update+Asset#UpdateAsset-AvailableImageProfiles
+     * @see https://docs.pbs.org/display/CDA/Update+Asset#UpdateAsset-AvailableVideoProfiles
+     * @see https://docs.pbs.org/display/CDA/Create+Asset#CreateAsset-CreateAsset-caption_justificationsAvailableCaptionJustifications
      */
     public function updateAsset(string $id, array $attributes): void
     {
-        $this->updateObject('asset', $id, $attributes);
-    }
-
-    /**
-     * @url https://docs.pbs.org/display/CDA/Update+Asset#UpdateAsset-ReplacingVideoandCaptionFiles
-     *
-     * @param string $id
-     * @param string $video_url
-     * @param string|null $video_profile
-     * @param string|null $caption_url
-     * @param string|null $caption_justification
-     * @param array $images
-     *   Each item in this array must be an array with keys "source" containing
-     *   the publicly accessible image URL and "profile" with a valid profile.
-     *
-     * @throws \OpenPublicMedia\PbsMediaManager\Exception\BadRequestException
-     *
-     * @see \OpenPublicMedia\PbsMediaManager\Client::getAssetEditable()
-     * @see https://docs.pbs.org/display/CDA/Update+Asset#UpdateAsset-AvailableImageProfiles
-     * @see https://docs.pbs.org/display/CDA/Create+Asset#CreateAsset-CreateAsset-caption_justificationsAvailableCaptionJustifications
-     */
-    public function addOrReplaceAssetVideo(
-        string $id,
-        string $video_url,
-        string $video_profile = null,
-        string $caption_url = null,
-        string $caption_justification = null,
-        array $images = []
-    ): void {
-        $attributes = ['video' => ['source' => $video_url]];
-        if ($video_profile) {
-            $attributes['video']['profile'] = $video_profile;
-        }
-        if ($caption_url) {
-            $attributes['caption'] = $caption_url;
-        }
-        if ($caption_justification) {
-            $attributes['caption_justification'] = $caption_justification;
-        }
-        if (!empty($images)) {
-            $attributes['images'] = $images;
-        }
-        $data = $this->getAssetEditable($id);
-        if (!empty($data->attributes->original_video)) {
+        // Add "replace" flag if video or captions are being updated.
+        if (isset($attributes['video']) || isset($attributes['caption'])) {
             $attributes['replace'] = true;
         }
-        $this->updateAsset($id, $attributes);
+        $this->updateObject('asset', $id, $attributes);
     }
 
     /**
