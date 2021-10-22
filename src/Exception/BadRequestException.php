@@ -10,8 +10,7 @@ use Throwable;
 /**
  * Handle API response errors manually, as the API passes error information back
  * in JSON format in the response body. The Client passes the option
- * "http_errors" to the Guzzle client to prevent Guzzle from throwing for HTTP
- * errors.
+ * "http_errors" to the client to prevent Guzzle from throwing for HTTP errors.
  *
  * @see Client::__construct()
  *
@@ -34,11 +33,7 @@ class BadRequestException extends PbsMediaManagerException
     {
         $data = json_decode($response->getBody()->getContents());
         if (!empty($data)) {
-            if (isset($data->detail)) {
-                $message = $data->detail;
-            } else {
-                $message = $data;
-            }
+            $message = $data->detail ?? $data;
         } else {
             $message = $response->getReasonPhrase();
         }

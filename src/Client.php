@@ -47,12 +47,7 @@ class Client
      */
     const MAX_PAGE_SIZE = 50;
 
-    /**
-     * Client for handling API requests
-     *
-     * @var GuzzleClient
-     */
-    protected $client;
+    protected GuzzleClient $client;
 
     /**
      * Client constructor.
@@ -140,6 +135,8 @@ class Client
      *
      * @return Results
      *   Generator of the API query results.
+     *
+     * @throws \OpenPublicMedia\PbsMediaManager\Exception\BadRequestException
      */
     public function get(string $endpoint, array $query = []): Results
     {
@@ -157,6 +154,7 @@ class Client
      *
      * @return array
      *   All data returned from the API.
+     * @throws \OpenPublicMedia\PbsMediaManager\Exception\BadRequestException
      */
     public function getAll(string $endpoint, array $query = []): array
     {
@@ -169,7 +167,7 @@ class Client
     }
 
     /**
-     * Gets the a single object by ID from an API request.
+     * Gets a single object by ID from an API request.
      *
      * @param string $endpoint
      *   URL to query.
@@ -185,7 +183,7 @@ class Client
     {
         try {
             $response = $this->request('get', $endpoint . '/' . $id, ['query' => $query]);
-        } catch (BadRequestException $e) {
+        } catch (BadRequestException) {
             return null;
         }
 
@@ -204,7 +202,7 @@ class Client
      *   A full response from the API.
      *
      * @return int|null
-     *   The number of the next page or null if there is no next page.
+     *   The number of the next page or null if there is not a next page.
      */
     public static function getNextPage(stdClass $response): ?int
     {
@@ -248,8 +246,8 @@ class Client
         // The `withoutNumericIndices` method above removes the _numeric_ part
         // of the index only, leaving behind the "[]" so e.g. "id[2]" becomes
         // "id[]". For Media Manager, we only want to repeat the query parameter
-        // so we must further replace e.g. "id[]" with just "id". The query
-        // content is in RFC 3986 format so encoded characters are used for the
+        // We must further replace e.g. "id[]" with just "id". The query content
+        // is in RFC 3986 format so encoded characters are used for the
         // replacement.
         return str_replace('%5B%5D=', '=', $query->getContent());
     }
@@ -278,6 +276,7 @@ class Client
      *
      * @return Results
      *   Generator of Franchises.
+     * @throws \OpenPublicMedia\PbsMediaManager\Exception\BadRequestException
      */
     public function getFranchises(array $query = []): Results
     {
@@ -293,6 +292,7 @@ class Client
      *   Additional API query parameters.
      *
      * @return \OpenPublicMedia\PbsMediaManager\Query\Results
+     * @throws \OpenPublicMedia\PbsMediaManager\Exception\BadRequestException
      */
     public function searchFranchises(string $search_term, array $query = []): Results
     {
@@ -324,6 +324,7 @@ class Client
      *
      * @return Results
      *   Generator of Shows.
+     * @throws \OpenPublicMedia\PbsMediaManager\Exception\BadRequestException
      */
     public function getShows(array $query = []): Results
     {
@@ -339,6 +340,7 @@ class Client
      *   Additional API query parameters.
      *
      * @return \OpenPublicMedia\PbsMediaManager\Query\Results
+     * @throws \OpenPublicMedia\PbsMediaManager\Exception\BadRequestException
      */
     public function searchShows(string $search_term, array $query = []): Results
     {
@@ -372,6 +374,7 @@ class Client
      *
      * @return Results
      *   Generator of Collections belonging to the Show.
+     * @throws \OpenPublicMedia\PbsMediaManager\Exception\BadRequestException
      */
     public function getCollections(string $show_id, array $query = []): Results
     {
@@ -404,6 +407,7 @@ class Client
      *
      * @return Results
      *   Generator of Specials belonging to the Show.
+     * @throws \OpenPublicMedia\PbsMediaManager\Exception\BadRequestException
      */
     public function getSpecials(string $show_id, array $query = []): Results
     {
@@ -419,6 +423,7 @@ class Client
      *   Additional API query parameters.
      *
      * @return \OpenPublicMedia\PbsMediaManager\Query\Results
+     * @throws \OpenPublicMedia\PbsMediaManager\Exception\BadRequestException
      */
     public function searchSpecials(string $search_term, array $query = []): Results
     {
@@ -452,6 +457,7 @@ class Client
      *
      * @return Results
      *   Generator of Seasons belonging to the Show.
+     * @throws \OpenPublicMedia\PbsMediaManager\Exception\BadRequestException
      */
     public function getSeasons(string $show_id, array $query = []): Results
     {
@@ -484,6 +490,7 @@ class Client
      *
      * @return Results
      *   Generator of Episodes belonging to the Season.
+     * @throws \OpenPublicMedia\PbsMediaManager\Exception\BadRequestException
      */
     public function getEpisodes(string $season_id, array $query = []): Results
     {
@@ -499,6 +506,7 @@ class Client
      *   Additional API query parameters.
      *
      * @return \OpenPublicMedia\PbsMediaManager\Query\Results
+     * @throws \OpenPublicMedia\PbsMediaManager\Exception\BadRequestException
      */
     public function searchEpisodes(string $search_term, array $query = []): Results
     {
@@ -536,7 +544,7 @@ class Client
      *
      * @return stdClass
      *   Note: unlike other getter methods, this one does not return null. It
-     *   will returned the requested asset data or throw an exception if the
+     *   will return the requested asset data or throw an exception if the
      *   request fails for any reason.
      *
      * @throws \OpenPublicMedia\PbsMediaManager\Exception\BadRequestException
@@ -560,6 +568,7 @@ class Client
      *
      * @return Results
      *   Generator of Assets satisfying the query parameters.
+     * @throws \OpenPublicMedia\PbsMediaManager\Exception\BadRequestException
      */
     public function getAssets(array $query): Results
     {
@@ -576,6 +585,7 @@ class Client
      *   Search query parameters.
      *
      * @return \OpenPublicMedia\PbsMediaManager\Query\Results
+     * @throws \OpenPublicMedia\PbsMediaManager\Exception\BadRequestException
      */
     public function searchAssets(array $query): Results
     {
@@ -592,6 +602,7 @@ class Client
      *
      * @return array
      *   All Genres.
+     * @throws \OpenPublicMedia\PbsMediaManager\Exception\BadRequestException
      */
     public function getGenres(array $query = []): array
     {
@@ -606,6 +617,7 @@ class Client
      *
      * @return array
      *   All Topics.
+     * @throws \OpenPublicMedia\PbsMediaManager\Exception\BadRequestException
      */
     public function getTopics(array $query = []): array
     {
@@ -620,6 +632,7 @@ class Client
      *
      * @return Results
      *   Generator of Changelog entries.
+     * @throws \OpenPublicMedia\PbsMediaManager\Exception\BadRequestException
      */
     public function getChangelog(array $query = []): Results
     {
@@ -634,6 +647,7 @@ class Client
      *
      * @return Results
      *   Generator of Remote Assets.
+     * @throws \OpenPublicMedia\PbsMediaManager\Exception\BadRequestException
      */
     public function getRemoteAssets(array $query = []): Results
     {
@@ -741,8 +755,8 @@ class Client
             'title_sortable' => $title_sortable ?? null,
             'nola' => $nola ?? null,
             'language' => $language ?? null,
-            'premiered_on' => ($premiered_on ? $premiered_on->format('Y-m-d') : null),
-            'encored_on' => ($encored_on ? $encored_on->format('Y-m-d') : null),
+            'premiered_on' => $premiered_on?->format('Y-m-d'),
+            'encored_on' => $encored_on?->format('Y-m-d'),
         ]);
 
         return $this->post(
@@ -787,8 +801,8 @@ class Client
             'title_sortable' => $title_sortable ?? null,
             'nola' => $nola ?? null,
             'language' => $language ?? null,
-            'premiered_on' => ($premiered_on ? $premiered_on->format('Y-m-d') : null),
-            'encored_on' => ($encored_on ? $encored_on->format('Y-m-d') : null),
+            'premiered_on' => $premiered_on?->format('Y-m-d'),
+            'encored_on' => $encored_on?->format('Y-m-d'),
         ]);
 
         return $this->post(

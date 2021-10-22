@@ -15,15 +15,8 @@ use stdClass;
 
 class TestCaseBase extends TestCase
 {
-    /**
-     * @var Client
-     */
-    protected $client;
-
-    /**
-     * @var MockHandler
-     */
-    protected $mockHandler;
+    protected Client $client;
+    protected MockHandler $mockHandler;
 
     /**
      * Create client with mock handler.
@@ -42,7 +35,7 @@ class TestCaseBase extends TestCase
     /**
      * Call protected/private method of a class.
      *
-     * @param object &$object
+     * @param object $object
      *   Instantiated object that we will run method on.
      * @param string $methodName
      *   Method name to call
@@ -56,7 +49,7 @@ class TestCaseBase extends TestCase
      *
      * @url https://jtreminio.com/blog/unit-testing-tutorial-part-iii-testing-protected-private-methods-coverage-reports-and-crap/#targeting-private-protected-methods-directly
      */
-    public function invokeMethod(&$object, string $methodName, array $parameters = [])
+    public function invokeMethod(object $object, string $methodName, array $parameters = []): mixed
     {
         $reflection = new ReflectionClass(get_class($object));
         $method = $reflection->getMethod($methodName);
@@ -104,6 +97,8 @@ class TestCaseBase extends TestCase
      *   Results from an API query.
      * @param string $type
      *   Expected type of the first Result object.
+     *
+     * @throws \Exception
      */
     protected function verifyGenerator(Results $result, string $type): void
     {

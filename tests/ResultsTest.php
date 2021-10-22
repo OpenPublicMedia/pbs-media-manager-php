@@ -15,7 +15,7 @@ use OpenPublicMedia\PbsMediaManager\Response\PagedResponse;
  */
 class ResultsTest extends TestCaseBase
 {
-    private $seasonId = 'bd2cf784-bf4a-4638-a477-721dfb29b12e';
+    private string $seasonId = 'bd2cf784-bf4a-4638-a477-721dfb29b12e';
 
     /**
      * @covers ::count
@@ -49,7 +49,6 @@ class ResultsTest extends TestCaseBase
         $this->assertInstanceOf(Generator::class, $iterator);
         foreach ($result as $item) {
             $this->assertIsObject($item);
-            continue;
         }
     }
 }

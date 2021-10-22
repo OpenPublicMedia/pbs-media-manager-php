@@ -16,10 +16,7 @@ use OpenPublicMedia\PbsMediaManager\Response\PagedResponse;
  */
 class Results implements IteratorAggregate, Countable
 {
-    /**
-     * @var PagedResponse
-     */
-    private $pagedResponse;
+    private PagedResponse $pagedResponse;
 
     /**
      * ObjectsResponse constructor.

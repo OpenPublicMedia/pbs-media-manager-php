@@ -14,14 +14,16 @@ use OpenPublicMedia\PbsMediaManager\Query\Results;
  */
 class PagedResponseTest extends TestCaseBase
 {
+
     /**
-     * Gets an example two page response.
+     * Gets an example two-page response.
      *
      * @param array $query
      *   Query parameters to pass to the client.
      *
      * @return Results
      *   Generator of the mock results.
+     * @throws \OpenPublicMedia\PbsMediaManager\Exception\BadRequestException
      */
     private function getChangelog(array $query = []): Results
     {

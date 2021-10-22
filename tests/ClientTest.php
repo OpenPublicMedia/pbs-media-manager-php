@@ -125,7 +125,7 @@ class ClientTest extends TestCaseBase
         $this->verifyGenerator($result, 'special');
     }
 
-    public function testGetSeaon(): void
+    public function testGetSeason(): void
     {
         $id = 'bd2cf784-bf4a-4638-a477-721dfb29b12e';
         $this->mockHandler->append($this->jsonFixtureResponse('getSeason'));
@@ -133,7 +133,7 @@ class ClientTest extends TestCaseBase
         $this->verifyObject($result, $id, 'season');
     }
 
-    public function testGetSeaons(): void
+    public function testGetSeasons(): void
     {
         $show_id = 'd9588363-71f8-466d-a520-0dd73c7bbd0e';
         $this->mockHandler->append($this->jsonFixtureResponse('getSeasons'));

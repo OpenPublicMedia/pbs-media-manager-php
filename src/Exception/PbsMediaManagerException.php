@@ -30,7 +30,7 @@ class PbsMediaManagerException extends Exception
         $json = json_encode($message);
         if (!$json) {
             throw new InvalidArgumentException(
-                'Unable to encode exception message value: ' . (string) $message,
+                "Unable to encode exception message value: $message",
                 $this->getCode(),
                 $this
             );

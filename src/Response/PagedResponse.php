@@ -16,55 +16,16 @@ use stdClass;
  */
 class PagedResponse implements Iterator, Countable
 {
-    /**
-     * @var Client
-     */
-    private $client;
-
-    /**
-     * @var string
-     */
-    private $endpoint;
-
-    /**
-     * @var array
-     */
-    private $query;
-
-    /**
-     * @var int
-     */
-    private $first;
-
-    /**
-     * @var int|null
-     */
-    private $next;
-
-    /**
-     * @var int
-     */
-    private $page;
-
-    /**
-     * @var int
-     */
-    private $count;
-
-    /**
-     * @var int
-     */
-    private $totalItemsCount;
-
-    /**
-     * @var bool
-     */
-    private $singlePage;
-
-    /**
-     * @var array
-     */
-    private $response;
+    private Client $client;
+    private string $endpoint;
+    private array $query;
+    private ?int $first;
+    private ?int $next;
+    private ?int $page;
+    private ?int $count;
+    private ?int $totalItemsCount;
+    private bool $singlePage;
+    private stdClass $response;
 
     /**
      * PagedResponse constructor.
@@ -78,6 +39,8 @@ class PagedResponse implements Iterator, Countable
      * @param int $start_page
      *   Starting page. This also acts as the first page for the Iterator so
      *   "first" may not necessarily mean page 1.
+     *
+     * @throws \OpenPublicMedia\PbsMediaManager\Exception\BadRequestException
      */
     public function __construct(
         Client $client,
@@ -109,6 +72,8 @@ class PagedResponse implements Iterator, Countable
      *
      * @return stdClass
      *   The full API response as an object.
+     *
+     * @throws \OpenPublicMedia\PbsMediaManager\Exception\BadRequestException
      */
     private function execute(): stdClass
     {
@@ -206,7 +171,7 @@ class PagedResponse implements Iterator, Countable
 
     /**
      * @return bool
-     *   Whether or not this is a single page response.
+     *   Whether this is a single page response.
      */
     public function isSinglePage(): bool
     {
