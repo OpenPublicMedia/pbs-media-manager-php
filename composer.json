@@ -7,9 +7,8 @@
         "php": ">=7.1",
         "ext-json": "*",
         "guzzlehttp/guzzle": "^6.0 || ^7.0",
-        "league/uri-components": "^2.3",
-        "league/uri-parser": "^1.4",
-        "league/uri-query-parser": "^1.0"
+        "league/uri": "^6.5",
+        "league/uri-components": "^2.3"
     },
     "require-dev": {
         "phpcompatibility/php-compatibility": "^9.3",
