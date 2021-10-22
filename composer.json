@@ -12,6 +12,7 @@
         "league/uri-query-parser": "^1.0"
     },
     "require-dev": {
+        "phpcompatibility/php-compatibility": "^9.3",
         "phpunit/phpunit": "^9.5",
         "squizlabs/php_codesniffer": "^3.4"
     },

@@ -1,0 +1,12 @@
+<ruleset name="openpublicmedia/pbs-media-manager-php">
+  <description>PBS Media Manager PHP CodeSniffer configuration.</description>
+  <arg name="extensions" value="php"/>
+
+  <config name="drupal_core_version" value="9"/>
+  <config name="testVersion" value="7.1-" />
+
+  <file>.</file>
+  <exclude-pattern>vendor</exclude-pattern>
+
+  <rule ref="./vendor/phpcompatibility/php-compatibility/PHPCompatibility"/>
+</ruleset>
