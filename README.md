@@ -179,7 +179,11 @@ this project.
     - [ ] ~~Season~~ (unsupported by API)
 - [ ] Asset ingestion/replace status wrangling
 
-### v2.x
+### v2
+
+- [x] PHP 8 support
+
+### v3.x
 
 - [ ] Entities for core data objects
 - [ ] Advanced Asset availability handling
